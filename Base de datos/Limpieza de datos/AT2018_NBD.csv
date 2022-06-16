@@ -1,0 +1,501 @@
+fecha,hora,tipologia,direccion,zona,parroquia_urbana,causas,nro_heridos,nro_fallecidos
+01-01,10:35,estrellamiento,espana y chile,urbana,punzara,razones desconocidas,0,0
+01-30,23:06,estrellamiento,manuel carrion pinzano y maria de leiva,urbana,sucre,razones desconocidas,0,0
+01-08,19:40,choque lateral angular,cuxibamba y guaranda,urbana,sucre,razones desconocidas,0,0
+01-08,20:50,choque posterior,isidro ayora,urbana,sucre,razones desconocidas,0,0
+01-13,03:56,atropello,villonaco,urbana,sucre,razones desconocidas,0,1
+01-13,17:35,choque lateral angular,via loja - catamayo,rural,n/n,razones desconocidas,0,1
+01-14,16:40,perdida de carril de circulacion y estrellamiento,pablo palacios,urbana,carigan,razones desconocidas,0,0
+01-14,17:15,estrellamiento,placido caamano y velazco ibarra,urbana,sucre,razones desconocidas,0,0
+01-14,02:28,choque lateral perpendicular,salvador bustamante celi y guayaquil,urbana,el valle,razones desconocidas,0,0
+01-13,11:15,estrellamiento,via loja-cuenca,rural,n/n,razones desconocidas,0,0
+01-16,08:29,atropello,orillas del zamora y clodoveo carrion,urbana,sagrario,razones desconocidas,1,0
+01-17,18:40,choque posterior,velasco ibarra y jaime roldos,urbana,sucre,razones desconocidas,1,0
+01-18,12:52,choque lateral angular,benjamin carrion y de los paltas,urbana,punzara,razones desconocidas,0,0
+01-18,19:20,choque lateral angular,estados unidos y grecia,urbana,punzara,razones desconocidas,0,0
+01-20,10:50,choque lateral perpendicular,universitaria y azuay,urbana,sagrario,razones desconocidas,0,0
+01-21,02:43,perdida de carril de circulacion,pio jaramillo alvarado y cuba,urbana,punzara,razones desconocidas,2,0
+01-22,22:00,choque lateral angular,manuel zambrano y kennedy,urbana,punzara,razones desconocidas,0,0
+01-23,23:35,choque lateral angular,8 de diciembre y placido caamano,urbana,sucre,razones desconocidas,0,0
+01-24,18:45,atropello,eugenio espejo y la palma,urbana,sucre,razones desconocidas,1,0
+01-26,03:50,estrellamiento,mercadillo y macara,urbana,sagrario,razones desconocidas,0,0
+01-26,13:24,colision,rocafuerte y olmedo,urbana,sagrario,razones desconocidas,0,0
+01-27,05:25,volcamiento 1/4,via loja cuenca,rural,n/n,razones desconocidas,0,0
+01-26,21:50,estrellamiento,pablo palacios y brasilia,urbana,carigan,razones desconocidas,0,0
+01-27,05:35,choque lateral angular,manuel agustin aguirre y jose felix de valdivieso,urbana,sucre,razones desconocidas,1,0
+01-27,05:00,perdida de carril de circulacion,ruben dario y francisco garcia,urbana,san sebastian,razones desconocidas,0,1
+01-27,19:50,estrellamiento,8 de diciembre y pablo palacios,urbana,carigan,razones desconocidas,0,0
+01-27,17:20,estrellamiento,francisco valdivieso y juan maria riofrio,urbana,sucre,razones desconocidas,1,0
+01-29,07:01,choque lateral angular,juan jose castillo y antoni vivaldi,urbana,punzara,razones desconocidas,0,0
+01-31,15:47,atropello,pio jaramillo alvarado y tnt. geovanny,urbana,punzara,razones desconocidas,0,1
+02-01,16:36,atropello,mexico entre curazao y brasil,urbana,punzara,razones desconocidas,1,0
+02-03,22:32,choque lateral angular,nueva loja y isidro ayora,urbana,sucre,razones desconocidas,0,0
+02-04,06:45,estrellamiento,orillas del zamora y juan de arderete,urbana,el valle,razones desconocidas,0,0
+02-04,20:55,choque lateral angular,juan jose pena y mercadillo,urbana,sagrario,razones desconocidas,0,0
+02-06,18:55,choque lateral angular,eduardo kingman y alamor,urbana,san sebastian,razones desconocidas,0,0
+02-07,19:47,choque lateral angular,isidro ayora y diamantina,urbana,sucre,razones desconocidas,3,0
+02-07,23:27,choque lateral angular,olmedo e imbabura,urbana,sagrario,razones desconocidas,4,0
+02-08,17:50,choque lateral angular,juan de salinas y bolivar,urbana,sagrario,razones desconocidas,0,0
+02-08,17:30,choque lateral angular,salvador bustamante celi y agustin palacios,urbana,el valle,razones desconocidas,1,0
+02-08,16:48,choque lateral angular,juan jose pena y azuay,urbana,sagrario,razones desconocidas,0,0
+02-09,22:45,choque lateral angular,manuel agustin aguirre y jose antonio,urbana,sagrario,razones desconocidas,0,0
+02-09,07:45,choque por alcance,via malacatos - loja,rural,n/n,razones desconocidas,0,0
+02-10,01:04,estrellamiento,salvador bustamante celi y agustin lara,urbana,el valle,razones desconocidas,0,0
+02-10,00:55,estrellamiento,angel felicisimo rojas,urbana,sucre,razones desconocidas,2,1
+02-10,15:40,atropello,pio jaramillo alvarado y gobernacion de mainas,urbana,punzara,razones desconocidas,1,0
+02-11,21:15,choque por alcance,san pedro de vilcabamba,rural,n/n,razones desconocidas,0,0
+02-13,09:55,choque frontal excentrico,via san pedro-el cisne,rural,n/n,razones desconocidas,0,0
+02-14,19:20,atropello,orrillas del zamora e imbabura,urbana,sagrario,razones desconocidas,1,0
+02-14,17:25,choque posterior,chile y cuba,urbana,punzara,razones desconocidas,1,0
+02-14,12:00,volcamiento 1/4,via loja - cuenca sector senen,rural,n/n,razones desconocidas,0,0
+02-14,06:40,choque lateral angular,10 de agosto y 24 de mayo,urbana,sagrario,razones desconocidas,0,0
+02-15,18:15,choque posterior,18 de noviembre y catacocha,urbana,san sebastian,razones desconocidas,0,0
+02-18,03:54,choque lateral angular,8 de diciembre y belisario moreno,urbana,carigan,razones desconocidas,0,0
+02-18,12:30,atropello,velazco ibarra y placido caamano,urbana,sucre,razones desconocidas,1,0
+02-18,19:15,choque lateral angular,universitaria y miguel riofrio,urbana,sagrario,razones desconocidas,1,0
+02-19,19:28,choque frontal angular,de los paltas e ines jimenez,urbana,sucre,razones desconocidas,0,0
+02-21,19:15,choque lateral angular,macara y lourdes,urbana,sagrario,razones desconocidas,2,0
+02-22,03:15,perdida de carril de circulacion,isidro ayora y caracas,urbana,sucre,razones desconocidas,0,0
+02-24,18:15,estrellamiento y choque frontal excentrico,via loja-catamayo,rural,n/n,razones desconocidas,18,1
+02-24,06:00,estrellamiento,esmeraldas y puna,urbana,el valle,razones desconocidas,0,0
+02-25,22:50,choque lateral angular,via loja cuenca sector pichik,rural,n/n,razones desconocidas,0,0
+02-27,19:50,estrellamiento,chuquiribamba y diego de troya,urbana,carigan,razones desconocidas,0,0
+02-28,16:18,estrellamiento,guayaquil y portoviejo,urbana,el valle,razones desconocidas,0,0
+03-01,07:19,choque posterior,gobernacion de mainas y 18 de noviembre,urbana,san sebastian,razones desconocidas,0,0
+03-01,03:25,estrellamiento,santiago de las montanas y daniel alvarez,urbana,el valle,razones desconocidas,0,0
+03-02,16:20,estrellamiento,via saraguro-san lucas,rural,n/n,razones desconocidas,0,0
+03-02,21:38,choque lateral angular,juan jose pena y mercadillo,urbana,sagrario,razones desconocidas,0,0
+03-03,10:51,choque lateral angular,jose felix de valdivieso y bolivar,urbana,sagrario,razones desconocidas,0,0
+03-03,10:50,choque lateral angular,via loja-cuenca,rural,n/n,razones desconocidas,0,0
+03-08,06:46,perdida de carril de circulacion y estrellamiento,daniel armijos entre salvador bustamante celi y paquisha,urbana,el valle,razones desconocidas,0,0
+03-08,21:05,choque lateral perpendicular,universitaria y miguel riofrio,urbana,sagrario,razones desconocidas,0,0
+03-10,06:40,choque lateral perpendicular,san carlos y la cruz,urbana,sucre,razones desconocidas,0,0
+03-11,10:20,estrellamiento,machala y guaranda,urbana,sucre,razones desconocidas,0,0
+03-11,01:30,estrellamiento,montevideo y asuncion,urbana,sucre,razones desconocidas,0,0
+03-12,19:00,estrellamiento,orillas del zamora y guayaquil,urbana,el valle,razones desconocidas,0,0
+03-13,06:20,choque posterior,isidro ayora y diamantina,urbana,sucre,razones desconocidas,3,0
+03-13,19:53,atropello,24 de mayo y victor vivar,urbana,sagrario,razones desconocidas,1,0
+03-14,07:23,choque lateral angular,bernardo valdivieso y quito,urbana,sagrario,razones desconocidas,0,0
+03-16,20:55,choque lateral perpendicular,pio jaramillo alvarado y manuel benjamin carrion,urbana,punzara,razones desconocidas,0,0
+03-16,22:12,estrellamiento,18 de noviembre y celica,urbana,san sebastian,razones desconocidas,0,0
+03-17,16:50,atropello,villonaco y virgen de monzerrat,urbana,sucre,razones desconocidas,0,1
+03-17,16:42,choque lateral angular,universitaria y jose antonio eguiguren,urbana,sagrario,razones desconocidas,1,0
+03-18,02:30,estrellamiento y rozamiento,via antigua a zamora sta. marianita de jesus,urbana,sagrario,razones desconocidas,0,0
+03-18,13:48,choque lateral perpendicular,manuel carrion pinzano y benjamin pereira,urbana,sucre,razones desconocidas,0,0
+03-18,03:00,atropello,via de segundo orden y virgilio rodas,urbana,sucre,razones desconocidas,1,0
+03-20,03:00,perdida de pista,via malacatos - loja,rural,n/n,razones desconocidas,0,0
+03-20,12:50,atipico,terminal terrestre,urbana,sucre,razones desconocidas,0,0
+03-22,08:45,estrellamiento,nueva loja y machala,urbana,sucre,razones desconocidas,0,0
+03-23,15:00,choque lateral angular y volcamiento,manuel agustin aguirre y chile,urbana,punzara,razones desconocidas,0,0
+03-24,09:25,volcamiento lateral,via antigua loja-catamayo,rural,n/n,razones desconocidas,2,0
+03-24,06:00,choque lateral angular y estrellamiento,8 de diciembre entre manuel cabrera y beatriz cueva de ayora,urbana,carigan,razones desconocidas,0,0
+03-24,14:42,colision,manuel carrion pinzano y eplicachima,urbana,sucre,razones desconocidas,0,0
+03-25,02:00,choque por alcance,segundo cueva celi entre segundo puertas moreno y prolg de la 24 de mayo,urbana,punzara,razones desconocidas,0,0
+03-25,09:28,choque lateral angular y estrellamiento,universitaria y miguel riofrio,urbana,sagrario,razones desconocidas,0,0
+03-25,17:36,choque lateral perpendicular,angel felicisimo rojas y cuzco,urbana,sucre,razones desconocidas,0,0
+03-24,03:30,choque lateral perpendicular,los paltas y francia,urbana,punzara,razones desconocidas,0,0
+03-26,05:39,volcamiento lateral 2/4,brasil y argentina,urbana,punzara,razones desconocidas,4,0
+03-27,17:15,atropello,isidro ayora y habana,urbana,sucre,razones desconocidas,1,0
+03-27,20:16,choque lateral perpendicular,nogales y arupos,urbana,san sebastian,razones desconocidas,0,0
+03-29,02:00,estrellamiento,emiliano ortega y 24 de mayo,urbana,sagrario,razones desconocidas,0,0
+03-30,06:15,choque lateral angular,"via loja - catamayo km 22,5",rural,n/n,razones desconocidas,5,1
+03-31,10:50,choque lateral perpendicular,manuel agustin aguirre y chile,urbana,punzara,razones desconocidas,0,0
+03-31,14:45,choque frontal excentrico,via cuenca - loja (zenen),rural,n/n,razones desconocidas,9,0
+04-01,19:15,choque lateral angular con volcamiento lateral 1/4 y estrellamiento,via loja -malacatos,rural,n/n,razones desconocidas,1,0
+04-01,05:25,estrellamiento,miguel morelo y sin nombre,urbana,punzara,razones desconocidas,0,0
+04-02,09:15,choque frontal angular,justiniano estupinan y pio montufar,urbana,punzara,razones desconocidas,0,0
+04-04,20:25,choque lateral angular,eugenio espejo,urbana,sucre,razones desconocidas,1,0
+04-05,09:09,choque lateral angular,manuel agustin aguirre y gobernacion de mainas,urbana,punzara,razones desconocidas,1,0
+04-07,05:42,estrellamiento,barrio turunuma barcelona,urbana,sucre,razones desconocidas,0,0
+04-07,22:10,choque lateral angular,mercadillo y ramon pinto,urbana,sagrario,razones desconocidas,2,0
+04-08,18:40,choque frontal excentrico,parroquia san lucas/ principal san lucas,rural,n/n,razones desconocidas,1,1
+04-08,09:03,choque lateral angular,8 de diciembre y jaime roldos aguilera,urbana,carigan,razones desconocidas,0,0
+04-09,15:00,atipico,brasil y honduras,urbana,punzara,razones desconocidas,0,0
+04-11,07:25,estrellamiento,salvador bustamante celi y daniel armijos,urbana,el valle,razones desconocidas,0,0
+04-11,18:15,choque lateral angular,santo domingo y riobamba,urbana,sucre,razones desconocidas,1,0
+04-11,20:08,choque lateral angular,emiliano ortega y lourdes,urbana,sagrario,razones desconocidas,0,0
+04-12,16:23,roce negativo,juan de salinas entre bolivar y emiliano ortega.,urbana,sagrario,razones desconocidas,0,0
+04-13,08:00,choque lateral angular,barrio nangora / via loja-malacatos.,rural,n/n,razones desconocidas,0,0
+04-13,18:10,estrellamiento,barrio ciudad victoria / dolores cacuango y nela martinez,urbana,sucre,razones desconocidas,0,0
+04-14,21:30,choque lateral angular,via loja-zamora,rural,n/n,razones desconocidas,3,0
+04-14,11:28,estrellamiento,azuay entre lauro guerrero y ramon pinto,urbana,sagrario,razones desconocidas,0,0
+04-15,05:30,choque lateral angular,cuxibamba y 8 de diciembre,urbana,sucre,razones desconocidas,2,0
+04-15,08:25,choque lateral angular,sucre y gonzanama,urbana,san sebastian,razones desconocidas,0,0
+04-16,15:52,choque por alcance,mercadillo entre bernardo valdivieso y bolivar,urbana,san sebastian,razones desconocidas,0,0
+04-19,17:42,choque lateral angular,emiliano ortega y juan jose pena,urbana,sagrario,razones desconocidas,0,0
+04-19,21:20,choque lateral angular,bolivar y azuay,urbana,sagrario,razones desconocidas,0,0
+04-20,18:11,atropello,pasaje la feue entre lauro guerrero y manuel agustin aguirre,urbana,sagrario,razones desconocidas,1,0
+04-23,07:35,choque lateral angular,eduardo kingman y catamayo,urbana,san sebastian,razones desconocidas,0,0
+04-23,17:17,choque lateral angular,universitaria y celica,urbana,san sebastian,razones desconocidas,0,0
+04-24,07:00,choque posterior,8 de diciembre y pablo palacios,urbana,carigan,razones desconocidas,0,0
+04-25,12:10,estrellamiento,rocafuerte y sucre,urbana,sagrario,razones desconocidas,0,0
+04-25,22:45,estrellamiento,santiago de las montanas y juan velazco,urbana,el valle,razones desconocidas,0,0
+04-26,20:20,choque lateral angular,mercadillo y ramon pinto,urbana,sagrario,razones desconocidas,0,0
+04-27,01.10,estrellamiento,sixto duran y eduardo rubianes,urbana,san sebastian,razones desconocidas,0,0
+04-28,05:38,perdida de calzada de circulacion,angel felicisimo rojas y eugenio espejo,urbana,sucre,razones desconocidas,0,0
+04-29,08:30,choque lateral angular,manuel carrion pinzano y eduardo unda,urbana,sucre,razones desconocidas,0,0
+04-30,12:00,choque frontal angular,via loja - chuquiribamba,rural,n/n,razones desconocidas,2,0
+05-03,07:52,colision,orillas del zamora y isdro ayora,urbana,el valle,razones desconocidas,0,0
+05-06,04:10,choque por alcance,angel felicisimo rojas,urbana,sucre,razones desconocidas,4,0
+05-06,17:40,choque lateral angular,eterna juventud ( vilcabamba),rural,n/n,razones desconocidas,0,0
+05-06,03:30,perdida de carril de circulacion y volcamiento,via loja - catamayo,rural,n/n,razones desconocidas,0,0
+05-07,07:17,choque lateral angular,pio jaramillo alvarado y leonardo davinci,urbana,punzara,razones desconocidas,0,0
+05-07,13:35,roce negativo,"av, 24 de mayo y lourdes",urbana,sagrario,razones desconocidas,0,0
+05-08,19:24,choque lateral angular,salvador bustamante celi y puna,urbana,el valle,razones desconocidas,0,0
+05-09,16:33,choque lateral angular,de los paltas y alberto zambrano,urbana,sucre,razones desconocidas,0,0
+05-11,07:13,choque lateral angular,manuel zambrano y malvinas,urbana,punzara,razones desconocidas,0,0
+05-12,02:45,estrellamiento,santa marianita de jesus,urbana,sagrario,razones desconocidas,0,0
+05-12,23:45,atropello,via loja-malacatos,rural,n/n,razones desconocidas,0,1
+05-13,12:13,choque frontal excentrico,via loja - catamayo,rural,n/n,razones desconocidas,0,0
+05-13,02:14,choque lateral angular,de los paltas y bulgaria,urbana,punzara,razones desconocidas,0,0
+05-13,01:30,choque frontal excentrico,eugenio espejo y pakistan,urbana,sucre,razones desconocidas,0,0
+05-13,10:18,choque por alcance,gran colombia y tulcan,urbana,sucre,razones desconocidas,0,0
+05-14,05:54,choque lateral angular,jipiro agustin carrion y sin nombre,urbana,el valle,razones desconocidas,0,0
+05-15,06:00,choque lateral angular,pablo palacios y dr. arturo armijos ayala,urbana,carigan,razones desconocidas,0,0
+05-16,11:52,colision,via loja-malacatos,rural,n/n,razones desconocidas,0,0
+05-16,00:00,estrellamiento,8 de diciembre y fenix,urbana,carigan,razones desconocidas,1,0
+05-17,14:20,choque lateral angular,pio jaramillo alvarado y dr. jose maria vivar castro,urbana,punzara,razones desconocidas,0,0
+05-18,19:25,arrollamiento,manuel agustin aguirre y miguel riofrio,urbana,sagrario,razones desconocidas,0,0
+05-19,17:30,estrellamiento,machala y tulcan,urbana,sucre,razones desconocidas,0,0
+05-19,22:05,choque lateral perpendicular,salvador bustamante celi y oriental de paso,urbana,el valle,razones desconocidas,0,0
+05-20,00:58,roce positivo,oriental de paso,urbana,el valle,razones desconocidas,0,0
+05-20,04:45,estrellamiento,manuel carrion pinzano y adolfo valarezo,urbana,sucre,razones desconocidas,0,0
+05-20,03:25,estrellamiento,24 de mayo y leopoldo palacios,urbana,sagrario,razones desconocidas,0,0
+05-21,03:00,estrellamiento,rio santiago y rio uyacali,urbana,san sebastian,razones desconocidas,0,0
+05-22,07:20,choque lateral angular,universitaria y quito,urbana,sagrario,razones desconocidas,0,0
+05-22,10:38,estrellamiento,daniel alvares y segundo cueva,urbana,sagrario,razones desconocidas,0,0
+05-24,13:58,choque lateral angular,bolivar y juan de salinas,urbana,sagrario,razones desconocidas,0,0
+05-25,20:50,choque frontal angular,via loja- malcatos (el porvenir),rural,n/n,razones desconocidas,0,0
+05-26,00:40,choque lateral angular,18 de noviembre y lourdes,urbana,san sebastian,razones desconocidas,0,0
+05-26,12:55,choque lateral angular,8 de diciembre y zoilo alvarado,urbana,carigan,razones desconocidas,2,0
+05-26,17:12,choque lateral angular,bolivar y juan de salinas,urbana,sagrario,razones desconocidas,0,0
+05-26,17:12,estrellamiento,8 de diciembre y eduardo palacios,urbana,carigan,razones desconocidas,0,0
+05-28,07:10,choque lateral angular,manuel agustin aguirre y brasil,urbana,punzara,razones desconocidas,0,0
+05-29,05:10,volcamiento 1/4,de los paltas y shiri,urbana,punzara,razones desconocidas,2,0
+05-31,03:20,estrellamiento,macara y mercadillo,urbana,sagrario,razones desconocidas,0,0
+06-01,00:45,estrellamiento,mexico y brasil,urbana,punzara,razones desconocidas,0,0
+06-08,13:55,atropello,manuel agustin aguirre y juan de salinas,urbana,sagrario,razones desconocidas,1,0
+06-08,22:45,estrellamiento,olmedo y catacocha,urbana,san sebastian,razones desconocidas,0,0
+06-09,10:35,choque lateral perpendicular,cuenca y azogues,urbana,el valle,razones desconocidas,0,0
+06-09,02:00,choque lateral perpendicular,pio jaramillo alvarado y chile,urbana,punzara,razones desconocidas,0,0
+06-09,02:25,choque por alcance,occidental (sueno eterno),urbana,sucre,razones desconocidas,0,0
+06-10,07:08,estrellamiento,galileo galilei entre cabo luis sarango y cpto. angel rivera,urbana,punzara,razones desconocidas,0,0
+06-09,19:35,estrellamiento y volcamiento,manuel carrion pinzano y pedro falconi,urbana,sucre,razones desconocidas,0,0
+06-09,13:10,perdida de carril de circulacion y volcamiento,via antigua malacatos- vilcabamba,rural,n/n,razones desconocidas,0,1
+06-10,02:05,atropello y volcamiento,carigan- via a la iglesia de anasquillo,rural,n/n,razones desconocidas,1,0
+06-12,07:15,choque lateral angular,eduardo kingman y gonzanama,urbana,san sebastian,razones desconocidas,0,0
+06-14,21:15,choque por alcance,universitaria y imbabura,urbana,sagrario,razones desconocidas,0,0
+06-15,22:30,choque lateral perpendicular,mercadillo y ramon pinto,urbana,sagrario,razones desconocidas,5,0
+06-15,16:50,choque lateral perpendicular,via malacatos - el tambo / ceibopamba,rural,n/n,razones desconocidas,1,0
+06-15,11:30,atipico y estrellamiento,manuel benjamin carrion y cornelio saavedra,urbana,punzara,razones desconocidas,0,0
+06-15,20:15,estrellamiento,velazco ibarra y luis cordero,urbana,sucre,razones desconocidas,0,0
+06-16,21:50,choque lateral perpendicular,18 de nociembre y celica,urbana,san sebastian,razones desconocidas,0,0
+06-16,23:22,estrellamiento,eduardo kingman y jorupes,urbana,san sebastian,razones desconocidas,0,0
+06-17,23:50,estrellamiento,via loja - malacatos (el porvenir),rural,n/n,razones desconocidas,0,0
+06-18,12:10,choque lateral perpendicular,guayaquil y portoviejo,urbana,el valle,razones desconocidas,0,0
+06-18,16:53,choque lateral perpendicular,manuel carrion pinzano y adolfo valarezo,urbana,sucre,razones desconocidas,1,0
+06-19,05:20,estrellamiento,via loja - zamora a 500 metros pasando la falla geologica,rural,n/n,razones desconocidas,0,0
+06-20,12:43,estrellamiento,18 de noviembre y gobernacion de mainas,urbana,san sebastian,razones desconocidas,0,0
+06-22,02:20,choque lateral angular,18 de noviembre y cariamanga,urbana,san sebastian,razones desconocidas,0,0
+06-22,19:35,atropello,via loja - malacatos (el porvenir),rural,n/n,razones desconocidas,1,0
+06-22,21:00,choque lateral perpendicular,nueva loja entre emiliano ortega y universitaria,urbana,sagrario,razones desconocidas,0,0
+06-22,04:13,perdida de carril de circulacion,juan jose pena y jose antonio eguiguren,urbana,san sebastian,razones desconocidas,3,1
+06-23,01:10,volcamiento lateral 2/4,via a chinguilanchi y salvador bustamante celi,urbana,el valle,razones desconocidas,1,0
+06-24,05:45,choque lateral perpendicular,salvador bustamante celi y guayaquil,urbana,el valle,razones desconocidas,0,0
+06-24,20:40,estrellamiento,universitaria entre celica y cariamanga,urbana,san sebastian,razones desconocidas,0,0
+06-26,06:40,estrellamiento,24 de mayo entre lourdes y leopoldo palacio,urbana,sagrario,razones desconocidas,0,0
+06-26,08:50,roce negativo,quito y universitaria,urbana,sagrario,razones desconocidas,0,0
+06-26,23:30,estrellamiento,machala y vinces,urbana,sucre,razones desconocidas,0,0
+06-27,06:50,atipico,via anganuma -yangana,rural,n/n,razones desconocidas,0,1
+06-29,00:10,arrollamiento,via loja - cuenca (teneria),rural,n/n,razones desconocidas,0,1
+06-29,23:59,choque lateral perpendicular,18 de noviembre y quito,urbana,sagrario,razones desconocidas,1,0
+06-30,20:03,estrellamiento,ibarra y santo domingo,urbana,sucre,razones desconocidas,1,0
+07-01,04:42,estrellamiento,via catamayo- loja lagunas militares,rural,n/n,razones desconocidas,1,0
+07-01,15:00,choque por alcance,via catamayo- loja lagunas militares,rural,n/n,razones desconocidas,1,0
+07-02,08:10,choque lateral angular,via loja - cuenca (shalshi),rural,n/n,razones desconocidas,20,0
+07-03,23:50,estrellamiento,rocafuerte entre sucre y 18 de noviembre,urbana,sagrario,razones desconocidas,0,0
+07-05,22:45,choque lateral angular,orillas del zamora y guayaquil,urbana,el valle,razones desconocidas,1,0
+07-07,04:42,estrellamiento y volcamiento 3/4,pio jaramillo alvarado y heroes del cenepa,urbana,punzara,razones desconocidas,0,0
+07-07,12:45,estrellamiento,juan jose samaniego y lauro guerrero,urbana,sagrario,razones desconocidas,0,0
+07-07,04:45,choque lateral perpendicular  con volcamiento lateral 1/4 y estrellamiento,cuba y manuel agustin aguirre,urbana,punzara,razones desconocidas,6,0
+07-10,20:10,choque lateral perpendicular,18 de noviembre e imbabura,urbana,sagrario,razones desconocidas,1,0
+07-11,14:25,choque lateral perpendicular,manuel agustin aguirre y teniente maximiliano rodriguez,urbana,sagrario,razones desconocidas,1,0
+07-12,20:50,choque frontal longitudinal,eugenio espejo entre ines jimenez y collas (barrio miraflores alto),urbana,sucre,razones desconocidas,3,0
+07-13,15:08,atropello,eugenio espejo y adolfo valarezo,urbana,sucre,razones desconocidas,1,0
+07-14,06:00,choque lateral perpendicular y estrellamiento,benjamin carrion entre eloy alfaro y domingo sarmiento.,urbana,punzara,razones desconocidas,0,0
+07-14,01:30,volcamiento lateral varios ciclos,salvador bustamante celi,urbana,el valle,razones desconocidas,2,0
+07-15,00:00,choque lateral perpendicular y estrellamiento,eduardo kingman y maximo agustin rodriguez.,urbana,san sebastian,razones desconocidas,0,0
+07-17,08:00,choque lateral perpendicular con volcamiento lateral 1/4,mercadillo y ramon pinto,urbana,sagrario,razones desconocidas,0,0
+07-18,16:10,choque lateral angular y estrellamiento,pio jaramillo alvarado y condamine,urbana,punzara,razones desconocidas,0,0
+07-19,10:30,choque lateral perpendicular,universitaria y azuay,urbana,sagrario,razones desconocidas,0,0
+07-20,17:10,choque por alcance,reinaldo espinoza y pio jaramillo alvarado alvarado,urbana,punzara,razones desconocidas,0,0
+07-21,06:20,choque frontal excentrico,benjamin carrion y antonio neumane,urbana,punzara,razones desconocidas,0,0
+07-21,14:07,estrellamiento,8 de diciembre y placido caamano,urbana,sucre,razones desconocidas,1,0
+07-25,10:05,estrellamiento,manuel espinoza y tnte. maximiliano rodriguez,urbana,sucre,razones desconocidas,1,0
+07-25,11:28,estrellamiento,marcabeli y arenillas,urbana,el valle,razones desconocidas,0,0
+07-27,13:55,estrellamiento,via loja - cuenca (la chorrera),rural,n/n,razones desconocidas,0,0
+07-27,18:50,choque por alcance,manuel carrion pinzano y isidro ayora,urbana,sucre,razones desconocidas,0,0
+07-28,04:46,atropello,arturo armijos ayala entre resistencia y necochea,urbana,carigan,razones desconocidas,1,0
+07-28,00:40,choque lateral perpendicular,juan jose pena y colon,urbana,sagrario,razones desconocidas,0,0
+07-29,03:00,roce positivo,paraguay y cofanes,urbana,punzara,razones desconocidas,0,0
+07-29,18:00,choque lateral angular,via malacatos - vilcabamba,rural,n/n,razones desconocidas,0,0
+07-30,19:25,choque lateral angular,oriental de paso,urbana,el valle,razones desconocidas,1,0
+07-31,12:50,choque lateral perpendicular,nueva loja y guayaquil,urbana,el valle,razones desconocidas,0,0
+07-31,08:00,roce negativo,pio jaramillo alvarado y chile,urbana,punzara,razones desconocidas,0,0
+07-30,18:35,choque lateral angular,km 17 via loja malacatos/ barrio nangora,rural,n/n,razones desconocidas,0,0
+07-31,16:30,atropello,mercadillo y nicolas garcia,urbana,sagrario,razones desconocidas,1,0
+08-03,06:35,estrellamiento,manuel carrion pinzano y piura,urbana,sucre,razones desconocidas,0,0
+08-04,02:23,choque lateral perpendicular,isidro ayora y orillas del zamora,urbana,el valle,razones desconocidas,0,0
+08-04,20:00,choque lateral perpendicular,manuel belgrano y getulio vargas,urbana,punzara,razones desconocidas,0,0
+08-05,09:45,estrellamiento,24 de mayo y azuay,urbana,sagrario,razones desconocidas,0,0
+08-06,21:12,choque lateral perpendicular,ramon burneo y benjamin pereira,urbana,sucre,razones desconocidas,1,0
+08-08,20:23,roce negativo,chuquiribamba y s/n,urbana,carigan,razones desconocidas,0,0
+08-09,07:18,choque lateral perpendicular,machala e ibarra,urbana,sucre,razones desconocidas,0,0
+08-09,02:20,estrellamiento,piura y s/n,urbana,sucre,razones desconocidas,0,0
+08-09,23:55,choque frontal excentrico,parroquia vilcabamba via a yangana entrada al cerro mandango,rural,n/n,razones desconocidas,2,0
+08-10,04:30,estrellamiento,galileo galilei y teniente hugo ortiz,urbana,punzara,razones desconocidas,0,0
+08-11,16:33,perdida de carril de circulacion,via loja - catamayo (500 metros antes de llegar al la y),rural,n/n,razones desconocidas,0,0
+08-11,11:00,choque lateral angular,bolivar y cariamanga,urbana,san sebastian,razones desconocidas,2,0
+08-10,23:10,choque lateral angular,via loja cuenca (a 100 metros de capilla de cenen),rural,n/n,razones desconocidas,0,0
+08-11,19:50,choque lateral perpendicular,olmedo y catacocha,urbana,san sebastian,razones desconocidas,0,0
+08-11,21:50,choque lateral angular,benjamin carrion y eloy alfaro,urbana,punzara,razones desconocidas,1,0
+08-12,12:30,choque frontal longitudinal,via loja - cuenca (teneria),rural,n/n,razones desconocidas,8,0
+08-12,00:10,perdida de carril de circulacion,rio de janeiro y cordova,urbana,sucre,razones desconocidas,2,0
+08-14,01:30,perdida de carril de circulacion,via antigua loja - catamayo,rural,n/n,razones desconocidas,0,0
+08-15,06:40,estrellamiento,sucre y celica,urbana,san sebastian,razones desconocidas,0,0
+08-16,10:53,choque lateral perpendicular,juan de salinas y sucre,urbana,san sebastian,razones desconocidas,0,0
+08-19,14:05,choque frontal excentrico,isidro ayora,urbana,sucre,razones desconocidas,5,0
+08-18,04:21,perdida de carril de circulacion,24 de mayo y azuay,urbana,sagrario,razones desconocidas,1,0
+08-20,06:25,choque lateral angular,isidro ayora y habana,urbana,sucre,razones desconocidas,0,0
+08-20,14:15,choque lateral perpendicular,bolivar y juan de salinas,urbana,sagrario,razones desconocidas,0,0
+08-20,21:20,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,sagrario,razones desconocidas,1,0
+08-21,18:53,atropello,rocafuerte y 24 de mayo,urbana,sagrario,razones desconocidas,1,0
+08-22,03:30,atropello,eterna juventud y fernando de la vega,rural,n/n,razones desconocidas,1,0
+08-21,07:50,choque lateral angular,puebla y santa rita,urbana,sucre,razones desconocidas,0,0
+08-23,09:45,choque por alcance,emiliano y universitaria,urbana,sagrario,razones desconocidas,0,0
+08-24,10:45,estrellamiento,rocafuerte entre sucre y 18 de noviembre,urbana,sagrario,razones desconocidas,0,0
+08-25,22:25,estrellamiento,luis a. valencia entre jose b. hidalgo y s sin nombre,urbana,el valle,razones desconocidas,0,0
+08-28,08:20,atropello,nueva loja y emiliano ortega,urbana,sagrario,razones desconocidas,1,0
+08-28,17:50,atropello,nueva loja y guaranda,urbana,sucre,razones desconocidas,1,0
+08-29,14:00,choque lateral perpendicular,emiliano ortega y juan jose pena,urbana,sagrario,razones desconocidas,1,0
+08-30,23:32,atropello,salvador bustamante celi y homero idrovo,urbana,el valle,razones desconocidas,0,1
+08-31,23:18,atropello,cuxibamba e ibarra,urbana,sucre,razones desconocidas,1,0
+09-01,22:00,choque lateral perpendicular,sucre y jose felix de valdivieso,urbana,sagrario,razones desconocidas,0,0
+09-02,16:26,choque por alcance,emiliano ortega y universitaria,urbana,sagrario,razones desconocidas,0,0
+09-02,02:25,choque lateral angular,manuel agustin aguirre y azuay,urbana,sagrario,razones desconocidas,1,0
+09-04,23:20,choque lateral perpendicular,manuel agustin aguirre y rocafuerte,urbana,sagrario,razones desconocidas,0,0
+09-05,14:00,estrellamiento,gran colombia y riobamba,urbana,sucre,razones desconocidas,0,0
+09-05,11:00,estrellamiento,via malcatos - vilcabamba,rural,n/n,razones desconocidas,5,0
+09-05,21:00,perdida de carril de circulacion,eterna juventud y via antigua a quinara,rural,n/n,razones desconocidas,0,0
+09-07,13:35,choque lateral perpendicular,universitaria y gran colombia,urbana,sagrario,razones desconocidas,1,0
+09-07,19:10,choque frontal excentrico,eduardo kingman y angel b. valarezo.,urbana,san sebastian,razones desconocidas,1,0
+09-08,21:20,estrellamiento,paris y bruselas,urbana,sagrario,razones desconocidas,0,0
+09-08,19:30,estrellamiento y atropello,"km 15 via loja - malacatos / sector ""tres leguas""",rural,n/n,razones desconocidas,1,0
+09-09,13:30,atropello,parroquia el cisne la gargantilla,rural,n/n,razones desconocidas,1,0
+09-10,11:10,choque lateral perpendicular,manuel agustin aguirre y brasil,urbana,sagrario,razones desconocidas,0,0
+09-11,00:18,choque lateral perpendicular,juan jose pena y mercadillo,urbana,sagrario,razones desconocidas,3,1
+09-11,17:15,choque lateral perpendicular,juan jose pena y catacocha,urbana,sagrario,razones desconocidas,0,0
+09-11,18:30,choque lateral angular,manuel agustin aguirre y jose picoita,urbana,sagrario,razones desconocidas,1,0
+09-12,17:45,atropello,eugenio espejo y colorados,urbana,punzara,razones desconocidas,1,0
+09-15,2:00,perdida de carril de circulacion,"via loja- zumba / parroquia ""yangana""",rural,n/n,razones desconocidas,0,0
+09-16,20:08,arrollamiento,oriental de paso,urbana,el valle,razones desconocidas,0,1
+09-18,19:50,estrellamiento,pedro pacheco y chuquiribamba,urbana,carigan,razones desconocidas,0,0
+09-19,23:45,estrellamiento,pablo palacios y angel felicisimo rojas,urbana,carigan,razones desconocidas,0,0
+09-20,00:20,choque lateral perpendicular,juan jose pena y lourdes,urbana,sagrario,razones desconocidas,0,0
+09-21,23:50,perdida de carril de circulacion,colibri y gaviotas,urbana,el valle,razones desconocidas,0,0
+09-22,13:52,choque lateral perpendicular,24 de mayo y lourdes,urbana,sagrario,razones desconocidas,2,0
+09-23,08:00,choque lateral angular,angel felicisimo rojas,urbana,sucre,razones desconocidas,0,0
+09-23,06:20,estrellamiento y volcamiento,"via yangana - vilcabamba / sector ""izhcayluma""",rural,n/n,razones desconocidas,4,0
+09-23,21:20,roce negativo,manuel carrion pinzano y tomas rodrigo torres,urbana,sucre,razones desconocidas,0,0
+09-23,21:55,choque lateral angular,8 de diciembre y santiago,urbana,carigan,razones desconocidas,0,0
+09-25,01:55,perdida de carril de circulacion,orillas del zamora y santa rosa,urbana,el valle,razones desconocidas,0,0
+09-25,06:12,choque lateral perpendicular,jose artigas y francisco de narino,urbana,punzara,razones desconocidas,0,0
+09-26,13:05,atropello,cuero y caicedo entre manuel angulo y carlos montufar,urbana,punzara,imprudencia del peaton,1,0
+09-27,20:15,atropello,mayas y juan jose samaniego,urbana,sucre,negligencia del conductor,1,0
+09-28,18:50,choque lateral perpendicular,jose martinez ruiz y sixto duran romero,urbana,san sebastian,condiciones climaticas,1,0
+09-28,21:27,estrellamiento,pablo palacios y cesar p. ludena,urbana,carigan,fallas mecanicas no previsibles,0,0
+09-29,05:23,choque por alcance,via loja catmayo,rural,n/n,no mantener la distancia reglamentaria,0,0
+09-29,19:00,choque lateral perpendicular,universitaria y quito,urbana,sagrario,imprudencia del conductor,0,0
+09-29,19:30,choque lateral perpendicular,via loja catmayo,rural,n/n,imprudencia del conductor,0,0
+09-29,20:00,estrellamiento,olmedo y catacocha,urbana,san sebastian,imprudencia del conductor,0,0
+09-30,20:45,estrellamiento,jacinto de eva entre jorge icasa y enrique gil gilberth,urbana,sucre,imprudencia del conductor,0,0
+09-30,02:34,choque frontal longitudinal,alonso de mercadillo y jose a. palacios,urbana,sucre,conducir en estado de embriaguez,1,0
+09-30,09:05,perdida de carril de circulacion y volcamiento de 1/4,via loja- landangui,rural,n/n,razones desconocidas,0,0
+10-01,17:28,atropello,manuel carrion pinzano y piura,urbana,sucre,conducir en estado de embriaguez,0,0
+10-01,20:50,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,sagrario,condiciones climaticas,1,0
+10-02,12:19,choque lateral angular,8 de diciembre (terminal terrestre),urbana,sucre,no ceder el derecho de via,0,0
+10-03,12:00,roce negativo,espana y curazao,urbana,punzara,cambio brusco e indebido de carril,0,0
+10-03,03:09,estrellamiento,universitaria y colon,urbana,sagrario,no mantener la distancia reglamentaria,0,0
+10-05,16:40,colision,isidro ayora y sin nombre,urbana,sucre,negligencia del conductor,0,0
+10-05,17:28,atropello,cuenca y chone,urbana,el valle,imprudencia del peaton,1,0
+10-05,01:44,estrellamiento,salvador bustamante celi,urbana,el valle,imprudencia del conductor,0,0
+10-06,08:00,choque lateral angular,maximo agustin rodriguez y gonzalez suarez,urbana,san sebastian,conducir en estado de embriaguez,1,0
+10-06,05:07,estrellamiento,orillas del zamora y santa rosa,urbana,el valle,conducir en estado de embriaguez,0,0
+10-06,01:29,choque lateral angular,eugenio espejo entre pakistan y suiza.,urbana,punzara,conducir en estado de embriaguez,0,0
+10-07,14:15,atropello,sucre y catacocha,urbana,san sebastian,imprudencia del peaton,1,0
+10-07,23:30,choque lateral angular,olmedo y rocafuerte,urbana,sagrario,imprudencia del conductor,0,0
+10-08,21:25,choque lateral angular,via vilcabamba yangana (izhcayluma),rural,n/n,cambio brusco e indebido de carril,1,0
+10-08,03:14,roce negativo,eduardo kingman entre catamayo y amaluza,urbana,san sebastian,imprudencia del conductor,0,0
+10-09,05:40,choque frontal excentrico,via loja - catamayo,rural,n/n,conducir en estado de embriaguez,1,0
+10-10,14:00,choque lateral perpendicular,de los paltas entre hungria y finlandia,urbana,punzara,cambio brusco e indebido de carril,0,0
+10-10,13:50,estrellamiento,jose coronel y paris,urbana,carigan,imprudencia del conductor,0,0
+10-10,07:00,choque por alcance,8 de diciembre y s/n,urbana,carigan,conducir en estado de embriaguez,0,0
+10-13,08:00,choque lateral perpendicular,jose maria pena y azuay,urbana,sagrario,negligencia del conductor,0,0
+10-13,08:23,estrellamiento,gran colombia y machala,urbana,sucre,negligencia del conductor,0,0
+10-14,07:25,perdida de calzada de circulacion,via antigua a chuquiribamba (sector cruz chiquita),rural,n/n,imprudencia del conductor,1,0
+10-14,10:30,choque por alcance,isidro ayora y dr. eduardo mora,urbana,sucre,imprudencia del conductor,1,0
+10-14,15:34,choque lateral perpendicular,manuel agustin aguirre y colon,urbana,sagrario,negligencia del conductor,1,0
+10-14,03:34,choque lateral angular,eugenio espejo (chonta cruz),urbana,sucre,conducir en estado de embriaguez,0,0
+10-15,09:30,choque lateral angular,via loja - catamayo,rural,n/n,negligencia del conductor,2,1
+10-15,12:40,roce positivo,eugenio espejo (entrada a menfis alto),urbana,sucre,negligencia del conductor,1,0
+10-16,19:55,estrellamiento,pablo palacios y dr. arturo armijos ayala,urbana,carigan,fallas mecanicas no previsibles,0,0
+10-16,05:02,perdida de carril de circulacion,eduardo kingman entre gonzanama y saraguro,urbana,san sebastian,negligencia del conductor,0,0
+10-17,12:20,roce negativo,dr. arturo armijos ayala y cesar ludena,urbana,carigan,negligencia del conductor,0,0
+10-18,12:15,choque por alcance,bolivar y jose felix de valdivieso,urbana,sagrario,no mantener la distancia reglamentaria,0,0
+10-19,05:40,estrellamiento,catamayo y romerillos,urbana,san sebastian,conducir en estado de embriaguez,0,0
+10-19,13:06,roce negativo,colon entre bolivar y sucre.,urbana,sagrario,imprudencia del conductor,0,0
+10-19,00:14,choque por alcance,salvador bustamante celi y isidro ayora,urbana,el valle,conducir en estado de embriaguez,0,0
+10-20,14:20,perdida de carril de circulacion con volcamiento 1/4 y atropello,"via loja - catamayo/ sector la ""y"" .",rural,n/n,imprudencia del conductor,1,5
+10-20,01:24,estrellamiento,velazco ibarra y jose maria urbina,urbana,sucre,razones desconocidas,0,0
+10-20,03:44,choque lateral perpendicular,orillas del zamora y juan de salinas,urbana,sagrario,imprudencia del conductor,1,0
+10-20,03:49,choque frontal excentrico,los paltas y otavalos,urbana,sucre,imprudencia del conductor,0,0
+10-21,17:40,estrellamiento,gran colombia y pujili,urbana,sucre,razones desconocidas,0,0
+10-22,20:25,atropello,lauro guerrero y colon,urbana,sagrario,imprudencia del peaton,1,0
+10-24,14:10,estrellamiento,lourdes y bolivar,urbana,san sebastian,imprudencia del conductor,0,0
+10-25,03:09,estrellamiento,chuquiribamba barrio motupe,urbana,carigan,imprudencia del conductor,0,0
+10-26,07:40,choque lateral perpendicular,universitaria y imbabura,urbana,sagrario,imprudencia del conductor,1,0
+10-26,03:29,estrellamiento,romerillos y arupos,urbana,san sebastian,conducir en estado de embriaguez,0,0
+10-27,08:05,roce positivo,eugenio espejo y aztecas,urbana,punzara,conducir en estado de embriaguez,0,0
+10-27,18:30,choque lateral perpendicular,bolivar e imbabura,urbana,sagrario,imprudencia del conductor,0,0
+10-28,08:43,caida de pasajero,rio ucayali y rio aguarico,urbana,san sebastian,razones desconocidas,2,0
+10-27,18:10,choque frontal angular,via loja - zamora,rural,n/n,imprudencia del conductor,1,0
+10-28,22:00,atropello,eugenio espejo y punaes,urbana,sucre,razones desconocidas,1,0
+10-31,12:58,choque lateral angular,mercadillo entre juan jose pena y 24 de mayo,urbana,sagrario,desatento a la conduccion,0,0
+10-31,11:48,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,sagrario,no respetar las señales de transito,3,0
+10-31,04:04,perdida de carril de circulacion y estrellamiento,manuel carrion pinzano y manaos,urbana,sucre,razones desconocidas,0,0
+10-31,04:04,perdida de carril de circulacion,manuel carrion pinzano y manaos,urbana,sucre,razones desconocidas,0,0
+11-01,09:35,estrellamiento,los paltas y benjamin carrion (frente a la ant),urbana,punzara,imprudencia del conductor,0,0
+11-01,01:44,choque lateral perpendicular,lourdes y macara,urbana,sagrario,imprudencia del conductor,0,0
+11-02,05:07,perdida de carril de circulacion y estrellamiento,manuel agustin aguirre y juan de salinas,urbana,sagrario,imprudencia del conductor,1,0
+11-02,08:55,roce negativo y estrellamiento,eduardo kingman y catamayo,urbana,san sebastian,conducir en estado de embriaguez,0,0
+11-03,14:46,caida de pasajero,nueva loja y emiliano ortega,urbana,sagrario,imprudencia del pasajero,1,0
+11-03,00:51,choque lateral angular,manuel carrion pinzano y jose maria riofrio,urbana,sucre,no respetar las señales de transito,1,0
+11-03,05:06,choque frontal excentrico,juan maria riofrio y jose maria riofrio,urbana,sagrario,conducir en estado de embriaguez,0,0
+11-03,17:35,roce negativo,jose maria pena y tnt. maximiliano rodriguez,urbana,sagrario,desatento a la conduccion,0,0
+11-03,08:05,estrellamiento,reinaldo espinoza y james watt,urbana,punzara,conducir en estado de embriaguez,0,0
+11-03,22:40,volcamiento 1/4,angel felicisimo rojas,urbana,sucre,razones desconocidas,1,0
+11-03,22:40,roce negativo y estrellamiento,manuel carrion pinzano y rafael riofrio,urbana,sucre,conducir en estado de embriaguez,0,0
+11-03,12:52,choque frontal excentrico,salvador bustamante celi y agustin carrion palacios,urbana,el valle,conducir en estado de embriaguez,0,0
+11-04,08:00,estrellamiento,nicolas garcia entre miguel riofrio y azuay,urbana,sagrario,conducir en estado de embriaguez,0,0
+11-04,12:40,n/n,quinara e ines jimenez,urbana,sucre,razones desconocidas,0,0
+11-05,14:58,choque lateral perpendicular,bolivar y juan de salinas,urbana,sagrario,imprudencia del conductor,0,0
+11-05,00:29,perdida de carril de circulacion y estrellamiento,via loja vilcabamba /sector sanpedro de vilcabamba,rural,n/n,razones desconocidas,0,0
+11-05,16:47,choque lateral perpendicular,orillas del zamora y clodoveo carrion,urbana,sagrario,imprudencia del conductor,0,0
+11-06,12:38,choque frontal angular,parroquia gualel barrio el ari,rural,n/n,imprudencia del conductor,0,0
+11-07,18:20,perdida de carril de circulacion con estrellamiento y volcamiento,sector el jindo/via loja-cuenca km 18,rural,n/n,fallas mecanicas no previsibles,2,0
+11-09,05:14,estrellamiento,ciudadela nueva granada y diego noboa,urbana,el valle,conducir en estado de embriaguez,0,0
+11-10,06:03,choque lateral perpendicular,nueva loja y guayaquil,urbana,el valle,conducir en estado de embriaguez,0,0
+11-10,02:29,estrellamiento,manuel carrion pinzano,urbana,sucre,fallas mecanicas no previsibles,0,0
+11-10,17:17,perdida de calzada de circulacion,via loja-cuenca panamericana,rural,n/n,conducir en estado de embriaguez,0,0
+11-11,04:59,choque lateral perpendicular,manuel agustin aguirre y rocafuerte,urbana,sagrario,conducir en estado de embriaguez,0,0
+11-11,00:28,estrellamiento,terminal terrestre reina del cisne y victoriano palacios,urbana,sucre,imprudencia del conductor,0,0
+11-11,13:40,perdida de calzada de circulacion,parroquia san pedro de vilcabamba/via vilcabamba-loja,rural,n/n,desatento a la conduccion,0,0
+11-12,20:30,choque frontal excentrico,via loja-jimbilla sector montecristi,rural,n/n,imprudencia del conductor,2,0
+11-13,11:20,choque frontal excentrico,parroquia malacatos y justiniano estupinan,rural,n/n,negligencia del conductor,7,0
+11-13,23:45,choque frontal excentrico,via loja-zamora,rural,n/n,conducir en estado de embriaguez,2,0
+11-13,00:44,estrellamiento,orillas del zamora y santa rosa,urbana,el valle,conducir en estado de embriaguez,0,0
+11-14,20:35,choque por alcance,via panamericana barrio plateado,urbana,sucre,imprudencia del conductor,0,0
+11-14,19:48,choque lateral angular,manuel carrion pinzano y eduardo unda,urbana,sucre,imprudencia del conductor,1,0
+11-15,11:48,estrellamiento,ibarra entre emiliano ortega y santo domingo de los colorados,urbana,sucre,imprudencia del conductor,0,0
+11-15,11:01,choque lateral perpendicular,18 de noviembre y jose antonio eguiguren,urbana,sagrario,imprudencia del conductor,1,0
+11-15,12:00,choque lateral perpendicular,machala e ibarra,urbana,sucre,imprudencia del conductor,0,0
+11-15,19:50,atipico,via loja - catamayo,rural,n/n,imprudencia del conductor,0,0
+11-18,19:15,choque por alcance,parroquia vilcabamba via yamburara bajo,rural,n/n,imprudencia del conductor,2,1
+11-18,09:20,choque lateral perpendicular,18 de noviembre y juan de salinas,urbana,sagrario,imprudencia del conductor,0,0
+11-18,18:30,choque lateral angular,isidro ayora y asuncion,urbana,sucre,imprudencia del conductor,0,0
+11-18,21:35,choque lateral angular,manuel carrion pinzano y eugenio espejo,urbana,sucre,imprudencia del conductor,0,0
+11-18,04:36,choque lateral angular,barrio consacola y pablo palacios,urbana,sucre,imprudencia del conductor,1,0
+11-19,22:45,atropello,ordalos y canarios barrio el paraiso,urbana,el valle,imprudencia del peaton,1,0
+11-20,13:10,perdida de carril de circulacion y estrellamiento,cuxibamba y guaranda,urbana,sucre,imprudencia del conductor,0,0
+11-20,16:17,choque lateral perpendicular,manuel agustin aguirre y lourdes,urbana,san sebastian,imprudencia del conductor,0,0
+11-20,18:10,colision,eugenio espejo y villonaco,urbana,sucre,imprudencia del conductor,0,0
+11-21,19:43,choque lateral perpendicular,eugenio espejo y eplicachima,urbana,sucre,imprudencia del conductor,0,0
+11-21,00:24,choque lateral angular,riobamba y cuxibamba,urbana,sucre,imprudencia del conductor,0,0
+11-21,01:44,estrellamiento,juan jose samaniego y ramon pinto,urbana,sagrario,conducir en estado de embriaguez,0,0
+11-22,12:30,choque lateral perpendicular,isidro ayora,urbana,sucre,imprudencia del conductor,0,0
+11-22,13:12,choque lateral perpendicular,bolivar y jose felix de valdivieso,urbana,sagrario,imprudencia del conductor,0,0
+11-22,03:34,choque lateral perpendicular,teniente maximiliano rodriguez y ramon pinto,urbana,sagrario,imprudencia del conductor,2,0
+11-23,17:18,atropello,cuxibamba y guaranda,urbana,sucre,imprudencia del peaton,1,0
+11-23,10:03,perdida de carril de circulacion,los paltas y teniente maximiliano rodriguez,urbana,sucre,razones desconocidas,2,0
+11-23,20:45,choque por alcance,8 de diciembre y beatriz cueva de ayora,urbana,carigan,cambio brusco e indebido de carril,0,0
+11-24,04:24,roce negativo,manuel carrion pinzano y victoriano palacios,urbana,sucre,imprudencia del conductor,1,0
+11-24,12:44,choque lateral perpendicular,18 de noviembre y miguel riofrio,urbana,sagrario,imprudencia del conductor,0,0
+11-26,06:00,estrellamiento,riobamba entre gran colombia y ambato,urbana,sucre,imprudencia del conductor,0,0
+11-26,12:15,roce negativo,argentina y paraguay,urbana,punzara,imprudencia del conductor,0,0
+11-26,12:10,choque lateral perpendicular,maximiliano rodriguez y jose maria pena,urbana,sagrario,imprudencia del conductor,0,0
+11-26,21:09,choque frontal longitudinal,manuel carrion pinzano y de los paltas,urbana,sucre,fallas mecanicas no previsibles,1,0
+11-27,21:55,choque lateral perpendicular,via malacatos-vilcabamba/sector cararango,rural,n/n,conducir en estado de embriaguez,0,0
+11-29,12:50,colision,zoilo rodriguez y clodoveo carrion,urbana,sagrario,imprudencia del conductor,0,0
+11-29,22:20,estrellamiento,lourdes y bolivar,urbana,san sebastian,imprudencia del conductor,0,0
+11-30,21:35,choque por alcance,benjamin carrion y benito juarez,urbana,punzara,imprudencia del conductor,2,0
+11-30,10:10,estrellamiento,juan jose pena entre rocafuerte y miguel riofrio,urbana,sagrario,negligencia del conductor,0,0
+11-30,18:25,estrellamiento,sargento jose robles y jose maria,urbana,n/n,conducir en estado de embriaguez,0,0
+12-01,09:55,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,sagrario,conducir en estado de embriaguez,0,0
+12-03,15:25,choque por alcance,gran colombia y tulcan,urbana,sucre,no mantener la distancia reglamentaria,0,0
+12-03,20:50,estrellamiento,isidro ayora y angel felicisimo rojas,urbana,sucre,desatento a la conduccion,0,0
+12-03,03:23,choque lateral angular,cuba y manuel agustin aguirre,urbana,punzara,imprudencia del conductor,0,0
+12-05,13:15,choque lateral angular,via-cuenca loja carretera panamericana,rural,n/n,imprudencia del conductor,0,0
+12-05,01:54,choque frontal excentrico,8 de diciembre y eduardo palacios,urbana,carigan,imprudencia del conductor,2,0
+12-07,06:00,choque frontal excentrico,via loja-zamora /100 metros falla geologica,rural,n/n,conducir en estado de embriaguez,2,0
+12-07,14:58,choque lateral perpendicular,jiron rodriguez soto entre cuero y caicedo,urbana,punzara,no ceder el derecho de via,1,0
+12-07,06:18,estrellamiento,loja-zamora,rural,n/n,imprudencia del conductor,0,0
+12-08,12:20,choque lateral angular,manuel agustin aguirre y cuba,urbana,punzara,conducir en estado de embriaguez,2,0
+12-08,02:09,choque lateral perpendicular,olmedo y lourdes,urbana,san sebastian,cruce de via sin preferencia,0,0
+12-09,09:40,choque lateral perpendicular,manuel agustin aguirre y lourdes,urbana,san sebastian,cruce de via sin preferencia,0,0
+12-09,12:25,estrellamiento,san cayetano/via parra 2,urbana,sucre,razones desconocidas,0,0
+12-09,08:35,estrellamiento,gran colombia y universitaria,urbana,sucre,razones desconocidas,0,0
+12-09,07:19,estrellamiento,isidro ayora,urbana,sucre,conducir en estado de embriaguez,0,0
+12-10,20:05,perdida de carril de circulacion y estrellamiento,benjamin carrion entre jose palcios y tomas rodriguez torres,urbana,punzara,fallas mecanicas no previsibles,1,0
+12-10,20:25,perdida de carril de circulacion y estrellamiento,via-loja catamayo,rural,n/n,perdida de pista,1,0
+12-11,05:01,choque lateral angular,manuel carrion pinzano y bolivar bailon,urbana,sucre,cambio brusco e indebido de carril,1,0
+12-11,21:20,estrellamiento,bello horizonte y oruro,urbana,sucre,perdida de pista,0,0
+12-12,17:25,choque por alcance,pio jaramillo alvarado y gobernacion de mainas,urbana,san sebastian,imprudencia del conductor,0,0
+12-12,18:22,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,sagrario,no respetar las señales de transito,0,0
+12-13,15:40,choque por alcance,8 de dicembre y soria,urbana,carigan,no mantener la distancia reglamentaria,0,0
+12-13,22:25,atipico,lourdes y bolivar,urbana,san sebastian,razones desconocidas,0,0
+12-14,09:00,estrellamiento,universitaria y gran colombia,urbana,sagrario,conducir en estado de embriaguez,0,0
+12-15,01:54,estrellamiento,8 de diciembre/barrio la banda,urbana,carigan,conducir en estado de embriaguez,0,0
+12-15,08:33,choque lateral perpendicular,orillas del zamora y juan de salinas,urbana,sagrario,no ceder el derecho de via,0,0
+12-16,10:45,choque lateral angular,isidro ayora y nueva loja,urbana,sucre,conducir en estado de embriaguez,0,0
+12-16,17:45,choque frontal excentrico,via a zahuayco/ sector la palimira,rural,n/n,conducir en estado de embriaguez,0,0
+12-17,13:30,atropello,barrio bolonia,urbana,sucre,imprudencia del conductor,0,0
+12-18,01:39,choque lateral angular,eduardo kingman y acacias,urbana,san sebastian,no ceder el derecho de via,0,0
+12-19,04:54,choque lateral angular,orillas del zamora y ibarra,urbana,el valle,conducir en estado de embriaguez,0,0
+12-20,18:40,choque lateral perpendicular,argentina y brasil,urbana,punzara,no ceder el derecho de via,1,0
+12-20,19:54,choque lateral perpendicular,jose maria riofrio y victor paz,urbana,sucre,conducir en estado de embriaguez,0,0
+12-20,02:54,choque lateral perpendicular,10 de agosto y juan jose pena,urbana,sagrario,conducir en estado de embriaguez,2,0
+12-20,03:49,choque por alcance,pio jaramillo alvarado y mercadillo,urbana,sagrario,conducir en estado de embriaguez,0,0
+12-21,10:40,estrellamiento,angel b. valarezo y ciro alegria.,urbana,san sebastian,perdida de pista,0,0
+12-22,09:20,choque lateral perpendicular,bolivar bailon y manuel vivanco,urbana,sucre,conducir en estado de embriaguez,2,0
+12-22,06:30,choque frontal excentrico,200 metros pasando la cantera municipal,rural,n/n,conducir en estado de embriaguez,4,0
+12-22,22:40,choque lateral perpendicular,10 de agosto y emiliano ortega,urbana,sagrario,imprudencia del conductor,0,0
+12-23,22:10,atropello,benjamin carrion y tomas rodrigo torres,urbana,punzara,imprudencia del peaton,1,0
+12-23,07:20,choque lateral perpendicular,bernardo valdivieso y jose antonio eguiguren,urbana,sagrario,conducir en estado de embriaguez,0,0
+12-23,01:31,perdida de carril de circulacion,angel felicisimo rojas y transito amaguana,urbana,punzara,imprudencia del conductor,4,0
+12-24,01:44,choque lateral angular,pablo palacios y cesar polibio ludena,urbana,carigan,conducir en estado de embriaguez,1,0
+12-24,05:07,choque lateral perpendicular,jose maria pena y azuay,urbana,sagrario,conducir en estado de embriaguez,2,0
+12-25,17:45,atropello,via malacatos vilcabamba,rural,n/n,imprudencia del peaton,1,0
+12-25,21:55,perdida de carril de circulacion,via loja zamora / falla geologica,rural,n/n,conducir en estado de embriaguez,0,0
+12-25,07:00,roce positivo,via loja malacatos sector tres leguas,rural,n/n,conducir en estado de embriaguez,0,0
+12-27,05:30,estrellamiento,olmedo y gonzalez suarez,urbana,san sebastian,imprudencia del conductor,0,0
+12-27,16:13,colision,isidro ayora y habana,urbana,sucre,imprudencia del conductor,0,0
+12-28,00:54,perdida de calzada de circulacion,eugenio espejo / 100 metros aproximadamente del redondel de chantacruz,urbana,sucre,conducir en exceso de velocidad,0,0
+12-29,10:50,estrellamiento,isidro ayora y 8 de diciembre,urbana,sucre,conducir en estado de embriaguez,0,0
+12-29,00:24,choque por alcance,manuel carrion pinzano y benjamin pereira,urbana,sucre,conducir en estado de embriaguez,0,0
+12-30,11:05,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,sagrario,no respetar las señales de transito,0,0
+12-30,15:30,volcamiento 1/4,san pedro de la bendita,rural,n/n,perdida de pista,23,0
+12-30,09:11,choque lateral perpendicular,18 de noviembre y celica,urbana,san sebastian,conducir en estado de embriaguez,1,0
+12-30,04:13,choque lateral angular,bolivar y jose antonio eguiguren,urbana,sagrario,conducir en estado de embriaguez,1,0
+12-31,22:20,choque lateral perpendicular,eduardo kingman/barrio capuli,urbana,san sebastian,conducir en estado de embriaguez,0,0
+12-31,01:29,choque lateral angular,8 de diciembre y belisario moreno,urbana,carigan,conducir en estado de embriaguez,0,0
+12-31,04:59,choque lateral perpendicular,ramon pinto y mercadillo,urbana,sagrario,conducir en estado de embriaguez,1,0
