@@ -287,7 +287,7 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 07-23,martes,05:00,-3.9699888,-79.2254442,atropello,via loja cuenca sector bolacachi,urbana,carigan,razones desconocidas,0,1
 07-24,miercoles,15:05,-3.9767762,-79.20460173,roce negativo,8 de diciembre y isidro ayora,urbana,sucre,imprudencia del conductor,0,0
 07-24,miercoles,19:14,-4.0063387,-79.2140158,colision,de los paltas y italia,urbana,sucre,negligencia del conductor,0,0
-07-25,jueves,08:11,-4.0182985,-79.2038259,caida de pasajero,pio jaramillo alvarado y jose rizal,urbana,n/n,imprudencia del conductor,1,0
+07-25,jueves,08:11,-4.0182985,-79.2038259,caida de pasajero,pio jaramillo alvarado y jose rizal,urbana,punzara,imprudencia del conductor,1,0
 07-26,viernes,00:15,-4.0132928,-79.2104333,perdida de carril,jose de san martin y lucas,urbana,punzara,conducir en exceso de velocidad,2,0
 07-26,viernes,05:25,-4.0014913,-79.2046946,choque lateral angular,manuel agustin aguirre y mercadillo,urbana,san sebastian,conducir en estado de embriaguez,0,0
 07-27,sabado,15:30,-3.9854184,-79.1966895,roce negativo,jose coronel illescas y paris,urbana,el valle,conducir en estado de embriaguez,0,0
@@ -296,7 +296,7 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 07-28,domingo,01:55,-3.9712374,-79.2068602,roce negativo,8 de diciembre,urbana,carigan,imprudencia del conductor,0,0
 07-28,domingo,05:35,-4.0043391,-79.2007091,estrellamiento,bernardo valdivieso y andres bello,urbana,san sebastian,conducir en exceso de velocidad,0,0
 07-28,domingo,08:58,-4.0002873,-79.2018938,choque lateral perpendicular,bolivar y azuay,urbana,el sagrario,no ceder el derecho de via,0,0
-07-29,lunes,23:54,-3.9781999,-79.2237502,perdida de carril,via loja catamayo,urbana,n/n,conducir en exceso de velocidad,0,0
+07-29,lunes,23:54,-3.9781999,-79.2237502,perdida de carril,via loja catamayo,urbana,sucre,conducir en exceso de velocidad,0,0
 07-30,martes,01:23,-3.9809596,-79.2002202,estrellamiento,oriental de paso y dario eguiguren,urbana,el valle,conducir en estado de embriaguez,0,0
 07-30,martes,15:48,-3.9487287,-79.2222668,estrellamiento,8 de diciembre y eduardo palacios,urbana,carigan,conducir en exceso de velocidad,0,0
 07-30,martes,20:09,-3.9728271,-79.2177813,atropello,pablo palacios,urbana,carigan,imprudencia del peaton,1,0
@@ -316,7 +316,6 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 08-13,martes,11:10,-3.9798757,-79.217677,choque lateral angular,isidro ayora,urbana,sucre,no ceder el derecho de via,2,0
 08-16,viernes,14:15,-3.9730906,-79.2079108,estrellamiento,luis humberto san martin y victor ruiz guerrero,urbana,sucre,conducir en exceso de velocidad,0,0
 08-17,sabado,02:47,-3.9684293,-79.2097098,choque frontal excentrico,8 de diciembre,urbana,carigan,conducir en estado de embriaguez,3,0
-08-17,sabado,21:34,-4.1068972,-79.2056048,roce positivo,via exodo de yanagana loja - malacatos sector tres leguas,urbana,n/n,conducir en estado de embriaguez,3,0
 08-16,viernes,23:39,-3.9782323,-79.2240073,choque lateral angular,isidro ayora entre habana y diamantina,urbana,carigan,conducir en estado de embriaguez,1,0
 08-18,domingo,12:30,-4.0122708,-79.2045298,atropello,pio jaramillo alvarado y benjamin carrion,urbana,punzara,imprudencia del peaton,0,1
 08-19,lunes,05:40,-4.0126894,-79.2033493,choque lateral perpendicular,gobernacon de mainas y manuel agustin aguirre,urbana,punzara,no ceder el derecho de via,1,0
@@ -371,7 +370,6 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 09-21,sabado,01:10,-3.989386,-79.203665,choque lateral angular,emiliano ortega y universitaria,urbana,el sagrario,no ceder el derecho de via,1,0
 09-22,domingo,13:48,-3.9720843,-79.2058943,choque lateral angular,baquerizo moreno y velasco ibarra,urbana,el valle,imprudencia del conductor,0,0
 09-24,martes,09:00,-3.9720843,-79.2058943,choque lateral angular,benjamin carrion y herman cortez,urbana,punzara,imprudencia del conductor,0,0
-09-24,martes,23:14,-3.7077107,-79.2723488,estrellamiento,barrio ramos via panamericana,urbana,n/n,conducir en exceso de velocidad,0,0
 09-25,miercoles,21:24,-3.9627675,-79.32144938,choque lateral angular,8 de diciembre y santiago,urbana,carigan,imprudencia del conductor,1,0
 09-26,jueves,04:20,-3.995097,-79.195808,estrellamiento,illiniza y corazon,urbana,el sagrario,conducir en exceso de velocidad,0,0
 09-26,jueves,22:04,-3.9817928,-79.215575,perdida de carril,asuncion y potosi,urbana,sucre,conducir en exceso de velocidad,0,0
@@ -388,7 +386,6 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 10-05,sabado,18:10,-3.998459,-79.2116778,choque lateral angular,eugenio espejo y quinara,urbana,sucre,no ceder el derecho de via,1,0
 10-04,viernes,10:35,-3.9852974,-79.1968217,choque lateral angular,jose coronel illescas y paris,urbana,el valle,no ceder el derecho de via,1,0
 10-05,sabado,04:15,-3.9982735,-79.2035026,estrellamiento,rocafuerte entre sucre y 18 de noviembre,urbana,el sagrario,imprudencia del peaton,0,0
-10-04,viernes,11:45,-3.7091875,-79.2663813,atropello,via loja saraguro,urbana,n/n,imprudencia del peaton,1,0
 10-07,lunes,12:55,-3.9802672,-79.2043718,choque lateral angular,8 de diciembre,urbana,sucre,no ceder el derecho de via,1,0
 10-07,lunes,14:27,-3.9880647,-79.2101876,estrellamiento,manuel carrion pinzano y pedro falconi,urbana,sucre,conducir en estado de embriaguez,1,0
 10-08,martes,05:50,-4.001592,-79.205592,choque lateral perpendicular,lauro guerrero y mercadillo,urbana,sucre,no ceder el derecho de via,0,0
@@ -443,7 +440,7 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 11-18,lunes,10:45,-4.0059573,-79.2041504,choque lateral perpendicular,manuel agustin aguirre y brasil,urbana,el sagrario,no respetar las senales de transito,4,0
 11-19,martes,01:05,-3.997053,-79.199099,choque por alcance,juan jose pena y 10 de agosto,urbana,el sagrario,conducir en estado de embriaguez,0,0
 11-19,martes,16:15,-3.9773185,-79.2356253,choque lateral angular,angel felicisimo rojas,urbana,sucre,conducir en exceso de velocidad,0,0
-11-19,martes,15:25,-3.9729858,-79.2183535,estrellamiento,pablo palacios,urbana,n/n,conducir en exceso de velocidad,1,0
+11-19,martes,15:25,-3.9729858,-79.2183535,estrellamiento,pablo palacios,urbana,carigan,conducir en exceso de velocidad,1,0
 11-19,martes,18:08,-4.036152,-79.203339,atipico,sin nombre / interior de las instalaciones de la universidad nacional de loja,urbana,punzara,imprudencia del conductor,0,0
 11-21,jueves,11:05,-3.9770205,-79.2045282,roce negativo,8 de diciembre y isidro ayora,urbana,el valle,no mantener la distancia reglamentaria,0,0
 11-22,viernes,10:58,-4.025559,-79.210896,choque lateral angular,cesar frank y eloy alfaro,urbana,punzara,no respetar las senales de transito,1,0
@@ -451,7 +448,6 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 11-22,viernes,05:12,-3.97854,-79.207722,perdida de carril,manuel carrion pinzano y victoriano palacios,urbana,el valle,conducir en exceso de velocidad,0,0
 11-23,sabado,01:11,-3.9922596,-79.2010708,choque lateral perpendicular,orillas del zamora y jose felix de valdivieso,urbana,el sagrario,conducir en estado de embriaguez,0,0
 11-23,sabado,11:09,-4.004192,-79.214711,estrellamiento,cayapas y najaros,urbana,sucre,conducir en exceso de velocidad,0,0
-11-23,sabado,20:14,-3.9805556,-79.2837007,perdida de carril,via loja catamayo sector villonaco,urbana,n/n,conducir en exceso de velocidad,0,0
 11-24,domingo,05:15,-3.9966718,-79.2052574,estrellamiento,manuel agustin aguirre y jose antonio eguiguren,urbana,sucre,conducir en estado de embriaguez,0,0
 11-24,domingo,17:01,-3.9942802,-79.2033116,choque lateral perpendicular,sucre e imbabura,urbana,el sagrario,no ceder el derecho de via,1,0
 11-26,martes,18:30,-3.9790397,-79.2023165,choque lateral perpendicular,babahoyo y chone,urbana,el valle,conducir en exceso de velocidad,1,0
