@@ -1,419 +1,419 @@
 fecha,dia,hora,tipologia,direccion,zona,parroquia_urbana,causas,nro_heridos,nro_fallecidos
-01-01,lunes,10:35,estrellamiento,espana y chile,urbana,punzara,razones desconocidas,0,0
-01-30,martes,23:06,estrellamiento,manuel carrion pinzano y maria de leiva,urbana,sucre,razones desconocidas,0,0
-01-08,lunes,19:40,choque lateral angular,cuxibamba y guaranda,urbana,sucre,razones desconocidas,0,0
-01-08,lunes,20:50,choque por alcance,isidro ayora,urbana,sucre,razones desconocidas,0,0
-01-13,sabado,03:56,atropello,villonaco,urbana,sucre,razones desconocidas,0,1
-01-14,domingo,16:40,perdida de carril,pablo palacios,urbana,carigan,razones desconocidas,0,0
-01-14,domingo,17:15,estrellamiento,placido caamano y velazco ibarra,urbana,sucre,razones desconocidas,0,0
-01-14,domingo,02:28,choque lateral perpendicular,salvador bustamante celi y guayaquil,urbana,el valle,razones desconocidas,0,0
-01-16,martes,08:29,atropello,orillas del zamora y clodoveo carrion,urbana,el sagrario,razones desconocidas,1,0
-01-17,miercoles,18:40,choque por alcance,velasco ibarra y jaime roldos,urbana,sucre,razones desconocidas,1,0
-01-18,jueves,12:52,choque lateral angular,benjamin carrion y de los paltas,urbana,punzara,razones desconocidas,0,0
-01-18,jueves,19:20,choque lateral angular,estados unidos y grecia,urbana,punzara,razones desconocidas,0,0
-01-20,sabado,10:50,choque lateral perpendicular,universitaria y azuay,urbana,el sagrario,razones desconocidas,0,0
-01-21,domingo,02:43,perdida de carril,pio jaramillo alvarado y cuba,urbana,punzara,razones desconocidas,2,0
-01-22,lunes,22:00,choque lateral angular,manuel zambrano y kennedy,urbana,punzara,razones desconocidas,0,0
-01-23,martes,23:35,choque lateral angular,8 de diciembre y placido caamano,urbana,sucre,razones desconocidas,0,0
-01-24,miercoles,18:45,atropello,eugenio espejo y la palma,urbana,sucre,razones desconocidas,1,0
-01-26,viernes,03:50,estrellamiento,mercadillo y macara,urbana,el sagrario,razones desconocidas,0,0
-01-26,viernes,13:24,colision,rocafuerte y olmedo,urbana,el sagrario,razones desconocidas,0,0
-01-26,viernes,21:50,estrellamiento,pablo palacios y brasilia,urbana,carigan,razones desconocidas,0,0
-01-27,sabado,05:35,choque lateral angular,manuel agustin aguirre y jose felix de valdivieso,urbana,sucre,razones desconocidas,1,0
-01-27,sabado,05:00,perdida de carril,ruben dario y francisco garcia,urbana,san sebastian,razones desconocidas,0,1
-01-27,sabado,19:50,estrellamiento,8 de diciembre y pablo palacios,urbana,carigan,razones desconocidas,0,0
-01-27,sabado,17:20,estrellamiento,francisco valdivieso y juan maria riofrio,urbana,sucre,razones desconocidas,1,0
-01-29,lunes,07:01,choque lateral angular,juan jose castillo y antoni vivaldi,urbana,punzara,razones desconocidas,0,0
-01-31,miercoles,15:47,atropello,pio jaramillo alvarado y tnt. geovanny,urbana,punzara,razones desconocidas,0,1
-02-01,jueves,16:36,atropello,mexico entre curazao y brasil,urbana,punzara,razones desconocidas,1,0
-02-03,sabado,22:32,choque lateral angular,nueva loja y isidro ayora,urbana,sucre,razones desconocidas,0,0
-02-04,domingo,06:45,estrellamiento,orillas del zamora y juan de arderete,urbana,el valle,razones desconocidas,0,0
-02-04,domingo,20:55,choque lateral angular,juan jose pena y mercadillo,urbana,el sagrario,razones desconocidas,0,0
-02-06,martes,18:55,choque lateral angular,eduardo kingman y alamor,urbana,san sebastian,razones desconocidas,0,0
-02-07,miercoles,19:47,choque lateral angular,isidro ayora y diamantina,urbana,sucre,razones desconocidas,3,0
-02-07,miercoles,23:27,choque lateral angular,olmedo e imbabura,urbana,el sagrario,razones desconocidas,4,0
-02-08,jueves,17:50,choque lateral angular,juan de salinas y bolivar,urbana,el sagrario,razones desconocidas,0,0
-02-08,jueves,17:30,choque lateral angular,salvador bustamante celi y agustin palacios,urbana,el valle,razones desconocidas,1,0
-02-08,jueves,16:48,choque lateral angular,juan jose pena y azuay,urbana,el sagrario,razones desconocidas,0,0
-02-09,viernes,22:45,choque lateral angular,manuel agustin aguirre y jose antonio,urbana,el sagrario,razones desconocidas,0,0
-02-10,sabado,01:04,estrellamiento,salvador bustamante celi y agustin lara,urbana,el valle,razones desconocidas,0,0
-02-10,sabado,00:55,estrellamiento,angel felicisimo rojas,urbana,sucre,razones desconocidas,2,1
-02-10,sabado,15:40,atropello,pio jaramillo alvarado y gobernacion de mainas,urbana,punzara,razones desconocidas,1,0
-02-14,miercoles,19:20,atropello,orrillas del zamora e imbabura,urbana,el sagrario,razones desconocidas,1,0
-02-14,miercoles,17:25,choque por alcance,chile y cuba,urbana,punzara,razones desconocidas,1,0
-02-14,miercoles,06:40,choque lateral angular,10 de agosto y 24 de mayo,urbana,el sagrario,razones desconocidas,0,0
-02-15,jueves,18:15,choque por alcance,18 de noviembre y catacocha,urbana,san sebastian,razones desconocidas,0,0
-02-18,domingo,03:54,choque lateral angular,8 de diciembre y belisario moreno,urbana,carigan,razones desconocidas,0,0
-02-18,domingo,12:30,atropello,velazco ibarra y placido caamano,urbana,sucre,razones desconocidas,1,0
-02-18,domingo,19:15,choque lateral angular,universitaria y miguel riofrio,urbana,el sagrario,razones desconocidas,1,0
-02-19,lunes,19:28,choque lateral angular,de los paltas e ines jimenez,urbana,sucre,razones desconocidas,0,0
-02-21,miercoles,19:15,choque lateral angular,macara y lourdes,urbana,el sagrario,razones desconocidas,2,0
-02-22,jueves,03:15,perdida de carril,isidro ayora y caracas,urbana,sucre,razones desconocidas,0,0
-02-24,sabado,06:00,estrellamiento,esmeraldas y puna,urbana,el valle,razones desconocidas,0,0
-02-27,martes,19:50,estrellamiento,chuquiribamba y diego de troya,urbana,carigan,razones desconocidas,0,0
-02-28,miercoles,16:18,estrellamiento,guayaquil y portoviejo,urbana,el valle,razones desconocidas,0,0
-03-01,jueves,07:19,choque por alcance,gobernacion de mainas y 18 de noviembre,urbana,san sebastian,razones desconocidas,0,0
-03-01,jueves,03:25,estrellamiento,santiago de las montanas y daniel alvarez,urbana,el valle,razones desconocidas,0,0
-03-02,viernes,21:38,choque lateral angular,juan jose pena y mercadillo,urbana,el sagrario,razones desconocidas,0,0
-03-03,sabado,10:51,choque lateral angular,jose felix de valdivieso y bolivar,urbana,el sagrario,razones desconocidas,0,0
-03-08,jueves,06:46,perdida de carril,daniel armijos entre salvador bustamante celi y paquisha,urbana,el valle,razones desconocidas,0,0
-03-08,jueves,21:05,choque lateral perpendicular,universitaria y miguel riofrio,urbana,el sagrario,razones desconocidas,0,0
-03-10,sabado,06:40,choque lateral perpendicular,san carlos y la cruz,urbana,sucre,razones desconocidas,0,0
-03-11,domingo,10:20,estrellamiento,machala y guaranda,urbana,sucre,razones desconocidas,0,0
-03-11,domingo,01:30,estrellamiento,montevideo y asuncion,urbana,sucre,razones desconocidas,0,0
-03-12,lunes,19:00,estrellamiento,orillas del zamora y guayaquil,urbana,el valle,razones desconocidas,0,0
-03-13,martes,06:20,choque por alcance,isidro ayora y diamantina,urbana,sucre,razones desconocidas,3,0
-03-13,martes,19:53,atropello,24 de mayo y victor vivar,urbana,el sagrario,razones desconocidas,1,0
-03-14,miercoles,07:23,choque lateral angular,bernardo valdivieso y quito,urbana,el sagrario,razones desconocidas,0,0
-03-16,viernes,20:55,choque lateral perpendicular,pio jaramillo alvarado y manuel benjamin carrion,urbana,punzara,razones desconocidas,0,0
-03-16,viernes,22:12,estrellamiento,18 de noviembre y celica,urbana,san sebastian,razones desconocidas,0,0
-03-17,sabado,16:50,atropello,villonaco y virgen de monzerrat,urbana,sucre,razones desconocidas,0,1
-03-17,sabado,16:42,choque lateral angular,universitaria y jose antonio eguiguren,urbana,el sagrario,razones desconocidas,1,0
-03-18,domingo,02:30,estrellamiento,via antigua a zamora sta. marianita de jesus,urbana,el sagrario,razones desconocidas,0,0
-03-18,domingo,13:48,choque lateral perpendicular,manuel carrion pinzano y benjamin pereira,urbana,sucre,razones desconocidas,0,0
-03-18,domingo,03:00,atropello,via de segundo orden y virgilio rodas,urbana,sucre,razones desconocidas,1,0
-03-20,martes,12:50,atipico,terminal terrestre,urbana,sucre,razones desconocidas,0,0
-03-22,jueves,08:45,estrellamiento,nueva loja y machala,urbana,sucre,razones desconocidas,0,0
-03-23,viernes,15:00,choque lateral angular,manuel agustin aguirre y chile,urbana,punzara,razones desconocidas,0,0
-03-24,sabado,06:00,choque lateral angular,8 de diciembre entre manuel cabrera y beatriz cueva de ayora,urbana,carigan,razones desconocidas,0,0
-03-24,sabado,14:42,colision,manuel carrion pinzano y eplicachima,urbana,sucre,razones desconocidas,0,0
-03-25,domingo,02:00,choque por alcance,segundo cueva celi entre segundo puertas moreno y prolg de la 24 de mayo,urbana,punzara,razones desconocidas,0,0
-03-25,domingo,09:28,choque lateral angular,universitaria y miguel riofrio,urbana,el sagrario,razones desconocidas,0,0
-03-25,domingo,17:36,choque lateral perpendicular,angel felicisimo rojas y cuzco,urbana,sucre,razones desconocidas,0,0
-03-24,sabado,03:30,choque lateral perpendicular,los paltas y francia,urbana,punzara,razones desconocidas,0,0
-03-26,lunes,05:39,volcamiento lateral,brasil y argentina,urbana,punzara,razones desconocidas,4,0
-03-27,martes,17:15,atropello,isidro ayora y habana,urbana,sucre,razones desconocidas,1,0
-03-27,martes,20:16,choque lateral perpendicular,nogales y arupos,urbana,san sebastian,razones desconocidas,0,0
-03-29,jueves,02:00,estrellamiento,emiliano ortega y 24 de mayo,urbana,el sagrario,razones desconocidas,0,0
-03-31,sabado,10:50,choque lateral perpendicular,manuel agustin aguirre y chile,urbana,punzara,razones desconocidas,0,0
-04-01,domingo,05:25,estrellamiento,miguel morelo y sin nombre,urbana,punzara,razones desconocidas,0,0
-04-02,lunes,09:15,choque lateral angular,justiniano estupinan y pio montufar,urbana,punzara,razones desconocidas,0,0
-04-04,miercoles,20:25,choque lateral angular,eugenio espejo,urbana,sucre,razones desconocidas,1,0
-04-05,jueves,09:09,choque lateral angular,manuel agustin aguirre y gobernacion de mainas,urbana,punzara,razones desconocidas,1,0
-04-07,sabado,05:42,estrellamiento,barrio turunuma barcelona,urbana,sucre,razones desconocidas,0,0
-04-07,sabado,22:10,choque lateral angular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,2,0
-04-08,domingo,09:03,choque lateral angular,8 de diciembre y jaime roldos aguilera,urbana,carigan,razones desconocidas,0,0
-04-09,lunes,15:00,atipico,brasil y honduras,urbana,punzara,razones desconocidas,0,0
-04-11,miercoles,07:25,estrellamiento,salvador bustamante celi y daniel armijos,urbana,el valle,razones desconocidas,0,0
-04-11,miercoles,18:15,choque lateral angular,santo domingo y riobamba,urbana,sucre,razones desconocidas,1,0
-04-11,miercoles,20:08,choque lateral angular,emiliano ortega y lourdes,urbana,el sagrario,razones desconocidas,0,0
-04-12,jueves,16:23,roce negativo,juan de salinas entre bolivar y emiliano ortega.,urbana,el sagrario,razones desconocidas,0,0
-04-13,viernes,18:10,estrellamiento,barrio ciudad victoria / dolores cacuango y nela martinez,urbana,sucre,razones desconocidas,0,0
-04-14,sabado,11:28,estrellamiento,azuay entre lauro guerrero y ramon pinto,urbana,el sagrario,razones desconocidas,0,0
-04-15,domingo,05:30,choque lateral angular,cuxibamba y 8 de diciembre,urbana,sucre,razones desconocidas,2,0
-04-15,domingo,08:25,choque lateral angular,sucre y gonzanama,urbana,san sebastian,razones desconocidas,0,0
-04-16,lunes,15:52,choque por alcance,mercadillo entre bernardo valdivieso y bolivar,urbana,san sebastian,razones desconocidas,0,0
-04-19,jueves,17:42,choque lateral angular,emiliano ortega y juan jose pena,urbana,el sagrario,razones desconocidas,0,0
-04-19,jueves,21:20,choque lateral angular,bolivar y azuay,urbana,el sagrario,razones desconocidas,0,0
-04-20,viernes,18:11,atropello,pasaje la feue entre lauro guerrero y manuel agustin aguirre,urbana,el sagrario,razones desconocidas,1,0
-04-23,lunes,07:35,choque lateral angular,eduardo kingman y catamayo,urbana,san sebastian,razones desconocidas,0,0
-04-23,lunes,17:17,choque lateral angular,universitaria y celica,urbana,san sebastian,razones desconocidas,0,0
-04-24,martes,07:00,choque por alcance,8 de diciembre y pablo palacios,urbana,carigan,razones desconocidas,0,0
-04-25,miercoles,12:10,estrellamiento,rocafuerte y sucre,urbana,el sagrario,razones desconocidas,0,0
-04-25,miercoles,22:45,estrellamiento,santiago de las montanas y juan velazco,urbana,el valle,razones desconocidas,0,0
-04-26,jueves,20:20,choque lateral angular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,0,0
-04-27,viernes,01.10,estrellamiento,sixto duran y eduardo rubianes,urbana,san sebastian,razones desconocidas,0,0
-04-28,sabado,05:38,perdida de pista,angel felicisimo rojas y eugenio espejo,urbana,sucre,razones desconocidas,0,0
-04-29,domingo,08:30,choque lateral angular,manuel carrion pinzano y eduardo unda,urbana,sucre,razones desconocidas,0,0
-05-03,jueves,07:52,colision,orillas del zamora y isdro ayora,urbana,el valle,razones desconocidas,0,0
-05-06,domingo,04:10,choque por alcance,angel felicisimo rojas,urbana,sucre,razones desconocidas,4,0
-05-07,lunes,07:17,choque lateral angular,pio jaramillo alvarado y leonardo davinci,urbana,punzara,razones desconocidas,0,0
-05-07,lunes,13:35,roce negativo,"av, 24 de mayo y lourdes",urbana,el sagrario,razones desconocidas,0,0
-05-08,martes,19:24,choque lateral angular,salvador bustamante celi y puna,urbana,el valle,razones desconocidas,0,0
-05-09,miercoles,16:33,choque lateral angular,de los paltas y alberto zambrano,urbana,sucre,razones desconocidas,0,0
-05-11,viernes,07:13,choque lateral angular,manuel zambrano y malvinas,urbana,punzara,razones desconocidas,0,0
-05-12,sabado,02:45,estrellamiento,santa marianita de jesus,urbana,el sagrario,razones desconocidas,0,0
-05-13,domingo,02:14,choque lateral angular,de los paltas y bulgaria,urbana,punzara,razones desconocidas,0,0
-05-13,domingo,01:30,choque frontal excentrico,eugenio espejo y pakistan,urbana,sucre,razones desconocidas,0,0
-05-13,domingo,10:18,choque por alcance,gran colombia y tulcan,urbana,sucre,razones desconocidas,0,0
-05-14,lunes,05:54,choque lateral angular,jipiro agustin carrion y sin nombre,urbana,el valle,razones desconocidas,0,0
-05-15,martes,06:00,choque lateral angular,pablo palacios y dr. arturo armijos ayala,urbana,carigan,razones desconocidas,0,0
-05-16,miercoles,00:00,estrellamiento,8 de diciembre y fenix,urbana,carigan,razones desconocidas,1,0
-05-17,jueves,14:20,choque lateral angular,pio jaramillo alvarado y dr. jose maria vivar castro,urbana,punzara,razones desconocidas,0,0
-05-18,viernes,19:25,arrollamiento,manuel agustin aguirre y miguel riofrio,urbana,el sagrario,razones desconocidas,0,0
-05-19,sabado,17:30,estrellamiento,machala y tulcan,urbana,sucre,razones desconocidas,0,0
-05-19,sabado,22:05,choque lateral perpendicular,salvador bustamante celi y oriental de paso,urbana,el valle,razones desconocidas,0,0
-05-20,domingo,00:58,roce positivo,oriental de paso,urbana,el valle,razones desconocidas,0,0
-05-20,domingo,04:45,estrellamiento,manuel carrion pinzano y adolfo valarezo,urbana,sucre,razones desconocidas,0,0
-05-20,domingo,03:25,estrellamiento,24 de mayo y leopoldo palacios,urbana,el sagrario,razones desconocidas,0,0
-05-21,lunes,03:00,estrellamiento,rio santiago y rio uyacali,urbana,san sebastian,razones desconocidas,0,0
-05-22,martes,07:20,choque lateral angular,universitaria y quito,urbana,el sagrario,razones desconocidas,0,0
-05-22,martes,10:38,estrellamiento,daniel alvares y segundo cueva,urbana,el sagrario,razones desconocidas,0,0
-05-24,jueves,13:58,choque lateral angular,bolivar y juan de salinas,urbana,el sagrario,razones desconocidas,0,0
-05-26,sabado,00:40,choque lateral angular,18 de noviembre y lourdes,urbana,san sebastian,razones desconocidas,0,0
-05-26,sabado,12:55,choque lateral angular,8 de diciembre y zoilo alvarado,urbana,carigan,razones desconocidas,2,0
-05-26,sabado,17:12,choque lateral angular,bolivar y juan de salinas,urbana,el sagrario,razones desconocidas,0,0
-05-26,sabado,17:12,estrellamiento,8 de diciembre y eduardo palacios,urbana,carigan,razones desconocidas,0,0
-05-28,lunes,07:10,choque lateral angular,manuel agustin aguirre y brasil,urbana,punzara,razones desconocidas,0,0
-05-29,martes,05:10,volcamiento,de los paltas y shiri,urbana,punzara,razones desconocidas,2,0
-05-31,jueves,03:20,estrellamiento,macara y mercadillo,urbana,el sagrario,razones desconocidas,0,0
-06-01,viernes,00:45,estrellamiento,mexico y brasil,urbana,punzara,razones desconocidas,0,0
-06-08,viernes,13:55,atropello,manuel agustin aguirre y juan de salinas,urbana,el sagrario,razones desconocidas,1,0
-06-08,viernes,22:45,estrellamiento,olmedo y catacocha,urbana,san sebastian,razones desconocidas,0,0
-06-09,sabado,10:35,choque lateral perpendicular,cuenca y azogues,urbana,el valle,razones desconocidas,0,0
-06-09,sabado,02:00,choque lateral perpendicular,pio jaramillo alvarado y chile,urbana,punzara,razones desconocidas,0,0
-06-09,sabado,02:25,choque por alcance,occidental (sueno eterno),urbana,sucre,razones desconocidas,0,0
-06-10,domingo,07:08,estrellamiento,galileo galilei entre cabo luis sarango y cpto. angel rivera,urbana,punzara,razones desconocidas,0,0
-06-09,sabado,19:35,estrellamiento,manuel carrion pinzano y pedro falconi,urbana,sucre,razones desconocidas,0,0
-06-12,martes,07:15,choque lateral angular,eduardo kingman y gonzanama,urbana,san sebastian,razones desconocidas,0,0
-06-14,jueves,21:15,choque por alcance,universitaria y imbabura,urbana,el sagrario,razones desconocidas,0,0
-06-15,viernes,22:30,choque lateral perpendicular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,5,0
-06-15,viernes,11:30,atipico,manuel benjamin carrion y cornelio saavedra,urbana,punzara,razones desconocidas,0,0
-06-15,viernes,20:15,estrellamiento,velazco ibarra y luis cordero,urbana,sucre,razones desconocidas,0,0
-06-16,sabado,21:50,choque lateral perpendicular,18 de nociembre y celica,urbana,san sebastian,razones desconocidas,0,0
-06-16,sabado,23:22,estrellamiento,eduardo kingman y jorupes,urbana,san sebastian,razones desconocidas,0,0
-06-18,lunes,12:10,choque lateral perpendicular,guayaquil y portoviejo,urbana,el valle,razones desconocidas,0,0
-06-18,lunes,16:53,choque lateral perpendicular,manuel carrion pinzano y adolfo valarezo,urbana,sucre,razones desconocidas,1,0
-06-20,miercoles,12:43,estrellamiento,18 de noviembre y gobernacion de mainas,urbana,san sebastian,razones desconocidas,0,0
-06-22,viernes,02:20,choque lateral angular,18 de noviembre y cariamanga,urbana,san sebastian,razones desconocidas,0,0
-06-22,viernes,21:00,choque lateral perpendicular,nueva loja entre emiliano ortega y universitaria,urbana,el sagrario,razones desconocidas,0,0
-06-22,viernes,04:13,perdida de carril,juan jose pena y jose antonio eguiguren,urbana,san sebastian,razones desconocidas,3,1
-06-23,sabado,01:10,volcamiento lateral,via a chinguilanchi y salvador bustamante celi,urbana,el valle,razones desconocidas,1,0
-06-24,domingo,05:45,choque lateral perpendicular,salvador bustamante celi y guayaquil,urbana,el valle,razones desconocidas,0,0
-06-24,domingo,20:40,estrellamiento,universitaria entre celica y cariamanga,urbana,san sebastian,razones desconocidas,0,0
-06-26,martes,06:40,estrellamiento,24 de mayo entre lourdes y leopoldo palacio,urbana,el sagrario,razones desconocidas,0,0
-06-26,martes,08:50,roce negativo,quito y universitaria,urbana,el sagrario,razones desconocidas,0,0
-06-26,martes,23:30,estrellamiento,machala y vinces,urbana,sucre,razones desconocidas,0,0
-06-29,viernes,23:59,choque lateral perpendicular,18 de noviembre y quito,urbana,el sagrario,razones desconocidas,1,0
-06-30,sabado,20:03,estrellamiento,ibarra y santo domingo,urbana,sucre,razones desconocidas,1,0
-07-03,martes,23:50,estrellamiento,rocafuerte entre sucre y 18 de noviembre,urbana,el sagrario,razones desconocidas,0,0
-07-05,jueves,22:45,choque lateral angular,orillas del zamora y guayaquil,urbana,el valle,razones desconocidas,1,0
-07-07,sabado,04:42,estrellamiento,pio jaramillo alvarado y heroes del cenepa,urbana,punzara,razones desconocidas,0,0
-07-07,sabado,12:45,estrellamiento,juan jose samaniego y lauro guerrero,urbana,el sagrario,razones desconocidas,0,0
-07-07,sabado,04:45,choque lateral perpendicular,cuba y manuel agustin aguirre,urbana,punzara,razones desconocidas,6,0
-07-10,martes,20:10,choque lateral perpendicular,18 de noviembre e imbabura,urbana,el sagrario,razones desconocidas,1,0
-07-11,miercoles,14:25,choque lateral perpendicular,manuel agustin aguirre y teniente maximiliano rodriguez,urbana,el sagrario,razones desconocidas,1,0
-07-12,jueves,20:50,choque frontal longitudinal,eugenio espejo entre ines jimenez y collas (barrio miraflores alto),urbana,sucre,razones desconocidas,3,0
-07-13,viernes,15:08,atropello,eugenio espejo y adolfo valarezo,urbana,sucre,razones desconocidas,1,0
-07-14,sabado,06:00,choque lateral perpendicular,benjamin carrion entre eloy alfaro y domingo sarmiento.,urbana,punzara,razones desconocidas,0,0
-07-14,sabado,01:30,volcamiento lateral,salvador bustamante celi,urbana,el valle,razones desconocidas,2,0
-07-15,domingo,00:00,choque lateral perpendicular,eduardo kingman y maximo agustin rodriguez.,urbana,san sebastian,razones desconocidas,0,0
-07-17,martes,08:00,choque lateral perpendicular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,0,0
-07-18,miercoles,16:10,choque lateral angular,pio jaramillo alvarado y condamine,urbana,punzara,razones desconocidas,0,0
-07-19,jueves,10:30,choque lateral perpendicular,universitaria y azuay,urbana,el sagrario,razones desconocidas,0,0
-07-20,viernes,17:10,choque por alcance,reinaldo espinoza y pio jaramillo alvarado alvarado,urbana,punzara,razones desconocidas,0,0
-07-21,sabado,06:20,choque frontal excentrico,benjamin carrion y antonio neumane,urbana,punzara,razones desconocidas,0,0
-07-21,sabado,14:07,estrellamiento,8 de diciembre y placido caamano,urbana,sucre,razones desconocidas,1,0
-07-25,miercoles,10:05,estrellamiento,manuel espinoza y tnte. maximiliano rodriguez,urbana,sucre,razones desconocidas,1,0
-07-25,miercoles,11:28,estrellamiento,marcabeli y arenillas,urbana,el valle,razones desconocidas,0,0
-07-27,viernes,18:50,choque por alcance,manuel carrion pinzano y isidro ayora,urbana,sucre,razones desconocidas,0,0
-07-28,sabado,04:46,atropello,arturo armijos ayala entre resistencia y necochea,urbana,carigan,razones desconocidas,1,0
-07-28,sabado,00:40,choque lateral perpendicular,juan jose pena y colon,urbana,el sagrario,razones desconocidas,0,0
-07-29,domingo,03:00,roce positivo,paraguay y cofanes,urbana,punzara,razones desconocidas,0,0
-07-30,lunes,19:25,choque lateral angular,oriental de paso,urbana,el valle,razones desconocidas,1,0
-07-31,martes,12:50,choque lateral perpendicular,nueva loja y guayaquil,urbana,el valle,razones desconocidas,0,0
-07-31,martes,08:00,roce negativo,pio jaramillo alvarado y chile,urbana,punzara,razones desconocidas,0,0
-07-31,martes,16:30,atropello,mercadillo y nicolas garcia,urbana,el sagrario,razones desconocidas,1,0
-08-03,viernes,06:35,estrellamiento,manuel carrion pinzano y piura,urbana,sucre,razones desconocidas,0,0
-08-04,sabado,02:23,choque lateral perpendicular,isidro ayora y orillas del zamora,urbana,el valle,razones desconocidas,0,0
-08-04,sabado,20:00,choque lateral perpendicular,manuel belgrano y getulio vargas,urbana,punzara,razones desconocidas,0,0
-08-05,domingo,09:45,estrellamiento,24 de mayo y azuay,urbana,el sagrario,razones desconocidas,0,0
-08-06,lunes,21:12,choque lateral perpendicular,ramon burneo y benjamin pereira,urbana,sucre,razones desconocidas,1,0
-08-08,miercoles,20:23,roce negativo,chuquiribamba y s/n,urbana,carigan,razones desconocidas,0,0
-08-09,jueves,07:18,choque lateral perpendicular,machala e ibarra,urbana,sucre,razones desconocidas,0,0
-08-09,jueves,02:20,estrellamiento,piura y s/n,urbana,sucre,razones desconocidas,0,0
-08-10,viernes,04:30,estrellamiento,galileo galilei y teniente hugo ortiz,urbana,punzara,razones desconocidas,0,0
-08-11,sabado,11:00,choque lateral angular,bolivar y cariamanga,urbana,san sebastian,razones desconocidas,2,0
-08-11,sabado,19:50,choque lateral perpendicular,olmedo y catacocha,urbana,san sebastian,razones desconocidas,0,0
-08-11,sabado,21:50,choque lateral angular,benjamin carrion y eloy alfaro,urbana,punzara,razones desconocidas,1,0
-08-12,domingo,00:10,perdida de carril,rio de janeiro y cordova,urbana,sucre,razones desconocidas,2,0
-08-15,miercoles,06:40,estrellamiento,sucre y celica,urbana,san sebastian,razones desconocidas,0,0
-08-16,jueves,10:53,choque lateral perpendicular,juan de salinas y sucre,urbana,san sebastian,razones desconocidas,0,0
-08-19,domingo,14:05,choque frontal excentrico,isidro ayora,urbana,sucre,razones desconocidas,5,0
-08-18,sabado,04:21,perdida de carril,24 de mayo y azuay,urbana,el sagrario,razones desconocidas,1,0
-08-20,lunes,06:25,choque lateral angular,isidro ayora y habana,urbana,sucre,razones desconocidas,0,0
-08-20,lunes,14:15,choque lateral perpendicular,bolivar y juan de salinas,urbana,el sagrario,razones desconocidas,0,0
-08-20,lunes,21:20,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,1,0
-08-21,martes,18:53,atropello,rocafuerte y 24 de mayo,urbana,el sagrario,razones desconocidas,1,0
-08-21,martes,07:50,choque lateral angular,puebla y santa rita,urbana,sucre,razones desconocidas,0,0
-08-23,jueves,09:45,choque por alcance,emiliano y universitaria,urbana,el sagrario,razones desconocidas,0,0
-08-24,viernes,10:45,estrellamiento,rocafuerte entre sucre y 18 de noviembre,urbana,el sagrario,razones desconocidas,0,0
-08-25,sabado,22:25,estrellamiento,luis a. valencia entre jose b. hidalgo y s sin nombre,urbana,el valle,razones desconocidas,0,0
-08-28,martes,08:20,atropello,nueva loja y emiliano ortega,urbana,el sagrario,razones desconocidas,1,0
-08-28,martes,17:50,atropello,nueva loja y guaranda,urbana,sucre,razones desconocidas,1,0
-08-29,miercoles,14:00,choque lateral perpendicular,emiliano ortega y juan jose pena,urbana,el sagrario,razones desconocidas,1,0
-08-30,jueves,23:32,atropello,salvador bustamante celi y homero idrovo,urbana,el valle,razones desconocidas,0,1
-08-31,viernes,23:18,atropello,cuxibamba e ibarra,urbana,sucre,razones desconocidas,1,0
-09-01,sabado,22:00,choque lateral perpendicular,sucre y jose felix de valdivieso,urbana,el sagrario,razones desconocidas,0,0
-09-02,domingo,16:26,choque por alcance,emiliano ortega y universitaria,urbana,el sagrario,razones desconocidas,0,0
-09-02,domingo,02:25,choque lateral angular,manuel agustin aguirre y azuay,urbana,el sagrario,razones desconocidas,1,0
-09-04,martes,23:20,choque lateral perpendicular,manuel agustin aguirre y rocafuerte,urbana,el sagrario,razones desconocidas,0,0
-09-05,miercoles,14:00,estrellamiento,gran colombia y riobamba,urbana,sucre,razones desconocidas,0,0
-09-07,viernes,13:35,choque lateral perpendicular,universitaria y gran colombia,urbana,el sagrario,razones desconocidas,1,0
-09-07,viernes,19:10,choque frontal excentrico,eduardo kingman y angel b. valarezo.,urbana,san sebastian,razones desconocidas,1,0
-09-08,sabado,21:20,estrellamiento,paris y bruselas,urbana,el sagrario,razones desconocidas,0,0
-09-10,lunes,11:10,choque lateral perpendicular,manuel agustin aguirre y brasil,urbana,el sagrario,razones desconocidas,0,0
-09-11,martes,00:18,choque lateral perpendicular,juan jose pena y mercadillo,urbana,el sagrario,razones desconocidas,3,1
-09-11,martes,17:15,choque lateral perpendicular,juan jose pena y catacocha,urbana,el sagrario,razones desconocidas,0,0
-09-11,martes,18:30,choque lateral angular,manuel agustin aguirre y jose picoita,urbana,el sagrario,razones desconocidas,1,0
-09-12,miercoles,17:45,atropello,eugenio espejo y colorados,urbana,punzara,razones desconocidas,1,0
-09-16,domingo,20:08,arrollamiento,oriental de paso,urbana,el valle,razones desconocidas,0,1
-09-18,martes,19:50,estrellamiento,pedro pacheco y chuquiribamba,urbana,carigan,razones desconocidas,0,0
-09-19,miercoles,23:45,estrellamiento,pablo palacios y angel felicisimo rojas,urbana,carigan,razones desconocidas,0,0
-09-20,jueves,00:20,choque lateral perpendicular,juan jose pena y lourdes,urbana,el sagrario,razones desconocidas,0,0
-09-21,viernes,23:50,perdida de carril,colibri y gaviotas,urbana,el valle,razones desconocidas,0,0
-09-22,sabado,13:52,choque lateral perpendicular,24 de mayo y lourdes,urbana,el sagrario,razones desconocidas,2,0
-09-23,domingo,08:00,choque lateral angular,angel felicisimo rojas,urbana,sucre,razones desconocidas,0,0
-09-23,domingo,21:20,roce negativo,manuel carrion pinzano y tomas rodrigo torres,urbana,sucre,razones desconocidas,0,0
-09-23,domingo,21:55,choque lateral angular,8 de diciembre y santiago,urbana,carigan,razones desconocidas,0,0
-09-25,martes,01:55,perdida de carril,orillas del zamora y santa rosa,urbana,el valle,razones desconocidas,0,0
-09-25,martes,06:12,choque lateral perpendicular,jose artigas y francisco de narino,urbana,punzara,razones desconocidas,0,0
-09-26,miercoles,13:05,atropello,cuero y caicedo entre manuel angulo y carlos montufar,urbana,punzara,imprudencia del peaton,1,0
-09-27,jueves,20:15,atropello,mayas y juan jose samaniego,urbana,sucre,negligencia del conductor,1,0
-09-28,viernes,18:50,choque lateral perpendicular,jose martinez ruiz y sixto duran romero,urbana,san sebastian,condiciones climaticas desfavorables,1,0
-09-28,viernes,21:27,estrellamiento,pablo palacios y cesar p. ludena,urbana,carigan,fallas mecanicas no previsibles,0,0
-09-29,sabado,19:00,choque lateral perpendicular,universitaria y quito,urbana,el sagrario,imprudencia del conductor,0,0
-09-29,sabado,20:00,estrellamiento,olmedo y catacocha,urbana,san sebastian,imprudencia del conductor,0,0
-09-30,domingo,20:45,estrellamiento,jacinto de eva entre jorge icasa y enrique gil gilberth,urbana,sucre,imprudencia del conductor,0,0
-09-30,domingo,02:34,choque frontal longitudinal,alonso de mercadillo y jose a. palacios,urbana,sucre,conducir en estado de embriaguez,1,0
-10-01,lunes,17:28,atropello,manuel carrion pinzano y piura,urbana,sucre,conducir en estado de embriaguez,0,0
-10-01,lunes,20:50,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,el sagrario,condiciones climaticas desfavorables,1,0
-10-02,martes,12:19,choque lateral angular,8 de diciembre (terminal terrestre),urbana,sucre,no ceder el derecho de via,0,0
-10-03,miercoles,12:00,roce negativo,espana y curazao,urbana,punzara,cambio brusco e indebido de carril,0,0
-10-03,miercoles,03:09,estrellamiento,universitaria y colon,urbana,el sagrario,no mantener la distancia reglamentaria,0,0
-10-05,viernes,16:40,colision,isidro ayora y sin nombre,urbana,sucre,negligencia del conductor,0,0
-10-05,viernes,17:28,atropello,cuenca y chone,urbana,el valle,imprudencia del peaton,1,0
-10-05,viernes,01:44,estrellamiento,salvador bustamante celi,urbana,el valle,imprudencia del conductor,0,0
-10-06,sabado,08:00,choque lateral angular,maximo agustin rodriguez y gonzalez suarez,urbana,san sebastian,conducir en estado de embriaguez,1,0
-10-06,sabado,05:07,estrellamiento,orillas del zamora y santa rosa,urbana,el valle,conducir en estado de embriaguez,0,0
-10-06,sabado,01:29,choque lateral angular,eugenio espejo entre pakistan y suiza.,urbana,punzara,conducir en estado de embriaguez,0,0
-10-07,domingo,14:15,atropello,sucre y catacocha,urbana,san sebastian,imprudencia del peaton,1,0
-10-07,domingo,23:30,choque lateral angular,olmedo y rocafuerte,urbana,el sagrario,imprudencia del conductor,0,0
-10-08,lunes,03:14,roce negativo,eduardo kingman entre catamayo y amaluza,urbana,san sebastian,imprudencia del conductor,0,0
-10-10,miercoles,14:00,choque lateral perpendicular,de los paltas entre hungria y finlandia,urbana,punzara,cambio brusco e indebido de carril,0,0
-10-10,miercoles,13:50,estrellamiento,jose coronel y paris,urbana,carigan,imprudencia del conductor,0,0
-10-10,miercoles,07:00,choque por alcance,8 de diciembre y s/n,urbana,carigan,conducir en estado de embriaguez,0,0
-10-13,sabado,08:00,choque lateral perpendicular,jose maria pena y azuay,urbana,el sagrario,negligencia del conductor,0,0
-10-13,sabado,08:23,estrellamiento,gran colombia y machala,urbana,sucre,negligencia del conductor,0,0
-10-14,domingo,10:30,choque por alcance,isidro ayora y dr. eduardo mora,urbana,sucre,imprudencia del conductor,1,0
-10-14,domingo,15:34,choque lateral perpendicular,manuel agustin aguirre y colon,urbana,el sagrario,negligencia del conductor,1,0
-10-14,domingo,03:34,choque lateral angular,eugenio espejo (chonta cruz),urbana,sucre,conducir en estado de embriaguez,0,0
-10-15,lunes,12:40,roce positivo,eugenio espejo (entrada a menfis alto),urbana,sucre,negligencia del conductor,1,0
-10-16,martes,19:55,estrellamiento,pablo palacios y dr. arturo armijos ayala,urbana,carigan,fallas mecanicas no previsibles,0,0
-10-16,martes,05:02,perdida de carril,eduardo kingman entre gonzanama y saraguro,urbana,san sebastian,negligencia del conductor,0,0
-10-17,miercoles,12:20,roce negativo,dr. arturo armijos ayala y cesar ludena,urbana,carigan,negligencia del conductor,0,0
-10-18,jueves,12:15,choque por alcance,bolivar y jose felix de valdivieso,urbana,el sagrario,no mantener la distancia reglamentaria,0,0
-10-19,viernes,05:40,estrellamiento,catamayo y romerillos,urbana,san sebastian,conducir en estado de embriaguez,0,0
-10-19,viernes,13:06,roce negativo,colon entre bolivar y sucre.,urbana,el sagrario,imprudencia del conductor,0,0
-10-19,viernes,00:14,choque por alcance,salvador bustamante celi y isidro ayora,urbana,el valle,conducir en estado de embriaguez,0,0
-10-20,sabado,01:24,estrellamiento,velazco ibarra y jose maria urbina,urbana,sucre,razones desconocidas,0,0
-10-20,sabado,03:44,choque lateral perpendicular,orillas del zamora y juan de salinas,urbana,el sagrario,imprudencia del conductor,1,0
-10-20,sabado,03:49,choque frontal excentrico,los paltas y otavalos,urbana,sucre,imprudencia del conductor,0,0
-10-21,domingo,17:40,estrellamiento,gran colombia y pujili,urbana,sucre,razones desconocidas,0,0
-10-22,lunes,20:25,atropello,lauro guerrero y colon,urbana,el sagrario,imprudencia del peaton,1,0
-10-24,miercoles,14:10,estrellamiento,lourdes y bolivar,urbana,san sebastian,imprudencia del conductor,0,0
-10-25,jueves,03:09,estrellamiento,chuquiribamba barrio motupe,urbana,carigan,imprudencia del conductor,0,0
-10-26,viernes,07:40,choque lateral perpendicular,universitaria y imbabura,urbana,el sagrario,imprudencia del conductor,1,0
-10-26,viernes,03:29,estrellamiento,romerillos y arupos,urbana,san sebastian,conducir en estado de embriaguez,0,0
-10-27,sabado,08:05,roce positivo,eugenio espejo y aztecas,urbana,punzara,conducir en estado de embriaguez,0,0
-10-27,sabado,18:30,choque lateral perpendicular,bolivar e imbabura,urbana,el sagrario,imprudencia del conductor,0,0
-10-28,domingo,08:43,caida de pasajero,rio ucayali y rio aguarico,urbana,san sebastian,razones desconocidas,2,0
-10-28,domingo,22:00,atropello,eugenio espejo y punaes,urbana,sucre,razones desconocidas,1,0
-10-31,miercoles,12:58,choque lateral angular,mercadillo entre juan jose pena y 24 de mayo,urbana,el sagrario,desatento a la conduccion,0,0
-10-31,miercoles,11:48,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,el sagrario,no respetar las senales de transito,3,0
-10-31,miercoles,04:04,perdida de carril,manuel carrion pinzano y manaos,urbana,sucre,razones desconocidas,0,0
-10-31,miercoles,04:04,perdida de carril,manuel carrion pinzano y manaos,urbana,sucre,razones desconocidas,0,0
-11-01,jueves,09:35,estrellamiento,los paltas y benjamin carrion (frente a la ant),urbana,punzara,imprudencia del conductor,0,0
-11-01,jueves,01:44,choque lateral perpendicular,lourdes y macara,urbana,el sagrario,imprudencia del conductor,0,0
-11-02,viernes,05:07,perdida de carril,manuel agustin aguirre y juan de salinas,urbana,el sagrario,imprudencia del conductor,1,0
-11-02,viernes,08:55,roce negativo,eduardo kingman y catamayo,urbana,san sebastian,conducir en estado de embriaguez,0,0
-11-03,sabado,14:46,caida de pasajero,nueva loja y emiliano ortega,urbana,el sagrario,imprudencia del pasajero,1,0
-11-03,sabado,00:51,choque lateral angular,manuel carrion pinzano y jose maria riofrio,urbana,sucre,no respetar las senales de transito,1,0
-11-03,sabado,05:06,choque frontal excentrico,juan maria riofrio y jose maria riofrio,urbana,el sagrario,conducir en estado de embriaguez,0,0
-11-03,sabado,17:35,roce negativo,jose maria pena y tnt. maximiliano rodriguez,urbana,el sagrario,desatento a la conduccion,0,0
-11-03,sabado,08:05,estrellamiento,reinaldo espinoza y james watt,urbana,punzara,conducir en estado de embriaguez,0,0
-11-03,sabado,22:40,volcamiento,angel felicisimo rojas,urbana,sucre,razones desconocidas,1,0
-11-03,sabado,22:40,roce negativo,manuel carrion pinzano y rafael riofrio,urbana,sucre,conducir en estado de embriaguez,0,0
-11-03,sabado,12:52,choque frontal excentrico,salvador bustamante celi y agustin carrion palacios,urbana,el valle,conducir en estado de embriaguez,0,0
-11-04,domingo,08:00,estrellamiento,nicolas garcia entre miguel riofrio y azuay,urbana,el sagrario,conducir en estado de embriaguez,0,0
-11-04,domingo,12:40,choque lateral angular,quinara e ines jimenez,urbana,sucre,razones desconocidas,0,0
-11-05,lunes,14:58,choque lateral perpendicular,bolivar y juan de salinas,urbana,el sagrario,imprudencia del conductor,0,0
-11-05,lunes,16:47,choque lateral perpendicular,orillas del zamora y clodoveo carrion,urbana,el sagrario,imprudencia del conductor,0,0
-11-09,viernes,05:14,estrellamiento,ciudadela nueva granada y diego noboa,urbana,el valle,conducir en estado de embriaguez,0,0
-11-10,sabado,06:03,choque lateral perpendicular,nueva loja y guayaquil,urbana,el valle,conducir en estado de embriaguez,0,0
-11-10,sabado,02:29,estrellamiento,manuel carrion pinzano,urbana,sucre,fallas mecanicas no previsibles,0,0
-11-11,domingo,04:59,choque lateral perpendicular,manuel agustin aguirre y rocafuerte,urbana,el sagrario,conducir en estado de embriaguez,0,0
-11-11,domingo,00:28,estrellamiento,terminal terrestre reina del cisne y victoriano palacios,urbana,sucre,imprudencia del conductor,0,0
-11-13,martes,00:44,estrellamiento,orillas del zamora y santa rosa,urbana,el valle,conducir en estado de embriaguez,0,0
-11-14,miercoles,20:35,choque por alcance,via panamericana barrio plateado,urbana,sucre,imprudencia del conductor,0,0
-11-14,miercoles,19:48,choque lateral angular,manuel carrion pinzano y eduardo unda,urbana,sucre,imprudencia del conductor,1,0
-11-15,jueves,11:48,estrellamiento,ibarra entre emiliano ortega y santo domingo de los colorados,urbana,sucre,imprudencia del conductor,0,0
-11-15,jueves,11:01,choque lateral perpendicular,18 de noviembre y jose antonio eguiguren,urbana,el sagrario,imprudencia del conductor,1,0
-11-15,jueves,12:00,choque lateral perpendicular,machala e ibarra,urbana,sucre,imprudencia del conductor,0,0
-11-18,domingo,09:20,choque lateral perpendicular,18 de noviembre y juan de salinas,urbana,el sagrario,imprudencia del conductor,0,0
-11-18,domingo,18:30,choque lateral angular,isidro ayora y asuncion,urbana,sucre,imprudencia del conductor,0,0
-11-18,domingo,21:35,choque lateral angular,manuel carrion pinzano y eugenio espejo,urbana,sucre,imprudencia del conductor,0,0
-11-18,domingo,04:36,choque lateral angular,barrio consacola y pablo palacios,urbana,sucre,imprudencia del conductor,1,0
-11-19,lunes,22:45,atropello,ordalos y canarios barrio el paraiso,urbana,el valle,imprudencia del peaton,1,0
-11-20,martes,13:10,perdida de carril,cuxibamba y guaranda,urbana,sucre,imprudencia del conductor,0,0
-11-20,martes,16:17,choque lateral perpendicular,manuel agustin aguirre y lourdes,urbana,san sebastian,imprudencia del conductor,0,0
-11-20,martes,18:10,colision,eugenio espejo y villonaco,urbana,sucre,imprudencia del conductor,0,0
-11-21,miercoles,19:43,choque lateral perpendicular,eugenio espejo y eplicachima,urbana,sucre,imprudencia del conductor,0,0
-11-21,miercoles,00:24,choque lateral angular,riobamba y cuxibamba,urbana,sucre,imprudencia del conductor,0,0
-11-21,miercoles,01:44,estrellamiento,juan jose samaniego y ramon pinto,urbana,el sagrario,conducir en estado de embriaguez,0,0
-11-22,jueves,12:30,choque lateral perpendicular,isidro ayora,urbana,sucre,imprudencia del conductor,0,0
-11-22,jueves,13:12,choque lateral perpendicular,bolivar y jose felix de valdivieso,urbana,el sagrario,imprudencia del conductor,0,0
-11-22,jueves,03:34,choque lateral perpendicular,teniente maximiliano rodriguez y ramon pinto,urbana,el sagrario,imprudencia del conductor,2,0
-11-23,viernes,17:18,atropello,cuxibamba y guaranda,urbana,sucre,imprudencia del peaton,1,0
-11-23,viernes,10:03,perdida de carril,los paltas y teniente maximiliano rodriguez,urbana,sucre,razones desconocidas,2,0
-11-23,viernes,20:45,choque por alcance,8 de diciembre y beatriz cueva de ayora,urbana,carigan,cambio brusco e indebido de carril,0,0
-11-24,sabado,04:24,roce negativo,manuel carrion pinzano y victoriano palacios,urbana,sucre,imprudencia del conductor,1,0
-11-24,sabado,12:44,choque lateral perpendicular,18 de noviembre y miguel riofrio,urbana,el sagrario,imprudencia del conductor,0,0
-11-26,lunes,06:00,estrellamiento,riobamba entre gran colombia y ambato,urbana,sucre,imprudencia del conductor,0,0
-11-26,lunes,12:15,roce negativo,argentina y paraguay,urbana,punzara,imprudencia del conductor,0,0
-11-26,lunes,12:10,choque lateral perpendicular,maximiliano rodriguez y jose maria pena,urbana,el sagrario,imprudencia del conductor,0,0
-11-26,lunes,21:09,choque frontal longitudinal,manuel carrion pinzano y de los paltas,urbana,sucre,fallas mecanicas no previsibles,1,0
-11-29,jueves,12:50,colision,zoilo rodriguez y clodoveo carrion,urbana,el sagrario,imprudencia del conductor,0,0
-11-29,jueves,22:20,estrellamiento,lourdes y bolivar,urbana,san sebastian,imprudencia del conductor,0,0
-11-30,viernes,21:35,choque por alcance,benjamin carrion y benito juarez,urbana,punzara,imprudencia del conductor,2,0
-11-30,viernes,10:10,estrellamiento,juan jose pena entre rocafuerte y miguel riofrio,urbana,el sagrario,negligencia del conductor,0,0
-11-30,viernes,18:25,estrellamiento,sargento jose robles y jose maria,urbana,punzara,conducir en estado de embriaguez,0,0
-12-01,sabado,09:55,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,el sagrario,conducir en estado de embriaguez,0,0
-12-03,lunes,15:25,choque por alcance,gran colombia y tulcan,urbana,sucre,no mantener la distancia reglamentaria,0,0
-12-03,lunes,20:50,estrellamiento,isidro ayora y angel felicisimo rojas,urbana,sucre,desatento a la conduccion,0,0
-12-03,lunes,03:23,choque lateral angular,cuba y manuel agustin aguirre,urbana,punzara,imprudencia del conductor,0,0
-12-05,miercoles,01:54,choque frontal excentrico,8 de diciembre y eduardo palacios,urbana,carigan,imprudencia del conductor,2,0
-12-07,viernes,14:58,choque lateral perpendicular,jiron rodriguez soto entre cuero y caicedo,urbana,punzara,no ceder el derecho de via,1,0
-12-08,sabado,12:20,choque lateral angular,manuel agustin aguirre y cuba,urbana,punzara,conducir en estado de embriaguez,2,0
-12-08,sabado,02:09,choque lateral perpendicular,olmedo y lourdes,urbana,san sebastian,cruce de via sin preferencia,0,0
-12-09,domingo,09:40,choque lateral perpendicular,manuel agustin aguirre y lourdes,urbana,san sebastian,cruce de via sin preferencia,0,0
-12-09,domingo,12:25,estrellamiento,san cayetano/via parra 2,urbana,sucre,razones desconocidas,0,0
-12-09,domingo,08:35,estrellamiento,gran colombia y universitaria,urbana,sucre,razones desconocidas,0,0
-12-09,domingo,07:19,estrellamiento,isidro ayora,urbana,sucre,conducir en estado de embriaguez,0,0
-12-10,lunes,20:05,perdida de carril,benjamin carrion entre jose palcios y tomas rodriguez torres,urbana,punzara,fallas mecanicas no previsibles,1,0
-12-11,martes,05:01,choque lateral angular,manuel carrion pinzano y bolivar bailon,urbana,sucre,cambio brusco e indebido de carril,1,0
-12-11,martes,21:20,estrellamiento,bello horizonte y oruro,urbana,sucre,perdida de pista,0,0
-12-12,miercoles,17:25,choque por alcance,pio jaramillo alvarado y gobernacion de mainas,urbana,san sebastian,imprudencia del conductor,0,0
-12-12,miercoles,18:22,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,el sagrario,no respetar las senales de transito,0,0
-12-13,jueves,15:40,choque por alcance,8 de dicembre y soria,urbana,carigan,no mantener la distancia reglamentaria,0,0
-12-13,jueves,22:25,atipico,lourdes y bolivar,urbana,san sebastian,razones desconocidas,0,0
-12-14,viernes,09:00,estrellamiento,universitaria y gran colombia,urbana,el sagrario,conducir en estado de embriaguez,0,0
-12-15,sabado,01:54,estrellamiento,8 de diciembre/barrio la banda,urbana,carigan,conducir en estado de embriaguez,0,0
-12-15,sabado,08:33,choque lateral perpendicular,orillas del zamora y juan de salinas,urbana,el sagrario,no ceder el derecho de via,0,0
-12-16,domingo,10:45,choque lateral angular,isidro ayora y nueva loja,urbana,sucre,conducir en estado de embriaguez,0,0
-12-17,lunes,13:30,atropello,barrio bolonia,urbana,sucre,imprudencia del conductor,0,0
-12-18,martes,01:39,choque lateral angular,eduardo kingman y acacias,urbana,san sebastian,no ceder el derecho de via,0,0
-12-19,miercoles,04:54,choque lateral angular,orillas del zamora y ibarra,urbana,el valle,conducir en estado de embriaguez,0,0
-12-20,jueves,18:40,choque lateral perpendicular,argentina y brasil,urbana,punzara,no ceder el derecho de via,1,0
-12-20,jueves,19:54,choque lateral perpendicular,jose maria riofrio y victor paz,urbana,sucre,conducir en estado de embriaguez,0,0
-12-20,jueves,02:54,choque lateral perpendicular,10 de agosto y juan jose pena,urbana,el sagrario,conducir en estado de embriaguez,2,0
-12-20,jueves,03:49,choque por alcance,pio jaramillo alvarado y mercadillo,urbana,el sagrario,conducir en estado de embriaguez,0,0
-12-21,viernes,10:40,estrellamiento,angel b. valarezo y ciro alegria.,urbana,san sebastian,perdida de pista,0,0
-12-22,sabado,09:20,choque lateral perpendicular,bolivar bailon y manuel vivanco,urbana,sucre,conducir en estado de embriaguez,2,0
-12-22,sabado,22:40,choque lateral perpendicular,10 de agosto y emiliano ortega,urbana,el sagrario,imprudencia del conductor,0,0
-12-23,domingo,22:10,atropello,benjamin carrion y tomas rodrigo torres,urbana,punzara,imprudencia del peaton,1,0
-12-23,domingo,07:20,choque lateral perpendicular,bernardo valdivieso y jose antonio eguiguren,urbana,el sagrario,conducir en estado de embriaguez,0,0
-12-23,domingo,01:31,perdida de carril,angel felicisimo rojas y transito amaguana,urbana,punzara,imprudencia del conductor,4,0
-12-24,lunes,01:44,choque lateral angular,pablo palacios y cesar polibio ludena,urbana,carigan,conducir en estado de embriaguez,1,0
-12-24,lunes,05:07,choque lateral perpendicular,jose maria pena y azuay,urbana,el sagrario,conducir en estado de embriaguez,2,0
-12-27,jueves,05:30,estrellamiento,olmedo y gonzalez suarez,urbana,san sebastian,imprudencia del conductor,0,0
-12-27,jueves,16:13,colision,isidro ayora y habana,urbana,sucre,imprudencia del conductor,0,0
-12-28,viernes,00:54,perdida de pista,eugenio espejo / 100 metros aproximadamente del redondel de chantacruz,urbana,sucre,conducir en exceso de velocidad,0,0
-12-29,sabado,10:50,estrellamiento,isidro ayora y 8 de diciembre,urbana,sucre,conducir en estado de embriaguez,0,0
-12-29,sabado,00:24,choque por alcance,manuel carrion pinzano y benjamin pereira,urbana,sucre,conducir en estado de embriaguez,0,0
-12-30,domingo,11:05,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,el sagrario,no respetar las senales de transito,0,0
-12-30,domingo,09:11,choque lateral perpendicular,18 de noviembre y celica,urbana,san sebastian,conducir en estado de embriaguez,1,0
-12-30,domingo,04:13,choque lateral angular,bolivar y jose antonio eguiguren,urbana,el sagrario,conducir en estado de embriaguez,1,0
-12-31,lunes,22:20,choque lateral perpendicular,eduardo kingman/barrio capuli,urbana,san sebastian,conducir en estado de embriaguez,0,0
-12-31,lunes,01:29,choque lateral angular,8 de diciembre y belisario moreno,urbana,carigan,conducir en estado de embriaguez,0,0
-12-31,lunes,04:59,choque lateral perpendicular,ramon pinto y mercadillo,urbana,el sagrario,conducir en estado de embriaguez,1,0
+01-01,lunes,h10,estrellamiento,espana y chile,urbana,punzara,razones desconocidas,0,0
+01-30,martes,h23,estrellamiento,manuel carrion pinzano y maria de leiva,urbana,sucre,razones desconocidas,0,0
+01-08,lunes,h19,choque lateral angular,cuxibamba y guaranda,urbana,sucre,razones desconocidas,0,0
+01-08,lunes,h20,choque por alcance,isidro ayora,urbana,sucre,razones desconocidas,0,0
+01-13,sabado,h03,atropello,villonaco,urbana,sucre,razones desconocidas,0,1
+01-14,domingo,h16,perdida de carril,pablo palacios,urbana,carigan,razones desconocidas,0,0
+01-14,domingo,h17,estrellamiento,placido caamano y velazco ibarra,urbana,sucre,razones desconocidas,0,0
+01-14,domingo,h02,choque lateral perpendicular,salvador bustamante celi y guayaquil,urbana,el valle,razones desconocidas,0,0
+01-16,martes,h08,atropello,orillas del zamora y clodoveo carrion,urbana,el sagrario,razones desconocidas,1,0
+01-17,miercoles,h18,choque por alcance,velasco ibarra y jaime roldos,urbana,sucre,razones desconocidas,1,0
+01-18,jueves,h12,choque lateral angular,benjamin carrion y de los paltas,urbana,punzara,razones desconocidas,0,0
+01-18,jueves,h19,choque lateral angular,estados unidos y grecia,urbana,punzara,razones desconocidas,0,0
+01-20,sabado,h10,choque lateral perpendicular,universitaria y azuay,urbana,el sagrario,razones desconocidas,0,0
+01-21,domingo,h02,perdida de carril,pio jaramillo alvarado y cuba,urbana,punzara,razones desconocidas,2,0
+01-22,lunes,h22,choque lateral angular,manuel zambrano y kennedy,urbana,punzara,razones desconocidas,0,0
+01-23,martes,h23,choque lateral angular,8 de diciembre y placido caamano,urbana,sucre,razones desconocidas,0,0
+01-24,miercoles,h18,atropello,eugenio espejo y la palma,urbana,sucre,razones desconocidas,1,0
+01-26,viernes,h03,estrellamiento,mercadillo y macara,urbana,el sagrario,razones desconocidas,0,0
+01-26,viernes,h13,colision,rocafuerte y olmedo,urbana,el sagrario,razones desconocidas,0,0
+01-26,viernes,h21,estrellamiento,pablo palacios y brasilia,urbana,carigan,razones desconocidas,0,0
+01-27,sabado,h05,choque lateral angular,manuel agustin aguirre y jose felix de valdivieso,urbana,sucre,razones desconocidas,1,0
+01-27,sabado,h05,perdida de carril,ruben dario y francisco garcia,urbana,san sebastian,razones desconocidas,0,1
+01-27,sabado,h19,estrellamiento,8 de diciembre y pablo palacios,urbana,carigan,razones desconocidas,0,0
+01-27,sabado,h17,estrellamiento,francisco valdivieso y juan maria riofrio,urbana,sucre,razones desconocidas,1,0
+01-29,lunes,h07,choque lateral angular,juan jose castillo y antoni vivaldi,urbana,punzara,razones desconocidas,0,0
+01-31,miercoles,h15,atropello,pio jaramillo alvarado y tnt. geovanny,urbana,punzara,razones desconocidas,0,1
+02-01,jueves,h16,atropello,mexico entre curazao y brasil,urbana,punzara,razones desconocidas,1,0
+02-03,sabado,h22,choque lateral angular,nueva loja y isidro ayora,urbana,sucre,razones desconocidas,0,0
+02-04,domingo,h06,estrellamiento,orillas del zamora y juan de arderete,urbana,el valle,razones desconocidas,0,0
+02-04,domingo,h20,choque lateral angular,juan jose pena y mercadillo,urbana,el sagrario,razones desconocidas,0,0
+02-06,martes,h18,choque lateral angular,eduardo kingman y alamor,urbana,san sebastian,razones desconocidas,0,0
+02-07,miercoles,h19,choque lateral angular,isidro ayora y diamantina,urbana,sucre,razones desconocidas,3,0
+02-07,miercoles,h23,choque lateral angular,olmedo e imbabura,urbana,el sagrario,razones desconocidas,4,0
+02-08,jueves,h17,choque lateral angular,juan de salinas y bolivar,urbana,el sagrario,razones desconocidas,0,0
+02-08,jueves,h17,choque lateral angular,salvador bustamante celi y agustin palacios,urbana,el valle,razones desconocidas,1,0
+02-08,jueves,h16,choque lateral angular,juan jose pena y azuay,urbana,el sagrario,razones desconocidas,0,0
+02-09,viernes,h22,choque lateral angular,manuel agustin aguirre y jose antonio,urbana,el sagrario,razones desconocidas,0,0
+02-10,sabado,h01,estrellamiento,salvador bustamante celi y agustin lara,urbana,el valle,razones desconocidas,0,0
+02-10,sabado,h00,estrellamiento,angel felicisimo rojas,urbana,sucre,razones desconocidas,2,1
+02-10,sabado,h15,atropello,pio jaramillo alvarado y gobernacion de mainas,urbana,punzara,razones desconocidas,1,0
+02-14,miercoles,h19,atropello,orrillas del zamora e imbabura,urbana,el sagrario,razones desconocidas,1,0
+02-14,miercoles,h17,choque por alcance,chile y cuba,urbana,punzara,razones desconocidas,1,0
+02-14,miercoles,h06,choque lateral angular,10 de agosto y 24 de mayo,urbana,el sagrario,razones desconocidas,0,0
+02-15,jueves,h18,choque por alcance,18 de noviembre y catacocha,urbana,san sebastian,razones desconocidas,0,0
+02-18,domingo,h03,choque lateral angular,8 de diciembre y belisario moreno,urbana,carigan,razones desconocidas,0,0
+02-18,domingo,h12,atropello,velazco ibarra y placido caamano,urbana,sucre,razones desconocidas,1,0
+02-18,domingo,h19,choque lateral angular,universitaria y miguel riofrio,urbana,el sagrario,razones desconocidas,1,0
+02-19,lunes,h19,choque lateral angular,de los paltas e ines jimenez,urbana,sucre,razones desconocidas,0,0
+02-21,miercoles,h19,choque lateral angular,macara y lourdes,urbana,el sagrario,razones desconocidas,2,0
+02-22,jueves,h03,perdida de carril,isidro ayora y caracas,urbana,sucre,razones desconocidas,0,0
+02-24,sabado,h06,estrellamiento,esmeraldas y puna,urbana,el valle,razones desconocidas,0,0
+02-27,martes,h19,estrellamiento,chuquiribamba y diego de troya,urbana,carigan,razones desconocidas,0,0
+02-28,miercoles,h16,estrellamiento,guayaquil y portoviejo,urbana,el valle,razones desconocidas,0,0
+03-01,jueves,h07,choque por alcance,gobernacion de mainas y 18 de noviembre,urbana,san sebastian,razones desconocidas,0,0
+03-01,jueves,h03,estrellamiento,santiago de las montanas y daniel alvarez,urbana,el valle,razones desconocidas,0,0
+03-02,viernes,h21,choque lateral angular,juan jose pena y mercadillo,urbana,el sagrario,razones desconocidas,0,0
+03-03,sabado,h10,choque lateral angular,jose felix de valdivieso y bolivar,urbana,el sagrario,razones desconocidas,0,0
+03-08,jueves,h06,perdida de carril,daniel armijos entre salvador bustamante celi y paquisha,urbana,el valle,razones desconocidas,0,0
+03-08,jueves,h21,choque lateral perpendicular,universitaria y miguel riofrio,urbana,el sagrario,razones desconocidas,0,0
+03-10,sabado,h06,choque lateral perpendicular,san carlos y la cruz,urbana,sucre,razones desconocidas,0,0
+03-11,domingo,h10,estrellamiento,machala y guaranda,urbana,sucre,razones desconocidas,0,0
+03-11,domingo,h01,estrellamiento,montevideo y asuncion,urbana,sucre,razones desconocidas,0,0
+03-12,lunes,h19,estrellamiento,orillas del zamora y guayaquil,urbana,el valle,razones desconocidas,0,0
+03-13,martes,h06,choque por alcance,isidro ayora y diamantina,urbana,sucre,razones desconocidas,3,0
+03-13,martes,h19,atropello,24 de mayo y victor vivar,urbana,el sagrario,razones desconocidas,1,0
+03-14,miercoles,h07,choque lateral angular,bernardo valdivieso y quito,urbana,el sagrario,razones desconocidas,0,0
+03-16,viernes,h20,choque lateral perpendicular,pio jaramillo alvarado y manuel benjamin carrion,urbana,punzara,razones desconocidas,0,0
+03-16,viernes,h22,estrellamiento,18 de noviembre y celica,urbana,san sebastian,razones desconocidas,0,0
+03-17,sabado,h16,atropello,villonaco y virgen de monzerrat,urbana,sucre,razones desconocidas,0,1
+03-17,sabado,h16,choque lateral angular,universitaria y jose antonio eguiguren,urbana,el sagrario,razones desconocidas,1,0
+03-18,domingo,h02,estrellamiento,via antigua a zamora sta. marianita de jesus,urbana,el sagrario,razones desconocidas,0,0
+03-18,domingo,h13,choque lateral perpendicular,manuel carrion pinzano y benjamin pereira,urbana,sucre,razones desconocidas,0,0
+03-18,domingo,h03,atropello,via de segundo orden y virgilio rodas,urbana,sucre,razones desconocidas,1,0
+03-20,martes,h12,atipico,terminal terrestre,urbana,sucre,razones desconocidas,0,0
+03-22,jueves,h08,estrellamiento,nueva loja y machala,urbana,sucre,razones desconocidas,0,0
+03-23,viernes,h15,choque lateral angular,manuel agustin aguirre y chile,urbana,punzara,razones desconocidas,0,0
+03-24,sabado,h06,choque lateral angular,8 de diciembre entre manuel cabrera y beatriz cueva de ayora,urbana,carigan,razones desconocidas,0,0
+03-24,sabado,h14,colision,manuel carrion pinzano y eplicachima,urbana,sucre,razones desconocidas,0,0
+03-25,domingo,h02,choque por alcance,segundo cueva celi entre segundo puertas moreno y prolg de la 24 de mayo,urbana,punzara,razones desconocidas,0,0
+03-25,domingo,h09,choque lateral angular,universitaria y miguel riofrio,urbana,el sagrario,razones desconocidas,0,0
+03-25,domingo,h17,choque lateral perpendicular,angel felicisimo rojas y cuzco,urbana,sucre,razones desconocidas,0,0
+03-24,sabado,h03,choque lateral perpendicular,los paltas y francia,urbana,punzara,razones desconocidas,0,0
+03-26,lunes,h05,volcamiento lateral,brasil y argentina,urbana,punzara,razones desconocidas,4,0
+03-27,martes,h17,atropello,isidro ayora y habana,urbana,sucre,razones desconocidas,1,0
+03-27,martes,h20,choque lateral perpendicular,nogales y arupos,urbana,san sebastian,razones desconocidas,0,0
+03-29,jueves,h02,estrellamiento,emiliano ortega y 24 de mayo,urbana,el sagrario,razones desconocidas,0,0
+03-31,sabado,h10,choque lateral perpendicular,manuel agustin aguirre y chile,urbana,punzara,razones desconocidas,0,0
+04-01,domingo,h05,estrellamiento,miguel morelo y sin nombre,urbana,punzara,razones desconocidas,0,0
+04-02,lunes,h09,choque lateral angular,justiniano estupinan y pio montufar,urbana,punzara,razones desconocidas,0,0
+04-04,miercoles,h20,choque lateral angular,eugenio espejo,urbana,sucre,razones desconocidas,1,0
+04-05,jueves,h09,choque lateral angular,manuel agustin aguirre y gobernacion de mainas,urbana,punzara,razones desconocidas,1,0
+04-07,sabado,h05,estrellamiento,barrio turunuma barcelona,urbana,sucre,razones desconocidas,0,0
+04-07,sabado,h22,choque lateral angular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,2,0
+04-08,domingo,h09,choque lateral angular,8 de diciembre y jaime roldos aguilera,urbana,carigan,razones desconocidas,0,0
+04-09,lunes,h15,atipico,brasil y honduras,urbana,punzara,razones desconocidas,0,0
+04-11,miercoles,h07,estrellamiento,salvador bustamante celi y daniel armijos,urbana,el valle,razones desconocidas,0,0
+04-11,miercoles,h18,choque lateral angular,santo domingo y riobamba,urbana,sucre,razones desconocidas,1,0
+04-11,miercoles,h20,choque lateral angular,emiliano ortega y lourdes,urbana,el sagrario,razones desconocidas,0,0
+04-12,jueves,h16,roce negativo,juan de salinas entre bolivar y emiliano ortega.,urbana,el sagrario,razones desconocidas,0,0
+04-13,viernes,h18,estrellamiento,barrio ciudad victoria / dolores cacuango y nela martinez,urbana,sucre,razones desconocidas,0,0
+04-14,sabado,h11,estrellamiento,azuay entre lauro guerrero y ramon pinto,urbana,el sagrario,razones desconocidas,0,0
+04-15,domingo,h05,choque lateral angular,cuxibamba y 8 de diciembre,urbana,sucre,razones desconocidas,2,0
+04-15,domingo,h08,choque lateral angular,sucre y gonzanama,urbana,san sebastian,razones desconocidas,0,0
+04-16,lunes,h15,choque por alcance,mercadillo entre bernardo valdivieso y bolivar,urbana,san sebastian,razones desconocidas,0,0
+04-19,jueves,h17,choque lateral angular,emiliano ortega y juan jose pena,urbana,el sagrario,razones desconocidas,0,0
+04-19,jueves,h21,choque lateral angular,bolivar y azuay,urbana,el sagrario,razones desconocidas,0,0
+04-20,viernes,h18,atropello,pasaje la feue entre lauro guerrero y manuel agustin aguirre,urbana,el sagrario,razones desconocidas,1,0
+04-23,lunes,h07,choque lateral angular,eduardo kingman y catamayo,urbana,san sebastian,razones desconocidas,0,0
+04-23,lunes,h17,choque lateral angular,universitaria y celica,urbana,san sebastian,razones desconocidas,0,0
+04-24,martes,h07,choque por alcance,8 de diciembre y pablo palacios,urbana,carigan,razones desconocidas,0,0
+04-25,miercoles,h12,estrellamiento,rocafuerte y sucre,urbana,el sagrario,razones desconocidas,0,0
+04-25,miercoles,h22,estrellamiento,santiago de las montanas y juan velazco,urbana,el valle,razones desconocidas,0,0
+04-26,jueves,h20,choque lateral angular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,0,0
+04-27,viernes,h01,estrellamiento,sixto duran y eduardo rubianes,urbana,san sebastian,razones desconocidas,0,0
+04-28,sabado,h05,perdida de pista,angel felicisimo rojas y eugenio espejo,urbana,sucre,razones desconocidas,0,0
+04-29,domingo,h08,choque lateral angular,manuel carrion pinzano y eduardo unda,urbana,sucre,razones desconocidas,0,0
+05-03,jueves,h07,colision,orillas del zamora y isdro ayora,urbana,el valle,razones desconocidas,0,0
+05-06,domingo,h04,choque por alcance,angel felicisimo rojas,urbana,sucre,razones desconocidas,4,0
+05-07,lunes,h07,choque lateral angular,pio jaramillo alvarado y leonardo davinci,urbana,punzara,razones desconocidas,0,0
+05-07,lunes,h13,roce negativo,"av, 24 de mayo y lourdes",urbana,el sagrario,razones desconocidas,0,0
+05-08,martes,h19,choque lateral angular,salvador bustamante celi y puna,urbana,el valle,razones desconocidas,0,0
+05-09,miercoles,h16,choque lateral angular,de los paltas y alberto zambrano,urbana,sucre,razones desconocidas,0,0
+05-11,viernes,h07,choque lateral angular,manuel zambrano y malvinas,urbana,punzara,razones desconocidas,0,0
+05-12,sabado,h02,estrellamiento,santa marianita de jesus,urbana,el sagrario,razones desconocidas,0,0
+05-13,domingo,h02,choque lateral angular,de los paltas y bulgaria,urbana,punzara,razones desconocidas,0,0
+05-13,domingo,h01,choque frontal excentrico,eugenio espejo y pakistan,urbana,sucre,razones desconocidas,0,0
+05-13,domingo,h10,choque por alcance,gran colombia y tulcan,urbana,sucre,razones desconocidas,0,0
+05-14,lunes,h05,choque lateral angular,jipiro agustin carrion y sin nombre,urbana,el valle,razones desconocidas,0,0
+05-15,martes,h06,choque lateral angular,pablo palacios y dr. arturo armijos ayala,urbana,carigan,razones desconocidas,0,0
+05-16,miercoles,h00,estrellamiento,8 de diciembre y fenix,urbana,carigan,razones desconocidas,1,0
+05-17,jueves,h14,choque lateral angular,pio jaramillo alvarado y dr. jose maria vivar castro,urbana,punzara,razones desconocidas,0,0
+05-18,viernes,h19,arrollamiento,manuel agustin aguirre y miguel riofrio,urbana,el sagrario,razones desconocidas,0,0
+05-19,sabado,h17,estrellamiento,machala y tulcan,urbana,sucre,razones desconocidas,0,0
+05-19,sabado,h22,choque lateral perpendicular,salvador bustamante celi y oriental de paso,urbana,el valle,razones desconocidas,0,0
+05-20,domingo,h00,roce positivo,oriental de paso,urbana,el valle,razones desconocidas,0,0
+05-20,domingo,h04,estrellamiento,manuel carrion pinzano y adolfo valarezo,urbana,sucre,razones desconocidas,0,0
+05-20,domingo,h03,estrellamiento,24 de mayo y leopoldo palacios,urbana,el sagrario,razones desconocidas,0,0
+05-21,lunes,h03,estrellamiento,rio santiago y rio uyacali,urbana,san sebastian,razones desconocidas,0,0
+05-22,martes,h07,choque lateral angular,universitaria y quito,urbana,el sagrario,razones desconocidas,0,0
+05-22,martes,h10,estrellamiento,daniel alvares y segundo cueva,urbana,el sagrario,razones desconocidas,0,0
+05-24,jueves,h13,choque lateral angular,bolivar y juan de salinas,urbana,el sagrario,razones desconocidas,0,0
+05-26,sabado,h00,choque lateral angular,18 de noviembre y lourdes,urbana,san sebastian,razones desconocidas,0,0
+05-26,sabado,h12,choque lateral angular,8 de diciembre y zoilo alvarado,urbana,carigan,razones desconocidas,2,0
+05-26,sabado,h17,choque lateral angular,bolivar y juan de salinas,urbana,el sagrario,razones desconocidas,0,0
+05-26,sabado,h17,estrellamiento,8 de diciembre y eduardo palacios,urbana,carigan,razones desconocidas,0,0
+05-28,lunes,h07,choque lateral angular,manuel agustin aguirre y brasil,urbana,punzara,razones desconocidas,0,0
+05-29,martes,h05,volcamiento,de los paltas y shiri,urbana,punzara,razones desconocidas,2,0
+05-31,jueves,h03,estrellamiento,macara y mercadillo,urbana,el sagrario,razones desconocidas,0,0
+06-01,viernes,h00,estrellamiento,mexico y brasil,urbana,punzara,razones desconocidas,0,0
+06-08,viernes,h13,atropello,manuel agustin aguirre y juan de salinas,urbana,el sagrario,razones desconocidas,1,0
+06-08,viernes,h22,estrellamiento,olmedo y catacocha,urbana,san sebastian,razones desconocidas,0,0
+06-09,sabado,h10,choque lateral perpendicular,cuenca y azogues,urbana,el valle,razones desconocidas,0,0
+06-09,sabado,h02,choque lateral perpendicular,pio jaramillo alvarado y chile,urbana,punzara,razones desconocidas,0,0
+06-09,sabado,h02,choque por alcance,occidental (sueno eterno),urbana,sucre,razones desconocidas,0,0
+06-10,domingo,h07,estrellamiento,galileo galilei entre cabo luis sarango y cpto. angel rivera,urbana,punzara,razones desconocidas,0,0
+06-09,sabado,h19,estrellamiento,manuel carrion pinzano y pedro falconi,urbana,sucre,razones desconocidas,0,0
+06-12,martes,h07,choque lateral angular,eduardo kingman y gonzanama,urbana,san sebastian,razones desconocidas,0,0
+06-14,jueves,h21,choque por alcance,universitaria y imbabura,urbana,el sagrario,razones desconocidas,0,0
+06-15,viernes,h22,choque lateral perpendicular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,5,0
+06-15,viernes,h11,atipico,manuel benjamin carrion y cornelio saavedra,urbana,punzara,razones desconocidas,0,0
+06-15,viernes,h20,estrellamiento,velazco ibarra y luis cordero,urbana,sucre,razones desconocidas,0,0
+06-16,sabado,h21,choque lateral perpendicular,18 de nociembre y celica,urbana,san sebastian,razones desconocidas,0,0
+06-16,sabado,h23,estrellamiento,eduardo kingman y jorupes,urbana,san sebastian,razones desconocidas,0,0
+06-18,lunes,h12,choque lateral perpendicular,guayaquil y portoviejo,urbana,el valle,razones desconocidas,0,0
+06-18,lunes,h16,choque lateral perpendicular,manuel carrion pinzano y adolfo valarezo,urbana,sucre,razones desconocidas,1,0
+06-20,miercoles,h12,estrellamiento,18 de noviembre y gobernacion de mainas,urbana,san sebastian,razones desconocidas,0,0
+06-22,viernes,h02,choque lateral angular,18 de noviembre y cariamanga,urbana,san sebastian,razones desconocidas,0,0
+06-22,viernes,h21,choque lateral perpendicular,nueva loja entre emiliano ortega y universitaria,urbana,el sagrario,razones desconocidas,0,0
+06-22,viernes,h04,perdida de carril,juan jose pena y jose antonio eguiguren,urbana,san sebastian,razones desconocidas,3,1
+06-23,sabado,h01,volcamiento lateral,via a chinguilanchi y salvador bustamante celi,urbana,el valle,razones desconocidas,1,0
+06-24,domingo,h05,choque lateral perpendicular,salvador bustamante celi y guayaquil,urbana,el valle,razones desconocidas,0,0
+06-24,domingo,h20,estrellamiento,universitaria entre celica y cariamanga,urbana,san sebastian,razones desconocidas,0,0
+06-26,martes,h06,estrellamiento,24 de mayo entre lourdes y leopoldo palacio,urbana,el sagrario,razones desconocidas,0,0
+06-26,martes,h08,roce negativo,quito y universitaria,urbana,el sagrario,razones desconocidas,0,0
+06-26,martes,h23,estrellamiento,machala y vinces,urbana,sucre,razones desconocidas,0,0
+06-29,viernes,h23,choque lateral perpendicular,18 de noviembre y quito,urbana,el sagrario,razones desconocidas,1,0
+06-30,sabado,h20,estrellamiento,ibarra y santo domingo,urbana,sucre,razones desconocidas,1,0
+07-03,martes,h23,estrellamiento,rocafuerte entre sucre y 18 de noviembre,urbana,el sagrario,razones desconocidas,0,0
+07-05,jueves,h22,choque lateral angular,orillas del zamora y guayaquil,urbana,el valle,razones desconocidas,1,0
+07-07,sabado,h04,estrellamiento,pio jaramillo alvarado y heroes del cenepa,urbana,punzara,razones desconocidas,0,0
+07-07,sabado,h12,estrellamiento,juan jose samaniego y lauro guerrero,urbana,el sagrario,razones desconocidas,0,0
+07-07,sabado,h04,choque lateral perpendicular,cuba y manuel agustin aguirre,urbana,punzara,razones desconocidas,6,0
+07-10,martes,h20,choque lateral perpendicular,18 de noviembre e imbabura,urbana,el sagrario,razones desconocidas,1,0
+07-11,miercoles,h14,choque lateral perpendicular,manuel agustin aguirre y teniente maximiliano rodriguez,urbana,el sagrario,razones desconocidas,1,0
+07-12,jueves,h20,choque frontal longitudinal,eugenio espejo entre ines jimenez y collas (barrio miraflores alto),urbana,sucre,razones desconocidas,3,0
+07-13,viernes,h15,atropello,eugenio espejo y adolfo valarezo,urbana,sucre,razones desconocidas,1,0
+07-14,sabado,h06,choque lateral perpendicular,benjamin carrion entre eloy alfaro y domingo sarmiento.,urbana,punzara,razones desconocidas,0,0
+07-14,sabado,h01,volcamiento lateral,salvador bustamante celi,urbana,el valle,razones desconocidas,2,0
+07-15,domingo,h00,choque lateral perpendicular,eduardo kingman y maximo agustin rodriguez.,urbana,san sebastian,razones desconocidas,0,0
+07-17,martes,h08,choque lateral perpendicular,mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,0,0
+07-18,miercoles,h16,choque lateral angular,pio jaramillo alvarado y condamine,urbana,punzara,razones desconocidas,0,0
+07-19,jueves,h10,choque lateral perpendicular,universitaria y azuay,urbana,el sagrario,razones desconocidas,0,0
+07-20,viernes,h17,choque por alcance,reinaldo espinoza y pio jaramillo alvarado alvarado,urbana,punzara,razones desconocidas,0,0
+07-21,sabado,h06,choque frontal excentrico,benjamin carrion y antonio neumane,urbana,punzara,razones desconocidas,0,0
+07-21,sabado,h14,estrellamiento,8 de diciembre y placido caamano,urbana,sucre,razones desconocidas,1,0
+07-25,miercoles,h10,estrellamiento,manuel espinoza y tnte. maximiliano rodriguez,urbana,sucre,razones desconocidas,1,0
+07-25,miercoles,h11,estrellamiento,marcabeli y arenillas,urbana,el valle,razones desconocidas,0,0
+07-27,viernes,h18,choque por alcance,manuel carrion pinzano y isidro ayora,urbana,sucre,razones desconocidas,0,0
+07-28,sabado,h04,atropello,arturo armijos ayala entre resistencia y necochea,urbana,carigan,razones desconocidas,1,0
+07-28,sabado,h00,choque lateral perpendicular,juan jose pena y colon,urbana,el sagrario,razones desconocidas,0,0
+07-29,domingo,h03,roce positivo,paraguay y cofanes,urbana,punzara,razones desconocidas,0,0
+07-30,lunes,h19,choque lateral angular,oriental de paso,urbana,el valle,razones desconocidas,1,0
+07-31,martes,h12,choque lateral perpendicular,nueva loja y guayaquil,urbana,el valle,razones desconocidas,0,0
+07-31,martes,h08,roce negativo,pio jaramillo alvarado y chile,urbana,punzara,razones desconocidas,0,0
+07-31,martes,h16,atropello,mercadillo y nicolas garcia,urbana,el sagrario,razones desconocidas,1,0
+08-03,viernes,h06,estrellamiento,manuel carrion pinzano y piura,urbana,sucre,razones desconocidas,0,0
+08-04,sabado,h02,choque lateral perpendicular,isidro ayora y orillas del zamora,urbana,el valle,razones desconocidas,0,0
+08-04,sabado,h20,choque lateral perpendicular,manuel belgrano y getulio vargas,urbana,punzara,razones desconocidas,0,0
+08-05,domingo,h09,estrellamiento,24 de mayo y azuay,urbana,el sagrario,razones desconocidas,0,0
+08-06,lunes,h21,choque lateral perpendicular,ramon burneo y benjamin pereira,urbana,sucre,razones desconocidas,1,0
+08-08,miercoles,h20,roce negativo,chuquiribamba y s/n,urbana,carigan,razones desconocidas,0,0
+08-09,jueves,h07,choque lateral perpendicular,machala e ibarra,urbana,sucre,razones desconocidas,0,0
+08-09,jueves,h02,estrellamiento,piura y s/n,urbana,sucre,razones desconocidas,0,0
+08-10,viernes,h04,estrellamiento,galileo galilei y teniente hugo ortiz,urbana,punzara,razones desconocidas,0,0
+08-11,sabado,h11,choque lateral angular,bolivar y cariamanga,urbana,san sebastian,razones desconocidas,2,0
+08-11,sabado,h19,choque lateral perpendicular,olmedo y catacocha,urbana,san sebastian,razones desconocidas,0,0
+08-11,sabado,h21,choque lateral angular,benjamin carrion y eloy alfaro,urbana,punzara,razones desconocidas,1,0
+08-12,domingo,h00,perdida de carril,rio de janeiro y cordova,urbana,sucre,razones desconocidas,2,0
+08-15,miercoles,h06,estrellamiento,sucre y celica,urbana,san sebastian,razones desconocidas,0,0
+08-16,jueves,h10,choque lateral perpendicular,juan de salinas y sucre,urbana,san sebastian,razones desconocidas,0,0
+08-19,domingo,h14,choque frontal excentrico,isidro ayora,urbana,sucre,razones desconocidas,5,0
+08-18,sabado,h04,perdida de carril,24 de mayo y azuay,urbana,el sagrario,razones desconocidas,1,0
+08-20,lunes,h06,choque lateral angular,isidro ayora y habana,urbana,sucre,razones desconocidas,0,0
+08-20,lunes,h14,choque lateral perpendicular,bolivar y juan de salinas,urbana,el sagrario,razones desconocidas,0,0
+08-20,lunes,h21,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,el sagrario,razones desconocidas,1,0
+08-21,martes,h18,atropello,rocafuerte y 24 de mayo,urbana,el sagrario,razones desconocidas,1,0
+08-21,martes,h07,choque lateral angular,puebla y santa rita,urbana,sucre,razones desconocidas,0,0
+08-23,jueves,h09,choque por alcance,emiliano y universitaria,urbana,el sagrario,razones desconocidas,0,0
+08-24,viernes,h10,estrellamiento,rocafuerte entre sucre y 18 de noviembre,urbana,el sagrario,razones desconocidas,0,0
+08-25,sabado,h22,estrellamiento,luis a. valencia entre jose b. hidalgo y s sin nombre,urbana,el valle,razones desconocidas,0,0
+08-28,martes,h08,atropello,nueva loja y emiliano ortega,urbana,el sagrario,razones desconocidas,1,0
+08-28,martes,h17,atropello,nueva loja y guaranda,urbana,sucre,razones desconocidas,1,0
+08-29,miercoles,h14,choque lateral perpendicular,emiliano ortega y juan jose pena,urbana,el sagrario,razones desconocidas,1,0
+08-30,jueves,h23,atropello,salvador bustamante celi y homero idrovo,urbana,el valle,razones desconocidas,0,1
+08-31,viernes,h23,atropello,cuxibamba e ibarra,urbana,sucre,razones desconocidas,1,0
+09-01,sabado,h22,choque lateral perpendicular,sucre y jose felix de valdivieso,urbana,el sagrario,razones desconocidas,0,0
+09-02,domingo,h16,choque por alcance,emiliano ortega y universitaria,urbana,el sagrario,razones desconocidas,0,0
+09-02,domingo,h02,choque lateral angular,manuel agustin aguirre y azuay,urbana,el sagrario,razones desconocidas,1,0
+09-04,martes,h23,choque lateral perpendicular,manuel agustin aguirre y rocafuerte,urbana,el sagrario,razones desconocidas,0,0
+09-05,miercoles,h14,estrellamiento,gran colombia y riobamba,urbana,sucre,razones desconocidas,0,0
+09-07,viernes,h13,choque lateral perpendicular,universitaria y gran colombia,urbana,el sagrario,razones desconocidas,1,0
+09-07,viernes,h19,choque frontal excentrico,eduardo kingman y angel b. valarezo.,urbana,san sebastian,razones desconocidas,1,0
+09-08,sabado,h21,estrellamiento,paris y bruselas,urbana,el sagrario,razones desconocidas,0,0
+09-10,lunes,h11,choque lateral perpendicular,manuel agustin aguirre y brasil,urbana,el sagrario,razones desconocidas,0,0
+09-11,martes,h00,choque lateral perpendicular,juan jose pena y mercadillo,urbana,el sagrario,razones desconocidas,3,1
+09-11,martes,h17,choque lateral perpendicular,juan jose pena y catacocha,urbana,el sagrario,razones desconocidas,0,0
+09-11,martes,h18,choque lateral angular,manuel agustin aguirre y jose picoita,urbana,el sagrario,razones desconocidas,1,0
+09-12,miercoles,h17,atropello,eugenio espejo y colorados,urbana,punzara,razones desconocidas,1,0
+09-16,domingo,h20,arrollamiento,oriental de paso,urbana,el valle,razones desconocidas,0,1
+09-18,martes,h19,estrellamiento,pedro pacheco y chuquiribamba,urbana,carigan,razones desconocidas,0,0
+09-19,miercoles,h23,estrellamiento,pablo palacios y angel felicisimo rojas,urbana,carigan,razones desconocidas,0,0
+09-20,jueves,h00,choque lateral perpendicular,juan jose pena y lourdes,urbana,el sagrario,razones desconocidas,0,0
+09-21,viernes,h23,perdida de carril,colibri y gaviotas,urbana,el valle,razones desconocidas,0,0
+09-22,sabado,h13,choque lateral perpendicular,24 de mayo y lourdes,urbana,el sagrario,razones desconocidas,2,0
+09-23,domingo,h08,choque lateral angular,angel felicisimo rojas,urbana,sucre,razones desconocidas,0,0
+09-23,domingo,h21,roce negativo,manuel carrion pinzano y tomas rodrigo torres,urbana,sucre,razones desconocidas,0,0
+09-23,domingo,h21,choque lateral angular,8 de diciembre y santiago,urbana,carigan,razones desconocidas,0,0
+09-25,martes,h01,perdida de carril,orillas del zamora y santa rosa,urbana,el valle,razones desconocidas,0,0
+09-25,martes,h06,choque lateral perpendicular,jose artigas y francisco de narino,urbana,punzara,razones desconocidas,0,0
+09-26,miercoles,h13,atropello,cuero y caicedo entre manuel angulo y carlos montufar,urbana,punzara,imprudencia del peaton,1,0
+09-27,jueves,h20,atropello,mayas y juan jose samaniego,urbana,sucre,negligencia del conductor,1,0
+09-28,viernes,h18,choque lateral perpendicular,jose martinez ruiz y sixto duran romero,urbana,san sebastian,condiciones climaticas desfavorables,1,0
+09-28,viernes,h21,estrellamiento,pablo palacios y cesar p. ludena,urbana,carigan,fallas mecanicas no previsibles,0,0
+09-29,sabado,h19,choque lateral perpendicular,universitaria y quito,urbana,el sagrario,imprudencia del conductor,0,0
+09-29,sabado,h20,estrellamiento,olmedo y catacocha,urbana,san sebastian,imprudencia del conductor,0,0
+09-30,domingo,h20,estrellamiento,jacinto de eva entre jorge icasa y enrique gil gilberth,urbana,sucre,imprudencia del conductor,0,0
+09-30,domingo,h02,choque frontal longitudinal,alonso de mercadillo y jose a. palacios,urbana,sucre,conducir en estado de embriaguez,1,0
+10-01,lunes,h17,atropello,manuel carrion pinzano y piura,urbana,sucre,conducir en estado de embriaguez,0,0
+10-01,lunes,h20,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,el sagrario,condiciones climaticas desfavorables,1,0
+10-02,martes,h12,choque lateral angular,8 de diciembre (terminal terrestre),urbana,sucre,no ceder el derecho de via,0,0
+10-03,miercoles,h12,roce negativo,espana y curazao,urbana,punzara,cambio brusco e indebido de carril,0,0
+10-03,miercoles,h03,estrellamiento,universitaria y colon,urbana,el sagrario,no mantener la distancia reglamentaria,0,0
+10-05,viernes,h16,colision,isidro ayora y sin nombre,urbana,sucre,negligencia del conductor,0,0
+10-05,viernes,h17,atropello,cuenca y chone,urbana,el valle,imprudencia del peaton,1,0
+10-05,viernes,h01,estrellamiento,salvador bustamante celi,urbana,el valle,imprudencia del conductor,0,0
+10-06,sabado,h08,choque lateral angular,maximo agustin rodriguez y gonzalez suarez,urbana,san sebastian,conducir en estado de embriaguez,1,0
+10-06,sabado,h05,estrellamiento,orillas del zamora y santa rosa,urbana,el valle,conducir en estado de embriaguez,0,0
+10-06,sabado,h01,choque lateral angular,eugenio espejo entre pakistan y suiza.,urbana,punzara,conducir en estado de embriaguez,0,0
+10-07,domingo,h14,atropello,sucre y catacocha,urbana,san sebastian,imprudencia del peaton,1,0
+10-07,domingo,h23,choque lateral angular,olmedo y rocafuerte,urbana,el sagrario,imprudencia del conductor,0,0
+10-08,lunes,h03,roce negativo,eduardo kingman entre catamayo y amaluza,urbana,san sebastian,imprudencia del conductor,0,0
+10-10,miercoles,h14,choque lateral perpendicular,de los paltas entre hungria y finlandia,urbana,punzara,cambio brusco e indebido de carril,0,0
+10-10,miercoles,h13,estrellamiento,jose coronel y paris,urbana,carigan,imprudencia del conductor,0,0
+10-10,miercoles,h07,choque por alcance,8 de diciembre y s/n,urbana,carigan,conducir en estado de embriaguez,0,0
+10-13,sabado,h08,choque lateral perpendicular,jose maria pena y azuay,urbana,el sagrario,negligencia del conductor,0,0
+10-13,sabado,h08,estrellamiento,gran colombia y machala,urbana,sucre,negligencia del conductor,0,0
+10-14,domingo,h10,choque por alcance,isidro ayora y dr. eduardo mora,urbana,sucre,imprudencia del conductor,1,0
+10-14,domingo,h15,choque lateral perpendicular,manuel agustin aguirre y colon,urbana,el sagrario,negligencia del conductor,1,0
+10-14,domingo,h03,choque lateral angular,eugenio espejo (chonta cruz),urbana,sucre,conducir en estado de embriaguez,0,0
+10-15,lunes,h12,roce positivo,eugenio espejo (entrada a menfis alto),urbana,sucre,negligencia del conductor,1,0
+10-16,martes,h19,estrellamiento,pablo palacios y dr. arturo armijos ayala,urbana,carigan,fallas mecanicas no previsibles,0,0
+10-16,martes,h05,perdida de carril,eduardo kingman entre gonzanama y saraguro,urbana,san sebastian,negligencia del conductor,0,0
+10-17,miercoles,h12,roce negativo,dr. arturo armijos ayala y cesar ludena,urbana,carigan,negligencia del conductor,0,0
+10-18,jueves,h12,choque por alcance,bolivar y jose felix de valdivieso,urbana,el sagrario,no mantener la distancia reglamentaria,0,0
+10-19,viernes,h05,estrellamiento,catamayo y romerillos,urbana,san sebastian,conducir en estado de embriaguez,0,0
+10-19,viernes,h13,roce negativo,colon entre bolivar y sucre.,urbana,el sagrario,imprudencia del conductor,0,0
+10-19,viernes,h00,choque por alcance,salvador bustamante celi y isidro ayora,urbana,el valle,conducir en estado de embriaguez,0,0
+10-20,sabado,h01,estrellamiento,velazco ibarra y jose maria urbina,urbana,sucre,razones desconocidas,0,0
+10-20,sabado,h03,choque lateral perpendicular,orillas del zamora y juan de salinas,urbana,el sagrario,imprudencia del conductor,1,0
+10-20,sabado,h03,choque frontal excentrico,los paltas y otavalos,urbana,sucre,imprudencia del conductor,0,0
+10-21,domingo,h17,estrellamiento,gran colombia y pujili,urbana,sucre,razones desconocidas,0,0
+10-22,lunes,h20,atropello,lauro guerrero y colon,urbana,el sagrario,imprudencia del peaton,1,0
+10-24,miercoles,h14,estrellamiento,lourdes y bolivar,urbana,san sebastian,imprudencia del conductor,0,0
+10-25,jueves,h03,estrellamiento,chuquiribamba barrio motupe,urbana,carigan,imprudencia del conductor,0,0
+10-26,viernes,h07,choque lateral perpendicular,universitaria y imbabura,urbana,el sagrario,imprudencia del conductor,1,0
+10-26,viernes,h03,estrellamiento,romerillos y arupos,urbana,san sebastian,conducir en estado de embriaguez,0,0
+10-27,sabado,h08,roce positivo,eugenio espejo y aztecas,urbana,punzara,conducir en estado de embriaguez,0,0
+10-27,sabado,h18,choque lateral perpendicular,bolivar e imbabura,urbana,el sagrario,imprudencia del conductor,0,0
+10-28,domingo,h08,caida de pasajero,rio ucayali y rio aguarico,urbana,san sebastian,razones desconocidas,2,0
+10-28,domingo,h22,atropello,eugenio espejo y punaes,urbana,sucre,razones desconocidas,1,0
+10-31,miercoles,h12,choque lateral angular,mercadillo entre juan jose pena y 24 de mayo,urbana,el sagrario,desatento a la conduccion,0,0
+10-31,miercoles,h11,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,el sagrario,no respetar las senales de transito,3,0
+10-31,miercoles,h04,perdida de carril,manuel carrion pinzano y manaos,urbana,sucre,razones desconocidas,0,0
+10-31,miercoles,h04,perdida de carril,manuel carrion pinzano y manaos,urbana,sucre,razones desconocidas,0,0
+11-01,jueves,h09,estrellamiento,los paltas y benjamin carrion (frente a la ant),urbana,punzara,imprudencia del conductor,0,0
+11-01,jueves,h01,choque lateral perpendicular,lourdes y macara,urbana,el sagrario,imprudencia del conductor,0,0
+11-02,viernes,h05,perdida de carril,manuel agustin aguirre y juan de salinas,urbana,el sagrario,imprudencia del conductor,1,0
+11-02,viernes,h08,roce negativo,eduardo kingman y catamayo,urbana,san sebastian,conducir en estado de embriaguez,0,0
+11-03,sabado,h14,caida de pasajero,nueva loja y emiliano ortega,urbana,el sagrario,imprudencia del pasajero,1,0
+11-03,sabado,h00,choque lateral angular,manuel carrion pinzano y jose maria riofrio,urbana,sucre,no respetar las senales de transito,1,0
+11-03,sabado,h05,choque frontal excentrico,juan maria riofrio y jose maria riofrio,urbana,el sagrario,conducir en estado de embriaguez,0,0
+11-03,sabado,h17,roce negativo,jose maria pena y tnt. maximiliano rodriguez,urbana,el sagrario,desatento a la conduccion,0,0
+11-03,sabado,h08,estrellamiento,reinaldo espinoza y james watt,urbana,punzara,conducir en estado de embriaguez,0,0
+11-03,sabado,h22,volcamiento,angel felicisimo rojas,urbana,sucre,razones desconocidas,1,0
+11-03,sabado,h22,roce negativo,manuel carrion pinzano y rafael riofrio,urbana,sucre,conducir en estado de embriaguez,0,0
+11-03,sabado,h12,choque frontal excentrico,salvador bustamante celi y agustin carrion palacios,urbana,el valle,conducir en estado de embriaguez,0,0
+11-04,domingo,h08,estrellamiento,nicolas garcia entre miguel riofrio y azuay,urbana,el sagrario,conducir en estado de embriaguez,0,0
+11-04,domingo,h12,choque lateral angular,quinara e ines jimenez,urbana,sucre,razones desconocidas,0,0
+11-05,lunes,h14,choque lateral perpendicular,bolivar y juan de salinas,urbana,el sagrario,imprudencia del conductor,0,0
+11-05,lunes,h16,choque lateral perpendicular,orillas del zamora y clodoveo carrion,urbana,el sagrario,imprudencia del conductor,0,0
+11-09,viernes,h05,estrellamiento,ciudadela nueva granada y diego noboa,urbana,el valle,conducir en estado de embriaguez,0,0
+11-10,sabado,h06,choque lateral perpendicular,nueva loja y guayaquil,urbana,el valle,conducir en estado de embriaguez,0,0
+11-10,sabado,h02,estrellamiento,manuel carrion pinzano,urbana,sucre,fallas mecanicas no previsibles,0,0
+11-11,domingo,h04,choque lateral perpendicular,manuel agustin aguirre y rocafuerte,urbana,el sagrario,conducir en estado de embriaguez,0,0
+11-11,domingo,h00,estrellamiento,terminal terrestre reina del cisne y victoriano palacios,urbana,sucre,imprudencia del conductor,0,0
+11-13,martes,h00,estrellamiento,orillas del zamora y santa rosa,urbana,el valle,conducir en estado de embriaguez,0,0
+11-14,miercoles,h20,choque por alcance,via panamericana barrio plateado,urbana,sucre,imprudencia del conductor,0,0
+11-14,miercoles,h19,choque lateral angular,manuel carrion pinzano y eduardo unda,urbana,sucre,imprudencia del conductor,1,0
+11-15,jueves,h11,estrellamiento,ibarra entre emiliano ortega y santo domingo de los colorados,urbana,sucre,imprudencia del conductor,0,0
+11-15,jueves,h11,choque lateral perpendicular,18 de noviembre y jose antonio eguiguren,urbana,el sagrario,imprudencia del conductor,1,0
+11-15,jueves,h12,choque lateral perpendicular,machala e ibarra,urbana,sucre,imprudencia del conductor,0,0
+11-18,domingo,h09,choque lateral perpendicular,18 de noviembre y juan de salinas,urbana,el sagrario,imprudencia del conductor,0,0
+11-18,domingo,h18,choque lateral angular,isidro ayora y asuncion,urbana,sucre,imprudencia del conductor,0,0
+11-18,domingo,h21,choque lateral angular,manuel carrion pinzano y eugenio espejo,urbana,sucre,imprudencia del conductor,0,0
+11-18,domingo,h04,choque lateral angular,barrio consacola y pablo palacios,urbana,sucre,imprudencia del conductor,1,0
+11-19,lunes,h22,atropello,ordalos y canarios barrio el paraiso,urbana,el valle,imprudencia del peaton,1,0
+11-20,martes,h13,perdida de carril,cuxibamba y guaranda,urbana,sucre,imprudencia del conductor,0,0
+11-20,martes,h16,choque lateral perpendicular,manuel agustin aguirre y lourdes,urbana,san sebastian,imprudencia del conductor,0,0
+11-20,martes,h18,colision,eugenio espejo y villonaco,urbana,sucre,imprudencia del conductor,0,0
+11-21,miercoles,h19,choque lateral perpendicular,eugenio espejo y eplicachima,urbana,sucre,imprudencia del conductor,0,0
+11-21,miercoles,h00,choque lateral angular,riobamba y cuxibamba,urbana,sucre,imprudencia del conductor,0,0
+11-21,miercoles,h01,estrellamiento,juan jose samaniego y ramon pinto,urbana,el sagrario,conducir en estado de embriaguez,0,0
+11-22,jueves,h12,choque lateral perpendicular,isidro ayora,urbana,sucre,imprudencia del conductor,0,0
+11-22,jueves,h13,choque lateral perpendicular,bolivar y jose felix de valdivieso,urbana,el sagrario,imprudencia del conductor,0,0
+11-22,jueves,h03,choque lateral perpendicular,teniente maximiliano rodriguez y ramon pinto,urbana,el sagrario,imprudencia del conductor,2,0
+11-23,viernes,h17,atropello,cuxibamba y guaranda,urbana,sucre,imprudencia del peaton,1,0
+11-23,viernes,h10,perdida de carril,los paltas y teniente maximiliano rodriguez,urbana,sucre,razones desconocidas,2,0
+11-23,viernes,h20,choque por alcance,8 de diciembre y beatriz cueva de ayora,urbana,carigan,cambio brusco e indebido de carril,0,0
+11-24,sabado,h04,roce negativo,manuel carrion pinzano y victoriano palacios,urbana,sucre,imprudencia del conductor,1,0
+11-24,sabado,h12,choque lateral perpendicular,18 de noviembre y miguel riofrio,urbana,el sagrario,imprudencia del conductor,0,0
+11-26,lunes,h06,estrellamiento,riobamba entre gran colombia y ambato,urbana,sucre,imprudencia del conductor,0,0
+11-26,lunes,h12,roce negativo,argentina y paraguay,urbana,punzara,imprudencia del conductor,0,0
+11-26,lunes,h12,choque lateral perpendicular,maximiliano rodriguez y jose maria pena,urbana,el sagrario,imprudencia del conductor,0,0
+11-26,lunes,h21,choque frontal longitudinal,manuel carrion pinzano y de los paltas,urbana,sucre,fallas mecanicas no previsibles,1,0
+11-29,jueves,h12,colision,zoilo rodriguez y clodoveo carrion,urbana,el sagrario,imprudencia del conductor,0,0
+11-29,jueves,h22,estrellamiento,lourdes y bolivar,urbana,san sebastian,imprudencia del conductor,0,0
+11-30,viernes,h21,choque por alcance,benjamin carrion y benito juarez,urbana,punzara,imprudencia del conductor,2,0
+11-30,viernes,h10,estrellamiento,juan jose pena entre rocafuerte y miguel riofrio,urbana,el sagrario,negligencia del conductor,0,0
+11-30,viernes,h18,estrellamiento,sargento jose robles y jose maria,urbana,punzara,conducir en estado de embriaguez,0,0
+12-01,sabado,h09,choque lateral perpendicular,alonso de mercadillo y ramon pinto,urbana,el sagrario,conducir en estado de embriaguez,0,0
+12-03,lunes,h15,choque por alcance,gran colombia y tulcan,urbana,sucre,no mantener la distancia reglamentaria,0,0
+12-03,lunes,h20,estrellamiento,isidro ayora y angel felicisimo rojas,urbana,sucre,desatento a la conduccion,0,0
+12-03,lunes,h03,choque lateral angular,cuba y manuel agustin aguirre,urbana,punzara,imprudencia del conductor,0,0
+12-05,miercoles,h01,choque frontal excentrico,8 de diciembre y eduardo palacios,urbana,carigan,imprudencia del conductor,2,0
+12-07,viernes,h14,choque lateral perpendicular,jiron rodriguez soto entre cuero y caicedo,urbana,punzara,no ceder el derecho de via,1,0
+12-08,sabado,h12,choque lateral angular,manuel agustin aguirre y cuba,urbana,punzara,conducir en estado de embriaguez,2,0
+12-08,sabado,h02,choque lateral perpendicular,olmedo y lourdes,urbana,san sebastian,cruce de via sin preferencia,0,0
+12-09,domingo,h09,choque lateral perpendicular,manuel agustin aguirre y lourdes,urbana,san sebastian,cruce de via sin preferencia,0,0
+12-09,domingo,h12,estrellamiento,san cayetano/via parra 2,urbana,sucre,razones desconocidas,0,0
+12-09,domingo,h08,estrellamiento,gran colombia y universitaria,urbana,sucre,razones desconocidas,0,0
+12-09,domingo,h07,estrellamiento,isidro ayora,urbana,sucre,conducir en estado de embriaguez,0,0
+12-10,lunes,h20,perdida de carril,benjamin carrion entre jose palcios y tomas rodriguez torres,urbana,punzara,fallas mecanicas no previsibles,1,0
+12-11,martes,h05,choque lateral angular,manuel carrion pinzano y bolivar bailon,urbana,sucre,cambio brusco e indebido de carril,1,0
+12-11,martes,h21,estrellamiento,bello horizonte y oruro,urbana,sucre,perdida de pista,0,0
+12-12,miercoles,h17,choque por alcance,pio jaramillo alvarado y gobernacion de mainas,urbana,san sebastian,imprudencia del conductor,0,0
+12-12,miercoles,h18,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,el sagrario,no respetar las senales de transito,0,0
+12-13,jueves,h15,choque por alcance,8 de dicembre y soria,urbana,carigan,no mantener la distancia reglamentaria,0,0
+12-13,jueves,h22,atipico,lourdes y bolivar,urbana,san sebastian,razones desconocidas,0,0
+12-14,viernes,h09,estrellamiento,universitaria y gran colombia,urbana,el sagrario,conducir en estado de embriaguez,0,0
+12-15,sabado,h01,estrellamiento,8 de diciembre/barrio la banda,urbana,carigan,conducir en estado de embriaguez,0,0
+12-15,sabado,h08,choque lateral perpendicular,orillas del zamora y juan de salinas,urbana,el sagrario,no ceder el derecho de via,0,0
+12-16,domingo,h10,choque lateral angular,isidro ayora y nueva loja,urbana,sucre,conducir en estado de embriaguez,0,0
+12-17,lunes,h13,atropello,barrio bolonia,urbana,sucre,imprudencia del conductor,0,0
+12-18,martes,h01,choque lateral angular,eduardo kingman y acacias,urbana,san sebastian,no ceder el derecho de via,0,0
+12-19,miercoles,h04,choque lateral angular,orillas del zamora y ibarra,urbana,el valle,conducir en estado de embriaguez,0,0
+12-20,jueves,h18,choque lateral perpendicular,argentina y brasil,urbana,punzara,no ceder el derecho de via,1,0
+12-20,jueves,h19,choque lateral perpendicular,jose maria riofrio y victor paz,urbana,sucre,conducir en estado de embriaguez,0,0
+12-20,jueves,h02,choque lateral perpendicular,10 de agosto y juan jose pena,urbana,el sagrario,conducir en estado de embriaguez,2,0
+12-20,jueves,h03,choque por alcance,pio jaramillo alvarado y mercadillo,urbana,el sagrario,conducir en estado de embriaguez,0,0
+12-21,viernes,h10,estrellamiento,angel b. valarezo y ciro alegria.,urbana,san sebastian,perdida de pista,0,0
+12-22,sabado,h09,choque lateral perpendicular,bolivar bailon y manuel vivanco,urbana,sucre,conducir en estado de embriaguez,2,0
+12-22,sabado,h22,choque lateral perpendicular,10 de agosto y emiliano ortega,urbana,el sagrario,imprudencia del conductor,0,0
+12-23,domingo,h22,atropello,benjamin carrion y tomas rodrigo torres,urbana,punzara,imprudencia del peaton,1,0
+12-23,domingo,h07,choque lateral perpendicular,bernardo valdivieso y jose antonio eguiguren,urbana,el sagrario,conducir en estado de embriaguez,0,0
+12-23,domingo,h01,perdida de carril,angel felicisimo rojas y transito amaguana,urbana,punzara,imprudencia del conductor,4,0
+12-24,lunes,h01,choque lateral angular,pablo palacios y cesar polibio ludena,urbana,carigan,conducir en estado de embriaguez,1,0
+12-24,lunes,h05,choque lateral perpendicular,jose maria pena y azuay,urbana,el sagrario,conducir en estado de embriaguez,2,0
+12-27,jueves,h05,estrellamiento,olmedo y gonzalez suarez,urbana,san sebastian,imprudencia del conductor,0,0
+12-27,jueves,h16,colision,isidro ayora y habana,urbana,sucre,imprudencia del conductor,0,0
+12-28,viernes,h00,perdida de pista,eugenio espejo / 100 metros aproximadamente del redondel de chantacruz,urbana,sucre,conducir en exceso de velocidad,0,0
+12-29,sabado,h10,estrellamiento,isidro ayora y 8 de diciembre,urbana,sucre,conducir en estado de embriaguez,0,0
+12-29,sabado,h00,choque por alcance,manuel carrion pinzano y benjamin pereira,urbana,sucre,conducir en estado de embriaguez,0,0
+12-30,domingo,h11,choque lateral perpendicular,lauro guerrero y 10 de agosto,urbana,el sagrario,no respetar las senales de transito,0,0
+12-30,domingo,h09,choque lateral perpendicular,18 de noviembre y celica,urbana,san sebastian,conducir en estado de embriaguez,1,0
+12-30,domingo,h04,choque lateral angular,bolivar y jose antonio eguiguren,urbana,el sagrario,conducir en estado de embriaguez,1,0
+12-31,lunes,h22,choque lateral perpendicular,eduardo kingman/barrio capuli,urbana,san sebastian,conducir en estado de embriaguez,0,0
+12-31,lunes,h01,choque lateral angular,8 de diciembre y belisario moreno,urbana,carigan,conducir en estado de embriaguez,0,0
+12-31,lunes,h04,choque lateral perpendicular,ramon pinto y mercadillo,urbana,el sagrario,conducir en estado de embriaguez,1,0
