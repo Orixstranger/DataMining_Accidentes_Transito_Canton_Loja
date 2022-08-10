@@ -464,7 +464,7 @@ fecha,dia,hora,latitud,longitud,tipologia,direccion,zona,parroquia_urbana,causas
 12-01,domingo,h02,-3.9964755,-79.2052803,choque lateral perpendicular,manuel agustin aguirre y jose antonio eguiguren,urbana,sucre,conducir en estado de embriaguez,1,0
 12-01,domingo,h09,-3.9603996,-79.2163935,estrellamiento,8 de diciembre y belisario moreno,urbana,carigan,imprudencia del conductor,0,0
 12-01,domingo,h05,-3.9887226,-79.2102521,colision,manuel carrion pinzano y pedro falconi,urbana,sucre,conducir en estado de embriaguez,0,0
-12-02,lunes,h16,-3.9384964,-79.2258358,atropello,"8 de diciembre en la bifurcacion en ""y"" / pablo picasso y via antigua a cuenca",urbana,carigan,imprudencia del conductor,0,1
+12-02,lunes,h16,-3.9384964,-79.2258358,atropello,pablo picasso y via antigua a cuenca,urbana,carigan,imprudencia del conductor,0,1
 12-03,martes,h01,-4.003576,-79.212568,perdida de carril,de los paltas y tnt maximiliano rodriguez,urbana,punzara,conducir en estado de embriaguez,3,0
 12-04,miercoles,h22,-3.999493,-79.205436,choque lateral perpendicular,universitaria y miguel riofrio,urbana,el sagrario,no respetar las senales de transito,0,0
 12-05,jueves,h22,-4.0768988,-79.1963763,perdida de carril,exodo de yangana,urbana,punzara,conducir en estado de embriaguez,1,0
