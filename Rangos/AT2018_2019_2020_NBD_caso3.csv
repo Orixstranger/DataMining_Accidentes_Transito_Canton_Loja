@@ -1,0 +1,1029 @@
+dia,hora,tipologia,parroquia_urbana,causas,nro_heridos,nro_fallecidos
+lunes_martes_miercoles,h12_h17,atropello,punzara,imprudencia del peaton,1,0
+jueves_viernes,h18_h23,atropello,sucre,negligencia del conductor,1,0
+jueves_viernes,h18_h23,choque,san sebastian,condiciones climaticas desfavorables,1,0
+jueves_viernes,h18_h23,estrellamiento,carigan,fallas mecanicas no previsibles,0,0
+sabado_domingo,h18_h23,choque,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,estrellamiento,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,estrellamiento,sucre,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,choque,sucre,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h12_h17,atropello,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,condiciones climaticas desfavorables,1,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h12_h17,roce,punzara,cambio brusco e indebido de carril,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el sagrario,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h12_h17,colision,sucre,negligencia del conductor,0,0
+jueves_viernes,h12_h17,atropello,el valle,imprudencia del peaton,1,0
+jueves_viernes,h00_h05,estrellamiento,el valle,imprudencia del conductor,0,0
+sabado_domingo,h06_h11,choque,san sebastian,conducir en estado de embriaguez,1,0
+sabado_domingo,h00_h05,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,choque,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,atropello,san sebastian,imprudencia del peaton,1,0
+sabado_domingo,h18_h23,choque,el sagrario,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,roce,san sebastian,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,punzara,cambio brusco e indebido de carril,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,carigan,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,el sagrario,negligencia del conductor,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,negligencia del conductor,0,0
+sabado_domingo,h06_h11,choque,sucre,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,choque,el sagrario,negligencia del conductor,1,0
+sabado_domingo,h00_h05,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,roce,sucre,negligencia del conductor,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,carigan,fallas mecanicas no previsibles,0,0
+lunes_martes_miercoles,h00_h05,perdida de carril_pista,san sebastian,negligencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,roce,carigan,negligencia del conductor,0,0
+jueves_viernes,h12_h17,choque,el sagrario,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h00_h05,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+jueves_viernes,h12_h17,roce,el sagrario,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,choque,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,choque,el sagrario,imprudencia del conductor,1,0
+sabado_domingo,h00_h05,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,atropello,el sagrario,imprudencia del peaton,1,0
+lunes_martes_miercoles,h12_h17,estrellamiento,san sebastian,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,estrellamiento,carigan,imprudencia del conductor,0,0
+jueves_viernes,h06_h11,choque,el sagrario,imprudencia del conductor,1,0
+jueves_viernes,h00_h05,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,roce,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,el sagrario,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,inobservancia de leyes de transito,0,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,no respetar las senales de transito,3,0
+jueves_viernes,h06_h11,estrellamiento,punzara,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,choque,el sagrario,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,perdida de carril_pista,el sagrario,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,roce,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,caida de pasajero,el sagrario,inobservancia de leyes de transito,1,0
+sabado_domingo,h00_h05,choque,sucre,no respetar las senales de transito,1,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,roce,el sagrario,inobservancia de leyes de transito,0,0
+sabado_domingo,h06_h11,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,roce,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,choque,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,estrellamiento,el sagrario,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,fallas mecanicas no previsibles,0,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,estrellamiento,sucre,imprudencia del conductor,0,0
+jueves_viernes,h06_h11,choque,el sagrario,imprudencia del conductor,1,0
+jueves_viernes,h12_h17,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h06_h11,choque,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,choque,sucre,imprudencia del conductor,1,0
+lunes_martes_miercoles,h18_h23,atropello,el valle,imprudencia del peaton,1,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,san sebastian,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,colision,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el sagrario,conducir en estado de embriaguez,0,0
+jueves_viernes,h12_h17,choque,sucre,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,choque,el sagrario,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,choque,el sagrario,imprudencia del conductor,2,0
+jueves_viernes,h12_h17,atropello,sucre,imprudencia del peaton,1,0
+jueves_viernes,h18_h23,choque,carigan,cambio brusco e indebido de carril,0,0
+sabado_domingo,h00_h05,roce,sucre,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,choque,el sagrario,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,estrellamiento,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,roce,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,fallas mecanicas no previsibles,1,0
+jueves_viernes,h12_h17,colision,el sagrario,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,estrellamiento,san sebastian,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,choque,punzara,imprudencia del conductor,2,0
+jueves_viernes,h06_h11,estrellamiento,el sagrario,negligencia del conductor,0,0
+jueves_viernes,h18_h23,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,el sagrario,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h18_h23,estrellamiento,sucre,inobservancia de leyes de transito,0,0
+lunes_martes_miercoles,h00_h05,choque,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,choque,carigan,imprudencia del conductor,2,0
+jueves_viernes,h12_h17,choque,punzara,no ceder el derecho de via,1,0
+sabado_domingo,h12_h17,choque,punzara,conducir en estado de embriaguez,2,0
+sabado_domingo,h00_h05,choque,san sebastian,inobservancia de leyes de transito,0,0
+sabado_domingo,h06_h11,choque,san sebastian,inobservancia de leyes de transito,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,punzara,fallas mecanicas no previsibles,1,0
+lunes_martes_miercoles,h00_h05,choque,sucre,cambio brusco e indebido de carril,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,sucre,inobservancia de leyes de transito,0,0
+lunes_martes_miercoles,h12_h17,choque,san sebastian,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,no respetar las senales de transito,0,0
+jueves_viernes,h12_h17,choque,carigan,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h06_h11,estrellamiento,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,carigan,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h06_h11,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,atropello,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,choque,san sebastian,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h00_h05,choque,el valle,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,choque,punzara,no ceder el derecho de via,1,0
+jueves_viernes,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+jueves_viernes,h00_h05,choque,el sagrario,conducir en estado de embriaguez,2,0
+jueves_viernes,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+jueves_viernes,h06_h11,estrellamiento,san sebastian,inobservancia de leyes de transito,0,0
+sabado_domingo,h06_h11,choque,sucre,conducir en estado de embriaguez,2,0
+sabado_domingo,h18_h23,choque,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,atropello,punzara,imprudencia del peaton,1,0
+sabado_domingo,h06_h11,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,punzara,imprudencia del conductor,4,0
+lunes_martes_miercoles,h00_h05,choque,carigan,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h00_h05,choque,el sagrario,conducir en estado de embriaguez,2,0
+jueves_viernes,h00_h05,estrellamiento,san sebastian,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,colision,sucre,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,choque,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,el sagrario,no respetar las senales de transito,0,0
+sabado_domingo,h06_h11,choque,san sebastian,conducir en estado de embriaguez,1,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h18_h23,choque,san sebastian,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h00_h05,choque,carigan,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h00_h05,choque,el sagrario,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,estrellamiento,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,roce,sucre,imprudencia del conductor,2,0
+lunes_martes_miercoles,h00_h05,choque,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no ceder el derecho de via,2,0
+jueves_viernes,h18_h23,estrellamiento,carigan,conducir en exceso de velocidad,1,0
+sabado_domingo,h00_h05,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,sucre,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,cambio brusco e indebido de carril,3,0
+lunes_martes_miercoles,h12_h17,atropello,carigan,imprudencia del conductor,2,0
+jueves_viernes,h06_h11,atropello,el sagrario,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,el sagrario,no ceder el derecho de via,2,0
+jueves_viernes,h18_h23,choque,el valle,no ceder el derecho de via,0,0
+sabado_domingo,h18_h23,choque,punzara,conducir en estado de embriaguez,1,0
+sabado_domingo,h00_h05,choque,carigan,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,perdida de carril_pista,san sebastian,fallas mecanicas no previsibles,2,0
+sabado_domingo,h18_h23,choque,punzara,no ceder el derecho de via,2,0
+sabado_domingo,h06_h11,perdida de carril_pista,carigan,fallas mecanicas no previsibles,0,0
+sabado_domingo,h12_h17,choque,el valle,no respetar las senales de transito,0,0
+sabado_domingo,h12_h17,choque,san sebastian,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h12_h17,choque,punzara,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h06_h11,colision,punzara,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h12_h17,atipico,san sebastian,imprudencia del conductor,0,0
+jueves_viernes,h06_h11,choque,el valle,cambio brusco e indebido de carril,1,0
+jueves_viernes,h18_h23,choque,san sebastian,no ceder el derecho de via,2,0
+jueves_viernes,h18_h23,estrellamiento,el valle,conducir en estado de embriaguez,4,0
+jueves_viernes,h18_h23,choque,sucre,invadir carril de circulacion,0,0
+sabado_domingo,h00_h05,choque,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,choque,punzara,no ceder el derecho de via,0,0
+sabado_domingo,h18_h23,choque,el sagrario,conducir en estado de embriaguez,1,0
+sabado_domingo,h18_h23,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,carigan,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,sucre,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h12_h17,atropello,sucre,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,choque,san sebastian,conducir en exceso de velocidad,0,0
+jueves_viernes,h12_h17,atropello,san sebastian,conducir en exceso de velocidad,1,0
+sabado_domingo,h00_h05,encunetamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,carigan,conducir en estado de embriaguez,1,0
+sabado_domingo,h12_h17,atropello,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h18_h23,estrellamiento,carigan,conducir en estado de embriaguez,1,1
+jueves_viernes,h12_h17,atropello,sucre,imprudencia del peaton,1,0
+sabado_domingo,h12_h17,choque,el sagrario,conducir en exceso de velocidad,1,0
+sabado_domingo,h06_h11,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,estrellamiento,sucre,fallas mecanicas no previsibles,0,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,carigan,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h06_h11,choque,el valle,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,choque,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,no ceder el derecho de via,2,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,no ceder el derecho de via,0,0
+jueves_viernes,h12_h17,choque,el valle,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,choque,el sagrario,imprudencia del conductor,1,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,estrellamiento,carigan,conducir en exceso de velocidad,1,0
+sabado_domingo,h00_h05,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,sucre,cambio brusco e indebido de carril,0,0
+sabado_domingo,h06_h11,choque,san sebastian,no respetar las senales de transito,0,0
+sabado_domingo,h12_h17,choque,carigan,cambio brusco e indebido de carril,1,0
+sabado_domingo,h12_h17,perdida de carril_pista,el valle,conducir en exceso de velocidad,4,0
+lunes_martes_miercoles,h18_h23,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,atipico,punzara,imprudencia del conductor,1,0
+lunes_martes_miercoles,h18_h23,choque,san sebastian,no ceder el derecho de via,3,0
+lunes_martes_miercoles,h18_h23,atipico,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,san sebastian,no respetar las senales de transito,0,0
+jueves_viernes,h06_h11,choque,sucre,no ceder el derecho de via,1,0
+jueves_viernes,h12_h17,choque,sucre,no respetar las senales de transito,1,0
+jueves_viernes,h06_h11,choque,punzara,conducir en estado de embriaguez,2,0
+jueves_viernes,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,1,0
+jueves_viernes,h12_h17,estrellamiento,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,choque,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h12_h17,choque,san sebastian,no ceder el derecho de via,1,0
+sabado_domingo,h12_h17,atropello,sucre,conducir en estado de embriaguez,2,0
+lunes_martes_miercoles,h06_h11,choque,el valle,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,atropello,punzara,imprudencia del peaton,1,0
+jueves_viernes,h12_h17,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,perdida de carril_pista,carigan,conducir en estado de embriaguez,5,1
+sabado_domingo,h06_h11,choque,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,arrollamiento,carigan,imprudencia del peaton,1,0
+lunes_martes_miercoles,h18_h23,choque,punzara,conducir en estado de embriaguez,2,0
+lunes_martes_miercoles,h18_h23,choque,san sebastian,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h06_h11,choque,sucre,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,choque,punzara,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,el valle,no ceder el derecho de via,0,0
+jueves_viernes,h12_h17,choque,el sagrario,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h00_h05,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,el sagrario,conducir en estado de embriaguez,2,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,estrellamiento,el valle,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+jueves_viernes,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+jueves_viernes,h06_h11,choque,sucre,no ceder el derecho de via,1,0
+jueves_viernes,h06_h11,atropello,el sagrario,imprudencia del peaton,1,0
+jueves_viernes,h12_h17,atropello,san sebastian,conducir en estado de embriaguez,2,0
+sabado_domingo,h06_h11,atropello,sucre,imprudencia del peaton,1,0
+sabado_domingo,h00_h05,estrellamiento,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,1,0
+sabado_domingo,h12_h17,colision,punzara,conducir en estado de embriaguez,2,0
+lunes_martes_miercoles,h06_h11,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,atropello,sucre,imprudencia del peaton,1,0
+sabado_domingo,h00_h05,choque,sucre,no ceder el derecho de via,1,0
+sabado_domingo,h12_h17,estrellamiento,san sebastian,conducir en exceso de velocidad,3,0
+lunes_martes_miercoles,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,carigan,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+jueves_viernes,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h12_h17,choque,el sagrario,no ceder el derecho de via,1,0
+jueves_viernes,h12_h17,atropello,el sagrario,imprudencia del peaton,1,0
+jueves_viernes,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,1,0
+sabado_domingo,h12_h17,choque,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,sucre,no mantener la distancia reglamentaria,0,0
+sabado_domingo,h18_h23,choque,sucre,invadir carril de circulacion,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,3,0
+lunes_martes_miercoles,h06_h11,choque,san sebastian,imprudencia del conductor,1,0
+lunes_martes_miercoles,h12_h17,atipico,san sebastian,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,san sebastian,no ceder el derecho de via,0,0
+sabado_domingo,h06_h11,choque,san sebastian,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h18_h23,choque,san sebastian,conducir en exceso de velocidad,0,1
+sabado_domingo,h18_h23,choque,el valle,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,atropello,el valle,imprudencia del peaton,1,0
+lunes_martes_miercoles,h12_h17,choque,el valle,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,atropello,carigan,imprudencia del peaton,1,0
+lunes_martes_miercoles,h18_h23,choque,el valle,no respetar las senales de transito,0,0
+jueves_viernes,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,estrellamiento,el sagrario,conducir en exceso de velocidad,1,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,san sebastian,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h06_h11,roce,sucre,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h12_h17,choque,san sebastian,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h00_h05,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,atipico,san sebastian,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,san sebastian,imprudencia del conductor,1,0
+jueves_viernes,h18_h23,choque,san sebastian,no ceder el derecho de via,2,0
+sabado_domingo,h06_h11,atropello,el sagrario,imprudencia del peaton,1,0
+sabado_domingo,h12_h17,choque,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,el valle,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h00_h05,perdida de carril_pista,el sagrario,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h06_h11,colision,san sebastian,imprudencia del conductor,1,0
+lunes_martes_miercoles,h12_h17,atropello,san sebastian,imprudencia del peaton,1,0
+lunes_martes_miercoles,h12_h17,choque,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,el valle,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,1
+sabado_domingo,h12_h17,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h18_h23,choque,punzara,invadir carril de circulacion,1,0
+lunes_martes_miercoles,h18_h23,choque,sucre,razones desconocidas,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el valle,conducir en estado de embriaguez,2,0
+jueves_viernes,h18_h23,perdida de carril_pista,san sebastian,conducir en estado de embriaguez,2,0
+jueves_viernes,h18_h23,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h12_h17,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,cambio brusco e indebido de carril,0,0
+lunes_martes_miercoles,h00_h05,choque,sucre,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,1,0
+jueves_viernes,h12_h17,choque,el sagrario,cambio brusco e indebido de carril,1,0
+jueves_viernes,h12_h17,choque,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h00_h05,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,atipico,carigan,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,4,1
+sabado_domingo,h12_h17,choque,sucre,invadir carril de circulacion,4,0
+sabado_domingo,h00_h05,choque,san sebastian,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h00_h05,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,1
+lunes_martes_miercoles,h06_h11,choque,sucre,cambio brusco e indebido de carril,0,0
+lunes_martes_miercoles,h06_h11,roce,punzara,imprudencia del conductor,0,0
+jueves_viernes,h06_h11,choque,punzara,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h18_h23,choque,el valle,conducir en estado de embriaguez,1,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h18_h23,atropello,sucre,imprudencia del peaton,1,0
+lunes_martes_miercoles,h06_h11,choque,carigan,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,atropello,sucre,imprudencia del peaton,1,0
+lunes_martes_miercoles,h18_h23,choque,carigan,no ceder el derecho de via,2,0
+lunes_martes_miercoles,h18_h23,atropello,el sagrario,imprudencia del peaton,1,0
+jueves_viernes,h18_h23,choque,carigan,imprudencia del peaton,6,0
+jueves_viernes,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,1,1
+lunes_martes_miercoles,h12_h17,roce,el sagrario,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h06_h11,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,choque,el sagrario,no ceder el derecho de via,1,0
+sabado_domingo,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,1,0
+sabado_domingo,h00_h05,estrellamiento,el valle,conducir en exceso de velocidad,1,0
+sabado_domingo,h12_h17,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,atropello,sucre,imprudencia del conductor,1,0
+jueves_viernes,h00_h05,choque,el sagrario,no ceder el derecho de via,0,0
+jueves_viernes,h18_h23,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,carigan,invadir carril de circulacion,1,0
+sabado_domingo,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,atropello,el sagrario,imprudencia del peaton,1,0
+jueves_viernes,h12_h17,choque,san sebastian,no ceder el derecho de via,0,0
+sabado_domingo,h06_h11,estrellamiento,punzara,imprudencia del conductor,1,0
+jueves_viernes,h12_h17,choque,sucre,no ceder el derecho de via,1,0
+jueves_viernes,h06_h11,choque,punzara,no respetar las senales de transito,0,0
+jueves_viernes,h18_h23,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,choque,el valle,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,choque,san sebastian,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h06_h11,roce,sucre,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h18_h23,choque,el valle,imprudencia del conductor,2,0
+lunes_martes_miercoles,h18_h23,choque,san sebastian,no mantener la distancia reglamentaria,3,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no respetar las senales de transito,2,0
+lunes_martes_miercoles,h18_h23,choque,sucre,condiciones climaticas desfavorables,0,0
+jueves_viernes,h06_h11,choque,san sebastian,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,choque,el sagrario,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,caida de pasajero,el sagrario,imprudencia del conductor,1,0
+sabado_domingo,h18_h23,estrellamiento,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h00_h05,choque,sucre,no ceder el derecho de via,1,0
+jueves_viernes,h06_h11,estrellamiento,san sebastian,imprudencia del conductor,2,0
+jueves_viernes,h12_h17,choque,el sagrario,no ceder el derecho de via,1,0
+jueves_viernes,h18_h23,estrellamiento,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,roce,carigan,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,choque,el valle,imprudencia del conductor,1,0
+sabado_domingo,h18_h23,choque,el sagrario,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,2,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no respetar las senales de transito,0,0
+jueves_viernes,h06_h11,choque,el valle,no ceder el derecho de via,0,0
+jueves_viernes,h06_h11,choque,punzara,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,el sagrario,no ceder el derecho de via,0,0
+jueves_viernes,h18_h23,atipico,punzara,razones desconocidas,0,0
+sabado_domingo,h00_h05,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h18_h23,choque,sucre,conducir en estado de embriaguez,2,0
+sabado_domingo,h12_h17,choque,el valle,conducir en estado de embriaguez,2,0
+lunes_martes_miercoles,h12_h17,choque,carigan,no mantener la distancia reglamentaria,2,1
+jueves_viernes,h18_h23,choque,sucre,no ceder el derecho de via,2,0
+jueves_viernes,h12_h17,choque,san sebastian,no ceder el derecho de via,2,0
+sabado_domingo,h06_h11,atropello,punzara,imprudencia del peaton,1,1
+sabado_domingo,h06_h11,choque,san sebastian,no ceder el derecho de via,2,1
+sabado_domingo,h18_h23,perdida de carril_pista,el valle,conducir en estado de embriaguez,1,0
+sabado_domingo,h06_h11,estrellamiento,punzara,conducir en estado de embriaguez,1,1
+sabado_domingo,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,1,1
+sabado_domingo,h00_h05,estrellamiento,el valle,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h12_h17,atropello,sucre,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h12_h17,atropello,san sebastian,imprudencia del peaton,1,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no ceder el derecho de via,1,0
+jueves_viernes,h00_h05,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,choque,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,colision,el valle,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h06_h11,atropello,punzara,conducir en exceso de velocidad,1,0
+sabado_domingo,h06_h11,volcamiento,carigan,conducir en exceso de velocidad,2,0
+sabado_domingo,h00_h05,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,choque,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,2,0
+lunes_martes_miercoles,h00_h05,colision,punzara,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,el sagrario,conducir en exceso de velocidad,2,0
+sabado_domingo,h06_h11,atropello,sucre,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,choque,sucre,no ceder el derecho de via,0,0
+sabado_domingo,h06_h11,perdida de carril_pista,carigan,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,roce,punzara,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h00_h05,atropello,carigan,razones desconocidas,0,1
+lunes_martes_miercoles,h12_h17,roce,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,colision,sucre,negligencia del conductor,0,0
+jueves_viernes,h06_h11,caida de pasajero,punzara,imprudencia del conductor,1,0
+jueves_viernes,h00_h05,perdida de carril_pista,punzara,conducir en exceso de velocidad,2,0
+jueves_viernes,h00_h05,choque,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,roce,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,perdida de carril_pista,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,roce,carigan,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,el sagrario,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,atropello,carigan,imprudencia del peaton,1,0
+lunes_martes_miercoles,h18_h23,atropello,punzara,razones desconocidas,1,0
+sabado_domingo,h00_h05,choque,punzara,no ceder el derecho de via,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,el valle,no ceder el derecho de via,1,0
+sabado_domingo,h18_h23,choque,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,1
+lunes_martes_miercoles,h06_h11,choque,san sebastian,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h12_h17,arrollamiento,el sagrario,no respetar las ordenes del agente de transito,1,0
+sabado_domingo,h00_h05,choque,san sebastian,conducir en estado de embriaguez,1,0
+sabado_domingo,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,no ceder el derecho de via,2,0
+lunes_martes_miercoles,h06_h11,choque,san sebastian,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h06_h11,choque,sucre,no ceder el derecho de via,2,0
+jueves_viernes,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,choque,carigan,conducir en estado de embriaguez,3,0
+jueves_viernes,h18_h23,choque,carigan,conducir en estado de embriaguez,1,0
+sabado_domingo,h12_h17,atropello,punzara,imprudencia del peaton,0,1
+lunes_martes_miercoles,h00_h05,choque,punzara,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h06_h11,choque,san sebastian,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h06_h11,choque,san sebastian,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,choque,sucre,conducir en estado de embriaguez,3,0
+sabado_domingo,h00_h05,estrellamiento,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,sucre,no ceder el derecho de via,1,0
+sabado_domingo,h12_h17,choque,san sebastian,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h12_h17,atropello,sucre,imprudencia del conductor,1,0
+jueves_viernes,h00_h05,estrellamiento,el sagrario,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,colision,el valle,no mantener la distancia reglamentaria,2,0
+lunes_martes_miercoles,h06_h11,roce,san sebastian,imprudencia del conductor,2,0
+jueves_viernes,h18_h23,choque,sucre,imprudencia del conductor,0,0
+jueves_viernes,h06_h11,choque,punzara,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h12_h17,choque,carigan,no mantener la distancia reglamentaria,1,0
+sabado_domingo,h00_h05,choque,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h06_h11,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el valle,razones desconocidas,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,imprudencia del conductor,1,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h12_h17,choque,el valle,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h18_h23,atropello,el sagrario,imprudencia del peaton,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,sucre,impericia del conductor,0,0
+jueves_viernes,h18_h23,choque,punzara,no mantener la distancia reglamentaria,0,0
+sabado_domingo,h12_h17,atropello,san sebastian,imprudencia del peaton,1,0
+sabado_domingo,h12_h17,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,atropello,san sebastian,imprudencia del conductor,1,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no ceder el derecho de via,2,0
+sabado_domingo,h06_h11,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,choque,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,san sebastian,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,punzara,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,imprudencia del conductor,3,0
+jueves_viernes,h00_h05,choque,el sagrario,conducir en estado de embriaguez,5,0
+jueves_viernes,h06_h11,choque,sucre,conducir en exceso de velocidad,1,0
+jueves_viernes,h18_h23,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,sucre,no ceder el derecho de via,0,0
+jueves_viernes,h00_h05,choque,san sebastian,no ceder el derecho de via,0,0
+jueves_viernes,h18_h23,choque,el sagrario,no respetar las senales de transito,3,0
+sabado_domingo,h06_h11,choque,sucre,no mantener la distancia reglamentaria,2,0
+sabado_domingo,h00_h05,choque,san sebastian,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,estrellamiento,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,choque,el sagrario,no ceder el derecho de via,1,0
+sabado_domingo,h12_h17,choque,el valle,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,carigan,imprudencia del conductor,1,0
+jueves_viernes,h00_h05,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,roce,sucre,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,sucre,no respetar las senales de transito,3,0
+sabado_domingo,h00_h05,choque,san sebastian,conducir en estado de embriaguez,1,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h12_h17,choque,punzara,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h06_h11,atropello,sucre,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,el valle,conducir en exceso de velocidad,1,1
+jueves_viernes,h06_h11,choque,punzara,no ceder el derecho de via,0,0
+sabado_domingo,h18_h23,choque,sucre,no ceder el derecho de via,1,0
+jueves_viernes,h06_h11,choque,el valle,no ceder el derecho de via,1,0
+sabado_domingo,h00_h05,estrellamiento,el sagrario,imprudencia del peaton,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h12_h17,estrellamiento,sucre,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h00_h05,choque,sucre,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,1,0
+sabado_domingo,h06_h11,choque,san sebastian,no mantener la distancia reglamentaria,1,0
+sabado_domingo,h12_h17,choque,sucre,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h18_h23,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,san sebastian,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,choque,punzara,no ceder el derecho de via,0,0
+sabado_domingo,h06_h11,perdida de carril_pista,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,atropello,san sebastian,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,choque,carigan,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,choque,punzara,no ceder el derecho de via,0,0
+jueves_viernes,h12_h17,choque,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,choque,punzara,conducir en estado de embriaguez,1,0
+sabado_domingo,h06_h11,choque,sucre,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h18_h23,choque,sucre,no ceder el derecho de via,0,0
+jueves_viernes,h06_h11,atropello,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h12_h17,choque,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,el valle,no ceder el derecho de via,0,0
+sabado_domingo,h18_h23,roce,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,perdida de carril_pista,sucre,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h06_h11,atropello,sucre,imprudencia del conductor,0,1
+lunes_martes_miercoles,h06_h11,choque,carigan,no ceder el derecho de via,0,0
+jueves_viernes,h00_h05,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,1
+jueves_viernes,h06_h11,perdida de carril_pista,sucre,conducir en exceso de velocidad,1,0
+jueves_viernes,h12_h17,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+jueves_viernes,h12_h17,colision,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,carigan,no mantener la distancia reglamentaria,0,0
+sabado_domingo,h12_h17,choque,punzara,no ceder el derecho de via,1,0
+sabado_domingo,h00_h05,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h18_h23,atropello,carigan,imprudencia del peaton,1,0
+lunes_martes_miercoles,h12_h17,choque,el valle,conducir en estado de embriaguez,3,0
+lunes_martes_miercoles,h18_h23,choque,punzara,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,choque,punzara,no ceder el derecho de via,1,0
+jueves_viernes,h06_h11,choque,sucre,imprudencia del conductor,2,0
+sabado_domingo,h00_h05,choque,sucre,conducir en estado de embriaguez,1,1
+sabado_domingo,h12_h17,choque,el sagrario,no ceder el derecho de via,2,1
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h12_h17,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,choque,el valle,no mantener la distancia reglamentaria,1,0
+sabado_domingo,h12_h17,choque,sucre,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h06_h11,colision,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,el sagrario,no respetar las senales de transito,4,0
+lunes_martes_miercoles,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,carigan,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h18_h23,atipico,punzara,imprudencia del conductor,0,0
+jueves_viernes,h06_h11,roce,el valle,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h06_h11,choque,punzara,no respetar las senales de transito,1,0
+jueves_viernes,h00_h05,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+jueves_viernes,h00_h05,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,choque,el sagrario,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h18_h23,choque,el valle,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+jueves_viernes,h00_h05,perdida de carril_pista,san sebastian,imprudencia del conductor,1,1
+jueves_viernes,h18_h23,choque,sucre,no mantener la distancia reglamentaria,0,0
+jueves_viernes,h18_h23,choque,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,atropello,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h06_h11,choque,el sagrario,no respetar las senales de transito,0,0
+sabado_domingo,h00_h05,choque,sucre,conducir en estado de embriaguez,1,0
+sabado_domingo,h06_h11,estrellamiento,carigan,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,colision,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,atropello,carigan,imprudencia del conductor,0,1
+lunes_martes_miercoles,h00_h05,perdida de carril_pista,punzara,conducir en estado de embriaguez,3,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,no respetar las senales de transito,0,0
+jueves_viernes,h18_h23,perdida de carril_pista,punzara,conducir en estado de embriaguez,1,0
+sabado_domingo,h06_h11,atropello,sucre,imprudencia del conductor,1,0
+jueves_viernes,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,el valle,conducir en estado de embriaguez,1,0
+sabado_domingo,h12_h17,perdida de carril_pista,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,atropello,el sagrario,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h00_h05,choque,san sebastian,no respetar las senales de transito,0,0
+sabado_domingo,h12_h17,choque,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,choque,el sagrario,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,no respetar las senales de transito,0,0
+sabado_domingo,h18_h23,choque,carigan,conducir en estado de embriaguez,1,0
+jueves_viernes,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,choque,el sagrario,no respetar las senales de transito,0,0
+jueves_viernes,h12_h17,volcamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,choque,carigan,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h12_h17,choque,punzara,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h06_h11,atropello,el sagrario,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,carigan,no respetar las senales de transito,0,0
+jueves_viernes,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h00_h05,roce,san sebastian,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,choque,el sagrario,no respetar las senales de transito,0,0
+jueves_viernes,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,perdida de carril_pista,punzara,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,choque,carigan,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h06_h11,estrellamiento,san sebastian,imprudencia del conductor,1,0
+lunes_martes_miercoles,h12_h17,choque,san sebastian,no respetar las senales de transito,0,0
+jueves_viernes,h18_h23,choque,el valle,no respetar las senales de transito,0,0
+jueves_viernes,h06_h11,choque,punzara,no respetar las senales de transito,0,0
+sabado_domingo,h06_h11,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,choque,sucre,no respetar las senales de transito,0,0
+sabado_domingo,h00_h05,choque,el sagrario,no ceder el derecho de via,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h00_h05,choque,sucre,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h06_h11,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+jueves_viernes,h00_h05,perdida de carril_pista,punzara,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+jueves_viernes,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h12_h17,estrellamiento,sucre,imprudencia del conductor,2,0
+sabado_domingo,h12_h17,choque,punzara,negligencia del conductor,0,0
+sabado_domingo,h18_h23,atropello,punzara,imprudencia del peaton,1,0
+sabado_domingo,h12_h17,colision,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,sucre,no respetar las senales de transito,3,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,el valle,no respetar las senales de transito,1,0
+jueves_viernes,h06_h11,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,choque,carigan,imprudencia del conductor,1,0
+sabado_domingo,h00_h05,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,san sebastian,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h06_h11,choque,sucre,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h06_h11,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,san sebastian,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h12_h17,roce,sucre,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,choque,el valle,imprudencia del conductor,2,0
+jueves_viernes,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h12_h17,roce,el valle,imprudencia del conductor,0,0
+jueves_viernes,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+jueves_viernes,h12_h17,choque,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,atropello,punzara,imprudencia del peaton,1,0
+sabado_domingo,h12_h17,choque,el valle,no respetar las senales de transito,0,0
+sabado_domingo,h12_h17,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,perdida de carril_pista,punzara,imprudencia del conductor,0,1
+lunes_martes_miercoles,h00_h05,choque,san sebastian,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h06_h11,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,roce,el sagrario,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,choque,punzara,no mantener la distancia reglamentaria,2,0
+jueves_viernes,h00_h05,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,choque,punzara,no ceder el derecho de via,1,0
+sabado_domingo,h18_h23,choque,san sebastian,condiciones climaticas desfavorables,0,0
+sabado_domingo,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,1,0
+sabado_domingo,h18_h23,choque,el sagrario,no mantener la distancia reglamentaria,1,0
+sabado_domingo,h18_h23,choque,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,estrellamiento,punzara,no mantener la distancia reglamentaria,0,0
+sabado_domingo,h18_h23,atropello,sucre,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h06_h11,choque,el valle,no mantener la distancia reglamentaria,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h18_h23,choque,el valle,no respetar las senales de transito,0,0
+sabado_domingo,h06_h11,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,atropello,el sagrario,imprudencia del peaton,1,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,punzara,conducir en estado de embriaguez,1,0
+jueves_viernes,h06_h11,choque,sucre,no ceder el derecho de via,1,0
+jueves_viernes,h06_h11,choque,el sagrario,no respetar las senales de transito,0,0
+jueves_viernes,h18_h23,choque,el sagrario,conducir en estado de embriaguez,2,0
+sabado_domingo,h00_h05,choque,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,atropello,sucre,imprudencia del peaton,1,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,atropello,sucre,imprudencia del peaton,1,0
+lunes_martes_miercoles,h06_h11,arrollamiento,carigan,imprudencia del conductor,1,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h18_h23,atropello,sucre,conducir en estado de embriaguez,2,0
+lunes_martes_miercoles,h12_h17,choque,san sebastian,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h18_h23,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h00_h05,choque,sucre,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h06_h11,arrollamiento,carigan,conducir en exceso de velocidad,1,0
+jueves_viernes,h18_h23,choque,el sagrario,no respetar las senales de transito,2,0
+jueves_viernes,h12_h17,roce,punzara,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,choque,san sebastian,imprudencia del conductor,2,0
+sabado_domingo,h06_h11,roce,sucre,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,1,0
+sabado_domingo,h06_h11,choque,el sagrario,no ceder el derecho de via,5,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,atropello,san sebastian,imprudencia del conductor,1,0
+lunes_martes_miercoles,h00_h05,choque,san sebastian,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h00_h05,choque,carigan,no respetar las senales de transito,1,0
+jueves_viernes,h18_h23,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+jueves_viernes,h12_h17,choque,punzara,imprudencia del conductor,1,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,1,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h06_h11,choque,punzara,no ceder el derecho de via,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h18_h23,atropello,carigan,imprudencia del conductor,0,1
+jueves_viernes,h18_h23,choque,san sebastian,no ceder el derecho de via,0,0
+jueves_viernes,h18_h23,atropello,punzara,imprudencia del peaton,1,0
+jueves_viernes,h18_h23,choque,san sebastian,no respetar las senales de transito,0,0
+sabado_domingo,h18_h23,estrellamiento,carigan,imprudencia del conductor,1,0
+sabado_domingo,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,choque,el sagrario,imprudencia del conductor,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h18_h23,roce,punzara,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,arrollamiento,el sagrario,negligencia del conductor,0,1
+sabado_domingo,h18_h23,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h06_h11,estrellamiento,sucre,imprudencia del conductor,1,0
+lunes_martes_miercoles,h12_h17,atropello,el valle,imprudencia del peaton,1,0
+lunes_martes_miercoles,h00_h05,roce,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,volcamiento,sucre,inobservancia de leyes de transito,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,san sebastian,fallas mecanicas no previsibles,0,0
+jueves_viernes,h06_h11,choque,carigan,no mantener la distancia reglamentaria,3,0
+jueves_viernes,h12_h17,choque,san sebastian,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,choque,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,san sebastian,no respetar las senales de transito,2,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no respetar las senales de transito,2,0
+jueves_viernes,h12_h17,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+jueves_viernes,h00_h05,choque,carigan,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,estrellamiento,punzara,fallas mecanicas no previsibles,0,0
+sabado_domingo,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,atipico,el valle,fallas mecanicas no previsibles,0,0
+lunes_martes_miercoles,h18_h23,choque,el valle,condiciones climaticas desfavorables,0,0
+jueves_viernes,h18_h23,estrellamiento,sucre,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,choque,sucre,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+jueves_viernes,h12_h17,choque,punzara,negligencia del conductor,1,0
+sabado_domingo,h18_h23,estrellamiento,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,perdida de carril_pista,san sebastian,fallas mecanicas no previsibles,0,1
+lunes_martes_miercoles,h06_h11,choque,san sebastian,no respetar las senales de transito,0,1
+lunes_martes_miercoles,h12_h17,choque,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,punzara,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,imprudencia del conductor,2,0
+jueves_viernes,h12_h17,choque,sucre,no respetar las senales de transito,0,0
+jueves_viernes,h12_h17,perdida de carril_pista,carigan,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+jueves_viernes,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,el valle,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,el sagrario,conducir en exceso de velocidad,2,0
+lunes_martes_miercoles,h06_h11,perdida de carril_pista,sucre,condiciones climaticas desfavorables,0,0
+jueves_viernes,h18_h23,estrellamiento,punzara,fallas mecanicas no previsibles,0,0
+jueves_viernes,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,sucre,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h18_h23,choque,san sebastian,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,carigan,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,choque,san sebastian,no respetar las senales de transito,1,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,choque,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,atropello,sucre,negligencia del conductor,1,0
+jueves_viernes,h18_h23,atropello,punzara,imprudencia del peaton,1,0
+lunes_martes_miercoles,h18_h23,choque,punzara,conducir en estado de embriaguez,0,0
+jueves_viernes,h00_h05,estrellamiento,san sebastian,condiciones climaticas desfavorables,2,0
+sabado_domingo,h18_h23,choque,el sagrario,no ceder el derecho de via,1,0
+sabado_domingo,h18_h23,choque,punzara,conducir en exceso de velocidad,2,0
+sabado_domingo,h06_h11,choque,san sebastian,no respetar las senales de transito,2,0
+lunes_martes_miercoles,h12_h17,choque,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,no ceder el derecho de via,1,0
+sabado_domingo,h06_h11,choque,sucre,no mantener la distancia reglamentaria,0,0
+sabado_domingo,h00_h05,volcamiento,punzara,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h12_h17,estrellamiento,sucre,conducir en exceso de velocidad,0,1
+lunes_martes_miercoles,h18_h23,choque,punzara,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no respetar las senales de transito,1,0
+jueves_viernes,h12_h17,choque,punzara,conducir en exceso de velocidad,1,0
+jueves_viernes,h06_h11,choque,el sagrario,conducir en exceso de velocidad,1,0
+sabado_domingo,h06_h11,atropello,sucre,imprudencia del peaton,1,0
+sabado_domingo,h06_h11,choque,punzara,no respetar las senales de transito,0,0
+sabado_domingo,h06_h11,choque,punzara,no ceder el derecho de via,1,0
+lunes_martes_miercoles,h00_h05,atipico,punzara,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,choque,sucre,no mantener la distancia reglamentaria,1,0
+lunes_martes_miercoles,h18_h23,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h00_h05,volcamiento,carigan,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,roce,san sebastian,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el sagrario,imprudencia del conductor,2,0
+jueves_viernes,h12_h17,roce,sucre,negligencia del conductor,0,0
+jueves_viernes,h18_h23,choque,punzara,imprudencia del conductor,0,0
+sabado_domingo,h00_h05,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,choque,carigan,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,volcamiento,el sagrario,imprudencia del conductor,1,0
+jueves_viernes,h12_h17,choque,san sebastian,negligencia del conductor,0,0
+jueves_viernes,h00_h05,atipico,el valle,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,el sagrario,negligencia del conductor,3,0
+sabado_domingo,h12_h17,choque,el valle,imprudencia del conductor,2,0
+lunes_martes_miercoles,h12_h17,roce,punzara,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,colision,el sagrario,no respetar las senales de transito,0,0
+lunes_martes_miercoles,h18_h23,choque,punzara,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h12_h17,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,sucre,imprudencia del conductor,2,0
+jueves_viernes,h18_h23,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+jueves_viernes,h06_h11,choque,el valle,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h06_h11,atropello,punzara,imprudencia del peaton,1,0
+jueves_viernes,h18_h23,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,el valle,imprudencia del conductor,2,0
+sabado_domingo,h18_h23,choque,sucre,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,atipico,punzara,imprudencia del conductor,4,0
+lunes_martes_miercoles,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,1,0
+jueves_viernes,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,estrellamiento,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,perdida de carril_pista,el sagrario,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,sucre,imprudencia del conductor,0,0
+jueves_viernes,h06_h11,roce,el valle,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,atipico,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no respetar las senales de transito,1,0
+jueves_viernes,h18_h23,volcamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,el sagrario,conducir en exceso de velocidad,1,0
+sabado_domingo,h18_h23,choque,san sebastian,no ceder el derecho de via,1,0
+sabado_domingo,h12_h17,choque,punzara,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,no ceder el derecho de via,1,0
+jueves_viernes,h00_h05,estrellamiento,el valle,conducir en estado de embriaguez,0,0
+jueves_viernes,h18_h23,choque,punzara,conducir en exceso de velocidad,1,0
+jueves_viernes,h18_h23,choque,el sagrario,no respetar las senales de transito,0,0
+sabado_domingo,h06_h11,choque,el valle,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,estrellamiento,sucre,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,encunetamiento,sucre,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,el valle,imprudencia del conductor,1,0
+sabado_domingo,h18_h23,choque,sucre,imprudencia del conductor,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,punzara,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h18_h23,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,1,0
+sabado_domingo,h06_h11,estrellamiento,carigan,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,1,0
+sabado_domingo,h06_h11,atipico,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,estrellamiento,punzara,imprudencia del peaton,0,0
+lunes_martes_miercoles,h12_h17,choque,punzara,conducir en estado de embriaguez,0,0
+jueves_viernes,h06_h11,choque,san sebastian,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,choque,san sebastian,conducir en estado de embriaguez,1,0
+sabado_domingo,h18_h23,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,punzara,no ceder el derecho de via,0,0
+sabado_domingo,h06_h11,atropello,punzara,imprudencia del peaton,1,0
+sabado_domingo,h06_h11,estrellamiento,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,el sagrario,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,choque,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+jueves_viernes,h12_h17,estrellamiento,sucre,conducir en estado de embriaguez,1,0
+jueves_viernes,h06_h11,atipico,carigan,imprudencia del conductor,0,0
+jueves_viernes,h18_h23,choque,punzara,imprudencia del conductor,1,0
+jueves_viernes,h12_h17,choque,san sebastian,imprudencia del conductor,1,0
+jueves_viernes,h00_h05,choque,punzara,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,volcamiento,sucre,imprudencia del conductor,1,1
+sabado_domingo,h06_h11,choque,punzara,imprudencia del conductor,1,0
+sabado_domingo,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,el sagrario,conducir en exceso de velocidad,0,0
+sabado_domingo,h00_h05,choque,el valle,imprudencia del conductor,1,0
+sabado_domingo,h18_h23,choque,san sebastian,conducir en exceso de velocidad,3,0
+lunes_martes_miercoles,h18_h23,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h18_h23,atropello,el sagrario,imprudencia del peaton,2,0
+lunes_martes_miercoles,h18_h23,choque,carigan,conducir en estado de embriaguez,4,0
+jueves_viernes,h18_h23,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,punzara,imprudencia del conductor,1,0
+sabado_domingo,h18_h23,estrellamiento,punzara,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h18_h23,choque,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,no respetar las senales de transito,1,0
+lunes_martes_miercoles,h18_h23,choque,san sebastian,conducir en estado de embriaguez,1,0
+jueves_viernes,h06_h11,atropello,sucre,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,sucre,conducir en exceso de velocidad,1,0
+jueves_viernes,h00_h05,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,estrellamiento,el valle,conducir en exceso de velocidad,0,0
+sabado_domingo,h12_h17,choque,san sebastian,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,choque,carigan,conducir en exceso de velocidad,2,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,choque,sucre,conducir en estado de embriaguez,2,0
+sabado_domingo,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,1
+sabado_domingo,h00_h05,estrellamiento,sucre,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h06_h11,perdida de carril_pista,punzara,conducir en estado de embriaguez,2,0
+sabado_domingo,h18_h23,choque,el sagrario,conducir en estado de embriaguez,2,0
+sabado_domingo,h12_h17,choque,punzara,imprudencia del conductor,1,0
+sabado_domingo,h00_h05,perdida de carril_pista,sucre,conducir en estado de embriaguez,2,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,choque,el sagrario,conducir en exceso de velocidad,3,0
+lunes_martes_miercoles,h06_h11,choque,punzara,no respetar las senales de transito,0,0
+jueves_viernes,h18_h23,estrellamiento,punzara,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,punzara,conducir en estado de embriaguez,3,0
+sabado_domingo,h18_h23,choque,el valle,imprudencia del conductor,0,0
+sabado_domingo,h06_h11,choque,sucre,no respetar las senales de transito,1,0
+sabado_domingo,h12_h17,colision,sucre,imprudencia del conductor,0,0
+lunes_martes_miercoles,h00_h05,choque,sucre,imprudencia del conductor,1,0
+lunes_martes_miercoles,h18_h23,estrellamiento,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,perdida de carril_pista,carigan,conducir en exceso de velocidad,2,0
+jueves_viernes,h12_h17,choque,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,choque,carigan,conducir en estado de embriaguez,0,0
+sabado_domingo,h12_h17,atropello,el valle,imprudencia del peaton,1,0
+sabado_domingo,h18_h23,choque,punzara,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,choque,sucre,conducir en estado de embriaguez,0,0
+sabado_domingo,h06_h11,choque,san sebastian,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,perdida de carril_pista,el valle,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,choque,punzara,imprudencia del conductor,3,0
+jueves_viernes,h18_h23,choque,el sagrario,conducir en estado de embriaguez,0,0
+sabado_domingo,h18_h23,arrollamiento,carigan,imprudencia del conductor,0,1
+sabado_domingo,h12_h17,choque,sucre,conducir en exceso de velocidad,0,0
+sabado_domingo,h18_h23,choque,san sebastian,imprudencia del conductor,1,0
+lunes_martes_miercoles,h06_h11,atropello,sucre,imprudencia del conductor,1,0
+lunes_martes_miercoles,h00_h05,choque,el valle,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h06_h11,volcamiento,sucre,imprudencia del conductor,1,0
+jueves_viernes,h12_h17,choque,san sebastian,no respetar las senales de transito,0,0
+jueves_viernes,h18_h23,perdida de carril_pista,carigan,conducir en estado de embriaguez,1,0
+jueves_viernes,h06_h11,choque,san sebastian,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,punzara,no respetar las senales de transito,2,0
+sabado_domingo,h06_h11,choque,sucre,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,atropello,punzara,imprudencia del peaton,1,0
+sabado_domingo,h12_h17,choque,sucre,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,perdida de carril_pista,sucre,imprudencia del conductor,2,0
+lunes_martes_miercoles,h12_h17,estrellamiento,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h18_h23,choque,punzara,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,sucre,imprudencia del conductor,2,0
+lunes_martes_miercoles,h06_h11,choque,sucre,conducir en exceso de velocidad,1,0
+jueves_viernes,h12_h17,roce,el sagrario,conducir en estado de embriaguez,0,0
+jueves_viernes,h06_h11,choque,punzara,conducir en exceso de velocidad,3,0
+sabado_domingo,h12_h17,choque,punzara,no respetar las senales de transito,0,0
+sabado_domingo,h12_h17,choque,punzara,imprudencia del conductor,1,0
+sabado_domingo,h00_h05,estrellamiento,san sebastian,conducir en exceso de velocidad,0,0
+lunes_martes_miercoles,h18_h23,choque,punzara,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h06_h11,estrellamiento,el sagrario,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,el valle,no respetar las senales de transito,0,0
+sabado_domingo,h06_h11,atropello,el sagrario,imprudencia del peaton,1,0
+sabado_domingo,h00_h05,atropello,sucre,imprudencia del peaton,1,0
+sabado_domingo,h06_h11,atropello,san sebastian,imprudencia del peaton,1,0
+sabado_domingo,h12_h17,atropello,punzara,imprudencia del peaton,1,0
+sabado_domingo,h18_h23,perdida de carril_pista,sucre,conducir en estado de embriaguez,1,1
+sabado_domingo,h18_h23,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,1,0
+lunes_martes_miercoles,h18_h23,choque,el sagrario,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,1,0
+lunes_martes_miercoles,h18_h23,atropello,carigan,imprudencia del peaton,1,0
+jueves_viernes,h12_h17,choque,el valle,imprudencia del conductor,0,0
+jueves_viernes,h12_h17,estrellamiento,carigan,imprudencia del conductor,3,1
+jueves_viernes,h18_h23,choque,punzara,conducir en estado de embriaguez,2,0
+sabado_domingo,h12_h17,estrellamiento,carigan,imprudencia del conductor,2,0
+sabado_domingo,h18_h23,choque,el valle,conducir en estado de embriaguez,2,0
+sabado_domingo,h00_h05,choque,san sebastian,imprudencia del conductor,1,0
+sabado_domingo,h18_h23,choque,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h12_h17,choque,punzara,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,estrellamiento,punzara,conducir en exceso de velocidad,3,1
+lunes_martes_miercoles,h18_h23,choque,san sebastian,imprudencia del conductor,1,0
+lunes_martes_miercoles,h00_h05,estrellamiento,san sebastian,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h18_h23,choque,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h06_h11,choque,punzara,imprudencia del conductor,1,0
+lunes_martes_miercoles,h18_h23,choque,punzara,imprudencia del conductor,1,0
+jueves_viernes,h18_h23,estrellamiento,punzara,conducir en estado de embriaguez,1,0
+jueves_viernes,h12_h17,choque,san sebastian,conducir en exceso de velocidad,1,0
+jueves_viernes,h12_h17,colision,el sagrario,imprudencia del conductor,0,0
+sabado_domingo,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,1,0
+sabado_domingo,h18_h23,choque,sucre,conducir en exceso de velocidad,2,0
+sabado_domingo,h00_h05,estrellamiento,punzara,conducir en estado de embriaguez,1,0
+sabado_domingo,h06_h11,choque,sucre,imprudencia del conductor,1,0
+sabado_domingo,h12_h17,volcamiento,carigan,condiciones climaticas desfavorables,1,0
+lunes_martes_miercoles,h06_h11,estrellamiento,carigan,imprudencia del conductor,0,0
+lunes_martes_miercoles,h18_h23,choque,sucre,conducir en estado de embriaguez,0,0
+lunes_martes_miercoles,h12_h17,choque,el sagrario,imprudencia del conductor,1,0
+lunes_martes_miercoles,h18_h23,choque,carigan,conducir en estado de embriaguez,1,0
+jueves_viernes,h00_h05,perdida de carril_pista,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h06_h11,perdida de carril_pista,punzara,conducir en exceso de velocidad,1,0
+jueves_viernes,h00_h05,choque,san sebastian,imprudencia del conductor,1,0
+jueves_viernes,h06_h11,choque,sucre,conducir en exceso de velocidad,0,0
+jueves_viernes,h18_h23,choque,el sagrario,conducir en estado de embriaguez,1,0
+jueves_viernes,h18_h23,perdida de carril_pista,san sebastian,conducir en exceso de velocidad,1,0
+jueves_viernes,h18_h23,perdida de carril_pista,sucre,conducir en exceso de velocidad,1,0
+jueves_viernes,h18_h23,choque,san sebastian,conducir en estado de embriaguez,0,1
