@@ -1,0 +1,233 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   nro_heridos = 1h
+|   |   dia = lunes_martes_miercoles: h20_h23 (20.0/13.0)
+|   |   dia = jueves_viernes: h16_h19 (7.0/3.0)
+|   |   dia = sabado_domingo: h08_h11 (19.0/11.0)
+|   nro_heridos = 0h: h12_h15 (3.0/1.0)
+|   nro_heridos = 3h: h16_h19 (0.0)
+|   nro_heridos = 2h: h16_h19 (1.0)
+|   nro_heridos = 4h: h16_h19 (0.0)
+|   nro_heridos = 5h: h16_h19 (0.0)
+|   nro_heridos = 6h: h20_h23 (1.0)
+causas = negligencia del conductor: h12_h15 (17.0/11.0)
+causas = condiciones climaticas desfavorables
+|   dia = lunes_martes_miercoles: h20_h23 (4.0/1.0)
+|   dia = jueves_viernes: h16_h19 (2.0/1.0)
+|   dia = sabado_domingo: h12_h15 (2.0/1.0)
+causas = fallas mecanicas no previsibles
+|   dia = lunes_martes_miercoles
+|   |   nro_heridos = 1h: h20_h23 (2.0)
+|   |   nro_heridos = 0h: h16_h19 (3.0/1.0)
+|   |   nro_heridos = 3h: h20_h23 (0.0)
+|   |   nro_heridos = 2h: h20_h23 (0.0)
+|   |   nro_heridos = 4h: h20_h23 (0.0)
+|   |   nro_heridos = 5h: h20_h23 (0.0)
+|   |   nro_heridos = 6h: h20_h23 (0.0)
+|   dia = jueves_viernes: h20_h23 (2.0/1.0)
+|   dia = sabado_domingo: h12_h15 (6.0/3.0)
+causas = imprudencia del conductor
+|   nro_heridos = 1h
+|   |   parroquia_urbana = punzara: h12_h15 (13.0/8.0)
+|   |   parroquia_urbana = sucre: h08_h11 (19.0/12.0)
+|   |   parroquia_urbana = san sebastian: h16_h19 (19.0/12.0)
+|   |   parroquia_urbana = carigan: h20_h23 (4.0/2.0)
+|   |   parroquia_urbana = el sagrario
+|   |   |   dia = lunes_martes_miercoles: h16_h19 (2.0)
+|   |   |   dia = jueves_viernes: h04_h07 (5.0/2.0)
+|   |   |   dia = sabado_domingo: h12_h15 (5.0/3.0)
+|   |   parroquia_urbana = el valle: h12_h15 (4.0/2.0)
+|   nro_heridos = 0h
+|   |   dia = lunes_martes_miercoles: h16_h19 (55.0/35.0)
+|   |   dia = jueves_viernes
+|   |   |   parroquia_urbana = punzara: h16_h19 (4.0/2.0)
+|   |   |   parroquia_urbana = sucre: h20_h23 (8.0/4.0)
+|   |   |   parroquia_urbana = san sebastian: h12_h15 (7.0/5.0)
+|   |   |   parroquia_urbana = carigan: h00_h03 (2.0/1.0)
+|   |   |   parroquia_urbana = el sagrario: h12_h15 (7.0/3.0)
+|   |   |   parroquia_urbana = el valle: h00_h03 (5.0/3.0)
+|   |   dia = sabado_domingo
+|   |   |   parroquia_urbana = punzara: h20_h23 (3.0/1.0)
+|   |   |   parroquia_urbana = sucre: h12_h15 (17.0/11.0)
+|   |   |   parroquia_urbana = san sebastian: h20_h23 (8.0/4.0)
+|   |   |   parroquia_urbana = carigan: h00_h03 (4.0/2.0)
+|   |   |   parroquia_urbana = el sagrario: h20_h23 (9.0/6.0)
+|   |   |   parroquia_urbana = el valle: h12_h15 (3.0/2.0)
+|   nro_heridos = 3h: h12_h15 (3.0/1.0)
+|   nro_heridos = 2h: h12_h15 (20.0/9.0)
+|   nro_heridos = 4h: h16_h19 (2.0/1.0)
+|   nro_heridos = 5h: h12_h15 (0.0)
+|   nro_heridos = 6h: h12_h15 (0.0)
+causas = conducir en estado de embriaguez
+|   nro_heridos = 1h
+|   |   parroquia_urbana = punzara: h20_h23 (14.0/8.0)
+|   |   parroquia_urbana = sucre
+|   |   |   nro_fallecidos = 0fa: h04_h07 (14.0/9.0)
+|   |   |   nro_fallecidos = 1fa: h00_h03 (3.0/1.0)
+|   |   parroquia_urbana = san sebastian: h16_h19 (7.0/5.0)
+|   |   parroquia_urbana = carigan: h20_h23 (8.0/4.0)
+|   |   parroquia_urbana = el sagrario: h04_h07 (6.0/2.0)
+|   |   parroquia_urbana = el valle: h16_h19 (7.0/4.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara: h20_h23 (22.0/16.0)
+|   |   parroquia_urbana = sucre
+|   |   |   dia = lunes_martes_miercoles: h16_h19 (9.0/4.0)
+|   |   |   dia = jueves_viernes: h20_h23 (5.0/2.0)
+|   |   |   dia = sabado_domingo: h00_h03 (28.0/18.0)
+|   |   parroquia_urbana = san sebastian: h04_h07 (23.0/17.0)
+|   |   parroquia_urbana = carigan: h00_h03 (9.0/3.0)
+|   |   parroquia_urbana = el sagrario: h00_h03 (26.0/15.0)
+|   |   parroquia_urbana = el valle: h20_h23 (22.0/15.0)
+|   nro_heridos = 3h
+|   |   dia = lunes_martes_miercoles: h12_h15 (2.0/1.0)
+|   |   dia = jueves_viernes: h20_h23 (2.0)
+|   |   dia = sabado_domingo: h00_h03 (1.0)
+|   nro_heridos = 2h
+|   |   parroquia_urbana = punzara: h16_h19 (6.0/3.0)
+|   |   parroquia_urbana = sucre: h20_h23 (6.0/3.0)
+|   |   parroquia_urbana = san sebastian: h12_h15 (2.0/1.0)
+|   |   parroquia_urbana = carigan: h20_h23 (0.0)
+|   |   parroquia_urbana = el sagrario: h20_h23 (5.0/2.0)
+|   |   parroquia_urbana = el valle: h20_h23 (3.0/2.0)
+|   nro_heridos = 4h: h20_h23 (3.0/2.0)
+|   nro_heridos = 5h: h16_h19 (2.0/1.0)
+|   nro_heridos = 6h: h00_h03 (0.0)
+causas = no ceder el derecho de via: h12_h15 (114.0/86.0)
+causas = cambio brusco e indebido de carril: h12_h15 (11.0/7.0)
+causas = no mantener la distancia reglamentaria: h16_h19 (43.0/27.0)
+causas = inobservancia de leyes de transito
+|   parroquia_urbana = punzara: h12_h15 (0.0)
+|   parroquia_urbana = sucre: h20_h23 (3.0/1.0)
+|   parroquia_urbana = san sebastian: h08_h11 (3.0/1.0)
+|   parroquia_urbana = carigan: h12_h15 (0.0)
+|   parroquia_urbana = el sagrario: h12_h15 (3.0/1.0)
+|   parroquia_urbana = el valle: h12_h15 (0.0)
+causas = no respetar las senales de transito
+|   parroquia_urbana = punzara: h08_h11 (9.0/4.0)
+|   parroquia_urbana = sucre
+|   |   nro_heridos = 1h: h08_h11 (7.0/4.0)
+|   |   nro_heridos = 0h: h12_h15 (4.0/2.0)
+|   |   nro_heridos = 3h: h04_h07 (2.0)
+|   |   nro_heridos = 2h: h12_h15 (0.0)
+|   |   nro_heridos = 4h: h12_h15 (0.0)
+|   |   nro_heridos = 5h: h12_h15 (0.0)
+|   |   nro_heridos = 6h: h12_h15 (0.0)
+|   parroquia_urbana = san sebastian: h08_h11 (13.0/8.0)
+|   parroquia_urbana = carigan: h12_h15 (4.0/3.0)
+|   parroquia_urbana = el sagrario
+|   |   dia = lunes_martes_miercoles: h12_h15 (12.0/7.0)
+|   |   dia = jueves_viernes: h20_h23 (6.0/2.0)
+|   |   dia = sabado_domingo: h08_h11 (3.0/1.0)
+|   parroquia_urbana = el valle
+|   |   dia = lunes_martes_miercoles: h20_h23 (2.0)
+|   |   dia = jueves_viernes: h16_h19 (3.0/1.0)
+|   |   dia = sabado_domingo: h12_h15 (2.0)
+causas = conducir en exceso de velocidad
+|   nro_heridos = 1h
+|   |   dia = lunes_martes_miercoles
+|   |   |   parroquia_urbana = punzara: h04_h07 (3.0)
+|   |   |   parroquia_urbana = sucre: h08_h11 (4.0/2.0)
+|   |   |   parroquia_urbana = san sebastian: h00_h03 (1.0)
+|   |   |   parroquia_urbana = carigan: h12_h15 (2.0/1.0)
+|   |   |   parroquia_urbana = el sagrario: h12_h15 (0.0)
+|   |   |   parroquia_urbana = el valle: h12_h15 (2.0/1.0)
+|   |   dia = jueves_viernes
+|   |   |   parroquia_urbana = punzara: h12_h15 (4.0/3.0)
+|   |   |   parroquia_urbana = sucre: h08_h11 (6.0/3.0)
+|   |   |   parroquia_urbana = san sebastian: h12_h15 (3.0/2.0)
+|   |   |   parroquia_urbana = carigan: h12_h15 (2.0/1.0)
+|   |   |   parroquia_urbana = el sagrario: h04_h07 (2.0)
+|   |   |   parroquia_urbana = el valle: h08_h11 (1.0)
+|   |   dia = sabado_domingo: h00_h03 (16.0/10.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara
+|   |   |   nro_fallecidos = 0fa: h20_h23 (22.0/15.0)
+|   |   |   nro_fallecidos = 1fa: h16_h19 (3.0/2.0)
+|   |   parroquia_urbana = sucre: h00_h03 (50.0/37.0)
+|   |   parroquia_urbana = san sebastian: h00_h03 (24.0/16.0)
+|   |   parroquia_urbana = carigan
+|   |   |   dia = lunes_martes_miercoles: h16_h19 (6.0/4.0)
+|   |   |   dia = jueves_viernes: h20_h23 (4.0/3.0)
+|   |   |   dia = sabado_domingo: h08_h11 (9.0/5.0)
+|   |   parroquia_urbana = el sagrario
+|   |   |   dia = lunes_martes_miercoles: h12_h15 (6.0/4.0)
+|   |   |   dia = jueves_viernes: h20_h23 (4.0/2.0)
+|   |   |   dia = sabado_domingo: h00_h03 (7.0/3.0)
+|   |   parroquia_urbana = el valle: h04_h07 (22.0/15.0)
+|   nro_heridos = 3h: h16_h19 (6.0/4.0)
+|   nro_heridos = 2h
+|   |   parroquia_urbana = punzara: h20_h23 (3.0/1.0)
+|   |   parroquia_urbana = sucre: h20_h23 (2.0/1.0)
+|   |   parroquia_urbana = san sebastian: h20_h23 (0.0)
+|   |   parroquia_urbana = carigan: h04_h07 (3.0/1.0)
+|   |   parroquia_urbana = el sagrario: h16_h19 (2.0/1.0)
+|   |   parroquia_urbana = el valle: h20_h23 (0.0)
+|   nro_heridos = 4h: h12_h15 (1.0)
+|   nro_heridos = 5h: h00_h03 (0.0)
+|   nro_heridos = 6h: h00_h03 (0.0)
+causas = invadir carril de circulacion: h20_h23 (5.0/3.0)
+causas = razones desconocidas: h20_h23 (5.0/3.0)
+causas = no respetar las ordenes del agente de transito: h16_h19 (1.0)
+causas = impericia del conductor: h00_h03 (1.0)
+
+Number of Leaves  : 	138
+
+Size of the tree : 	171
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          50               24.2718 %
+Incorrectly Classified Instances       156               75.7282 %
+Kappa statistic                          0.0916
+Mean absolute error                      0.2674
+Root mean squared error                  0.3897
+Relative absolute error                 96.3337 %
+Root relative squared error            104.5009 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,250    0,218    0,196      0,250    0,220      0,030    0,532     0,187     h12_h15
+                 0,231    0,120    0,310      0,231    0,265      0,125    0,513     0,259     h20_h23
+                 0,485    0,243    0,276      0,485    0,352      0,197    0,638     0,229     h16_h19
+                 0,344    0,161    0,282      0,344    0,310      0,169    0,658     0,283     h00_h03
+                 0,107    0,084    0,167      0,107    0,130      0,028    0,565     0,174     h08_h11
+                 0,053    0,083    0,125      0,053    0,074      -0,044   0,513     0,193     h04_h07
+Weighted Avg.    0,243    0,151    0,227      0,243    0,224      0,082    0,566     0,222     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  9  4 11  4  4  4 |  a = h12_h15
+ 14  9  3  6  4  3 |  b = h20_h23
+  5  5 16  4  0  3 |  c = h16_h19
+  4  6  6 11  2  3 |  d = h00_h03
+  6  1 12  5  3  1 |  e = h08_h11
+  8  4 10  9  5  2 |  f = h04_h07
+

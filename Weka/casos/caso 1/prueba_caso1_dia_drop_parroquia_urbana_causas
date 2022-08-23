@@ -1,0 +1,243 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso1-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: imprudencia del peaton (81.0/34.0)
+tipologia = choque lateral perpendicular
+|   hora = h13: imprudencia del conductor (8.0/4.0)
+|   hora = h20: imprudencia del conductor (7.0/3.0)
+|   hora = h18
+|   |   dia = miercoles: no respetar las senales de transito (1.0)
+|   |   dia = jueves: no ceder el derecho de via (1.0)
+|   |   dia = viernes: condiciones climaticas desfavorables (3.0/2.0)
+|   |   dia = sabado: imprudencia del conductor (2.0/1.0)
+|   |   dia = domingo: no ceder el derecho de via (0.0)
+|   |   dia = lunes: no ceder el derecho de via (0.0)
+|   |   dia = martes: conducir en exceso de velocidad (1.0)
+|   hora = h21: no ceder el derecho de via (9.0/4.0)
+|   hora = h19: imprudencia del conductor (11.0/5.0)
+|   hora = h02: conducir en estado de embriaguez (9.0/5.0)
+|   hora = h17: imprudencia del conductor (6.0/3.0)
+|   hora = h12: imprudencia del conductor (7.0/3.0)
+|   hora = h03: imprudencia del conductor (3.0)
+|   hora = h16: imprudencia del conductor (10.0/6.0)
+|   hora = h01: conducir en estado de embriaguez (9.0/5.0)
+|   hora = h08: no ceder el derecho de via (9.0/5.0)
+|   hora = h05: no ceder el derecho de via (8.0/3.0)
+|   hora = h14: no ceder el derecho de via (15.0/8.0)
+|   hora = h23: no ceder el derecho de via (9.0/5.0)
+|   hora = h07: no ceder el derecho de via (12.0/7.0)
+|   hora = h10: imprudencia del conductor (14.0/9.0)
+|   hora = h15
+|   |   dia = miercoles: no ceder el derecho de via (0.0)
+|   |   dia = jueves: no respetar las senales de transito (1.0)
+|   |   dia = viernes: no ceder el derecho de via (0.0)
+|   |   dia = sabado: no ceder el derecho de via (3.0/1.0)
+|   |   dia = domingo: negligencia del conductor (3.0/2.0)
+|   |   dia = lunes: no respetar las senales de transito (1.0)
+|   |   dia = martes: no ceder el derecho de via (1.0)
+|   hora = h00: no ceder el derecho de via (6.0/3.0)
+|   hora = h11: no respetar las senales de transito (10.0/6.0)
+|   hora = h09
+|   |   dia = miercoles: conducir en exceso de velocidad (1.0)
+|   |   dia = jueves: cambio brusco e indebido de carril (1.0)
+|   |   dia = viernes: no ceder el derecho de via (1.0)
+|   |   dia = sabado: conducir en estado de embriaguez (2.0)
+|   |   dia = domingo: no ceder el derecho de via (6.0/4.0)
+|   |   dia = lunes: no ceder el derecho de via (2.0)
+|   |   dia = martes: no ceder el derecho de via (0.0)
+|   hora = h22
+|   |   dia = miercoles: no respetar las senales de transito (1.0)
+|   |   dia = jueves: no ceder el derecho de via (5.0/2.0)
+|   |   dia = viernes: no respetar las senales de transito (4.0/2.0)
+|   |   dia = sabado: conducir en estado de embriaguez (6.0/3.0)
+|   |   dia = domingo: conducir en exceso de velocidad (1.0)
+|   |   dia = lunes: conducir en estado de embriaguez (1.0)
+|   |   dia = martes: conducir en estado de embriaguez (1.0)
+|   hora = h06: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h04: conducir en estado de embriaguez (5.0/1.0)
+tipologia = estrellamiento: conducir en exceso de velocidad (236.0/130.0)
+tipologia = choque frontal longitudinal: conducir en estado de embriaguez (7.0/3.0)
+tipologia = choque lateral angular
+|   hora = h13: imprudencia del conductor (13.0/8.0)
+|   hora = h20
+|   |   dia = miercoles: imprudencia del conductor (1.0)
+|   |   dia = jueves: no ceder el derecho de via (1.0)
+|   |   dia = viernes: imprudencia del peaton (1.0)
+|   |   dia = sabado: imprudencia del conductor (3.0/2.0)
+|   |   dia = domingo: conducir en estado de embriaguez (1.0)
+|   |   dia = lunes: no respetar las senales de transito (3.0/1.0)
+|   |   dia = martes: imprudencia del conductor (3.0/2.0)
+|   hora = h18
+|   |   dia = miercoles: imprudencia del conductor (1.0)
+|   |   dia = jueves: imprudencia del conductor (0.0)
+|   |   dia = viernes: conducir en estado de embriaguez (2.0)
+|   |   dia = sabado: condiciones climaticas desfavorables (2.0/1.0)
+|   |   dia = domingo: imprudencia del conductor (2.0)
+|   |   dia = lunes: conducir en estado de embriaguez (2.0/1.0)
+|   |   dia = martes: imprudencia del conductor (3.0)
+|   hora = h21: imprudencia del conductor (10.0/5.0)
+|   hora = h19: imprudencia del conductor (7.0/3.0)
+|   hora = h02: conducir en estado de embriaguez (3.0/1.0)
+|   hora = h17: imprudencia del conductor (6.0/3.0)
+|   hora = h12: no ceder el derecho de via (17.0/12.0)
+|   hora = h03: imprudencia del conductor (3.0/2.0)
+|   hora = h16: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h01: conducir en estado de embriaguez (10.0/5.0)
+|   hora = h08: imprudencia del conductor (7.0/5.0)
+|   hora = h05: conducir en estado de embriaguez (3.0/2.0)
+|   hora = h14
+|   |   dia = miercoles: no respetar las senales de transito (0.0)
+|   |   dia = jueves: no respetar las senales de transito (0.0)
+|   |   dia = viernes: conducir en estado de embriaguez (1.0)
+|   |   dia = sabado: imprudencia del conductor (4.0/2.0)
+|   |   dia = domingo: no respetar las senales de transito (7.0/4.0)
+|   |   dia = lunes: no ceder el derecho de via (1.0)
+|   |   dia = martes: no respetar las senales de transito (0.0)
+|   hora = h23: conducir en estado de embriaguez (9.0/3.0)
+|   hora = h07: no ceder el derecho de via (12.0/6.0)
+|   hora = h10
+|   |   dia = miercoles: imprudencia del conductor (0.0)
+|   |   dia = jueves: imprudencia del conductor (1.0)
+|   |   dia = viernes: no respetar las senales de transito (3.0/1.0)
+|   |   dia = sabado: imprudencia del conductor (2.0/1.0)
+|   |   dia = domingo: conducir en estado de embriaguez (1.0)
+|   |   dia = lunes: conducir en exceso de velocidad (1.0)
+|   |   dia = martes: imprudencia del conductor (0.0)
+|   hora = h15
+|   |   dia = miercoles: conducir en estado de embriaguez (3.0/2.0)
+|   |   dia = jueves: cambio brusco e indebido de carril (2.0/1.0)
+|   |   dia = viernes: imprudencia del conductor (1.0)
+|   |   dia = sabado: no ceder el derecho de via (0.0)
+|   |   dia = domingo: cambio brusco e indebido de carril (1.0)
+|   |   dia = lunes: no ceder el derecho de via (3.0/1.0)
+|   |   dia = martes: no ceder el derecho de via (0.0)
+|   hora = h00: no ceder el derecho de via (4.0/2.0)
+|   hora = h11: no ceder el derecho de via (9.0/5.0)
+|   hora = h09: no ceder el derecho de via (5.0/3.0)
+|   hora = h22
+|   |   nro_heridos = 1h: conducir en estado de embriaguez (2.0)
+|   |   nro_heridos = 0h: no ceder el derecho de via (4.0/2.0)
+|   |   nro_heridos = 3h: conducir en estado de embriaguez (0.0)
+|   |   nro_heridos = 2h: conducir en estado de embriaguez (0.0)
+|   |   nro_heridos = 4h: conducir en estado de embriaguez (0.0)
+|   |   nro_heridos = 5h: conducir en estado de embriaguez (0.0)
+|   |   nro_heridos = 6h: conducir en estado de embriaguez (0.0)
+|   hora = h06
+|   |   nro_heridos = 1h: conducir en estado de embriaguez (2.0/1.0)
+|   |   nro_heridos = 0h: imprudencia del conductor (4.0/2.0)
+|   |   nro_heridos = 3h: no respetar las senales de transito (1.0)
+|   |   nro_heridos = 2h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 4h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 5h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 6h: imprudencia del conductor (0.0)
+|   hora = h04: conducir en estado de embriaguez (4.0/1.0)
+tipologia = roce negativo: imprudencia del conductor (29.0/16.0)
+tipologia = colision: imprudencia del conductor (18.0/9.0)
+tipologia = choque por alcance: no mantener la distancia reglamentaria (67.0/33.0)
+tipologia = roce positivo: negligencia del conductor (3.0/2.0)
+tipologia = perdida de carril: conducir en exceso de velocidad (89.0/26.0)
+tipologia = choque frontal excentrico: conducir en estado de embriaguez (31.0/17.0)
+tipologia = caida de pasajero: imprudencia del conductor (3.0/1.0)
+tipologia = perdida de pista
+|   nro_heridos = 1h: conducir en estado de embriaguez (2.0)
+|   nro_heridos = 0h: conducir en exceso de velocidad (3.0/1.0)
+|   nro_heridos = 3h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 2h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 4h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 5h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 6h: conducir en estado de embriaguez (0.0)
+tipologia = atipico: imprudencia del conductor (15.0/2.0)
+tipologia = encunetamiento: imprudencia del conductor (2.0/1.0)
+tipologia = arrollamiento: imprudencia del conductor (6.0/4.0)
+tipologia = rozamiento: imprudencia del conductor (6.0/2.0)
+tipologia = volcamiento lateral: imprudencia del conductor (5.0/2.0)
+tipologia = volcamiento longitudinal
+|   nro_heridos = 1h: condiciones climaticas desfavorables (2.0/1.0)
+|   nro_heridos = 0h: conducir en exceso de velocidad (2.0)
+|   nro_heridos = 3h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 2h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 4h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 5h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 6h: conducir en exceso de velocidad (0.0)
+tipologia = volcamiento: conducir en exceso de velocidad (1.0)
+tipologia = choque frontal: imprudencia del conductor (1.0)
+
+Number of Leaves  : 	145
+
+Size of the tree : 	161
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          84               40.7767 %
+Incorrectly Classified Instances       122               59.2233 %
+Kappa statistic                          0.2797
+Mean absolute error                      0.086 
+Root mean squared error                  0.2242
+Relative absolute error                 82.4824 %
+Root relative squared error             98.2862 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,833    0,036    0,588      0,833    0,690      0,679    0,918     0,509     imprudencia del peaton
+                 0,000    0,000    ?          0,000    ?          ?        0,583     0,046     negligencia del conductor
+                 ?        0,005    0,000      ?        ?          ?        ?         ?         condiciones climaticas desfavorables
+                 0,000    0,000    ?          0,000    ?          ?        0,722     0,040     fallas mecanicas no previsibles
+                 0,341    0,191    0,326      0,341    0,333      0,147    0,607     0,310     imprudencia del conductor
+                 0,286    0,134    0,400      0,286    0,333      0,172    0,696     0,355     conducir en estado de embriaguez
+                 0,259    0,101    0,280      0,259    0,269      0,164    0,694     0,241     no ceder el derecho de via
+                 0,000    0,000    ?          0,000    ?          ?        0,912     0,050     cambio brusco e indebido de carril
+                 0,667    0,036    0,533      0,667    0,593      0,568    0,874     0,449     no mantener la distancia reglamentaria
+                 0,000    0,000    ?          0,000    ?          ?        0,846     0,019     inobservancia de leyes de transito
+                 0,000    0,010    0,000      0,000    0,000      -0,020   0,367     0,041     no respetar las senales de transito
+                 0,714    0,213    0,462      0,714    0,561      0,434    0,771     0,507     conducir en exceso de velocidad
+                 0,000    0,000    ?          0,000    ?          ?        0,988     0,200     invadir carril de circulacion
+                 0,000    0,000    ?          0,000    ?          ?        0,341     0,005     razones desconocidas
+                 ?        0,000    ?          ?        ?          ?        ?         ?         no respetar las ordenes del agente de transito
+                 ?        0,000    ?          ?        ?          ?        ?         ?         impericia del conductor
+Weighted Avg.    0,408    0,134    ?          0,408    ?          ?        0,703     0,346     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p   <-- classified as
+ 10  0  0  0  1  0  0  0  0  0  0  1  0  0  0  0 |  a = imprudencia del peaton
+  1  0  0  0  2  0  1  0  0  0  0  0  0  0  0  0 |  b = negligencia del conductor
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = condiciones climaticas desfavorables
+  0  0  0  0  1  0  0  0  0  0  0  3  0  0  0  0 |  d = fallas mecanicas no previsibles
+  4  0  0  0 15  6  7  0  2  0  1  9  0  0  0  0 |  e = imprudencia del conductor
+  2  0  0  0  6 14  2  0  5  0  0 20  0  0  0  0 |  f = conducir en estado de embriaguez
+  0  0  0  0  9 10  7  0  0  0  0  1  0  0  0  0 |  g = no ceder el derecho de via
+  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 |  h = cambio brusco e indebido de carril
+  0  0  0  0  4  0  0  0  8  0  0  0  0  0  0  0 |  i = no mantener la distancia reglamentaria
+  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0 |  j = inobservancia de leyes de transito
+  0  0  0  0  2  2  4  0  0  0  0  0  0  0  0  0 |  k = no respetar las senales de transito
+  0  0  1  0  5  2  3  0  0  0  1 30  0  0  0  0 |  l = conducir en exceso de velocidad
+  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0 |  m = invadir carril de circulacion
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  n = razones desconocidas
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = no respetar las ordenes del agente de transito
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = impericia del conductor
+

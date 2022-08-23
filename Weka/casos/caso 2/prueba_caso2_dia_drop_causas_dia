@@ -1,0 +1,172 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R5
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: lunes_martes_miercoles (81.0/43.0)
+tipologia = choque
+|   nro_heridos = 1h: sabado_domingo (165.0/91.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara: lunes_martes_miercoles (38.0/21.0)
+|   |   parroquia_urbana = sucre: sabado_domingo (71.0/40.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   nro_fallecidos = 0fa: sabado_domingo (47.0/27.0)
+|   |   |   nro_fallecidos = 1fa: jueves_viernes (3.0/1.0)
+|   |   parroquia_urbana = carigan: lunes_martes_miercoles (19.0/7.0)
+|   |   parroquia_urbana = el sagrario: sabado_domingo (73.0/36.0)
+|   |   parroquia_urbana = el valle: sabado_domingo (33.0/19.0)
+|   nro_heridos = 3h: lunes_martes_miercoles (18.0/10.0)
+|   nro_heridos = 2h
+|   |   hora = h12_h15
+|   |   |   parroquia_urbana = punzara: sabado_domingo (1.0)
+|   |   |   parroquia_urbana = sucre: lunes_martes_miercoles (2.0)
+|   |   |   parroquia_urbana = san sebastian: jueves_viernes (3.0/1.0)
+|   |   |   parroquia_urbana = carigan: sabado_domingo (1.0)
+|   |   |   parroquia_urbana = el sagrario: lunes_martes_miercoles (5.0/1.0)
+|   |   |   parroquia_urbana = el valle: sabado_domingo (3.0/1.0)
+|   |   hora = h20_h23
+|   |   |   parroquia_urbana = punzara: sabado_domingo (3.0/1.0)
+|   |   |   parroquia_urbana = sucre: sabado_domingo (4.0/1.0)
+|   |   |   parroquia_urbana = san sebastian: jueves_viernes (2.0)
+|   |   |   parroquia_urbana = carigan: jueves_viernes (0.0)
+|   |   |   parroquia_urbana = el sagrario: jueves_viernes (4.0/1.0)
+|   |   |   parroquia_urbana = el valle: sabado_domingo (1.0)
+|   |   hora = h16_h19: lunes_martes_miercoles (6.0/2.0)
+|   |   hora = h00_h03: jueves_viernes (3.0/1.0)
+|   |   hora = h08_h11: jueves_viernes (8.0/5.0)
+|   |   hora = h04_h07
+|   |   |   parroquia_urbana = punzara: jueves_viernes (2.0)
+|   |   |   parroquia_urbana = sucre: lunes_martes_miercoles (0.0)
+|   |   |   parroquia_urbana = san sebastian: sabado_domingo (1.0)
+|   |   |   parroquia_urbana = carigan: lunes_martes_miercoles (0.0)
+|   |   |   parroquia_urbana = el sagrario: lunes_martes_miercoles (3.0)
+|   |   |   parroquia_urbana = el valle: lunes_martes_miercoles (0.0)
+|   nro_heridos = 4h: lunes_martes_miercoles (3.0/1.0)
+|   nro_heridos = 5h: jueves_viernes (2.0/1.0)
+|   nro_heridos = 6h: jueves_viernes (1.0)
+tipologia = estrellamiento
+|   hora = h12_h15: lunes_martes_miercoles (32.0/16.0)
+|   hora = h20_h23
+|   |   nro_heridos = 1h: sabado_domingo (5.0/1.0)
+|   |   nro_heridos = 0h: jueves_viernes (35.0/17.0)
+|   |   nro_heridos = 3h: jueves_viernes (0.0)
+|   |   nro_heridos = 2h: sabado_domingo (1.0)
+|   |   nro_heridos = 4h: jueves_viernes (1.0)
+|   |   nro_heridos = 5h: jueves_viernes (0.0)
+|   |   nro_heridos = 6h: jueves_viernes (0.0)
+|   hora = h16_h19
+|   |   parroquia_urbana = punzara: sabado_domingo (7.0/3.0)
+|   |   parroquia_urbana = sucre
+|   |   |   nro_heridos = 1h: jueves_viernes (2.0)
+|   |   |   nro_heridos = 0h: sabado_domingo (9.0/5.0)
+|   |   |   nro_heridos = 3h: jueves_viernes (0.0)
+|   |   |   nro_heridos = 2h: jueves_viernes (0.0)
+|   |   |   nro_heridos = 4h: jueves_viernes (0.0)
+|   |   |   nro_heridos = 5h: jueves_viernes (0.0)
+|   |   |   nro_heridos = 6h: jueves_viernes (0.0)
+|   |   parroquia_urbana = san sebastian: jueves_viernes (2.0/1.0)
+|   |   parroquia_urbana = carigan
+|   |   |   nro_heridos = 1h: jueves_viernes (2.0/1.0)
+|   |   |   nro_heridos = 0h: lunes_martes_miercoles (2.0)
+|   |   |   nro_heridos = 3h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 2h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+|   |   parroquia_urbana = el sagrario: lunes_martes_miercoles (3.0/2.0)
+|   |   parroquia_urbana = el valle: lunes_martes_miercoles (4.0/1.0)
+|   hora = h00_h03: sabado_domingo (61.0/28.0)
+|   hora = h08_h11: sabado_domingo (20.0/11.0)
+|   hora = h04_h07: sabado_domingo (50.0/26.0)
+tipologia = roce: lunes_martes_miercoles (38.0/19.0)
+tipologia = colision
+|   hora = h12_h15
+|   |   parroquia_urbana = punzara: jueves_viernes (0.0)
+|   |   parroquia_urbana = sucre: sabado_domingo (2.0)
+|   |   parroquia_urbana = san sebastian: jueves_viernes (0.0)
+|   |   parroquia_urbana = carigan: jueves_viernes (0.0)
+|   |   parroquia_urbana = el sagrario: jueves_viernes (2.0)
+|   |   parroquia_urbana = el valle: jueves_viernes (0.0)
+|   hora = h20_h23: sabado_domingo (1.0)
+|   hora = h16_h19: jueves_viernes (7.0/3.0)
+|   hora = h00_h03: lunes_martes_miercoles (1.0)
+|   hora = h08_h11: lunes_martes_miercoles (3.0/1.0)
+|   hora = h04_h07: lunes_martes_miercoles (2.0/1.0)
+tipologia = perdida de carril_pista
+|   nro_heridos = 1h: jueves_viernes (21.0/12.0)
+|   nro_heridos = 0h: sabado_domingo (60.0/31.0)
+|   nro_heridos = 3h: lunes_martes_miercoles (1.0)
+|   nro_heridos = 2h: lunes_martes_miercoles (9.0/4.0)
+|   nro_heridos = 4h: sabado_domingo (2.0)
+|   nro_heridos = 5h: jueves_viernes (1.0)
+|   nro_heridos = 6h: sabado_domingo (0.0)
+tipologia = caida de pasajero: sabado_domingo (3.0/1.0)
+tipologia = atipico: lunes_martes_miercoles (15.0/7.0)
+tipologia = encunetamiento: jueves_viernes (2.0/1.0)
+tipologia = arrollamiento
+|   nro_heridos = 1h: lunes_martes_miercoles (4.0)
+|   nro_heridos = 0h: jueves_viernes (2.0/1.0)
+|   nro_heridos = 3h: lunes_martes_miercoles (0.0)
+|   nro_heridos = 2h: lunes_martes_miercoles (0.0)
+|   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+tipologia = volcamiento
+|   hora = h12_h15: sabado_domingo (2.0)
+|   hora = h20_h23: jueves_viernes (1.0)
+|   hora = h16_h19: lunes_martes_miercoles (2.0/1.0)
+|   hora = h00_h03: lunes_martes_miercoles (2.0)
+|   hora = h08_h11: lunes_martes_miercoles (1.0)
+|   hora = h04_h07: sabado_domingo (2.0)
+
+Number of Leaves  : 	98
+
+Size of the tree : 	116
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          89               43.2039 %
+Incorrectly Classified Instances       117               56.7961 %
+Kappa statistic                          0.0972
+Mean absolute error                      0.43  
+Root mean squared error                  0.4831
+Relative absolute error                 98.2408 %
+Root relative squared error            103.4103 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,346    0,188    0,529      0,346    0,419      0,178    0,554     0,454     lunes_martes_miercoles
+                 0,083    0,101    0,200      0,083    0,118      -0,026   0,460     0,222     jueves_viernes
+                 0,725    0,611    0,430      0,725    0,540      0,117    0,544     0,443     sabado_domingo
+Weighted Avg.    0,432    0,332    0,414      0,432    0,395      0,107    0,528     0,396     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 27  9 42 |  a = lunes_martes_miercoles
+  9  4 35 |  b = jueves_viernes
+ 15  7 58 |  c = sabado_domingo
+

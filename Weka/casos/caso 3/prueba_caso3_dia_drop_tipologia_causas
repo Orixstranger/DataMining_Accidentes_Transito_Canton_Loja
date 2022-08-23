@@ -1,0 +1,96 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+hora = h12_h17: imprudencia del conductor (280.0/204.0)
+hora = h18_h23: conducir en estado de embriaguez (287.0/206.0)
+hora = h00_h05: conducir en estado de embriaguez (228.0/141.0)
+hora = h06_h11
+|   parroquia_urbana = punzara
+|   |   dia = lunes_martes_miercoles: conducir en exceso de velocidad (18.0/13.0)
+|   |   dia = jueves_viernes: no mantener la distancia reglamentaria (15.0/11.0)
+|   |   dia = sabado_domingo: imprudencia del peaton (13.0/10.0)
+|   parroquia_urbana = sucre: imprudencia del conductor (67.0/44.0)
+|   parroquia_urbana = san sebastian: imprudencia del conductor (37.0/25.0)
+|   parroquia_urbana = carigan: conducir en exceso de velocidad (25.0/15.0)
+|   parroquia_urbana = el sagrario: no ceder el derecho de via (39.0/28.0)
+|   parroquia_urbana = el valle: no ceder el derecho de via (19.0/12.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	14
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          50               24.2718 %
+Incorrectly Classified Instances       156               75.7282 %
+Kappa statistic                          0.0534
+Mean absolute error                      0.0992
+Root mean squared error                  0.2356
+Relative absolute error                 95.1794 %
+Root relative squared error            103.2606 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,036    0,000      0,000    0,000      -0,047   0,809     0,206     imprudencia del peaton
+                 0,000    0,000    ?          0,000    ?          ?        0,631     0,143     negligencia del conductor
+                 ?        0,000    ?          ?        ?          ?        ?         ?         condiciones climaticas desfavorables
+                 0,000    0,000    ?          0,000    ?          ?        0,709     0,047     fallas mecanicas no previsibles
+                 0,500    0,407    0,250      0,500    0,333      0,077    0,574     0,246     imprudencia del conductor
+                 0,245    0,185    0,293      0,245    0,267      0,064    0,644     0,310     conducir en estado de embriaguez
+                 0,148    0,061    0,267      0,148    0,190      0,113    0,598     0,206     no ceder el derecho de via
+                 0,000    0,000    ?          0,000    ?          ?        0,341     0,005     cambio brusco e indebido de carril
+                 0,083    0,010    0,333      0,083    0,133      0,143    0,629     0,105     no mantener la distancia reglamentaria
+                 0,000    0,000    ?          0,000    ?          ?        0,983     0,200     inobservancia de leyes de transito
+                 0,000    0,015    0,000      0,000    0,000      -0,024   0,531     0,055     no respetar las senales de transito
+                 0,262    0,232    0,224      0,262    0,242      0,029    0,532     0,289     conducir en exceso de velocidad
+                 0,000    0,000    ?          0,000    ?          ?        0,437     0,005     invadir carril de circulacion
+                 0,000    0,000    ?          0,000    ?          ?        0,385     0,005     razones desconocidas
+                 ?        0,000    ?          ?        ?          ?        ?         ?         no respetar las ordenes del agente de transito
+                 ?        0,000    ?          ?        ?          ?        ?         ?         impericia del conductor
+Weighted Avg.    0,243    0,190    ?          0,243    ?          ?        0,604     0,237     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p   <-- classified as
+  0  0  0  0  8  4  0  0  0  0  0  0  0  0  0  0 |  a = imprudencia del peaton
+  0  0  0  0  2  0  0  0  0  0  0  2  0  0  0  0 |  b = negligencia del conductor
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = condiciones climaticas desfavorables
+  0  0  0  0  3  1  0  0  0  0  0  0  0  0  0  0 |  d = fallas mecanicas no previsibles
+  1  0  0  0 22  4  3  0  2  0  1 11  0  0  0  0 |  e = imprudencia del conductor
+  2  0  0  0 13 12  4  0  0  0  0 18  0  0  0  0 |  f = conducir en estado de embriaguez
+  2  0  0  0 12  5  4  0  0  0  1  3  0  0  0  0 |  g = no ceder el derecho de via
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  h = cambio brusco e indebido de carril
+  1  0  0  0  7  1  1  0  1  0  0  1  0  0  0  0 |  i = no mantener la distancia reglamentaria
+  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0 |  j = inobservancia de leyes de transito
+  0  0  0  0  3  3  0  0  0  0  0  2  0  0  0  0 |  k = no respetar las senales de transito
+  1  0  0  0 17 10  2  0  0  0  1 11  0  0  0  0 |  l = conducir en exceso de velocidad
+  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0 |  m = invadir carril de circulacion
+  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 |  n = razones desconocidas
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = no respetar las ordenes del agente de transito
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = impericia del conductor
+

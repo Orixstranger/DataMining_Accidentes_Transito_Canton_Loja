@@ -1,0 +1,137 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R6
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: imprudencia del peaton (81.0/34.0)
+tipologia = choque
+|   hora = h12_h17
+|   |   parroquia_urbana = punzara: no ceder el derecho de via (22.0/15.0)
+|   |   parroquia_urbana = sucre: imprudencia del conductor (40.0/28.0)
+|   |   parroquia_urbana = san sebastian: imprudencia del conductor (24.0/17.0)
+|   |   parroquia_urbana = carigan: no mantener la distancia reglamentaria (7.0/3.0)
+|   |   parroquia_urbana = el sagrario: no ceder el derecho de via (41.0/29.0)
+|   |   parroquia_urbana = el valle: imprudencia del conductor (20.0/12.0)
+|   hora = h18_h23
+|   |   dia = lunes_martes_miercoles
+|   |   |   parroquia_urbana = punzara: conducir en estado de embriaguez (11.0/5.0)
+|   |   |   parroquia_urbana = sucre: imprudencia del conductor (13.0/9.0)
+|   |   |   parroquia_urbana = san sebastian: conducir en estado de embriaguez (8.0/5.0)
+|   |   |   parroquia_urbana = carigan: imprudencia del conductor (8.0/4.0)
+|   |   |   parroquia_urbana = el sagrario: no respetar las senales de transito (8.0/5.0)
+|   |   |   parroquia_urbana = el valle: no respetar las senales de transito (5.0/3.0)
+|   |   dia = jueves_viernes: conducir en estado de embriaguez (45.0/29.0)
+|   |   dia = sabado_domingo: imprudencia del conductor (56.0/35.0)
+|   hora = h00_h05: conducir en estado de embriaguez (84.0/46.0)
+|   hora = h06_h11
+|   |   parroquia_urbana = punzara
+|   |   |   dia = lunes_martes_miercoles: no ceder el derecho de via (9.0/6.0)
+|   |   |   dia = jueves_viernes: no mantener la distancia reglamentaria (12.0/8.0)
+|   |   |   dia = sabado_domingo: no ceder el derecho de via (5.0/2.0)
+|   |   parroquia_urbana = sucre
+|   |   |   dia = lunes_martes_miercoles: imprudencia del conductor (12.0/8.0)
+|   |   |   dia = jueves_viernes: no ceder el derecho de via (7.0/4.0)
+|   |   |   dia = sabado_domingo: conducir en estado de embriaguez (15.0/10.0)
+|   |   parroquia_urbana = san sebastian: imprudencia del conductor (25.0/17.0)
+|   |   parroquia_urbana = carigan: conducir en estado de embriaguez (11.0/7.0)
+|   |   parroquia_urbana = el sagrario: no ceder el derecho de via (25.0/14.0)
+|   |   parroquia_urbana = el valle: no ceder el derecho de via (12.0/5.0)
+tipologia = estrellamiento: conducir en exceso de velocidad (236.0/130.0)
+tipologia = roce: imprudencia del conductor (38.0/20.0)
+tipologia = colision: imprudencia del conductor (18.0/9.0)
+tipologia = perdida de carril_pista: conducir en exceso de velocidad (94.0/29.0)
+tipologia = caida de pasajero: imprudencia del conductor (3.0/1.0)
+tipologia = atipico: imprudencia del conductor (15.0/2.0)
+tipologia = encunetamiento: imprudencia del conductor (2.0/1.0)
+tipologia = arrollamiento
+|   parroquia_urbana = punzara: imprudencia del conductor (0.0)
+|   parroquia_urbana = sucre: imprudencia del conductor (0.0)
+|   parroquia_urbana = san sebastian: imprudencia del conductor (0.0)
+|   parroquia_urbana = carigan: imprudencia del conductor (4.0/2.0)
+|   parroquia_urbana = el sagrario: negligencia del conductor (2.0/1.0)
+|   parroquia_urbana = el valle: imprudencia del conductor (0.0)
+tipologia = volcamiento
+|   parroquia_urbana = punzara: conducir en estado de embriaguez (1.0)
+|   parroquia_urbana = sucre: imprudencia del conductor (3.0/1.0)
+|   parroquia_urbana = san sebastian: conducir en exceso de velocidad (0.0)
+|   parroquia_urbana = carigan: conducir en exceso de velocidad (5.0/1.0)
+|   parroquia_urbana = el sagrario: imprudencia del conductor (1.0)
+|   parroquia_urbana = el valle: conducir en exceso de velocidad (0.0)
+
+Number of Leaves  : 	45
+
+Size of the tree : 	55
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          76               36.8932 %
+Incorrectly Classified Instances       130               63.1068 %
+Kappa statistic                          0.2297
+Mean absolute error                      0.0881
+Root mean squared error                  0.2191
+Relative absolute error                 84.51   %
+Root relative squared error             96.0231 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,833    0,036    0,588      0,833    0,690      0,679    0,920     0,510     imprudencia del peaton
+                 0,000    0,000    ?          0,000    ?          ?        0,756     0,083     negligencia del conductor
+                 ?        0,005    0,000      ?        ?          ?        ?         ?         condiciones climaticas desfavorables
+                 0,000    0,000    ?          0,000    ?          ?        0,689     0,037     fallas mecanicas no previsibles
+                 0,227    0,179    0,256      0,227    0,241      0,050    0,566     0,266     imprudencia del conductor
+                 0,347    0,178    0,378      0,347    0,362      0,174    0,720     0,371     conducir en estado de embriaguez
+                 0,222    0,101    0,250      0,222    0,235      0,128    0,734     0,242     no ceder el derecho de via
+                 0,000    0,000    ?          0,000    ?          ?        0,415     0,005     cambio brusco e indebido de carril
+                 0,083    0,010    0,333      0,083    0,133      0,143    0,813     0,272     no mantener la distancia reglamentaria
+                 0,000    0,000    ?          0,000    ?          ?        0,710     0,012     inobservancia de leyes de transito
+                 0,000    0,056    0,000      0,000    0,000      -0,048   0,748     0,141     no respetar las senales de transito
+                 0,762    0,207    0,485      0,762    0,593      0,479    0,799     0,546     conducir en exceso de velocidad
+                 0,000    0,000    ?          0,000    ?          ?        0,468     0,005     invadir carril de circulacion
+                 0,000    0,000    ?          0,000    ?          ?        0,341     0,005     razones desconocidas
+                 ?        0,000    ?          ?        ?          ?        ?         ?         no respetar las ordenes del agente de transito
+                 ?        0,000    ?          ?        ?          ?        ?         ?         impericia del conductor
+Weighted Avg.    0,369    0,141    ?          0,369    ?          ?        0,719     0,341     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p   <-- classified as
+ 10  0  0  0  1  0  0  0  0  0  0  1  0  0  0  0 |  a = imprudencia del peaton
+  1  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0 |  b = negligencia del conductor
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = condiciones climaticas desfavorables
+  0  0  0  0  1  0  0  0  0  0  0  3  0  0  0  0 |  d = fallas mecanicas no previsibles
+  4  0  0  0 10 10  8  0  0  0  3  9  0  0  0  0 |  e = imprudencia del conductor
+  2  0  0  0  8 17  2  0  0  0  0 20  0  0  0  0 |  f = conducir en estado de embriaguez
+  0  0  0  0  8  8  6  0  1  0  4  0  0  0  0  0 |  g = no ceder el derecho de via
+  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0 |  h = cambio brusco e indebido de carril
+  0  0  0  0  4  2  2  0  1  0  3  0  0  0  0  0 |  i = no mantener la distancia reglamentaria
+  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0 |  j = inobservancia de leyes de transito
+  0  0  1  0  1  5  1  0  0  0  0  0  0  0  0  0 |  k = no respetar las senales de transito
+  0  0  0  0  2  1  5  0  1  0  1 32  0  0  0  0 |  l = conducir en exceso de velocidad
+  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 |  m = invadir carril de circulacion
+  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0 |  n = razones desconocidas
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = no respetar las ordenes del agente de transito
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = impericia del conductor
+

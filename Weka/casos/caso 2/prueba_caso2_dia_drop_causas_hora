@@ -1,0 +1,154 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R5
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: h16_h19 (81.0/54.0)
+tipologia = choque
+|   nro_heridos = 1h
+|   |   parroquia_urbana = punzara
+|   |   |   dia = lunes_martes_miercoles: h04_h07 (10.0/5.0)
+|   |   |   dia = jueves_viernes: h12_h15 (10.0/6.0)
+|   |   |   dia = sabado_domingo: h12_h15 (12.0/7.0)
+|   |   parroquia_urbana = sucre
+|   |   |   dia = lunes_martes_miercoles: h20_h23 (14.0/11.0)
+|   |   |   dia = jueves_viernes: h12_h15 (9.0/5.0)
+|   |   |   dia = sabado_domingo: h00_h03 (20.0/14.0)
+|   |   parroquia_urbana = san sebastian: h08_h11 (33.0/23.0)
+|   |   parroquia_urbana = carigan: h20_h23 (11.0/7.0)
+|   |   parroquia_urbana = el sagrario: h12_h15 (32.0/21.0)
+|   |   parroquia_urbana = el valle
+|   |   |   dia = lunes_martes_miercoles: h12_h15 (3.0/2.0)
+|   |   |   dia = jueves_viernes: h08_h11 (5.0/2.0)
+|   |   |   dia = sabado_domingo: h16_h19 (6.0/4.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara: h08_h11 (38.0/27.0)
+|   |   parroquia_urbana = sucre
+|   |   |   dia = lunes_martes_miercoles: h16_h19 (28.0/19.0)
+|   |   |   dia = jueves_viernes: h20_h23 (12.0/6.0)
+|   |   |   dia = sabado_domingo: h12_h15 (31.0/23.0)
+|   |   parroquia_urbana = san sebastian: h20_h23 (50.0/39.0)
+|   |   parroquia_urbana = carigan: h00_h03 (19.0/15.0)
+|   |   parroquia_urbana = el sagrario
+|   |   |   dia = lunes_martes_miercoles: h12_h15 (21.0/15.0)
+|   |   |   dia = jueves_viernes: h20_h23 (15.0/10.0)
+|   |   |   dia = sabado_domingo: h00_h03 (37.0/28.0)
+|   |   parroquia_urbana = el valle: h12_h15 (33.0/24.0)
+|   nro_heridos = 3h: h20_h23 (18.0/10.0)
+|   nro_heridos = 2h
+|   |   dia = lunes_martes_miercoles: h12_h15 (17.0/10.0)
+|   |   dia = jueves_viernes: h20_h23 (18.0/11.0)
+|   |   dia = sabado_domingo: h20_h23 (17.0/10.0)
+|   nro_heridos = 4h: h12_h15 (3.0/2.0)
+|   nro_heridos = 5h: h08_h11 (2.0/1.0)
+|   nro_heridos = 6h: h20_h23 (1.0)
+tipologia = estrellamiento
+|   dia = lunes_martes_miercoles: h12_h15 (69.0/53.0)
+|   dia = jueves_viernes: h20_h23 (70.0/50.0)
+|   dia = sabado_domingo: h00_h03 (97.0/64.0)
+tipologia = roce
+|   nro_heridos = 1h: h12_h15 (2.0/1.0)
+|   nro_heridos = 0h: h12_h15 (34.0/24.0)
+|   nro_heridos = 3h: h12_h15 (0.0)
+|   nro_heridos = 2h: h04_h07 (2.0)
+|   nro_heridos = 4h: h12_h15 (0.0)
+|   nro_heridos = 5h: h12_h15 (0.0)
+|   nro_heridos = 6h: h12_h15 (0.0)
+tipologia = colision: h16_h19 (18.0/11.0)
+tipologia = perdida de carril_pista
+|   parroquia_urbana = punzara: h00_h03 (19.0/12.0)
+|   parroquia_urbana = sucre
+|   |   nro_heridos = 1h: h20_h23 (6.0/3.0)
+|   |   nro_heridos = 0h: h00_h03 (22.0/15.0)
+|   |   nro_heridos = 3h: h00_h03 (0.0)
+|   |   nro_heridos = 2h: h00_h03 (3.0/1.0)
+|   |   nro_heridos = 4h: h00_h03 (0.0)
+|   |   nro_heridos = 5h: h00_h03 (0.0)
+|   |   nro_heridos = 6h: h00_h03 (0.0)
+|   parroquia_urbana = san sebastian
+|   |   nro_heridos = 1h: h20_h23 (3.0/1.0)
+|   |   nro_heridos = 0h: h12_h15 (9.0/5.0)
+|   |   nro_heridos = 3h: h12_h15 (0.0)
+|   |   nro_heridos = 2h: h12_h15 (2.0/1.0)
+|   |   nro_heridos = 4h: h12_h15 (0.0)
+|   |   nro_heridos = 5h: h12_h15 (0.0)
+|   |   nro_heridos = 6h: h12_h15 (0.0)
+|   parroquia_urbana = carigan
+|   |   dia = lunes_martes_miercoles: h16_h19 (4.0/2.0)
+|   |   dia = jueves_viernes: h16_h19 (3.0/1.0)
+|   |   dia = sabado_domingo: h08_h11 (4.0/2.0)
+|   parroquia_urbana = el sagrario
+|   |   nro_heridos = 1h: h04_h07 (2.0)
+|   |   nro_heridos = 0h: h16_h19 (2.0/1.0)
+|   |   nro_heridos = 3h: h16_h19 (0.0)
+|   |   nro_heridos = 2h: h16_h19 (1.0)
+|   |   nro_heridos = 4h: h16_h19 (0.0)
+|   |   nro_heridos = 5h: h16_h19 (0.0)
+|   |   nro_heridos = 6h: h16_h19 (0.0)
+|   parroquia_urbana = el valle: h20_h23 (14.0/8.0)
+tipologia = caida de pasajero: h12_h15 (3.0/1.0)
+tipologia = atipico: h16_h19 (15.0/8.0)
+tipologia = encunetamiento: h20_h23 (2.0/1.0)
+tipologia = arrollamiento: h16_h19 (6.0/3.0)
+tipologia = volcamiento
+|   dia = lunes_martes_miercoles: h00_h03 (4.0/2.0)
+|   dia = jueves_viernes: h20_h23 (2.0/1.0)
+|   dia = sabado_domingo: h12_h15 (4.0/2.0)
+
+Number of Leaves  : 	74
+
+Size of the tree : 	92
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          32               15.534  %
+Incorrectly Classified Instances       174               84.466  %
+Kappa statistic                         -0.0177
+Mean absolute error                      0.2756
+Root mean squared error                  0.3908
+Relative absolute error                 99.2832 %
+Root relative squared error            104.7972 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,194    0,247    0,143      0,194    0,165      -0,047   0,537     0,190     h12_h15
+                 0,179    0,246    0,146      0,179    0,161      -0,061   0,478     0,185     h20_h23
+                 0,333    0,301    0,175      0,333    0,229      0,026    0,539     0,251     h16_h19
+                 0,219    0,167    0,194      0,219    0,206      0,050    0,590     0,199     h00_h03
+                 0,000    0,017    0,000      0,000    0,000      -0,048   0,541     0,181     h08_h11
+                 0,000    0,042    0,000      0,000    0,000      -0,089   0,498     0,204     h04_h07
+Weighted Avg.    0,155    0,174    0,111      0,155    0,128      -0,031   0,528     0,201     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  7  9 12  7  1  0 |  a = h12_h15
+ 15  7 11  6  0  0 |  b = h20_h23
+  7  6 11  6  2  1 |  c = h16_h19
+  4  8  9  7  0  4 |  d = h00_h03
+  6  5 12  3  0  2 |  e = h08_h11
+ 10 13  8  7  0  0 |  f = h04_h07
+

@@ -1,0 +1,173 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R2
+Instances:    1028
+Attributes:   6
+              dia
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: sucre (81.0/51.0)
+tipologia = choque
+|   causas = imprudencia del peaton: carigan (1.0)
+|   causas = negligencia del conductor
+|   |   dia = lunes_martes_miercoles: el sagrario (0.0)
+|   |   dia = jueves_viernes: punzara (2.0/1.0)
+|   |   dia = sabado_domingo: el sagrario (4.0/1.0)
+|   causas = condiciones climaticas desfavorables: san sebastian (5.0/3.0)
+|   causas = fallas mecanicas no previsibles: sucre (1.0)
+|   causas = imprudencia del conductor
+|   |   dia = lunes_martes_miercoles: sucre (42.0/27.0)
+|   |   dia = jueves_viernes: san sebastian (27.0/19.0)
+|   |   dia = sabado_domingo: sucre (57.0/41.0)
+|   causas = conducir en estado de embriaguez: sucre (119.0/90.0)
+|   causas = no ceder el derecho de via: el sagrario (114.0/79.0)
+|   causas = cambio brusco e indebido de carril: sucre (10.0/6.0)
+|   causas = no mantener la distancia reglamentaria
+|   |   dia = lunes_martes_miercoles: sucre (13.0/8.0)
+|   |   dia = jueves_viernes: punzara (12.0/7.0)
+|   |   dia = sabado_domingo: sucre (10.0/6.0)
+|   causas = inobservancia de leyes de transito: san sebastian (3.0/1.0)
+|   causas = no respetar las senales de transito: el sagrario (63.0/44.0)
+|   causas = conducir en exceso de velocidad: sucre (36.0/25.0)
+|   causas = invadir carril de circulacion: sucre (5.0/2.0)
+|   causas = razones desconocidas: sucre (1.0)
+|   causas = no respetar las ordenes del agente de transito: sucre (0.0)
+|   causas = impericia del conductor: sucre (0.0)
+tipologia = estrellamiento
+|   nro_heridos = 1h: punzara (33.0/22.0)
+|   nro_heridos = 0h: sucre (189.0/132.0)
+|   nro_heridos = 3h: punzara (4.0/2.0)
+|   nro_heridos = 2h: san sebastian (8.0/6.0)
+|   nro_heridos = 4h: punzara (2.0/1.0)
+|   nro_heridos = 5h: sucre (0.0)
+|   nro_heridos = 6h: sucre (0.0)
+tipologia = roce
+|   causas = imprudencia del peaton: sucre (0.0)
+|   causas = negligencia del conductor: sucre (3.0/1.0)
+|   causas = condiciones climaticas desfavorables: sucre (0.0)
+|   causas = fallas mecanicas no previsibles: sucre (0.0)
+|   causas = imprudencia del conductor
+|   |   dia = lunes_martes_miercoles
+|   |   |   nro_heridos = 1h: punzara (0.0)
+|   |   |   nro_heridos = 0h: punzara (8.0/4.0)
+|   |   |   nro_heridos = 3h: punzara (0.0)
+|   |   |   nro_heridos = 2h: sucre (2.0/1.0)
+|   |   |   nro_heridos = 4h: punzara (0.0)
+|   |   |   nro_heridos = 5h: punzara (0.0)
+|   |   |   nro_heridos = 6h: punzara (0.0)
+|   |   dia = jueves_viernes: el valle (5.0/3.0)
+|   |   dia = sabado_domingo: sucre (3.0/1.0)
+|   causas = conducir en estado de embriaguez
+|   |   dia = lunes_martes_miercoles: punzara (0.0)
+|   |   dia = jueves_viernes: san sebastian (3.0/1.0)
+|   |   dia = sabado_domingo: punzara (5.0/3.0)
+|   causas = no ceder el derecho de via: sucre (0.0)
+|   causas = cambio brusco e indebido de carril: punzara (1.0)
+|   causas = no mantener la distancia reglamentaria: sucre (5.0/3.0)
+|   causas = inobservancia de leyes de transito: el sagrario (1.0)
+|   causas = no respetar las senales de transito: san sebastian (1.0)
+|   causas = conducir en exceso de velocidad: punzara (1.0)
+|   causas = invadir carril de circulacion: sucre (0.0)
+|   causas = razones desconocidas: sucre (0.0)
+|   causas = no respetar las ordenes del agente de transito: sucre (0.0)
+|   causas = impericia del conductor: sucre (0.0)
+tipologia = colision: sucre (18.0/10.0)
+tipologia = perdida de carril_pista
+|   causas = imprudencia del peaton: sucre (0.0)
+|   causas = negligencia del conductor: san sebastian (1.0)
+|   causas = condiciones climaticas desfavorables: sucre (1.0)
+|   causas = fallas mecanicas no previsibles: san sebastian (4.0/2.0)
+|   causas = imprudencia del conductor
+|   |   dia = lunes_martes_miercoles: sucre (2.0)
+|   |   dia = jueves_viernes: san sebastian (2.0/1.0)
+|   |   dia = sabado_domingo: punzara (2.0)
+|   causas = conducir en estado de embriaguez
+|   |   dia = lunes_martes_miercoles: punzara (6.0/3.0)
+|   |   dia = jueves_viernes: punzara (5.0/3.0)
+|   |   dia = sabado_domingo: sucre (6.0/3.0)
+|   causas = no ceder el derecho de via: sucre (0.0)
+|   causas = cambio brusco e indebido de carril: sucre (0.0)
+|   causas = no mantener la distancia reglamentaria: sucre (0.0)
+|   causas = inobservancia de leyes de transito: sucre (0.0)
+|   causas = no respetar las senales de transito: sucre (0.0)
+|   causas = conducir en exceso de velocidad: sucre (65.0/41.0)
+|   causas = invadir carril de circulacion: sucre (0.0)
+|   causas = razones desconocidas: sucre (0.0)
+|   causas = no respetar las ordenes del agente de transito: sucre (0.0)
+|   causas = impericia del conductor: sucre (0.0)
+tipologia = caida de pasajero: el sagrario (3.0/1.0)
+tipologia = atipico: punzara (15.0/10.0)
+tipologia = encunetamiento: sucre (2.0/1.0)
+tipologia = arrollamiento: carigan (6.0/2.0)
+tipologia = volcamiento
+|   causas = imprudencia del peaton: carigan (0.0)
+|   causas = negligencia del conductor: carigan (0.0)
+|   causas = condiciones climaticas desfavorables: carigan (1.0)
+|   causas = fallas mecanicas no previsibles: carigan (0.0)
+|   causas = imprudencia del conductor: sucre (3.0/1.0)
+|   causas = conducir en estado de embriaguez: punzara (1.0)
+|   causas = no ceder el derecho de via: carigan (0.0)
+|   causas = cambio brusco e indebido de carril: carigan (0.0)
+|   causas = no mantener la distancia reglamentaria: carigan (0.0)
+|   causas = inobservancia de leyes de transito: sucre (1.0)
+|   causas = no respetar las senales de transito: carigan (0.0)
+|   causas = conducir en exceso de velocidad: carigan (4.0)
+|   causas = invadir carril de circulacion: carigan (0.0)
+|   causas = razones desconocidas: carigan (0.0)
+|   causas = no respetar las ordenes del agente de transito: carigan (0.0)
+|   causas = impericia del conductor: carigan (0.0)
+
+Number of Leaves  : 	97
+
+Size of the tree : 	111
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          54               26.2136 %
+Incorrectly Classified Instances       152               73.7864 %
+Kappa statistic                          0     
+Mean absolute error                      0.2716
+Root mean squared error                  0.3695
+Relative absolute error                 99.9835 %
+Root relative squared error            100.0037 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,180     punzara
+                 1,000    1,000    0,262      1,000    0,415      ?        0,500     0,262     sucre
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,126     san sebastian
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,112     carigan
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,204     el sagrario
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,117     el valle
+Weighted Avg.    0,262    0,262    ?          0,262    ?          ?        0,500     0,185     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  0 37  0  0  0  0 |  a = punzara
+  0 54  0  0  0  0 |  b = sucre
+  0 26  0  0  0  0 |  c = san sebastian
+  0 23  0  0  0  0 |  d = carigan
+  0 42  0  0  0  0 |  e = el sagrario
+  0 24  0  0  0  0 |  f = el valle
+

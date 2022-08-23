@@ -1,0 +1,81 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso1-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton: 1h (51.0/5.0)
+causas = negligencia del conductor: 0h (17.0/6.0)
+causas = condiciones climaticas desfavorables: 0h (8.0/4.0)
+causas = fallas mecanicas no previsibles: 0h (13.0/3.0)
+causas = imprudencia del conductor: 0h (228.0/96.0)
+causas = conducir en estado de embriaguez: 0h (235.0/91.0)
+causas = no ceder el derecho de via: 0h (114.0/58.0)
+causas = cambio brusco e indebido de carril: 0h (11.0/5.0)
+causas = no mantener la distancia reglamentaria: 0h (43.0/11.0)
+causas = inobservancia de leyes de transito: 0h (9.0/2.0)
+causas = no respetar las senales de transito: 0h (67.0/28.0)
+causas = conducir en exceso de velocidad: 0h (220.0/63.0)
+causas = invadir carril de circulacion: 1h (5.0/2.0)
+causas = razones desconocidas: 0h (5.0/2.0)
+causas = no respetar las ordenes del agente de transito: 1h (1.0)
+causas = impericia del conductor: 0h (1.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	17
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         134               65.0485 %
+Incorrectly Classified Instances        72               34.9515 %
+Kappa statistic                          0.174 
+Mean absolute error                      0.1464
+Root mean squared error                  0.2733
+Relative absolute error                 91.519  %
+Root relative squared error             96.6842 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,211    0,007    0,923      0,211    0,343      0,375    0,624     0,465     1h
+                 0,992    0,855    0,632      0,992    0,772      0,275    0,600     0,644     0h
+                 0,000    0,000    ?          0,000    ?          ?        0,570     0,042     3h
+                 0,000    0,000    ?          0,000    ?          ?        0,495     0,085     2h
+                 0,000    0,000    ?          0,000    ?          ?        0,407     0,007     4h
+                 ?        0,000    ?          ?        ?          ?        ?         ?         5h
+                 ?        0,000    ?          ?        ?          ?        ?         ?         6h
+Weighted Avg.    0,650    0,513    ?          0,650    ?          ?        0,595     0,522     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   <-- classified as
+  12  45   0   0   0   0   0 |   a = 1h
+   1 122   0   0   0   0   0 |   b = 0h
+   0   7   0   0   0   0   0 |   c = 3h
+   0  18   0   0   0   0   0 |   d = 2h
+   0   1   0   0   0   0   0 |   e = 4h
+   0   0   0   0   0   0   0 |   f = 5h
+   0   0   0   0   0   0   0 |   g = 6h
+

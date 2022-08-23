@@ -1,0 +1,155 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R5
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello
+|   parroquia_urbana = punzara
+|   |   nro_fallecidos = 0fa: h18_h23 (13.0/6.0)
+|   |   nro_fallecidos = 1fa: h12_h17 (2.0/1.0)
+|   parroquia_urbana = sucre: h06_h11 (30.0/18.0)
+|   parroquia_urbana = san sebastian: h12_h17 (10.0/3.0)
+|   parroquia_urbana = carigan: h18_h23 (8.0/3.0)
+|   parroquia_urbana = el sagrario
+|   |   dia = lunes_martes_miercoles: h18_h23 (7.0/3.0)
+|   |   dia = jueves_viernes: h06_h11 (3.0/1.0)
+|   |   dia = sabado_domingo: h06_h11 (3.0/1.0)
+|   parroquia_urbana = el valle: h12_h17 (5.0/2.0)
+tipologia = choque
+|   nro_heridos = 1h
+|   |   parroquia_urbana = punzara
+|   |   |   dia = lunes_martes_miercoles: h06_h11 (10.0/5.0)
+|   |   |   dia = jueves_viernes: h12_h17 (10.0/5.0)
+|   |   |   dia = sabado_domingo: h12_h17 (12.0/6.0)
+|   |   parroquia_urbana = sucre
+|   |   |   dia = lunes_martes_miercoles: h18_h23 (14.0/9.0)
+|   |   |   dia = jueves_viernes: h06_h11 (9.0/4.0)
+|   |   |   dia = sabado_domingo: h00_h05 (20.0/13.0)
+|   |   parroquia_urbana = san sebastian: h06_h11 (33.0/22.0)
+|   |   parroquia_urbana = carigan: h18_h23 (11.0/7.0)
+|   |   parroquia_urbana = el sagrario: h12_h17 (32.0/18.0)
+|   |   parroquia_urbana = el valle
+|   |   |   dia = lunes_martes_miercoles: h12_h17 (3.0/2.0)
+|   |   |   dia = jueves_viernes: h06_h11 (5.0/2.0)
+|   |   |   dia = sabado_domingo: h12_h17 (6.0/3.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara: h06_h11 (38.0/24.0)
+|   |   parroquia_urbana = sucre
+|   |   |   dia = lunes_martes_miercoles: h12_h17 (28.0/16.0)
+|   |   |   dia = jueves_viernes: h18_h23 (12.0/5.0)
+|   |   |   dia = sabado_domingo: h12_h17 (31.0/19.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   nro_fallecidos = 0fa
+|   |   |   |   dia = lunes_martes_miercoles: h12_h17 (13.0/8.0)
+|   |   |   |   dia = jueves_viernes: h12_h17 (14.0/8.0)
+|   |   |   |   dia = sabado_domingo: h18_h23 (20.0/12.0)
+|   |   |   nro_fallecidos = 1fa: h18_h23 (3.0/1.0)
+|   |   parroquia_urbana = carigan: h06_h11 (19.0/12.0)
+|   |   parroquia_urbana = el sagrario
+|   |   |   dia = lunes_martes_miercoles: h12_h17 (21.0/12.0)
+|   |   |   dia = jueves_viernes: h18_h23 (15.0/9.0)
+|   |   |   dia = sabado_domingo: h00_h05 (37.0/25.0)
+|   |   parroquia_urbana = el valle
+|   |   |   dia = lunes_martes_miercoles: h06_h11 (10.0/6.0)
+|   |   |   dia = jueves_viernes: h18_h23 (9.0/5.0)
+|   |   |   dia = sabado_domingo: h12_h17 (14.0/8.0)
+|   nro_heridos = 3h: h18_h23 (18.0/9.0)
+|   nro_heridos = 2h
+|   |   dia = lunes_martes_miercoles: h12_h17 (17.0/9.0)
+|   |   dia = jueves_viernes: h18_h23 (18.0/10.0)
+|   |   dia = sabado_domingo: h18_h23 (17.0/10.0)
+|   nro_heridos = 4h: h12_h17 (3.0/2.0)
+|   nro_heridos = 5h: h00_h05 (2.0/1.0)
+|   nro_heridos = 6h: h18_h23 (1.0)
+tipologia = estrellamiento
+|   dia = lunes_martes_miercoles: h00_h05 (69.0/47.0)
+|   dia = jueves_viernes: h18_h23 (70.0/42.0)
+|   dia = sabado_domingo: h00_h05 (97.0/50.0)
+tipologia = roce: h12_h17 (38.0/21.0)
+tipologia = colision
+|   dia = lunes_martes_miercoles: h06_h11 (6.0/3.0)
+|   dia = jueves_viernes: h12_h17 (6.0)
+|   dia = sabado_domingo: h12_h17 (6.0/3.0)
+tipologia = perdida de carril_pista
+|   parroquia_urbana = punzara: h00_h05 (19.0/11.0)
+|   parroquia_urbana = sucre: h00_h05 (31.0/16.0)
+|   parroquia_urbana = san sebastian
+|   |   nro_heridos = 1h: h18_h23 (3.0/1.0)
+|   |   nro_heridos = 0h: h12_h17 (9.0/5.0)
+|   |   nro_heridos = 3h: h12_h17 (0.0)
+|   |   nro_heridos = 2h: h12_h17 (2.0/1.0)
+|   |   nro_heridos = 4h: h12_h17 (0.0)
+|   |   nro_heridos = 5h: h12_h17 (0.0)
+|   |   nro_heridos = 6h: h12_h17 (0.0)
+|   parroquia_urbana = carigan
+|   |   dia = lunes_martes_miercoles: h18_h23 (4.0/2.0)
+|   |   dia = jueves_viernes: h18_h23 (3.0/1.0)
+|   |   dia = sabado_domingo: h06_h11 (4.0)
+|   parroquia_urbana = el sagrario: h12_h17 (5.0/3.0)
+|   parroquia_urbana = el valle: h18_h23 (14.0/8.0)
+tipologia = caida de pasajero: h12_h17 (3.0/1.0)
+tipologia = atipico: h12_h17 (15.0/10.0)
+tipologia = encunetamiento: h18_h23 (2.0/1.0)
+tipologia = arrollamiento
+|   nro_heridos = 1h: h12_h17 (4.0/2.0)
+|   nro_heridos = 0h: h18_h23 (2.0)
+|   nro_heridos = 3h: h12_h17 (0.0)
+|   nro_heridos = 2h: h12_h17 (0.0)
+|   nro_heridos = 4h: h12_h17 (0.0)
+|   nro_heridos = 5h: h12_h17 (0.0)
+|   nro_heridos = 6h: h12_h17 (0.0)
+tipologia = volcamiento: h12_h17 (10.0/6.0)
+
+Number of Leaves  : 	75
+
+Size of the tree : 	97
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          47               22.8155 %
+Incorrectly Classified Instances       159               77.1845 %
+Kappa statistic                         -0.0372
+Mean absolute error                      0.3763
+Root mean squared error                  0.4689
+Relative absolute error                100.5422 %
+Root relative squared error            108.2591 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,226    0,353    0,182      0,226    0,202      -0,119   0,447     0,240     h12_h17
+                 0,364    0,450    0,227      0,364    0,280      -0,078   0,457     0,244     h18_h23
+                 0,250    0,177    0,300      0,250    0,273      0,078    0,578     0,283     h00_h05
+                 0,060    0,058    0,250      0,060    0,097      0,004    0,514     0,291     h06_h11
+Weighted Avg.    0,228    0,266    0,238      0,228    0,214      -0,032   0,496     0,263     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 12 30  9  2 |  a = h12_h17
+ 22 20  9  4 |  b = h18_h23
+ 13 20 12  3 |  c = h00_h05
+ 19 18 10  3 |  d = h06_h11
+

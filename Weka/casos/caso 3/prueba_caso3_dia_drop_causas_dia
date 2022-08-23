@@ -1,0 +1,141 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R5
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+hora = h12_h17
+|   tipologia = atropello: lunes_martes_miercoles (28.0/14.0)
+|   tipologia = choque: sabado_domingo (154.0/91.0)
+|   tipologia = estrellamiento: lunes_martes_miercoles (42.0/24.0)
+|   tipologia = roce: lunes_martes_miercoles (17.0/7.0)
+|   tipologia = colision: jueves_viernes (9.0/3.0)
+|   tipologia = perdida de carril_pista: lunes_martes_miercoles (17.0/9.0)
+|   tipologia = caida de pasajero: sabado_domingo (2.0)
+|   tipologia = atipico: lunes_martes_miercoles (5.0/1.0)
+|   tipologia = encunetamiento: lunes_martes_miercoles (0.0)
+|   tipologia = arrollamiento: lunes_martes_miercoles (2.0)
+|   tipologia = volcamiento: sabado_domingo (4.0/2.0)
+hora = h18_h23
+|   tipologia = atropello: lunes_martes_miercoles (23.0/10.0)
+|   tipologia = choque
+|   |   parroquia_urbana = punzara: lunes_martes_miercoles (27.0/16.0)
+|   |   parroquia_urbana = sucre: sabado_domingo (38.0/22.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   nro_fallecidos = 0fa: sabado_domingo (27.0/13.0)
+|   |   |   nro_fallecidos = 1fa: jueves_viernes (2.0)
+|   |   parroquia_urbana = carigan: lunes_martes_miercoles (12.0/4.0)
+|   |   parroquia_urbana = el sagrario: sabado_domingo (31.0/19.0)
+|   |   parroquia_urbana = el valle: jueves_viernes (17.0/11.0)
+|   tipologia = estrellamiento
+|   |   nro_heridos = 1h: sabado_domingo (9.0/4.0)
+|   |   nro_heridos = 0h: jueves_viernes (52.0/28.0)
+|   |   nro_heridos = 3h: jueves_viernes (0.0)
+|   |   nro_heridos = 2h: sabado_domingo (1.0)
+|   |   nro_heridos = 4h: jueves_viernes (1.0)
+|   |   nro_heridos = 5h: jueves_viernes (0.0)
+|   |   nro_heridos = 6h: jueves_viernes (0.0)
+|   tipologia = roce: lunes_martes_miercoles (5.0/3.0)
+|   tipologia = colision: lunes_martes_miercoles (3.0/1.0)
+|   tipologia = perdida de carril_pista: sabado_domingo (30.0/18.0)
+|   tipologia = caida de pasajero: lunes_martes_miercoles (0.0)
+|   tipologia = atipico: lunes_martes_miercoles (5.0/2.0)
+|   tipologia = encunetamiento: jueves_viernes (1.0)
+|   tipologia = arrollamiento: jueves_viernes (2.0/1.0)
+|   tipologia = volcamiento: jueves_viernes (1.0)
+hora = h00_h05: sabado_domingo (228.0/110.0)
+hora = h06_h11
+|   tipologia = atropello: sabado_domingo (26.0/14.0)
+|   tipologia = choque
+|   |   nro_heridos = 1h
+|   |   |   parroquia_urbana = punzara: lunes_martes_miercoles (8.0/3.0)
+|   |   |   parroquia_urbana = sucre: sabado_domingo (14.0/8.0)
+|   |   |   parroquia_urbana = san sebastian: lunes_martes_miercoles (11.0/7.0)
+|   |   |   parroquia_urbana = carigan: sabado_domingo (3.0/1.0)
+|   |   |   parroquia_urbana = el sagrario: jueves_viernes (5.0/2.0)
+|   |   |   parroquia_urbana = el valle: jueves_viernes (4.0/1.0)
+|   |   nro_heridos = 0h
+|   |   |   parroquia_urbana = punzara: jueves_viernes (14.0/7.0)
+|   |   |   parroquia_urbana = sucre: lunes_martes_miercoles (13.0/7.0)
+|   |   |   parroquia_urbana = san sebastian: sabado_domingo (12.0/7.0)
+|   |   |   parroquia_urbana = carigan: lunes_martes_miercoles (7.0/2.0)
+|   |   |   parroquia_urbana = el sagrario: sabado_domingo (14.0/5.0)
+|   |   |   parroquia_urbana = el valle: lunes_martes_miercoles (8.0/4.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (5.0/3.0)
+|   |   nro_heridos = 2h
+|   |   |   parroquia_urbana = punzara: jueves_viernes (3.0)
+|   |   |   parroquia_urbana = sucre: lunes_martes_miercoles (5.0/3.0)
+|   |   |   parroquia_urbana = san sebastian: sabado_domingo (2.0)
+|   |   |   parroquia_urbana = carigan: jueves_viernes (0.0)
+|   |   |   parroquia_urbana = el sagrario: lunes_martes_miercoles (3.0/1.0)
+|   |   |   parroquia_urbana = el valle: jueves_viernes (0.0)
+|   |   nro_heridos = 4h: lunes_martes_miercoles (1.0)
+|   |   nro_heridos = 5h: sabado_domingo (1.0)
+|   |   nro_heridos = 6h: sabado_domingo (0.0)
+|   tipologia = estrellamiento: sabado_domingo (40.0/21.0)
+|   tipologia = roce: lunes_martes_miercoles (10.0/5.0)
+|   tipologia = colision: lunes_martes_miercoles (4.0/1.0)
+|   tipologia = perdida de carril_pista
+|   |   nro_heridos = 1h: jueves_viernes (3.0/1.0)
+|   |   nro_heridos = 0h: sabado_domingo (8.0/1.0)
+|   |   nro_heridos = 3h: sabado_domingo (0.0)
+|   |   nro_heridos = 2h: lunes_martes_miercoles (2.0)
+|   |   nro_heridos = 4h: sabado_domingo (0.0)
+|   |   nro_heridos = 5h: sabado_domingo (0.0)
+|   |   nro_heridos = 6h: sabado_domingo (0.0)
+|   tipologia = caida de pasajero: jueves_viernes (1.0)
+|   tipologia = atipico: jueves_viernes (2.0/1.0)
+|   tipologia = encunetamiento: sabado_domingo (0.0)
+|   tipologia = arrollamiento: lunes_martes_miercoles (2.0)
+|   tipologia = volcamiento: lunes_martes_miercoles (2.0/1.0)
+
+Number of Leaves  : 	73
+
+Size of the tree : 	85
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          89               43.2039 %
+Incorrectly Classified Instances       117               56.7961 %
+Kappa statistic                          0.1085
+Mean absolute error                      0.422 
+Root mean squared error                  0.4833
+Relative absolute error                 96.409  %
+Root relative squared error            103.4505 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,308    0,156    0,545      0,308    0,393      0,179    0,576     0,460     lunes_martes_miercoles
+                 0,208    0,133    0,323      0,208    0,253      0,089    0,486     0,249     jueves_viernes
+                 0,688    0,603    0,420      0,688    0,521      0,085    0,561     0,472     sabado_domingo
+Weighted Avg.    0,432    0,324    0,445      0,432    0,410      0,122    0,549     0,415     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 24 11 43 |  a = lunes_martes_miercoles
+  5 10 33 |  b = jueves_viernes
+ 15 10 55 |  c = sabado_domingo
+

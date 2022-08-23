@@ -1,0 +1,82 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    1028
+Attributes:   6
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello
+|   nro_fallecidos = 0fa: 1h (75.0/7.0)
+|   nro_fallecidos = 1fa: 0h (6.0/1.0)
+tipologia = choque: 0h (525.0/241.0)
+tipologia = estrellamiento
+|   nro_fallecidos = 0fa: 0h (228.0/40.0)
+|   nro_fallecidos = 1fa: 1h (8.0/4.0)
+tipologia = roce: 0h (38.0/4.0)
+tipologia = colision: 0h (18.0/4.0)
+tipologia = perdida de carril_pista: 0h (94.0/34.0)
+tipologia = caida de pasajero: 1h (3.0)
+tipologia = atipico: 0h (15.0/4.0)
+tipologia = encunetamiento: 0h (2.0)
+tipologia = arrollamiento
+|   nro_fallecidos = 0fa: 1h (4.0)
+|   nro_fallecidos = 1fa: 0h (2.0)
+tipologia = volcamiento: 1h (10.0/4.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	18
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         135               65.534  %
+Incorrectly Classified Instances        71               34.466  %
+Kappa statistic                          0.2115
+Mean absolute error                      0.1343
+Root mean squared error                  0.2634
+Relative absolute error                 83.9125 %
+Root relative squared error             93.158  %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,263    0,047    0,682      0,263    0,380      0,313    0,668     0,480     1h
+                 0,976    0,771    0,652      0,976    0,782      0,325    0,730     0,757     0h
+                 0,000    0,000    ?          0,000    ?          ?        0,684     0,054     3h
+                 0,000    0,000    ?          0,000    ?          ?        0,604     0,116     2h
+                 0,000    0,000    ?          0,000    ?          ?        0,085     0,005     4h
+                 ?        0,000    ?          ?        ?          ?        ?         ?         5h
+                 ?        0,000    ?          ?        ?          ?        ?         ?         6h
+Weighted Avg.    0,655    0,473    ?          0,655    ?          ?        0,697     0,596     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   <-- classified as
+  15  42   0   0   0   0   0 |   a = 1h
+   3 120   0   0   0   0   0 |   b = 0h
+   0   7   0   0   0   0   0 |   c = 3h
+   4  14   0   0   0   0   0 |   d = 2h
+   0   1   0   0   0   0   0 |   e = 4h
+   0   0   0   0   0   0   0 |   f = 5h
+   0   0   0   0   0   0   0 |   g = 6h
+

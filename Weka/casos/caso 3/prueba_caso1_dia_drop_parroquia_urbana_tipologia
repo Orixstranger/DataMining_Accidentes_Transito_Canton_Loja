@@ -1,0 +1,196 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso1-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton: atropello (51.0/4.0)
+causas = negligencia del conductor: choque lateral perpendicular (17.0/12.0)
+causas = condiciones climaticas desfavorables
+|   dia = miercoles: choque frontal excentrico (1.0)
+|   dia = jueves: choque lateral perpendicular (0.0)
+|   dia = viernes: choque lateral perpendicular (2.0/1.0)
+|   dia = sabado: choque lateral angular (1.0)
+|   dia = domingo: volcamiento longitudinal (1.0)
+|   dia = lunes: choque lateral perpendicular (2.0/1.0)
+|   dia = martes: perdida de carril (1.0)
+causas = fallas mecanicas no previsibles: estrellamiento (13.0/6.0)
+causas = imprudencia del conductor
+|   hora = h13: choque lateral angular (15.0/10.0)
+|   hora = h20
+|   |   dia = miercoles: choque lateral angular (2.0/1.0)
+|   |   dia = jueves: choque frontal excentrico (1.0)
+|   |   dia = viernes: choque lateral perpendicular (0.0)
+|   |   dia = sabado: choque lateral perpendicular (4.0/3.0)
+|   |   dia = domingo: choque lateral perpendicular (4.0/1.0)
+|   |   dia = lunes: choque lateral perpendicular (0.0)
+|   |   dia = martes: choque lateral angular (1.0)
+|   hora = h18: choque lateral angular (13.0/7.0)
+|   hora = h21: choque lateral angular (11.0/6.0)
+|   hora = h19: choque lateral perpendicular (17.0/11.0)
+|   hora = h02: choque lateral perpendicular (3.0/2.0)
+|   hora = h17
+|   |   nro_heridos = 1h: choque lateral perpendicular (6.0/3.0)
+|   |   nro_heridos = 0h: choque lateral angular (5.0/3.0)
+|   |   nro_heridos = 3h: choque lateral perpendicular (0.0)
+|   |   nro_heridos = 2h: choque lateral perpendicular (0.0)
+|   |   nro_heridos = 4h: atipico (1.0)
+|   |   nro_heridos = 5h: choque lateral perpendicular (0.0)
+|   |   nro_heridos = 6h: choque lateral perpendicular (0.0)
+|   hora = h12
+|   |   dia = miercoles: atropello (2.0/1.0)
+|   |   dia = jueves: choque lateral perpendicular (5.0/3.0)
+|   |   dia = viernes: estrellamiento (3.0/2.0)
+|   |   dia = sabado: choque lateral angular (5.0/3.0)
+|   |   dia = domingo: colision (1.0)
+|   |   dia = lunes: choque lateral perpendicular (4.0/3.0)
+|   |   dia = martes: choque lateral perpendicular (0.0)
+|   hora = h03: choque lateral perpendicular (9.0/6.0)
+|   hora = h16: choque lateral perpendicular (10.0/6.0)
+|   hora = h01
+|   |   dia = miercoles: choque frontal excentrico (1.0)
+|   |   dia = jueves: choque lateral perpendicular (1.0)
+|   |   dia = viernes: estrellamiento (2.0/1.0)
+|   |   dia = sabado: choque lateral angular (3.0/1.0)
+|   |   dia = domingo: roce negativo (2.0/1.0)
+|   |   dia = lunes: choque lateral perpendicular (0.0)
+|   |   dia = martes: rozamiento (1.0)
+|   hora = h08: atropello (12.0/9.0)
+|   hora = h05: choque lateral perpendicular (3.0/2.0)
+|   hora = h14
+|   |   dia = miercoles: estrellamiento (1.0)
+|   |   dia = jueves: choque lateral angular (0.0)
+|   |   dia = viernes: estrellamiento (1.0)
+|   |   dia = sabado: choque lateral angular (4.0/2.0)
+|   |   dia = domingo: choque lateral perpendicular (2.0/1.0)
+|   |   dia = lunes: choque lateral perpendicular (1.0)
+|   |   dia = martes: perdida de carril (1.0)
+|   hora = h23: estrellamiento (3.0/1.0)
+|   hora = h07: choque lateral angular (10.0/6.0)
+|   hora = h10: choque lateral perpendicular (8.0/3.0)
+|   hora = h15
+|   |   dia = miercoles: roce negativo (3.0/1.0)
+|   |   dia = jueves: estrellamiento (1.0)
+|   |   dia = viernes: choque lateral angular (1.0)
+|   |   dia = sabado: estrellamiento (1.0)
+|   |   dia = domingo: choque lateral perpendicular (2.0/1.0)
+|   |   dia = lunes: estrellamiento (0.0)
+|   |   dia = martes: atipico (1.0)
+|   hora = h00: atipico (6.0/4.0)
+|   hora = h11
+|   |   nro_heridos = 1h: atropello (6.0/3.0)
+|   |   nro_heridos = 0h: estrellamiento (5.0/3.0)
+|   |   nro_heridos = 3h: atropello (0.0)
+|   |   nro_heridos = 2h: estrellamiento (1.0)
+|   |   nro_heridos = 4h: atropello (0.0)
+|   |   nro_heridos = 5h: atropello (0.0)
+|   |   nro_heridos = 6h: atropello (0.0)
+|   hora = h09: estrellamiento (7.0/5.0)
+|   hora = h22: estrellamiento (5.0/2.0)
+|   hora = h06: estrellamiento (8.0/4.0)
+|   hora = h04: estrellamiento (3.0/2.0)
+causas = conducir en estado de embriaguez
+|   nro_heridos = 1h: choque lateral angular (59.0/42.0)
+|   nro_heridos = 0h: estrellamiento (144.0/84.0)
+|   nro_heridos = 3h: choque frontal excentrico (5.0/3.0)
+|   nro_heridos = 2h: choque lateral perpendicular (22.0/16.0)
+|   nro_heridos = 4h: estrellamiento (3.0/1.0)
+|   nro_heridos = 5h: choque lateral perpendicular (2.0/1.0)
+|   nro_heridos = 6h: estrellamiento (0.0)
+causas = no ceder el derecho de via: choque lateral perpendicular (114.0/47.0)
+causas = cambio brusco e indebido de carril: choque lateral angular (11.0/6.0)
+causas = no mantener la distancia reglamentaria: choque por alcance (43.0/9.0)
+causas = inobservancia de leyes de transito: estrellamiento (9.0/6.0)
+causas = no respetar las senales de transito: choque lateral perpendicular (67.0/32.0)
+causas = conducir en exceso de velocidad: estrellamiento (220.0/114.0)
+causas = invadir carril de circulacion: choque frontal excentrico (5.0/1.0)
+causas = razones desconocidas: atropello (5.0/3.0)
+causas = no respetar las ordenes del agente de transito: arrollamiento (1.0)
+causas = impericia del conductor: estrellamiento (1.0)
+
+Number of Leaves  : 	93
+
+Size of the tree : 	104
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          87               42.233  %
+Incorrectly Classified Instances       119               57.767  %
+Kappa statistic                          0.2925
+Mean absolute error                      0.0646
+Root mean squared error                  0.1916
+Relative absolute error                 80.1522 %
+Root relative squared error             95.5492 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,706    0,032    0,667      0,706    0,686      0,657    0,928     0,680     atropello
+                 0,585    0,261    0,358      0,585    0,444      0,277    0,721     0,375     choque lateral perpendicular
+                 0,750    0,309    0,398      0,750    0,520      0,369    0,727     0,366     estrellamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,712     0,013     choque frontal longitudinal
+                 0,196    0,063    0,474      0,196    0,277      0,192    0,690     0,387     choque lateral angular
+                 0,000    0,005    0,000      0,000    0,000      -0,011   0,648     0,080     roce negativo
+                 0,000    0,000    ?          0,000    ?          ?        0,682     0,036     colision
+                 0,533    0,021    0,667      0,533    0,593      0,568    0,820     0,445     choque por alcance
+                 0,000    0,000    ?          0,000    ?          ?        0,415     0,005     roce positivo
+                 0,000    0,000    ?          0,000    ?          ?        0,849     0,304     perdida de carril
+                 0,250    0,000    1,000      0,250    0,400      0,496    0,817     0,472     choque frontal excentrico
+                 ?        0,000    ?          ?        ?          ?        ?         ?         caida de pasajero
+                 ?        0,000    ?          ?        ?          ?        ?         ?         perdida de pista
+                 0,000    0,025    0,000      0,000    0,000      -0,022   0,592     0,046     atipico
+                 0,000    0,000    ?          0,000    ?          ?        0,498     0,005     encunetamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,383     0,005     arrollamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,480     0,005     rozamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,495     0,005     volcamiento lateral
+                 0,000    0,000    ?          0,000    ?          ?        0,856     0,020     volcamiento longitudinal
+                 ?        0,000    ?          ?        ?          ?        ?         ?         volcamiento
+                 ?        0,000    ?          ?        ?          ?        ?         ?         choque frontal
+Weighted Avg.    0,422    0,136    ?          0,422    ?          ?        0,743     0,370     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u   <-- classified as
+ 12  3  0  0  1  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0 |  a = atropello
+  1 24 11  0  3  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0 |  b = choque lateral perpendicular
+  3  5 33  0  2  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = estrellamiento
+  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = choque frontal longitudinal
+  1 22 11  0  9  0  0  1  0  0  0  0  0  2  0  0  0  0  0  0  0 |  e = choque lateral angular
+  0  3  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = roce negativo
+  0  1  1  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = colision
+  0  2  3  0  2  0  0  8  0  0  0  0  0  0  0  0  0  0  0  0  0 |  h = choque por alcance
+  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  i = roce positivo
+  0  3 17  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  j = perdida de carril
+  0  2  0  0  1  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0 |  k = choque frontal excentrico
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = caida de pasajero
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = perdida de pista
+  0  1  2  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  n = atipico
+  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = encunetamiento
+  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = arrollamiento
+  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  q = rozamiento
+  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  r = volcamiento lateral
+  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  s = volcamiento longitudinal
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  t = volcamiento
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  u = choque frontal
+

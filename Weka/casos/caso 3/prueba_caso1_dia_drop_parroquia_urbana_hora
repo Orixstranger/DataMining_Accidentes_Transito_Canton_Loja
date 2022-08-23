@@ -1,0 +1,707 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso1-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   dia = miercoles: h19 (4.0/2.0)
+|   dia = jueves: h19 (2.0/1.0)
+|   dia = viernes: h17 (6.0/4.0)
+|   dia = sabado: h09 (15.0/12.0)
+|   dia = domingo: h18 (6.0/5.0)
+|   dia = lunes: h15 (13.0/10.0)
+|   dia = martes: h20 (5.0/3.0)
+causas = negligencia del conductor
+|   dia = miercoles: h19 (2.0/1.0)
+|   dia = jueves
+|   |   tipologia = atropello: h20 (2.0/1.0)
+|   |   tipologia = choque lateral perpendicular: h12 (2.0/1.0)
+|   |   tipologia = estrellamiento: h13 (0.0)
+|   |   tipologia = choque frontal longitudinal: h13 (0.0)
+|   |   tipologia = choque lateral angular: h13 (0.0)
+|   |   tipologia = roce negativo: h13 (0.0)
+|   |   tipologia = colision: h13 (0.0)
+|   |   tipologia = choque por alcance: h13 (0.0)
+|   |   tipologia = roce positivo: h13 (0.0)
+|   |   tipologia = perdida de carril: h13 (0.0)
+|   |   tipologia = choque frontal excentrico: h13 (0.0)
+|   |   tipologia = caida de pasajero: h13 (0.0)
+|   |   tipologia = perdida de pista: h13 (0.0)
+|   |   tipologia = atipico: h13 (0.0)
+|   |   tipologia = encunetamiento: h13 (0.0)
+|   |   tipologia = arrollamiento: h21 (1.0)
+|   |   tipologia = rozamiento: h13 (1.0)
+|   |   tipologia = volcamiento lateral: h13 (0.0)
+|   |   tipologia = volcamiento longitudinal: h13 (0.0)
+|   |   tipologia = volcamiento: h13 (0.0)
+|   |   tipologia = choque frontal: h13 (0.0)
+|   dia = viernes: h16 (2.0/1.0)
+|   dia = sabado: h08 (4.0/2.0)
+|   dia = domingo: h15 (1.0)
+|   dia = lunes: h12 (1.0)
+|   dia = martes: h05 (1.0)
+causas = condiciones climaticas desfavorables
+|   dia = miercoles: h23 (1.0)
+|   dia = jueves: h18 (0.0)
+|   dia = viernes: h18 (2.0/1.0)
+|   dia = sabado: h18 (1.0)
+|   dia = domingo: h15 (1.0)
+|   dia = lunes: h20 (2.0/1.0)
+|   dia = martes: h10 (1.0)
+causas = fallas mecanicas no previsibles
+|   tipologia = atropello: h21 (0.0)
+|   tipologia = choque lateral perpendicular: h21 (0.0)
+|   tipologia = estrellamiento: h21 (7.0/5.0)
+|   tipologia = choque frontal longitudinal: h21 (1.0)
+|   tipologia = choque lateral angular: h21 (0.0)
+|   tipologia = roce negativo: h21 (0.0)
+|   tipologia = colision: h21 (0.0)
+|   tipologia = choque por alcance: h21 (0.0)
+|   tipologia = roce positivo: h21 (0.0)
+|   tipologia = perdida de carril: h12 (4.0/2.0)
+|   tipologia = choque frontal excentrico: h21 (0.0)
+|   tipologia = caida de pasajero: h21 (0.0)
+|   tipologia = perdida de pista: h21 (0.0)
+|   tipologia = atipico: h17 (1.0)
+|   tipologia = encunetamiento: h21 (0.0)
+|   tipologia = arrollamiento: h21 (0.0)
+|   tipologia = rozamiento: h21 (0.0)
+|   tipologia = volcamiento lateral: h21 (0.0)
+|   tipologia = volcamiento longitudinal: h21 (0.0)
+|   tipologia = volcamiento: h21 (0.0)
+|   tipologia = choque frontal: h21 (0.0)
+causas = imprudencia del conductor
+|   tipologia = atropello
+|   |   dia = miercoles: h19 (3.0/2.0)
+|   |   dia = jueves: h11 (2.0)
+|   |   dia = viernes: h08 (0.0)
+|   |   dia = sabado: h11 (1.0)
+|   |   dia = domingo: h19 (2.0/1.0)
+|   |   dia = lunes: h13 (3.0/2.0)
+|   |   dia = martes: h17 (3.0/2.0)
+|   tipologia = choque lateral perpendicular
+|   |   dia = miercoles: h13 (3.0/2.0)
+|   |   dia = jueves: h12 (7.0/5.0)
+|   |   dia = viernes: h16 (6.0/5.0)
+|   |   dia = sabado
+|   |   |   nro_heridos = 1h: h10 (8.0/6.0)
+|   |   |   nro_heridos = 0h: h19 (9.0/7.0)
+|   |   |   nro_heridos = 3h: h19 (0.0)
+|   |   |   nro_heridos = 2h: h19 (0.0)
+|   |   |   nro_heridos = 4h: h19 (0.0)
+|   |   |   nro_heridos = 5h: h19 (0.0)
+|   |   |   nro_heridos = 6h: h19 (0.0)
+|   |   dia = domingo: h20 (11.0/8.0)
+|   |   dia = lunes
+|   |   |   nro_heridos = 1h: h21 (3.0/2.0)
+|   |   |   nro_heridos = 0h: h12 (3.0/2.0)
+|   |   |   nro_heridos = 3h: h21 (0.0)
+|   |   |   nro_heridos = 2h: h21 (0.0)
+|   |   |   nro_heridos = 4h: h21 (0.0)
+|   |   |   nro_heridos = 5h: h21 (0.0)
+|   |   |   nro_heridos = 6h: h21 (0.0)
+|   |   dia = martes: h16 (2.0/1.0)
+|   tipologia = estrellamiento: h06 (34.0/30.0)
+|   tipologia = choque frontal longitudinal: h03 (1.0)
+|   tipologia = choque lateral angular
+|   |   dia = miercoles
+|   |   |   nro_heridos = 1h: h20 (4.0/3.0)
+|   |   |   nro_heridos = 0h: h18 (3.0/2.0)
+|   |   |   nro_heridos = 3h: h20 (0.0)
+|   |   |   nro_heridos = 2h: h08 (1.0)
+|   |   |   nro_heridos = 4h: h20 (0.0)
+|   |   |   nro_heridos = 5h: h20 (0.0)
+|   |   |   nro_heridos = 6h: h20 (0.0)
+|   |   dia = jueves: h12 (3.0/2.0)
+|   |   dia = viernes: h13 (4.0/3.0)
+|   |   dia = sabado: h19 (13.0/11.0)
+|   |   dia = domingo
+|   |   |   nro_heridos = 1h: h08 (2.0/1.0)
+|   |   |   nro_heridos = 0h: h18 (8.0/6.0)
+|   |   |   nro_heridos = 3h: h18 (0.0)
+|   |   |   nro_heridos = 2h: h18 (0.0)
+|   |   |   nro_heridos = 4h: h18 (0.0)
+|   |   |   nro_heridos = 5h: h18 (0.0)
+|   |   |   nro_heridos = 6h: h18 (0.0)
+|   |   dia = lunes: h13 (5.0/4.0)
+|   |   dia = martes: h18 (10.0/7.0)
+|   tipologia = roce negativo
+|   |   dia = miercoles: h15 (4.0/2.0)
+|   |   dia = jueves: h16 (1.0)
+|   |   dia = viernes: h13 (2.0/1.0)
+|   |   dia = sabado: h11 (2.0/1.0)
+|   |   dia = domingo: h01 (1.0)
+|   |   dia = lunes: h12 (3.0/2.0)
+|   |   dia = martes: h16 (0.0)
+|   tipologia = colision: h12 (9.0/6.0)
+|   tipologia = choque por alcance: h12 (10.0/7.0)
+|   tipologia = roce positivo: h06 (1.0)
+|   tipologia = perdida de carril: h01 (6.0/4.0)
+|   tipologia = choque frontal excentrico
+|   |   dia = miercoles: h17 (2.0/1.0)
+|   |   dia = jueves: h13 (2.0/1.0)
+|   |   dia = viernes: h19 (1.0)
+|   |   dia = sabado: h03 (2.0/1.0)
+|   |   dia = domingo: h15 (1.0)
+|   |   dia = lunes: h13 (0.0)
+|   |   dia = martes: h13 (1.0)
+|   tipologia = caida de pasajero: h12 (2.0/1.0)
+|   tipologia = perdida de pista: h12 (0.0)
+|   tipologia = atipico
+|   |   dia = miercoles: h18 (4.0/2.0)
+|   |   dia = jueves: h18 (0.0)
+|   |   dia = viernes: h08 (2.0/1.0)
+|   |   dia = sabado: h19 (2.0/1.0)
+|   |   dia = domingo: h02 (2.0/1.0)
+|   |   dia = lunes: h00 (1.0)
+|   |   dia = martes: h18 (2.0/1.0)
+|   tipologia = encunetamiento: h21 (1.0)
+|   tipologia = arrollamiento: h19 (2.0/1.0)
+|   tipologia = rozamiento: h18 (4.0/3.0)
+|   tipologia = volcamiento lateral: h17 (3.0/2.0)
+|   tipologia = volcamiento longitudinal: h12 (0.0)
+|   tipologia = volcamiento: h12 (0.0)
+|   tipologia = choque frontal: h03 (1.0)
+causas = conducir en estado de embriaguez
+|   tipologia = atropello: h17 (8.0/6.0)
+|   tipologia = choque lateral perpendicular: h22 (39.0/33.0)
+|   tipologia = estrellamiento
+|   |   dia = miercoles: h01 (3.0/2.0)
+|   |   dia = jueves: h20 (10.0/8.0)
+|   |   dia = viernes: h03 (10.0/8.0)
+|   |   dia = sabado: h00 (17.0/14.0)
+|   |   dia = domingo: h05 (22.0/18.0)
+|   |   dia = lunes: h14 (5.0/3.0)
+|   |   dia = martes: h03 (10.0/7.0)
+|   tipologia = choque frontal longitudinal
+|   |   dia = miercoles: h20 (0.0)
+|   |   dia = jueves: h20 (0.0)
+|   |   dia = viernes: h20 (0.0)
+|   |   dia = sabado: h20 (0.0)
+|   |   dia = domingo: h20 (2.0/1.0)
+|   |   dia = lunes: h21 (2.0/1.0)
+|   |   dia = martes: h20 (0.0)
+|   tipologia = choque lateral angular
+|   |   dia = miercoles: h12 (4.0/3.0)
+|   |   dia = jueves: h19 (3.0/2.0)
+|   |   dia = viernes: h23 (8.0/5.0)
+|   |   dia = sabado
+|   |   |   nro_heridos = 1h: h16 (3.0/2.0)
+|   |   |   nro_heridos = 0h: h01 (6.0/4.0)
+|   |   |   nro_heridos = 3h: h21 (0.0)
+|   |   |   nro_heridos = 2h: h21 (2.0/1.0)
+|   |   |   nro_heridos = 4h: h21 (0.0)
+|   |   |   nro_heridos = 5h: h21 (0.0)
+|   |   |   nro_heridos = 6h: h21 (0.0)
+|   |   dia = domingo
+|   |   |   nro_heridos = 1h: h04 (5.0/3.0)
+|   |   |   nro_heridos = 0h: h03 (2.0/1.0)
+|   |   |   nro_heridos = 3h: h04 (0.0)
+|   |   |   nro_heridos = 2h: h20 (1.0)
+|   |   |   nro_heridos = 4h: h04 (0.0)
+|   |   |   nro_heridos = 5h: h04 (0.0)
+|   |   |   nro_heridos = 6h: h04 (0.0)
+|   |   dia = lunes: h01 (4.0/2.0)
+|   |   dia = martes
+|   |   |   nro_heridos = 1h: h19 (2.0/1.0)
+|   |   |   nro_heridos = 0h: h23 (2.0/1.0)
+|   |   |   nro_heridos = 3h: h19 (0.0)
+|   |   |   nro_heridos = 2h: h19 (0.0)
+|   |   |   nro_heridos = 4h: h19 (0.0)
+|   |   |   nro_heridos = 5h: h19 (0.0)
+|   |   |   nro_heridos = 6h: h19 (0.0)
+|   tipologia = roce negativo
+|   |   dia = miercoles: h21 (0.0)
+|   |   dia = jueves: h16 (1.0)
+|   |   dia = viernes: h02 (2.0/1.0)
+|   |   dia = sabado: h21 (3.0/2.0)
+|   |   dia = domingo: h21 (0.0)
+|   |   dia = lunes: h21 (0.0)
+|   |   dia = martes: h21 (0.0)
+|   tipologia = colision: h20 (5.0/4.0)
+|   tipologia = choque por alcance: h23 (20.0/17.0)
+|   tipologia = roce positivo: h08 (1.0)
+|   tipologia = perdida de carril
+|   |   dia = miercoles: h22 (1.0)
+|   |   dia = jueves: h18 (4.0/2.0)
+|   |   dia = viernes: h18 (1.0)
+|   |   dia = sabado: h16 (3.0/2.0)
+|   |   dia = domingo: h01 (1.0)
+|   |   dia = lunes: h23 (3.0/2.0)
+|   |   dia = martes: h01 (1.0)
+|   tipologia = choque frontal excentrico
+|   |   dia = miercoles: h19 (1.0)
+|   |   dia = jueves: h18 (1.0)
+|   |   dia = viernes: h13 (3.0/2.0)
+|   |   dia = sabado: h02 (5.0/4.0)
+|   |   dia = domingo: h23 (3.0/2.0)
+|   |   dia = lunes: h21 (1.0)
+|   |   dia = martes: h00 (0.0)
+|   tipologia = caida de pasajero: h01 (0.0)
+|   tipologia = perdida de pista: h21 (3.0/2.0)
+|   tipologia = atipico: h01 (0.0)
+|   tipologia = encunetamiento: h01 (0.0)
+|   tipologia = arrollamiento: h01 (0.0)
+|   tipologia = rozamiento: h02 (1.0)
+|   tipologia = volcamiento lateral: h01 (0.0)
+|   tipologia = volcamiento longitudinal: h04 (1.0)
+|   tipologia = volcamiento: h01 (0.0)
+|   tipologia = choque frontal: h01 (0.0)
+causas = no ceder el derecho de via
+|   dia = miercoles
+|   |   tipologia = atropello: h13 (0.0)
+|   |   tipologia = choque lateral perpendicular: h00 (7.0/5.0)
+|   |   tipologia = estrellamiento: h13 (0.0)
+|   |   tipologia = choque frontal longitudinal: h10 (1.0)
+|   |   tipologia = choque lateral angular: h13 (4.0/3.0)
+|   |   tipologia = roce negativo: h13 (0.0)
+|   |   tipologia = colision: h13 (0.0)
+|   |   tipologia = choque por alcance: h09 (1.0)
+|   |   tipologia = roce positivo: h13 (0.0)
+|   |   tipologia = perdida de carril: h13 (0.0)
+|   |   tipologia = choque frontal excentrico: h13 (0.0)
+|   |   tipologia = caida de pasajero: h13 (0.0)
+|   |   tipologia = perdida de pista: h13 (0.0)
+|   |   tipologia = atipico: h13 (0.0)
+|   |   tipologia = encunetamiento: h13 (0.0)
+|   |   tipologia = arrollamiento: h13 (0.0)
+|   |   tipologia = rozamiento: h13 (0.0)
+|   |   tipologia = volcamiento lateral: h13 (0.0)
+|   |   tipologia = volcamiento longitudinal: h13 (0.0)
+|   |   tipologia = volcamiento: h13 (0.0)
+|   |   tipologia = choque frontal: h13 (0.0)
+|   dia = jueves: h22 (15.0/11.0)
+|   dia = viernes: h13 (12.0/9.0)
+|   dia = sabado
+|   |   nro_heridos = 1h: h05 (7.0/5.0)
+|   |   nro_heridos = 0h: h01 (13.0/10.0)
+|   |   nro_heridos = 3h: h01 (0.0)
+|   |   nro_heridos = 2h: h21 (3.0/2.0)
+|   |   nro_heridos = 4h: h01 (0.0)
+|   |   nro_heridos = 5h: h01 (0.0)
+|   |   nro_heridos = 6h: h01 (0.0)
+|   dia = domingo: h14 (19.0/15.0)
+|   dia = lunes
+|   |   nro_heridos = 1h
+|   |   |   tipologia = atropello: h05 (0.0)
+|   |   |   tipologia = choque lateral perpendicular: h05 (5.0/3.0)
+|   |   |   tipologia = estrellamiento: h05 (0.0)
+|   |   |   tipologia = choque frontal longitudinal: h05 (0.0)
+|   |   |   tipologia = choque lateral angular: h13 (5.0/4.0)
+|   |   |   tipologia = roce negativo: h05 (0.0)
+|   |   |   tipologia = colision: h05 (0.0)
+|   |   |   tipologia = choque por alcance: h05 (0.0)
+|   |   |   tipologia = roce positivo: h05 (0.0)
+|   |   |   tipologia = perdida de carril: h05 (0.0)
+|   |   |   tipologia = choque frontal excentrico: h05 (0.0)
+|   |   |   tipologia = caida de pasajero: h05 (0.0)
+|   |   |   tipologia = perdida de pista: h05 (0.0)
+|   |   |   tipologia = atipico: h05 (0.0)
+|   |   |   tipologia = encunetamiento: h05 (0.0)
+|   |   |   tipologia = arrollamiento: h05 (0.0)
+|   |   |   tipologia = rozamiento: h05 (0.0)
+|   |   |   tipologia = volcamiento lateral: h05 (0.0)
+|   |   |   tipologia = volcamiento longitudinal: h05 (0.0)
+|   |   |   tipologia = volcamiento: h05 (0.0)
+|   |   |   tipologia = choque frontal: h05 (0.0)
+|   |   nro_heridos = 0h
+|   |   |   tipologia = atropello: h07 (0.0)
+|   |   |   tipologia = choque lateral perpendicular: h13 (3.0/2.0)
+|   |   |   tipologia = estrellamiento: h07 (0.0)
+|   |   |   tipologia = choque frontal longitudinal: h07 (0.0)
+|   |   |   tipologia = choque lateral angular: h07 (5.0/3.0)
+|   |   |   tipologia = roce negativo: h07 (0.0)
+|   |   |   tipologia = colision: h07 (0.0)
+|   |   |   tipologia = choque por alcance: h07 (0.0)
+|   |   |   tipologia = roce positivo: h07 (0.0)
+|   |   |   tipologia = perdida de carril: h07 (0.0)
+|   |   |   tipologia = choque frontal excentrico: h07 (0.0)
+|   |   |   tipologia = caida de pasajero: h07 (0.0)
+|   |   |   tipologia = perdida de pista: h07 (0.0)
+|   |   |   tipologia = atipico: h07 (0.0)
+|   |   |   tipologia = encunetamiento: h07 (0.0)
+|   |   |   tipologia = arrollamiento: h07 (0.0)
+|   |   |   tipologia = rozamiento: h07 (0.0)
+|   |   |   tipologia = volcamiento lateral: h07 (0.0)
+|   |   |   tipologia = volcamiento longitudinal: h07 (0.0)
+|   |   |   tipologia = volcamiento: h07 (0.0)
+|   |   |   tipologia = choque frontal: h07 (0.0)
+|   |   nro_heridos = 3h: h07 (0.0)
+|   |   nro_heridos = 2h: h18 (2.0/1.0)
+|   |   nro_heridos = 4h: h07 (0.0)
+|   |   nro_heridos = 5h: h07 (0.0)
+|   |   nro_heridos = 6h: h07 (0.0)
+|   dia = martes
+|   |   tipologia = atropello: h21 (0.0)
+|   |   tipologia = choque lateral perpendicular: h21 (6.0/4.0)
+|   |   tipologia = estrellamiento: h21 (0.0)
+|   |   tipologia = choque frontal longitudinal: h21 (0.0)
+|   |   tipologia = choque lateral angular: h20 (6.0/5.0)
+|   |   tipologia = roce negativo: h21 (0.0)
+|   |   tipologia = colision: h21 (0.0)
+|   |   tipologia = choque por alcance: h21 (0.0)
+|   |   tipologia = roce positivo: h21 (0.0)
+|   |   tipologia = perdida de carril: h21 (0.0)
+|   |   tipologia = choque frontal excentrico: h21 (0.0)
+|   |   tipologia = caida de pasajero: h21 (0.0)
+|   |   tipologia = perdida de pista: h21 (0.0)
+|   |   tipologia = atipico: h21 (0.0)
+|   |   tipologia = encunetamiento: h21 (0.0)
+|   |   tipologia = arrollamiento: h21 (0.0)
+|   |   tipologia = rozamiento: h21 (0.0)
+|   |   tipologia = volcamiento lateral: h21 (0.0)
+|   |   tipologia = volcamiento longitudinal: h21 (0.0)
+|   |   tipologia = volcamiento: h21 (0.0)
+|   |   tipologia = choque frontal: h21 (0.0)
+causas = cambio brusco e indebido de carril
+|   nro_heridos = 1h: h15 (4.0/2.0)
+|   nro_heridos = 0h: h08 (6.0/4.0)
+|   nro_heridos = 3h: h20 (1.0)
+|   nro_heridos = 2h: h20 (0.0)
+|   nro_heridos = 4h: h20 (0.0)
+|   nro_heridos = 5h: h20 (0.0)
+|   nro_heridos = 6h: h20 (0.0)
+causas = no mantener la distancia reglamentaria: h16 (43.0/34.0)
+causas = inobservancia de leyes de transito
+|   dia = miercoles: h12 (1.0)
+|   dia = jueves: h20 (0.0)
+|   dia = viernes: h10 (1.0)
+|   dia = sabado: h02 (3.0/2.0)
+|   dia = domingo: h09 (1.0)
+|   dia = lunes: h20 (1.0)
+|   dia = martes: h21 (2.0/1.0)
+causas = no respetar las senales de transito
+|   dia = miercoles
+|   |   nro_heridos = 1h: h14 (4.0/3.0)
+|   |   nro_heridos = 0h: h12 (7.0/5.0)
+|   |   nro_heridos = 3h: h11 (1.0)
+|   |   nro_heridos = 2h: h12 (0.0)
+|   |   nro_heridos = 4h: h12 (0.0)
+|   |   nro_heridos = 5h: h12 (0.0)
+|   |   nro_heridos = 6h: h12 (0.0)
+|   dia = jueves
+|   |   tipologia = atropello: h22 (0.0)
+|   |   tipologia = choque lateral perpendicular: h22 (6.0/4.0)
+|   |   tipologia = estrellamiento: h22 (0.0)
+|   |   tipologia = choque frontal longitudinal: h22 (0.0)
+|   |   tipologia = choque lateral angular: h13 (3.0/2.0)
+|   |   tipologia = roce negativo: h22 (0.0)
+|   |   tipologia = colision: h22 (0.0)
+|   |   tipologia = choque por alcance: h22 (0.0)
+|   |   tipologia = roce positivo: h22 (0.0)
+|   |   tipologia = perdida de carril: h22 (0.0)
+|   |   tipologia = choque frontal excentrico: h22 (0.0)
+|   |   tipologia = caida de pasajero: h22 (0.0)
+|   |   tipologia = perdida de pista: h22 (0.0)
+|   |   tipologia = atipico: h22 (0.0)
+|   |   tipologia = encunetamiento: h22 (0.0)
+|   |   tipologia = arrollamiento: h22 (0.0)
+|   |   tipologia = rozamiento: h22 (0.0)
+|   |   tipologia = volcamiento lateral: h22 (0.0)
+|   |   tipologia = volcamiento longitudinal: h22 (0.0)
+|   |   tipologia = volcamiento: h22 (0.0)
+|   |   tipologia = choque frontal: h22 (0.0)
+|   dia = viernes
+|   |   nro_heridos = 1h: h10 (2.0)
+|   |   nro_heridos = 0h
+|   |   |   tipologia = atropello: h22 (0.0)
+|   |   |   tipologia = choque lateral perpendicular: h22 (3.0/1.0)
+|   |   |   tipologia = estrellamiento: h22 (0.0)
+|   |   |   tipologia = choque frontal longitudinal: h22 (0.0)
+|   |   |   tipologia = choque lateral angular: h23 (2.0/1.0)
+|   |   |   tipologia = roce negativo: h22 (0.0)
+|   |   |   tipologia = colision: h22 (0.0)
+|   |   |   tipologia = choque por alcance: h18 (1.0)
+|   |   |   tipologia = roce positivo: h22 (0.0)
+|   |   |   tipologia = perdida de carril: h22 (0.0)
+|   |   |   tipologia = choque frontal excentrico: h22 (0.0)
+|   |   |   tipologia = caida de pasajero: h22 (0.0)
+|   |   |   tipologia = perdida de pista: h22 (0.0)
+|   |   |   tipologia = atipico: h22 (0.0)
+|   |   |   tipologia = encunetamiento: h22 (0.0)
+|   |   |   tipologia = arrollamiento: h22 (0.0)
+|   |   |   tipologia = rozamiento: h22 (0.0)
+|   |   |   tipologia = volcamiento lateral: h22 (0.0)
+|   |   |   tipologia = volcamiento longitudinal: h22 (0.0)
+|   |   |   tipologia = volcamiento: h22 (0.0)
+|   |   |   tipologia = choque frontal: h22 (0.0)
+|   |   nro_heridos = 3h: h18 (1.0)
+|   |   nro_heridos = 2h: h11 (1.0)
+|   |   nro_heridos = 4h: h10 (0.0)
+|   |   nro_heridos = 5h: h10 (0.0)
+|   |   nro_heridos = 6h: h10 (0.0)
+|   dia = sabado: h10 (8.0/6.0)
+|   dia = domingo
+|   |   tipologia = atropello: h14 (0.0)
+|   |   tipologia = choque lateral perpendicular: h00 (3.0/2.0)
+|   |   tipologia = estrellamiento: h14 (0.0)
+|   |   tipologia = choque frontal longitudinal: h14 (0.0)
+|   |   tipologia = choque lateral angular: h14 (5.0/2.0)
+|   |   tipologia = roce negativo: h14 (0.0)
+|   |   tipologia = colision: h14 (0.0)
+|   |   tipologia = choque por alcance: h14 (0.0)
+|   |   tipologia = roce positivo: h14 (0.0)
+|   |   tipologia = perdida de carril: h14 (0.0)
+|   |   tipologia = choque frontal excentrico: h14 (0.0)
+|   |   tipologia = caida de pasajero: h14 (0.0)
+|   |   tipologia = perdida de pista: h14 (0.0)
+|   |   tipologia = atipico: h14 (0.0)
+|   |   tipologia = encunetamiento: h14 (0.0)
+|   |   tipologia = arrollamiento: h14 (0.0)
+|   |   tipologia = rozamiento: h14 (0.0)
+|   |   tipologia = volcamiento lateral: h14 (0.0)
+|   |   tipologia = volcamiento longitudinal: h14 (0.0)
+|   |   tipologia = volcamiento: h14 (0.0)
+|   |   tipologia = choque frontal: h14 (0.0)
+|   dia = lunes
+|   |   nro_heridos = 1h: h08 (1.0)
+|   |   nro_heridos = 0h
+|   |   |   tipologia = atropello: h20 (0.0)
+|   |   |   tipologia = choque lateral perpendicular: h02 (3.0/2.0)
+|   |   |   tipologia = estrellamiento: h20 (0.0)
+|   |   |   tipologia = choque frontal longitudinal: h20 (0.0)
+|   |   |   tipologia = choque lateral angular: h20 (2.0)
+|   |   |   tipologia = roce negativo: h20 (0.0)
+|   |   |   tipologia = colision: h20 (0.0)
+|   |   |   tipologia = choque por alcance: h20 (0.0)
+|   |   |   tipologia = roce positivo: h20 (0.0)
+|   |   |   tipologia = perdida de carril: h20 (0.0)
+|   |   |   tipologia = choque frontal excentrico: h20 (0.0)
+|   |   |   tipologia = caida de pasajero: h20 (0.0)
+|   |   |   tipologia = perdida de pista: h20 (0.0)
+|   |   |   tipologia = atipico: h20 (0.0)
+|   |   |   tipologia = encunetamiento: h20 (0.0)
+|   |   |   tipologia = arrollamiento: h20 (0.0)
+|   |   |   tipologia = rozamiento: h20 (0.0)
+|   |   |   tipologia = volcamiento lateral: h20 (0.0)
+|   |   |   tipologia = volcamiento longitudinal: h20 (0.0)
+|   |   |   tipologia = volcamiento: h20 (0.0)
+|   |   |   tipologia = choque frontal: h20 (0.0)
+|   |   nro_heridos = 3h: h07 (1.0)
+|   |   nro_heridos = 2h: h12 (2.0/1.0)
+|   |   nro_heridos = 4h: h10 (1.0)
+|   |   nro_heridos = 5h: h20 (0.0)
+|   |   nro_heridos = 6h: h20 (0.0)
+|   dia = martes
+|   |   tipologia = atropello: h08 (0.0)
+|   |   tipologia = choque lateral perpendicular
+|   |   |   nro_heridos = 1h: h14 (3.0/1.0)
+|   |   |   nro_heridos = 0h: h16 (2.0/1.0)
+|   |   |   nro_heridos = 3h: h14 (0.0)
+|   |   |   nro_heridos = 2h: h14 (0.0)
+|   |   |   nro_heridos = 4h: h14 (0.0)
+|   |   |   nro_heridos = 5h: h14 (0.0)
+|   |   |   nro_heridos = 6h: h14 (0.0)
+|   |   tipologia = estrellamiento: h08 (0.0)
+|   |   tipologia = choque frontal longitudinal: h08 (0.0)
+|   |   tipologia = choque lateral angular: h13 (4.0/3.0)
+|   |   tipologia = roce negativo: h08 (0.0)
+|   |   tipologia = colision: h08 (0.0)
+|   |   tipologia = choque por alcance: h08 (0.0)
+|   |   tipologia = roce positivo: h08 (0.0)
+|   |   tipologia = perdida de carril: h08 (0.0)
+|   |   tipologia = choque frontal excentrico: h05 (1.0)
+|   |   tipologia = caida de pasajero: h08 (0.0)
+|   |   tipologia = perdida de pista: h08 (0.0)
+|   |   tipologia = atipico: h08 (0.0)
+|   |   tipologia = encunetamiento: h08 (0.0)
+|   |   tipologia = arrollamiento: h08 (0.0)
+|   |   tipologia = rozamiento: h08 (0.0)
+|   |   tipologia = volcamiento lateral: h08 (0.0)
+|   |   tipologia = volcamiento longitudinal: h08 (0.0)
+|   |   tipologia = volcamiento: h08 (0.0)
+|   |   tipologia = choque frontal: h08 (0.0)
+causas = conducir en exceso de velocidad
+|   tipologia = atropello: h02 (6.0/5.0)
+|   tipologia = choque lateral perpendicular: h22 (16.0/13.0)
+|   tipologia = estrellamiento
+|   |   dia = miercoles: h05 (12.0/10.0)
+|   |   dia = jueves: h18 (9.0/7.0)
+|   |   dia = viernes
+|   |   |   nro_heridos = 1h: h19 (4.0/3.0)
+|   |   |   nro_heridos = 0h: h23 (18.0/15.0)
+|   |   |   nro_heridos = 3h: h23 (0.0)
+|   |   |   nro_heridos = 2h: h23 (0.0)
+|   |   |   nro_heridos = 4h: h23 (0.0)
+|   |   |   nro_heridos = 5h: h23 (0.0)
+|   |   |   nro_heridos = 6h: h23 (0.0)
+|   |   dia = sabado: h02 (23.0/19.0)
+|   |   dia = domingo
+|   |   |   nro_heridos = 1h: h13 (4.0/3.0)
+|   |   |   nro_heridos = 0h: h05 (16.0/13.0)
+|   |   |   nro_heridos = 3h: h16 (1.0)
+|   |   |   nro_heridos = 2h: h03 (0.0)
+|   |   |   nro_heridos = 4h: h03 (0.0)
+|   |   |   nro_heridos = 5h: h03 (0.0)
+|   |   |   nro_heridos = 6h: h03 (0.0)
+|   |   dia = lunes: h15 (10.0/8.0)
+|   |   dia = martes: h15 (9.0/6.0)
+|   tipologia = choque frontal longitudinal: h03 (0.0)
+|   tipologia = choque lateral angular
+|   |   dia = miercoles: h12 (0.0)
+|   |   dia = jueves: h12 (5.0/3.0)
+|   |   dia = viernes: h19 (3.0/2.0)
+|   |   dia = sabado: h13 (3.0/2.0)
+|   |   dia = domingo: h21 (3.0/2.0)
+|   |   dia = lunes: h17 (4.0/3.0)
+|   |   dia = martes: h12 (2.0/1.0)
+|   tipologia = roce negativo: h21 (1.0)
+|   tipologia = colision: h03 (0.0)
+|   tipologia = choque por alcance: h03 (0.0)
+|   tipologia = roce positivo: h03 (0.0)
+|   tipologia = perdida de carril
+|   |   dia = miercoles
+|   |   |   nro_fallecidos = 0fa: h18 (3.0/2.0)
+|   |   |   nro_fallecidos = 1fa: h12 (2.0/1.0)
+|   |   dia = jueves
+|   |   |   nro_heridos = 1h: h21 (3.0/1.0)
+|   |   |   nro_heridos = 0h: h14 (6.0/4.0)
+|   |   |   nro_heridos = 3h: h21 (0.0)
+|   |   |   nro_heridos = 2h: h21 (0.0)
+|   |   |   nro_heridos = 4h: h21 (0.0)
+|   |   |   nro_heridos = 5h: h21 (0.0)
+|   |   |   nro_heridos = 6h: h21 (0.0)
+|   |   dia = viernes
+|   |   |   nro_heridos = 1h: h14 (2.0/1.0)
+|   |   |   nro_heridos = 0h: h01 (6.0/4.0)
+|   |   |   nro_heridos = 3h: h01 (0.0)
+|   |   |   nro_heridos = 2h: h00 (1.0)
+|   |   |   nro_heridos = 4h: h01 (0.0)
+|   |   |   nro_heridos = 5h: h01 (0.0)
+|   |   |   nro_heridos = 6h: h01 (0.0)
+|   |   dia = sabado: h20 (13.0/11.0)
+|   |   dia = domingo
+|   |   |   nro_heridos = 1h: h21 (3.0/2.0)
+|   |   |   nro_heridos = 0h
+|   |   |   |   nro_fallecidos = 0fa: h02 (9.0/7.0)
+|   |   |   |   nro_fallecidos = 1fa: h19 (2.0/1.0)
+|   |   |   nro_heridos = 3h: h02 (0.0)
+|   |   |   nro_heridos = 2h: h02 (0.0)
+|   |   |   nro_heridos = 4h: h15 (1.0)
+|   |   |   nro_heridos = 5h: h02 (0.0)
+|   |   |   nro_heridos = 6h: h02 (0.0)
+|   |   dia = lunes
+|   |   |   nro_heridos = 1h: h23 (0.0)
+|   |   |   nro_heridos = 0h: h23 (5.0/3.0)
+|   |   |   nro_heridos = 3h: h23 (0.0)
+|   |   |   nro_heridos = 2h: h17 (2.0/1.0)
+|   |   |   nro_heridos = 4h: h23 (0.0)
+|   |   |   nro_heridos = 5h: h23 (0.0)
+|   |   |   nro_heridos = 6h: h23 (0.0)
+|   |   dia = martes: h13 (5.0/4.0)
+|   tipologia = choque frontal excentrico: h03 (0.0)
+|   tipologia = caida de pasajero: h03 (0.0)
+|   tipologia = perdida de pista: h00 (2.0/1.0)
+|   tipologia = atipico: h03 (0.0)
+|   tipologia = encunetamiento: h04 (1.0)
+|   tipologia = arrollamiento: h08 (1.0)
+|   tipologia = rozamiento: h03 (0.0)
+|   tipologia = volcamiento lateral: h07 (1.0)
+|   tipologia = volcamiento longitudinal: h16 (2.0/1.0)
+|   tipologia = volcamiento: h22 (1.0)
+|   tipologia = choque frontal: h03 (0.0)
+causas = invadir carril de circulacion: h21 (5.0/4.0)
+causas = razones desconocidas
+|   nro_heridos = 1h: h20 (2.0/1.0)
+|   nro_heridos = 0h: h05 (3.0/2.0)
+|   nro_heridos = 3h: h20 (0.0)
+|   nro_heridos = 2h: h20 (0.0)
+|   nro_heridos = 4h: h20 (0.0)
+|   nro_heridos = 5h: h20 (0.0)
+|   nro_heridos = 6h: h20 (0.0)
+causas = no respetar las ordenes del agente de transito: h16 (1.0)
+causas = impericia del conductor: h00 (1.0)
+
+Number of Leaves  : 	550
+
+Size of the tree : 	609
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances           6                2.9126 %
+Incorrectly Classified Instances       200               97.0874 %
+Kappa statistic                         -0.0163
+Mean absolute error                      0.0802
+Root mean squared error                  0.2247
+Relative absolute error                100.4462 %
+Root relative squared error            112.4873 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,081    0,000      0,000    0,000      -0,058   0,429     0,044     h13
+                 0,000    0,081    0,000      0,000    0,000      -0,062   0,429     0,040     h20
+                 0,143    0,060    0,077      0,143    0,100      0,062    0,494     0,039     h18
+                 0,083    0,031    0,143      0,083    0,105      0,068    0,611     0,104     h21
+                 0,000    0,051    0,000      0,000    0,000      -0,048   0,485     0,045     h19
+                 0,000    0,041    0,000      0,000    0,000      -0,043   0,467     0,045     h02
+                 0,000    0,025    0,000      0,000    0,000      -0,027   0,548     0,039     h17
+                 0,000    0,062    0,000      0,000    0,000      -0,062   0,519     0,073     h12
+                 0,000    0,010    0,000      0,000    0,000      -0,019   0,530     0,039     h03
+                 0,000    0,082    0,000      0,000    0,000      -0,069   0,406     0,051     h16
+                 0,000    0,082    0,000      0,000    0,000      -0,069   0,527     0,056     h01
+                 0,000    0,046    0,000      0,000    0,000      -0,046   0,355     0,044     h08
+                 0,000    0,056    0,000      0,000    0,000      -0,051   0,547     0,051     h05
+                 0,000    0,045    0,000      0,000    0,000      -0,034   0,426     0,023     h14
+                 0,000    0,080    0,000      0,000    0,000      -0,050   0,442     0,029     h23
+                 0,077    0,052    0,091      0,077    0,083      0,027    0,383     0,063     h07
+                 0,000    0,010    0,000      0,000    0,000      -0,019   0,483     0,033     h10
+                 0,091    0,036    0,125      0,091    0,105      0,064    0,498     0,063     h15
+                 0,000    0,010    0,000      0,000    0,000      -0,016   0,642     0,041     h00
+                 0,000    0,005    0,000      0,000    0,000      -0,014   0,715     0,141     h11
+                 0,000    0,005    0,000      0,000    0,000      -0,010   0,638     0,047     h09
+                 0,083    0,036    0,125      0,083    0,100      0,057    0,559     0,084     h22
+                 0,111    0,030    0,143      0,111    0,125      0,091    0,613     0,067     h06
+                 0,000    0,000    ?          0,000    ?          ?        0,449     0,033     h04
+Weighted Avg.    0,029    0,045    ?          0,029    ?          ?        0,504     0,058     
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t u v w x   <-- classified as
+ 0 1 1 0 1 0 0 0 0 1 0 0 0 3 1 0 0 0 0 0 0 0 0 0 | a = h13
+ 0 0 1 0 0 1 0 1 0 0 0 0 1 2 1 0 0 0 1 0 0 1 0 0 | b = h20
+ 2 2 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 | c = h18
+ 2 0 1 1 0 0 1 0 0 1 0 1 2 0 0 0 0 2 0 0 0 0 1 0 | d = h21
+ 2 0 0 1 0 0 1 1 1 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 | e = h19
+ 1 1 1 0 1 0 0 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 1 0 | f = h02
+ 0 0 2 0 0 0 0 2 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | g = h17
+ 2 1 1 1 2 1 0 0 1 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 | h = h12
+ 1 1 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 0 0 | i = h03
+ 1 0 0 1 1 1 0 2 0 0 2 0 1 0 0 1 0 0 0 0 0 0 1 0 | j = h16
+ 0 2 0 0 1 1 0 1 0 1 0 0 1 0 0 1 0 1 0 0 0 1 1 0 | k = h01
+ 0 2 1 0 0 0 0 0 0 2 0 0 1 1 0 1 0 0 0 0 0 1 0 0 | l = h08
+ 0 0 0 0 0 0 0 1 0 0 3 0 0 0 2 0 0 2 0 0 0 0 1 0 | m = h05
+ 0 1 0 1 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 | n = h14
+ 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 1 0 0 | o = h23
+ 0 2 1 0 0 0 2 0 0 1 1 1 2 0 1 1 0 0 0 1 0 0 0 0 | p = h07
+ 0 0 0 0 1 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 1 0 1 0 | q = h10
+ 0 0 1 0 1 1 1 1 0 1 0 1 1 1 0 1 0 1 0 0 0 0 0 0 | r = h15
+ 1 1 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 | s = h00
+ 4 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 | t = h11
+ 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 | u = h09
+ 0 1 0 0 1 0 0 1 0 1 0 1 0 0 2 4 0 0 0 0 0 1 0 0 | v = h22
+ 0 0 0 0 0 0 0 1 0 3 1 0 0 0 2 0 0 0 1 0 0 0 1 0 | w = h06
+ 0 0 1 1 1 1 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 | x = h04
+

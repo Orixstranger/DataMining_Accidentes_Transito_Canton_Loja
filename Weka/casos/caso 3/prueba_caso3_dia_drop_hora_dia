@@ -1,0 +1,155 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R2
+Instances:    1028
+Attributes:   6
+              dia
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   parroquia_urbana = punzara: sabado_domingo (14.0/6.0)
+|   parroquia_urbana = sucre: sabado_domingo (10.0/4.0)
+|   parroquia_urbana = san sebastian: sabado_domingo (5.0/2.0)
+|   parroquia_urbana = carigan: lunes_martes_miercoles (6.0/1.0)
+|   parroquia_urbana = el sagrario: lunes_martes_miercoles (11.0/5.0)
+|   parroquia_urbana = el valle: lunes_martes_miercoles (5.0/2.0)
+causas = negligencia del conductor: jueves_viernes (17.0/9.0)
+causas = condiciones climaticas desfavorables: lunes_martes_miercoles (8.0/4.0)
+causas = fallas mecanicas no previsibles: sabado_domingo (13.0/7.0)
+causas = imprudencia del conductor
+|   tipologia = atropello: lunes_martes_miercoles (14.0/5.0)
+|   tipologia = choque
+|   |   parroquia_urbana = punzara
+|   |   |   nro_heridos = 1h: sabado_domingo (10.0/5.0)
+|   |   |   nro_heridos = 0h: lunes_martes_miercoles (9.0/4.0)
+|   |   |   nro_heridos = 3h: lunes_martes_miercoles (1.0)
+|   |   |   nro_heridos = 2h: jueves_viernes (1.0)
+|   |   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+|   |   parroquia_urbana = sucre
+|   |   |   nro_heridos = 1h: sabado_domingo (9.0/3.0)
+|   |   |   nro_heridos = 0h: sabado_domingo (22.0/12.0)
+|   |   |   nro_heridos = 3h: lunes_martes_miercoles (1.0)
+|   |   |   nro_heridos = 2h: lunes_martes_miercoles (3.0/1.0)
+|   |   |   nro_heridos = 4h: sabado_domingo (0.0)
+|   |   |   nro_heridos = 5h: sabado_domingo (0.0)
+|   |   |   nro_heridos = 6h: sabado_domingo (0.0)
+|   |   parroquia_urbana = san sebastian: sabado_domingo (27.0/14.0)
+|   |   parroquia_urbana = carigan: lunes_martes_miercoles (7.0/1.0)
+|   |   parroquia_urbana = el sagrario: sabado_domingo (24.0/11.0)
+|   |   parroquia_urbana = el valle: sabado_domingo (12.0/4.0)
+|   tipologia = estrellamiento
+|   |   nro_heridos = 1h: sabado_domingo (4.0/1.0)
+|   |   nro_heridos = 0h: jueves_viernes (25.0/14.0)
+|   |   nro_heridos = 3h: jueves_viernes (1.0)
+|   |   nro_heridos = 2h: jueves_viernes (4.0/2.0)
+|   |   nro_heridos = 4h: jueves_viernes (0.0)
+|   |   nro_heridos = 5h: jueves_viernes (0.0)
+|   |   nro_heridos = 6h: jueves_viernes (0.0)
+|   tipologia = roce: lunes_martes_miercoles (18.0/8.0)
+|   tipologia = colision: lunes_martes_miercoles (9.0/5.0)
+|   tipologia = perdida de carril_pista
+|   |   parroquia_urbana = punzara: sabado_domingo (2.0)
+|   |   parroquia_urbana = sucre: lunes_martes_miercoles (2.0)
+|   |   parroquia_urbana = san sebastian: jueves_viernes (1.0)
+|   |   parroquia_urbana = carigan: lunes_martes_miercoles (0.0)
+|   |   parroquia_urbana = el sagrario: jueves_viernes (1.0)
+|   |   parroquia_urbana = el valle: lunes_martes_miercoles (0.0)
+|   tipologia = caida de pasajero: jueves_viernes (2.0/1.0)
+|   tipologia = atipico: lunes_martes_miercoles (13.0/6.0)
+|   tipologia = encunetamiento: jueves_viernes (1.0)
+|   tipologia = arrollamiento: lunes_martes_miercoles (2.0/1.0)
+|   tipologia = volcamiento: lunes_martes_miercoles (3.0/1.0)
+causas = conducir en estado de embriaguez: sabado_domingo (235.0/114.0)
+causas = no ceder el derecho de via
+|   parroquia_urbana = punzara: lunes_martes_miercoles (20.0/12.0)
+|   parroquia_urbana = sucre: lunes_martes_miercoles (23.0/11.0)
+|   parroquia_urbana = san sebastian
+|   |   nro_heridos = 1h: lunes_martes_miercoles (9.0/4.0)
+|   |   nro_heridos = 0h: jueves_viernes (9.0/5.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (1.0)
+|   |   nro_heridos = 2h: jueves_viernes (4.0/1.0)
+|   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+|   parroquia_urbana = carigan: lunes_martes_miercoles (2.0)
+|   parroquia_urbana = el sagrario: sabado_domingo (35.0/17.0)
+|   parroquia_urbana = el valle
+|   |   nro_heridos = 1h: jueves_viernes (2.0/1.0)
+|   |   nro_heridos = 0h: lunes_martes_miercoles (9.0/5.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 2h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+causas = cambio brusco e indebido de carril: lunes_martes_miercoles (11.0/5.0)
+causas = no mantener la distancia reglamentaria
+|   parroquia_urbana = punzara: jueves_viernes (7.0/2.0)
+|   parroquia_urbana = sucre: lunes_martes_miercoles (13.0/6.0)
+|   parroquia_urbana = san sebastian: sabado_domingo (3.0/1.0)
+|   parroquia_urbana = carigan: jueves_viernes (6.0/3.0)
+|   parroquia_urbana = el sagrario: lunes_martes_miercoles (8.0/3.0)
+|   parroquia_urbana = el valle: lunes_martes_miercoles (6.0/4.0)
+causas = inobservancia de leyes de transito
+|   parroquia_urbana = punzara: lunes_martes_miercoles (0.0)
+|   parroquia_urbana = sucre: lunes_martes_miercoles (3.0)
+|   parroquia_urbana = san sebastian: sabado_domingo (3.0/1.0)
+|   parroquia_urbana = carigan: lunes_martes_miercoles (0.0)
+|   parroquia_urbana = el sagrario: sabado_domingo (3.0/1.0)
+|   parroquia_urbana = el valle: lunes_martes_miercoles (0.0)
+causas = no respetar las senales de transito: lunes_martes_miercoles (67.0/35.0)
+causas = conducir en exceso de velocidad: sabado_domingo (220.0/130.0)
+causas = invadir carril de circulacion: sabado_domingo (5.0/1.0)
+causas = razones desconocidas: lunes_martes_miercoles (5.0/1.0)
+causas = no respetar las ordenes del agente de transito: lunes_martes_miercoles (1.0)
+causas = impericia del conductor: lunes_martes_miercoles (1.0)
+
+Number of Leaves  : 	86
+
+Size of the tree : 	99
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          92               44.6602 %
+Incorrectly Classified Instances       114               55.3398 %
+Kappa statistic                          0.1284
+Mean absolute error                      0.4267
+Root mean squared error                  0.4816
+Relative absolute error                 97.4926 %
+Root relative squared error            103.1075 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,282    0,188    0,478      0,282    0,355      0,110    0,532     0,406     lunes_martes_miercoles
+                 0,167    0,127    0,286      0,167    0,211      0,049    0,536     0,281     jueves_viernes
+                 0,775    0,556    0,470      0,775    0,585      0,223    0,575     0,434     sabado_domingo
+Weighted Avg.    0,447    0,316    0,430      0,447    0,411      0,140    0,550     0,388     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 22 13 43 |  a = lunes_martes_miercoles
+ 13  8 27 |  b = jueves_viernes
+ 11  7 62 |  c = sabado_domingo
+

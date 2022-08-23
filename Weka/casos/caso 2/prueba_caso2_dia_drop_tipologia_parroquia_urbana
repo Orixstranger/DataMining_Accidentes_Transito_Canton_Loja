@@ -1,0 +1,211 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton: punzara (51.0/37.0)
+causas = negligencia del conductor: sucre (17.0/10.0)
+causas = condiciones climaticas desfavorables
+|   hora = h12_h15: carigan (1.0)
+|   hora = h20_h23: sucre (3.0/2.0)
+|   hora = h16_h19: san sebastian (2.0)
+|   hora = h00_h03: san sebastian (0.0)
+|   hora = h08_h11: sucre (1.0)
+|   hora = h04_h07: san sebastian (1.0)
+causas = fallas mecanicas no previsibles
+|   hora = h12_h15: san sebastian (3.0/1.0)
+|   hora = h20_h23
+|   |   nro_heridos = 1h: punzara (2.0/1.0)
+|   |   nro_heridos = 0h: san sebastian (2.0/1.0)
+|   |   nro_heridos = 3h: punzara (0.0)
+|   |   nro_heridos = 2h: punzara (0.0)
+|   |   nro_heridos = 4h: punzara (0.0)
+|   |   nro_heridos = 5h: punzara (0.0)
+|   |   nro_heridos = 6h: punzara (0.0)
+|   hora = h16_h19: punzara (4.0/3.0)
+|   hora = h00_h03: sucre (1.0)
+|   hora = h08_h11: punzara (0.0)
+|   hora = h04_h07: carigan (1.0)
+causas = imprudencia del conductor
+|   nro_heridos = 1h
+|   |   hora = h12_h15: punzara (11.0/6.0)
+|   |   hora = h20_h23: punzara (7.0/5.0)
+|   |   hora = h16_h19: san sebastian (16.0/9.0)
+|   |   hora = h00_h03
+|   |   |   dia = lunes_martes_miercoles: sucre (1.0)
+|   |   |   dia = jueves_viernes: san sebastian (3.0/1.0)
+|   |   |   dia = sabado_domingo: el sagrario (4.0/2.0)
+|   |   hora = h08_h11: sucre (17.0/10.0)
+|   |   hora = h04_h07
+|   |   |   dia = lunes_martes_miercoles: san sebastian (5.0/2.0)
+|   |   |   dia = jueves_viernes: el sagrario (3.0)
+|   |   |   dia = sabado_domingo: sucre (4.0/1.0)
+|   nro_heridos = 0h: sucre (132.0/88.0)
+|   nro_heridos = 3h: punzara (3.0/2.0)
+|   nro_heridos = 2h
+|   |   dia = lunes_martes_miercoles: sucre (10.0/6.0)
+|   |   dia = jueves_viernes: sucre (7.0/5.0)
+|   |   dia = sabado_domingo: el valle (3.0/1.0)
+|   nro_heridos = 4h: punzara (2.0)
+|   nro_heridos = 5h: sucre (0.0)
+|   nro_heridos = 6h: sucre (0.0)
+causas = conducir en estado de embriaguez
+|   dia = lunes_martes_miercoles: punzara (55.0/40.0)
+|   dia = jueves_viernes: punzara (59.0/46.0)
+|   dia = sabado_domingo: sucre (121.0/76.0)
+causas = no ceder el derecho de via
+|   nro_heridos = 1h
+|   |   hora = h12_h15
+|   |   |   dia = lunes_martes_miercoles: sucre (5.0/3.0)
+|   |   |   dia = jueves_viernes: el sagrario (4.0/2.0)
+|   |   |   dia = sabado_domingo: san sebastian (3.0/1.0)
+|   |   hora = h20_h23: san sebastian (3.0/1.0)
+|   |   hora = h16_h19: punzara (5.0/2.0)
+|   |   hora = h00_h03: sucre (5.0/2.0)
+|   |   hora = h08_h11
+|   |   |   dia = lunes_martes_miercoles: san sebastian (4.0/2.0)
+|   |   |   dia = jueves_viernes: sucre (3.0/1.0)
+|   |   |   dia = sabado_domingo: punzara (2.0/1.0)
+|   |   hora = h04_h07: punzara (8.0/5.0)
+|   nro_heridos = 0h: el sagrario (56.0/36.0)
+|   nro_heridos = 3h: san sebastian (1.0)
+|   nro_heridos = 2h
+|   |   dia = lunes_martes_miercoles: el sagrario (6.0/3.0)
+|   |   dia = jueves_viernes: san sebastian (5.0/2.0)
+|   |   dia = sabado_domingo: punzara (3.0/2.0)
+|   nro_heridos = 4h: el sagrario (0.0)
+|   nro_heridos = 5h: el sagrario (1.0)
+|   nro_heridos = 6h: el sagrario (0.0)
+causas = cambio brusco e indebido de carril
+|   dia = lunes_martes_miercoles
+|   |   hora = h12_h15: punzara (2.0)
+|   |   hora = h20_h23: sucre (1.0)
+|   |   hora = h16_h19: sucre (0.0)
+|   |   hora = h00_h03: sucre (0.0)
+|   |   hora = h08_h11: el sagrario (1.0)
+|   |   hora = h04_h07: sucre (2.0)
+|   dia = jueves_viernes: carigan (3.0/2.0)
+|   dia = sabado_domingo: sucre (2.0/1.0)
+causas = no mantener la distancia reglamentaria: sucre (43.0/30.0)
+causas = inobservancia de leyes de transito
+|   hora = h12_h15: el sagrario (2.0)
+|   hora = h20_h23: sucre (2.0)
+|   hora = h16_h19: el sagrario (1.0)
+|   hora = h00_h03: sucre (2.0/1.0)
+|   hora = h08_h11: san sebastian (2.0)
+|   hora = h04_h07: sucre (0.0)
+causas = no respetar las senales de transito
+|   hora = h12_h15
+|   |   dia = lunes_martes_miercoles
+|   |   |   nro_heridos = 1h: el sagrario (3.0)
+|   |   |   nro_heridos = 0h: san sebastian (4.0/2.0)
+|   |   |   nro_heridos = 3h: el sagrario (0.0)
+|   |   |   nro_heridos = 2h: el sagrario (3.0/1.0)
+|   |   |   nro_heridos = 4h: el sagrario (0.0)
+|   |   |   nro_heridos = 5h: el sagrario (0.0)
+|   |   |   nro_heridos = 6h: el sagrario (0.0)
+|   |   dia = jueves_viernes: sucre (2.0)
+|   |   dia = sabado_domingo: sucre (6.0/4.0)
+|   hora = h20_h23: el sagrario (14.0/8.0)
+|   hora = h16_h19
+|   |   dia = lunes_martes_miercoles: el sagrario (2.0)
+|   |   dia = jueves_viernes: el valle (4.0/2.0)
+|   |   dia = sabado_domingo: el sagrario (0.0)
+|   hora = h00_h03: sucre (3.0/1.0)
+|   hora = h08_h11
+|   |   dia = lunes_martes_miercoles: el sagrario (8.0/5.0)
+|   |   dia = jueves_viernes: punzara (7.0/3.0)
+|   |   dia = sabado_domingo: san sebastian (5.0/3.0)
+|   hora = h04_h07
+|   |   nro_heridos = 1h: punzara (2.0/1.0)
+|   |   nro_heridos = 0h: punzara (2.0/1.0)
+|   |   nro_heridos = 3h: sucre (2.0)
+|   |   nro_heridos = 2h: punzara (0.0)
+|   |   nro_heridos = 4h: punzara (0.0)
+|   |   nro_heridos = 5h: punzara (0.0)
+|   |   nro_heridos = 6h: punzara (0.0)
+causas = conducir en exceso de velocidad
+|   nro_heridos = 1h
+|   |   hora = h12_h15: punzara (9.0/7.0)
+|   |   hora = h20_h23: sucre (5.0/3.0)
+|   |   hora = h16_h19: sucre (9.0/5.0)
+|   |   hora = h00_h03: san sebastian (7.0/4.0)
+|   |   hora = h08_h11: sucre (9.0/4.0)
+|   |   hora = h04_h07
+|   |   |   dia = lunes_martes_miercoles: punzara (3.0)
+|   |   |   dia = jueves_viernes: el sagrario (3.0/1.0)
+|   |   |   dia = sabado_domingo: sucre (1.0)
+|   nro_heridos = 0h: sucre (157.0/107.0)
+|   nro_heridos = 3h: punzara (6.0/3.0)
+|   nro_heridos = 2h
+|   |   hora = h12_h15: carigan (1.0)
+|   |   hora = h20_h23: punzara (3.0/1.0)
+|   |   hora = h16_h19: el sagrario (1.0)
+|   |   hora = h00_h03: punzara (3.0/2.0)
+|   |   hora = h08_h11: punzara (0.0)
+|   |   hora = h04_h07: carigan (2.0)
+|   nro_heridos = 4h: el valle (1.0)
+|   nro_heridos = 5h: sucre (0.0)
+|   nro_heridos = 6h: sucre (0.0)
+causas = invadir carril de circulacion: sucre (5.0/2.0)
+causas = razones desconocidas: punzara (5.0/3.0)
+causas = no respetar las ordenes del agente de transito: el sagrario (1.0)
+causas = impericia del conductor: sucre (1.0)
+
+Number of Leaves  : 	121
+
+Size of the tree : 	149
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          53               25.7282 %
+Incorrectly Classified Instances       153               74.2718 %
+Kappa statistic                          0.0351
+Mean absolute error                      0.2694
+Root mean squared error                  0.3899
+Relative absolute error                 99.1692 %
+Root relative squared error            105.5442 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,135    0,089    0,250      0,135    0,175      0,060    0,532     0,235     punzara
+                 0,667    0,658    0,265      0,667    0,379      0,008    0,400     0,233     sucre
+                 0,115    0,061    0,214      0,115    0,150      0,072    0,506     0,170     san sebastian
+                 0,000    0,055    0,000      0,000    0,000      -0,080   0,583     0,132     carigan
+                 0,214    0,104    0,346      0,214    0,265      0,134    0,609     0,322     el sagrario
+                 0,000    0,000    ?          0,000    ?          ?        0,601     0,142     el valle
+Weighted Avg.    0,257    0,223    ?          0,257    ?          ?        0,524     0,222     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  5 23  2  4  3  0 |  a = punzara
+  3 36  6  3  6  0 |  b = sucre
+  1 17  3  2  3  0 |  c = san sebastian
+  4 17  0  0  2  0 |  d = carigan
+  5 26  2  0  9  0 |  e = el sagrario
+  2 17  1  1  3  0 |  f = el valle
+

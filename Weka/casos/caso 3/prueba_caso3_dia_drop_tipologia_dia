@@ -1,0 +1,169 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   parroquia_urbana = punzara: sabado_domingo (14.0/6.0)
+|   parroquia_urbana = sucre: sabado_domingo (10.0/4.0)
+|   parroquia_urbana = san sebastian: sabado_domingo (5.0/2.0)
+|   parroquia_urbana = carigan: lunes_martes_miercoles (6.0/1.0)
+|   parroquia_urbana = el sagrario: lunes_martes_miercoles (11.0/5.0)
+|   parroquia_urbana = el valle: lunes_martes_miercoles (5.0/2.0)
+causas = negligencia del conductor: jueves_viernes (17.0/9.0)
+causas = condiciones climaticas desfavorables: lunes_martes_miercoles (8.0/4.0)
+causas = fallas mecanicas no previsibles
+|   hora = h12_h17: sabado_domingo (5.0/1.0)
+|   hora = h18_h23: lunes_martes_miercoles (6.0/2.0)
+|   hora = h00_h05: sabado_domingo (1.0)
+|   hora = h06_h11: sabado_domingo (1.0)
+causas = imprudencia del conductor
+|   nro_heridos = 1h: sabado_domingo (71.0/38.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara: lunes_martes_miercoles (20.0/7.0)
+|   |   parroquia_urbana = sucre: lunes_martes_miercoles (44.0/25.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   hora = h12_h17: lunes_martes_miercoles (7.0/3.0)
+|   |   |   hora = h18_h23: sabado_domingo (8.0/2.0)
+|   |   |   hora = h00_h05: lunes_martes_miercoles (3.0/2.0)
+|   |   |   hora = h06_h11: lunes_martes_miercoles (4.0/2.0)
+|   |   parroquia_urbana = carigan: lunes_martes_miercoles (16.0/6.0)
+|   |   parroquia_urbana = el sagrario
+|   |   |   hora = h12_h17: lunes_martes_miercoles (10.0/6.0)
+|   |   |   hora = h18_h23: sabado_domingo (7.0/2.0)
+|   |   |   hora = h00_h05: jueves_viernes (3.0/1.0)
+|   |   |   hora = h06_h11: lunes_martes_miercoles (2.0/1.0)
+|   |   parroquia_urbana = el valle: jueves_viernes (8.0/3.0)
+|   nro_heridos = 3h: lunes_martes_miercoles (3.0/1.0)
+|   nro_heridos = 2h: lunes_martes_miercoles (20.0/10.0)
+|   nro_heridos = 4h: sabado_domingo (2.0)
+|   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+causas = conducir en estado de embriaguez: sabado_domingo (235.0/114.0)
+causas = no ceder el derecho de via
+|   parroquia_urbana = punzara: lunes_martes_miercoles (20.0/12.0)
+|   parroquia_urbana = sucre: lunes_martes_miercoles (23.0/11.0)
+|   parroquia_urbana = san sebastian
+|   |   nro_heridos = 1h: lunes_martes_miercoles (9.0/4.0)
+|   |   nro_heridos = 0h: jueves_viernes (9.0/5.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (1.0)
+|   |   nro_heridos = 2h: jueves_viernes (4.0/1.0)
+|   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+|   parroquia_urbana = carigan: lunes_martes_miercoles (2.0)
+|   parroquia_urbana = el sagrario: sabado_domingo (35.0/17.0)
+|   parroquia_urbana = el valle
+|   |   nro_heridos = 1h: jueves_viernes (2.0/1.0)
+|   |   nro_heridos = 0h: lunes_martes_miercoles (9.0/5.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 2h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+causas = cambio brusco e indebido de carril: lunes_martes_miercoles (11.0/5.0)
+causas = no mantener la distancia reglamentaria
+|   parroquia_urbana = punzara: jueves_viernes (7.0/2.0)
+|   parroquia_urbana = sucre: lunes_martes_miercoles (13.0/6.0)
+|   parroquia_urbana = san sebastian: sabado_domingo (3.0/1.0)
+|   parroquia_urbana = carigan: jueves_viernes (6.0/3.0)
+|   parroquia_urbana = el sagrario: lunes_martes_miercoles (8.0/3.0)
+|   parroquia_urbana = el valle: lunes_martes_miercoles (6.0/4.0)
+causas = inobservancia de leyes de transito
+|   parroquia_urbana = punzara: lunes_martes_miercoles (0.0)
+|   parroquia_urbana = sucre: lunes_martes_miercoles (3.0)
+|   parroquia_urbana = san sebastian: sabado_domingo (3.0/1.0)
+|   parroquia_urbana = carigan: lunes_martes_miercoles (0.0)
+|   parroquia_urbana = el sagrario: sabado_domingo (3.0/1.0)
+|   parroquia_urbana = el valle: lunes_martes_miercoles (0.0)
+causas = no respetar las senales de transito: lunes_martes_miercoles (67.0/35.0)
+causas = conducir en exceso de velocidad
+|   nro_heridos = 1h
+|   |   hora = h12_h17
+|   |   |   parroquia_urbana = punzara: jueves_viernes (2.0/1.0)
+|   |   |   parroquia_urbana = sucre: lunes_martes_miercoles (5.0/3.0)
+|   |   |   parroquia_urbana = san sebastian: jueves_viernes (2.0)
+|   |   |   parroquia_urbana = carigan: lunes_martes_miercoles (2.0/1.0)
+|   |   |   parroquia_urbana = el sagrario: sabado_domingo (2.0)
+|   |   |   parroquia_urbana = el valle: lunes_martes_miercoles (1.0)
+|   |   hora = h18_h23: jueves_viernes (9.0/4.0)
+|   |   hora = h00_h05: sabado_domingo (10.0/3.0)
+|   |   hora = h06_h11: jueves_viernes (13.0/6.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara
+|   |   |   hora = h12_h17: jueves_viernes (2.0/1.0)
+|   |   |   hora = h18_h23: lunes_martes_miercoles (11.0/5.0)
+|   |   |   hora = h00_h05
+|   |   |   |   nro_fallecidos = 0fa: sabado_domingo (6.0/2.0)
+|   |   |   |   nro_fallecidos = 1fa: lunes_martes_miercoles (2.0/1.0)
+|   |   |   hora = h06_h11: lunes_martes_miercoles (4.0/1.0)
+|   |   parroquia_urbana = sucre: sabado_domingo (50.0/25.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   hora = h12_h17: lunes_martes_miercoles (5.0/2.0)
+|   |   |   hora = h18_h23: jueves_viernes (5.0/1.0)
+|   |   |   hora = h00_h05: sabado_domingo (10.0/5.0)
+|   |   |   hora = h06_h11: sabado_domingo (4.0/2.0)
+|   |   parroquia_urbana = carigan: sabado_domingo (19.0/10.0)
+|   |   parroquia_urbana = el sagrario: sabado_domingo (17.0/10.0)
+|   |   parroquia_urbana = el valle: lunes_martes_miercoles (22.0/12.0)
+|   nro_heridos = 3h: sabado_domingo (6.0/2.0)
+|   nro_heridos = 2h: sabado_domingo (10.0/4.0)
+|   nro_heridos = 4h: sabado_domingo (1.0)
+|   nro_heridos = 5h: sabado_domingo (0.0)
+|   nro_heridos = 6h: sabado_domingo (0.0)
+causas = invadir carril de circulacion: sabado_domingo (5.0/1.0)
+causas = razones desconocidas: lunes_martes_miercoles (5.0/1.0)
+causas = no respetar las ordenes del agente de transito: lunes_martes_miercoles (1.0)
+causas = impericia del conductor: lunes_martes_miercoles (1.0)
+
+Number of Leaves  : 	94
+
+Size of the tree : 	113
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          99               48.0583 %
+Incorrectly Classified Instances       107               51.9417 %
+Kappa statistic                          0.182 
+Mean absolute error                      0.4087
+Root mean squared error                  0.4672
+Relative absolute error                 93.3756 %
+Root relative squared error            100.0084 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,423    0,234    0,524      0,423    0,468      0,199    0,630     0,520     lunes_martes_miercoles
+                 0,146    0,127    0,259      0,146    0,187      0,024    0,530     0,250     jueves_viernes
+                 0,738    0,452    0,509      0,738    0,602      0,280    0,679     0,543     sabado_domingo
+Weighted Avg.    0,481    0,294    0,456      0,481    0,455      0,190    0,626     0,466     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 33 12 33 |  a = lunes_martes_miercoles
+ 17  7 24 |  b = jueves_viernes
+ 13  8 59 |  c = sabado_domingo
+

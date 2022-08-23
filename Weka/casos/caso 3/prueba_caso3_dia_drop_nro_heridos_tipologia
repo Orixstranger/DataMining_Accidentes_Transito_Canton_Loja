@@ -1,0 +1,125 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R6
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton: atropello (51.0/4.0)
+causas = negligencia del conductor
+|   hora = h12_h17: choque (8.0/4.0)
+|   hora = h18_h23
+|   |   parroquia_urbana = punzara: atropello (0.0)
+|   |   parroquia_urbana = sucre: atropello (3.0/1.0)
+|   |   parroquia_urbana = san sebastian: atropello (0.0)
+|   |   parroquia_urbana = carigan: atropello (0.0)
+|   |   parroquia_urbana = el sagrario: choque (2.0/1.0)
+|   |   parroquia_urbana = el valle: atropello (0.0)
+|   hora = h00_h05: perdida de carril_pista (1.0)
+|   hora = h06_h11: estrellamiento (3.0/1.0)
+causas = condiciones climaticas desfavorables: choque (8.0/3.0)
+causas = fallas mecanicas no previsibles: estrellamiento (13.0/6.0)
+causas = imprudencia del conductor: choque (228.0/102.0)
+causas = conducir en estado de embriaguez
+|   parroquia_urbana = punzara
+|   |   hora = h12_h17: choque (6.0/4.0)
+|   |   hora = h18_h23: choque (19.0/8.0)
+|   |   hora = h00_h05: estrellamiento (13.0/5.0)
+|   |   hora = h06_h11: estrellamiento (7.0/4.0)
+|   parroquia_urbana = sucre
+|   |   hora = h12_h17: choque (12.0/6.0)
+|   |   hora = h18_h23: choque (22.0/10.0)
+|   |   hora = h00_h05: estrellamiento (23.0/10.0)
+|   |   hora = h06_h11
+|   |   |   dia = lunes_martes_miercoles: choque (0.0)
+|   |   |   dia = jueves_viernes: atropello (2.0/1.0)
+|   |   |   dia = sabado_domingo: choque (7.0/2.0)
+|   parroquia_urbana = san sebastian: choque (32.0/14.0)
+|   parroquia_urbana = carigan: choque (20.0/7.0)
+|   parroquia_urbana = el sagrario: choque (38.0/10.0)
+|   parroquia_urbana = el valle
+|   |   dia = lunes_martes_miercoles: estrellamiento (9.0/3.0)
+|   |   dia = jueves_viernes: estrellamiento (8.0/3.0)
+|   |   dia = sabado_domingo: choque (17.0/8.0)
+causas = no ceder el derecho de via: choque (114.0)
+causas = cambio brusco e indebido de carril: choque (11.0/1.0)
+causas = no mantener la distancia reglamentaria: choque (43.0/8.0)
+causas = inobservancia de leyes de transito
+|   parroquia_urbana = punzara: choque (0.0)
+|   parroquia_urbana = sucre: estrellamiento (3.0/1.0)
+|   parroquia_urbana = san sebastian: choque (3.0/1.0)
+|   parroquia_urbana = carigan: choque (0.0)
+|   parroquia_urbana = el sagrario: choque (3.0/2.0)
+|   parroquia_urbana = el valle: choque (0.0)
+causas = no respetar las senales de transito: choque (67.0/4.0)
+causas = conducir en exceso de velocidad: estrellamiento (220.0/114.0)
+causas = invadir carril de circulacion: choque (5.0)
+causas = razones desconocidas: atropello (5.0/3.0)
+causas = no respetar las ordenes del agente de transito: arrollamiento (1.0)
+causas = impericia del conductor: estrellamiento (1.0)
+
+Number of Leaves  : 	44
+
+Size of the tree : 	53
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         127               61.6505 %
+Incorrectly Classified Instances        79               38.3495 %
+Kappa statistic                          0.3465
+Mean absolute error                      0.0889
+Root mean squared error                  0.218 
+Relative absolute error                 72.7367 %
+Root relative squared error             88.4969 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,588    0,016    0,769      0,588    0,667      0,648    0,871     0,583     atropello
+                 0,888    0,455    0,679      0,888    0,769      0,464    0,811     0,822     choque
+                 0,500    0,191    0,415      0,500    0,454      0,289    0,758     0,403     estrellamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,782     0,115     roce
+                 0,000    0,000    ?          0,000    ?          ?        0,549     0,093     colision
+                 0,000    0,000    ?          0,000    ?          ?        0,853     0,310     perdida de carril_pista
+                 ?        0,000    ?          ?        ?          ?        ?         ?         caida de pasajero
+                 0,000    0,000    ?          0,000    ?          ?        0,769     0,055     atipico
+                 0,000    0,000    ?          0,000    ?          ?        0,393     0,005     encunetamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,280     0,005     arrollamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,676     0,023     volcamiento
+Weighted Avg.    0,617    0,278    ?          0,617    ?          ?        0,797     0,598     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k   <-- classified as
+ 10  7  0  0  0  0  0  0  0  0  0 |  a = atropello
+  1 95 11  0  0  0  0  0  0  0  0 |  b = choque
+  1 21 22  0  0  0  0  0  0  0  0 |  c = estrellamiento
+  0  7  0  0  0  0  0  0  0  0  0 |  d = roce
+  0  3  0  0  0  0  0  0  0  0  0 |  e = colision
+  0  4 16  0  0  0  0  0  0  0  0 |  f = perdida de carril_pista
+  0  0  0  0  0  0  0  0  0  0  0 |  g = caida de pasajero
+  0  3  1  0  0  0  0  0  0  0  0 |  h = atipico
+  0  0  1  0  0  0  0  0  0  0  0 |  i = encunetamiento
+  1  0  0  0  0  0  0  0  0  0  0 |  j = arrollamiento
+  0  0  2  0  0  0  0  0  0  0  0 |  k = volcamiento
+

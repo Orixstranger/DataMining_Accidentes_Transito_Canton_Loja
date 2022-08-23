@@ -1,0 +1,135 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello
+|   nro_heridos = 1h: imprudencia del peaton (69.0/24.0)
+|   nro_heridos = 0h: imprudencia del conductor (7.0/3.0)
+|   nro_heridos = 3h: imprudencia del peaton (0.0)
+|   nro_heridos = 2h: conducir en estado de embriaguez (5.0/2.0)
+|   nro_heridos = 4h: imprudencia del peaton (0.0)
+|   nro_heridos = 5h: imprudencia del peaton (0.0)
+|   nro_heridos = 6h: imprudencia del peaton (0.0)
+tipologia = choque
+|   hora = h12_h17
+|   |   nro_heridos = 1h
+|   |   |   dia = lunes_martes_miercoles: no ceder el derecho de via (11.0/5.0)
+|   |   |   dia = jueves_viernes: no ceder el derecho de via (15.0/10.0)
+|   |   |   dia = sabado_domingo: imprudencia del conductor (21.0/12.0)
+|   |   nro_heridos = 0h: imprudencia del conductor (86.0/64.0)
+|   |   nro_heridos = 3h: imprudencia del conductor (3.0/2.0)
+|   |   nro_heridos = 2h: imprudencia del conductor (17.0/11.0)
+|   |   nro_heridos = 4h: invadir carril de circulacion (1.0)
+|   |   nro_heridos = 5h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 6h: imprudencia del conductor (0.0)
+|   hora = h18_h23
+|   |   nro_heridos = 1h: conducir en estado de embriaguez (40.0/28.0)
+|   |   nro_heridos = 0h
+|   |   |   dia = lunes_martes_miercoles: conducir en estado de embriaguez (30.0/22.0)
+|   |   |   dia = jueves_viernes: conducir en estado de embriaguez (25.0/17.0)
+|   |   |   dia = sabado_domingo: imprudencia del conductor (30.0/14.0)
+|   |   nro_heridos = 3h
+|   |   |   dia = lunes_martes_miercoles: imprudencia del conductor (4.0/3.0)
+|   |   |   dia = jueves_viernes: conducir en estado de embriaguez (3.0/1.0)
+|   |   |   dia = sabado_domingo: negligencia del conductor (2.0/1.0)
+|   |   nro_heridos = 2h: conducir en estado de embriaguez (18.0/10.0)
+|   |   nro_heridos = 4h: conducir en estado de embriaguez (1.0)
+|   |   nro_heridos = 5h: conducir en estado de embriaguez (0.0)
+|   |   nro_heridos = 6h: imprudencia del peaton (1.0)
+|   hora = h00_h05: conducir en estado de embriaguez (84.0/46.0)
+|   hora = h06_h11: no ceder el derecho de via (133.0/95.0)
+tipologia = estrellamiento: conducir en exceso de velocidad (236.0/130.0)
+tipologia = roce: imprudencia del conductor (38.0/20.0)
+tipologia = colision: imprudencia del conductor (18.0/9.0)
+tipologia = perdida de carril_pista: conducir en exceso de velocidad (94.0/29.0)
+tipologia = caida de pasajero: imprudencia del conductor (3.0/1.0)
+tipologia = atipico: imprudencia del conductor (15.0/2.0)
+tipologia = encunetamiento: imprudencia del conductor (2.0/1.0)
+tipologia = arrollamiento: imprudencia del conductor (6.0/4.0)
+tipologia = volcamiento
+|   nro_heridos = 1h: imprudencia del conductor (6.0/3.0)
+|   nro_heridos = 0h: conducir en exceso de velocidad (3.0)
+|   nro_heridos = 3h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 2h: conducir en exceso de velocidad (1.0)
+|   nro_heridos = 4h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 5h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 6h: conducir en exceso de velocidad (0.0)
+
+Number of Leaves  : 	44
+
+Size of the tree : 	53
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          70               33.9806 %
+Incorrectly Classified Instances       136               66.0194 %
+Kappa statistic                          0.1916
+Mean absolute error                      0.0899
+Root mean squared error                  0.2222
+Relative absolute error                 86.1992 %
+Root relative squared error             97.4099 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,833    0,021    0,714      0,833    0,769      0,756    0,927     0,615     imprudencia del peaton
+                 0,000    0,000    ?          0,000    ?          ?        0,888     0,108     negligencia del conductor
+                 ?        0,000    ?          ?        ?          ?        ?         ?         condiciones climaticas desfavorables
+                 0,000    0,000    ?          0,000    ?          ?        0,666     0,032     fallas mecanicas no previsibles
+                 0,295    0,228    0,260      0,295    0,277      0,064    0,544     0,275     imprudencia del conductor
+                 0,204    0,191    0,250      0,204    0,225      0,014    0,651     0,312     conducir en estado de embriaguez
+                 0,370    0,140    0,286      0,370    0,323      0,207    0,777     0,262     no ceder el derecho de via
+                 0,000    0,000    ?          0,000    ?          ?        0,361     0,005     cambio brusco e indebido de carril
+                 0,000    0,000    ?          0,000    ?          ?        0,735     0,137     no mantener la distancia reglamentaria
+                 0,000    0,000    ?          0,000    ?          ?        0,705     0,012     inobservancia de leyes de transito
+                 0,250    0,035    0,222      0,250    0,235      0,203    0,778     0,144     no respetar las senales de transito
+                 0,595    0,201    0,431      0,595    0,500      0,353    0,777     0,482     conducir en exceso de velocidad
+                 0,000    0,000    ?          0,000    ?          ?        0,963     0,083     invadir carril de circulacion
+                 0,000    0,000    ?          0,000    ?          ?        0,346     0,005     razones desconocidas
+                 ?        0,000    ?          ?        ?          ?        ?         ?         no respetar las ordenes del agente de transito
+                 ?        0,000    ?          ?        ?          ?        ?         ?         impericia del conductor
+Weighted Avg.    0,340    0,156    ?          0,340    ?          ?        0,700     0,318     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p   <-- classified as
+ 10  0  0  0  1  0  0  0  0  0  0  1  0  0  0  0 |  a = imprudencia del peaton
+  1  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0 |  b = negligencia del conductor
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = condiciones climaticas desfavorables
+  0  0  0  0  1  0  0  0  0  0  0  3  0  0  0  0 |  d = fallas mecanicas no previsibles
+  2  0  0  0 13  9 10  0  0  0  2  8  0  0  0  0 |  e = imprudencia del conductor
+  1  0  0  0 11 10  4  0  0  0  3 20  0  0  0  0 |  f = conducir en estado de embriaguez
+  0  0  0  0  5 10 10  0  0  0  2  0  0  0  0  0 |  g = no ceder el derecho de via
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  h = cambio brusco e indebido de carril
+  0  0  0  0  6  0  6  0  0  0  0  0  0  0  0  0 |  i = no mantener la distancia reglamentaria
+  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0 |  j = inobservancia de leyes de transito
+  0  0  0  0  1  3  2  0  0  0  2  0  0  0  0  0 |  k = no respetar las senales de transito
+  0  0  0  0  7  8  2  0  0  0  0 25  0  0  0  0 |  l = conducir en exceso de velocidad
+  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 |  m = invadir carril de circulacion
+  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 |  n = razones desconocidas
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = no respetar las ordenes del agente de transito
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = impericia del conductor
+

@@ -1,0 +1,73 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R5
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+: choque (1028.0/503.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         107               51.9417 %
+Incorrectly Classified Instances        99               48.0583 %
+Kappa statistic                          0     
+Mean absolute error                      0.1216
+Root mean squared error                  0.2463
+Relative absolute error                 99.528  %
+Root relative squared error             99.9935 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,083     atropello
+                 1,000    1,000    0,519      1,000    0,684      ?        0,500     0,519     choque
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,214     estrellamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,034     roce
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     colision
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,097     perdida de carril_pista
+                 ?        0,000    ?          ?        ?          ?        ?         ?         caida de pasajero
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,019     atipico
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     encunetamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     arrollamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     volcamiento
+Weighted Avg.    0,519    0,519    ?          0,519    ?          ?        0,500     0,334     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+   0  17   0   0   0   0   0   0   0   0   0 |   a = atropello
+   0 107   0   0   0   0   0   0   0   0   0 |   b = choque
+   0  44   0   0   0   0   0   0   0   0   0 |   c = estrellamiento
+   0   7   0   0   0   0   0   0   0   0   0 |   d = roce
+   0   3   0   0   0   0   0   0   0   0   0 |   e = colision
+   0  20   0   0   0   0   0   0   0   0   0 |   f = perdida de carril_pista
+   0   0   0   0   0   0   0   0   0   0   0 |   g = caida de pasajero
+   0   4   0   0   0   0   0   0   0   0   0 |   h = atipico
+   0   1   0   0   0   0   0   0   0   0   0 |   i = encunetamiento
+   0   1   0   0   0   0   0   0   0   0   0 |   j = arrollamiento
+   0   2   0   0   0   0   0   0   0   0   0 |   k = volcamiento
+

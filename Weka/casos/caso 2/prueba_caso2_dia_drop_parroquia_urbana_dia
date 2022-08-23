@@ -1,0 +1,142 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   hora = h12_h15: lunes_martes_miercoles (10.0/5.0)
+|   hora = h20_h23: lunes_martes_miercoles (10.0/3.0)
+|   hora = h16_h19: lunes_martes_miercoles (15.0/9.0)
+|   hora = h00_h03: lunes_martes_miercoles (0.0)
+|   hora = h08_h11: sabado_domingo (12.0/4.0)
+|   hora = h04_h07: sabado_domingo (4.0/1.0)
+causas = negligencia del conductor: jueves_viernes (17.0/9.0)
+causas = condiciones climaticas desfavorables
+|   hora = h12_h15: sabado_domingo (1.0)
+|   hora = h20_h23: lunes_martes_miercoles (3.0)
+|   hora = h16_h19: jueves_viernes (2.0/1.0)
+|   hora = h00_h03: lunes_martes_miercoles (0.0)
+|   hora = h08_h11: lunes_martes_miercoles (1.0)
+|   hora = h04_h07: jueves_viernes (1.0)
+causas = fallas mecanicas no previsibles
+|   hora = h12_h15: sabado_domingo (3.0)
+|   hora = h20_h23: lunes_martes_miercoles (4.0/1.0)
+|   hora = h16_h19: lunes_martes_miercoles (4.0/2.0)
+|   hora = h00_h03: sabado_domingo (1.0)
+|   hora = h08_h11: sabado_domingo (0.0)
+|   hora = h04_h07: sabado_domingo (1.0)
+causas = imprudencia del conductor
+|   tipologia = atropello: lunes_martes_miercoles (14.0/5.0)
+|   tipologia = choque
+|   |   nro_heridos = 1h: sabado_domingo (45.0/21.0)
+|   |   nro_heridos = 0h: sabado_domingo (67.0/36.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (2.0)
+|   |   nro_heridos = 2h: lunes_martes_miercoles (12.0/7.0)
+|   |   nro_heridos = 4h: sabado_domingo (0.0)
+|   |   nro_heridos = 5h: sabado_domingo (0.0)
+|   |   nro_heridos = 6h: sabado_domingo (0.0)
+|   tipologia = estrellamiento
+|   |   nro_heridos = 1h: sabado_domingo (4.0/1.0)
+|   |   nro_heridos = 0h: jueves_viernes (25.0/14.0)
+|   |   nro_heridos = 3h: jueves_viernes (1.0)
+|   |   nro_heridos = 2h: jueves_viernes (4.0/2.0)
+|   |   nro_heridos = 4h: jueves_viernes (0.0)
+|   |   nro_heridos = 5h: jueves_viernes (0.0)
+|   |   nro_heridos = 6h: jueves_viernes (0.0)
+|   tipologia = roce: lunes_martes_miercoles (18.0/8.0)
+|   tipologia = colision: lunes_martes_miercoles (9.0/5.0)
+|   tipologia = perdida de carril_pista
+|   |   hora = h12_h15: lunes_martes_miercoles (2.0)
+|   |   hora = h20_h23: sabado_domingo (1.0)
+|   |   hora = h16_h19: lunes_martes_miercoles (0.0)
+|   |   hora = h00_h03: jueves_viernes (2.0/1.0)
+|   |   hora = h08_h11: lunes_martes_miercoles (0.0)
+|   |   hora = h04_h07: jueves_viernes (1.0)
+|   tipologia = caida de pasajero: jueves_viernes (2.0/1.0)
+|   tipologia = atipico: lunes_martes_miercoles (13.0/6.0)
+|   tipologia = encunetamiento: jueves_viernes (1.0)
+|   tipologia = arrollamiento: lunes_martes_miercoles (2.0/1.0)
+|   tipologia = volcamiento: lunes_martes_miercoles (3.0/1.0)
+causas = conducir en estado de embriaguez: sabado_domingo (235.0/114.0)
+causas = no ceder el derecho de via
+|   hora = h12_h15: lunes_martes_miercoles (28.0/16.0)
+|   hora = h20_h23
+|   |   nro_heridos = 1h: sabado_domingo (3.0/1.0)
+|   |   nro_heridos = 0h: lunes_martes_miercoles (9.0/5.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (1.0)
+|   |   nro_heridos = 2h: jueves_viernes (4.0/1.0)
+|   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+|   hora = h16_h19: sabado_domingo (11.0/6.0)
+|   hora = h00_h03: sabado_domingo (13.0/4.0)
+|   hora = h08_h11
+|   |   nro_heridos = 1h: lunes_martes_miercoles (9.0/5.0)
+|   |   nro_heridos = 0h: sabado_domingo (13.0/6.0)
+|   |   nro_heridos = 3h: sabado_domingo (0.0)
+|   |   nro_heridos = 2h: lunes_martes_miercoles (2.0/1.0)
+|   |   nro_heridos = 4h: sabado_domingo (0.0)
+|   |   nro_heridos = 5h: sabado_domingo (1.0)
+|   |   nro_heridos = 6h: sabado_domingo (0.0)
+|   hora = h04_h07: lunes_martes_miercoles (20.0/8.0)
+causas = cambio brusco e indebido de carril: lunes_martes_miercoles (11.0/5.0)
+causas = no mantener la distancia reglamentaria: lunes_martes_miercoles (43.0/25.0)
+causas = inobservancia de leyes de transito: lunes_martes_miercoles (9.0/5.0)
+causas = no respetar las senales de transito: lunes_martes_miercoles (67.0/35.0)
+causas = conducir en exceso de velocidad: sabado_domingo (220.0/130.0)
+causas = invadir carril de circulacion: sabado_domingo (5.0/1.0)
+causas = razones desconocidas: lunes_martes_miercoles (5.0/1.0)
+causas = no respetar las ordenes del agente de transito: lunes_martes_miercoles (1.0)
+causas = impericia del conductor: lunes_martes_miercoles (1.0)
+
+Number of Leaves  : 	75
+
+Size of the tree : 	86
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          97               47.0874 %
+Incorrectly Classified Instances       109               52.9126 %
+Kappa statistic                          0.1608
+Mean absolute error                      0.4225
+Root mean squared error                  0.4752
+Relative absolute error                 96.5243 %
+Root relative squared error            101.7372 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,397    0,266    0,477      0,397    0,434      0,138    0,573     0,435     lunes_martes_miercoles
+                 0,125    0,095    0,286      0,125    0,174      0,042    0,502     0,240     jueves_viernes
+                 0,750    0,476    0,500      0,750    0,600      0,271    0,624     0,509     sabado_domingo
+Weighted Avg.    0,471    0,308    0,441      0,471    0,438      0,167    0,576     0,418     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 31 10 37 |  a = lunes_martes_miercoles
+ 19  6 23 |  b = jueves_viernes
+ 15  5 60 |  c = sabado_domingo
+

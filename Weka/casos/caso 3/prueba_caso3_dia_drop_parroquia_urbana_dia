@@ -1,0 +1,173 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   hora = h12_h17: lunes_martes_miercoles (18.0/10.0)
+|   hora = h18_h23: lunes_martes_miercoles (17.0/7.0)
+|   hora = h00_h05: sabado_domingo (2.0)
+|   hora = h06_h11: sabado_domingo (14.0/5.0)
+causas = negligencia del conductor: jueves_viernes (17.0/9.0)
+causas = condiciones climaticas desfavorables: lunes_martes_miercoles (8.0/4.0)
+causas = fallas mecanicas no previsibles
+|   hora = h12_h17: sabado_domingo (5.0/1.0)
+|   hora = h18_h23: lunes_martes_miercoles (6.0/2.0)
+|   hora = h00_h05: sabado_domingo (1.0)
+|   hora = h06_h11: sabado_domingo (1.0)
+causas = imprudencia del conductor
+|   tipologia = atropello: lunes_martes_miercoles (14.0/5.0)
+|   tipologia = choque
+|   |   nro_heridos = 1h: sabado_domingo (45.0/21.0)
+|   |   nro_heridos = 0h: sabado_domingo (67.0/36.0)
+|   |   nro_heridos = 3h: lunes_martes_miercoles (2.0)
+|   |   nro_heridos = 2h: lunes_martes_miercoles (12.0/7.0)
+|   |   nro_heridos = 4h: sabado_domingo (0.0)
+|   |   nro_heridos = 5h: sabado_domingo (0.0)
+|   |   nro_heridos = 6h: sabado_domingo (0.0)
+|   tipologia = estrellamiento
+|   |   nro_heridos = 1h: sabado_domingo (4.0/1.0)
+|   |   nro_heridos = 0h
+|   |   |   hora = h12_h17: lunes_martes_miercoles (4.0/1.0)
+|   |   |   hora = h18_h23: jueves_viernes (9.0/5.0)
+|   |   |   hora = h00_h05: jueves_viernes (5.0/1.0)
+|   |   |   hora = h06_h11: lunes_martes_miercoles (7.0/3.0)
+|   |   nro_heridos = 3h: jueves_viernes (1.0)
+|   |   nro_heridos = 2h: jueves_viernes (4.0/2.0)
+|   |   nro_heridos = 4h: jueves_viernes (0.0)
+|   |   nro_heridos = 5h: jueves_viernes (0.0)
+|   |   nro_heridos = 6h: jueves_viernes (0.0)
+|   tipologia = roce: lunes_martes_miercoles (18.0/8.0)
+|   tipologia = colision
+|   |   hora = h12_h17: jueves_viernes (5.0/2.0)
+|   |   hora = h18_h23: lunes_martes_miercoles (1.0)
+|   |   hora = h00_h05: lunes_martes_miercoles (1.0)
+|   |   hora = h06_h11: lunes_martes_miercoles (2.0)
+|   tipologia = perdida de carril_pista
+|   |   hora = h12_h17: lunes_martes_miercoles (2.0)
+|   |   hora = h18_h23: sabado_domingo (1.0)
+|   |   hora = h00_h05: jueves_viernes (3.0/1.0)
+|   |   hora = h06_h11: lunes_martes_miercoles (0.0)
+|   tipologia = caida de pasajero: jueves_viernes (2.0/1.0)
+|   tipologia = atipico: lunes_martes_miercoles (13.0/6.0)
+|   tipologia = encunetamiento: jueves_viernes (1.0)
+|   tipologia = arrollamiento: lunes_martes_miercoles (2.0/1.0)
+|   tipologia = volcamiento: lunes_martes_miercoles (3.0/1.0)
+causas = conducir en estado de embriaguez: sabado_domingo (235.0/114.0)
+causas = no ceder el derecho de via: lunes_martes_miercoles (114.0/69.0)
+causas = cambio brusco e indebido de carril: lunes_martes_miercoles (11.0/5.0)
+causas = no mantener la distancia reglamentaria
+|   tipologia = atropello: lunes_martes_miercoles (0.0)
+|   tipologia = choque
+|   |   hora = h12_h17
+|   |   |   nro_heridos = 1h: jueves_viernes (2.0)
+|   |   |   nro_heridos = 0h: lunes_martes_miercoles (13.0/5.0)
+|   |   |   nro_heridos = 3h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 2h: lunes_martes_miercoles (1.0)
+|   |   |   nro_heridos = 4h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 5h: lunes_martes_miercoles (0.0)
+|   |   |   nro_heridos = 6h: lunes_martes_miercoles (0.0)
+|   |   hora = h18_h23
+|   |   |   nro_heridos = 1h: sabado_domingo (2.0)
+|   |   |   nro_heridos = 0h: jueves_viernes (4.0/2.0)
+|   |   |   nro_heridos = 3h: lunes_martes_miercoles (1.0)
+|   |   |   nro_heridos = 2h: sabado_domingo (0.0)
+|   |   |   nro_heridos = 4h: sabado_domingo (0.0)
+|   |   |   nro_heridos = 5h: sabado_domingo (0.0)
+|   |   |   nro_heridos = 6h: sabado_domingo (0.0)
+|   |   hora = h00_h05: sabado_domingo (1.0)
+|   |   hora = h06_h11: jueves_viernes (11.0/6.0)
+|   tipologia = estrellamiento: lunes_martes_miercoles (2.0/1.0)
+|   tipologia = roce: lunes_martes_miercoles (5.0/1.0)
+|   tipologia = colision: jueves_viernes (1.0)
+|   tipologia = perdida de carril_pista: lunes_martes_miercoles (0.0)
+|   tipologia = caida de pasajero: lunes_martes_miercoles (0.0)
+|   tipologia = atipico: lunes_martes_miercoles (0.0)
+|   tipologia = encunetamiento: lunes_martes_miercoles (0.0)
+|   tipologia = arrollamiento: lunes_martes_miercoles (0.0)
+|   tipologia = volcamiento: lunes_martes_miercoles (0.0)
+causas = inobservancia de leyes de transito: lunes_martes_miercoles (9.0/5.0)
+causas = no respetar las senales de transito: lunes_martes_miercoles (67.0/35.0)
+causas = conducir en exceso de velocidad
+|   nro_heridos = 1h
+|   |   hora = h12_h17: jueves_viernes (14.0/9.0)
+|   |   hora = h18_h23: jueves_viernes (9.0/4.0)
+|   |   hora = h00_h05: sabado_domingo (10.0/3.0)
+|   |   hora = h06_h11: jueves_viernes (13.0/6.0)
+|   nro_heridos = 0h
+|   |   hora = h12_h17: lunes_martes_miercoles (33.0/19.0)
+|   |   hora = h18_h23: jueves_viernes (42.0/26.0)
+|   |   hora = h00_h05: sabado_domingo (57.0/30.0)
+|   |   hora = h06_h11: sabado_domingo (25.0/11.0)
+|   nro_heridos = 3h: sabado_domingo (6.0/2.0)
+|   nro_heridos = 2h
+|   |   tipologia = atropello: sabado_domingo (0.0)
+|   |   tipologia = choque: sabado_domingo (3.0)
+|   |   tipologia = estrellamiento: sabado_domingo (2.0)
+|   |   tipologia = roce: sabado_domingo (0.0)
+|   |   tipologia = colision: sabado_domingo (0.0)
+|   |   tipologia = perdida de carril_pista: lunes_martes_miercoles (4.0/1.0)
+|   |   tipologia = caida de pasajero: sabado_domingo (0.0)
+|   |   tipologia = atipico: sabado_domingo (0.0)
+|   |   tipologia = encunetamiento: sabado_domingo (0.0)
+|   |   tipologia = arrollamiento: sabado_domingo (0.0)
+|   |   tipologia = volcamiento: sabado_domingo (1.0)
+|   nro_heridos = 4h: sabado_domingo (1.0)
+|   nro_heridos = 5h: sabado_domingo (0.0)
+|   nro_heridos = 6h: sabado_domingo (0.0)
+causas = invadir carril de circulacion: sabado_domingo (5.0/1.0)
+causas = razones desconocidas: lunes_martes_miercoles (5.0/1.0)
+causas = no respetar las ordenes del agente de transito: lunes_martes_miercoles (1.0)
+causas = impericia del conductor: lunes_martes_miercoles (1.0)
+
+Number of Leaves  : 	100
+
+Size of the tree : 	117
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          93               45.1456 %
+Incorrectly Classified Instances       113               54.8544 %
+Kappa statistic                          0.1259
+Mean absolute error                      0.4149
+Root mean squared error                  0.4751
+Relative absolute error                 94.8005 %
+Root relative squared error            101.713  %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,295    0,203    0,469      0,295    0,362      0,105    0,608     0,440     lunes_martes_miercoles
+                 0,104    0,082    0,278      0,104    0,152      0,033    0,499     0,239     jueves_viernes
+                 0,813    0,587    0,468      0,813    0,594      0,234    0,638     0,541     sabado_domingo
+Weighted Avg.    0,451    0,324    0,424      0,451    0,403      0,138    0,594     0,432     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 23  8 47 |  a = lunes_martes_miercoles
+ 16  5 27 |  b = jueves_viernes
+ 10  5 65 |  c = sabado_domingo
+

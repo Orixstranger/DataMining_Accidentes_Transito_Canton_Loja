@@ -1,0 +1,207 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   nro_heridos = 1h
+|   |   dia = lunes_martes_miercoles: h20_h23 (20.0/13.0)
+|   |   dia = jueves_viernes: h16_h19 (7.0/3.0)
+|   |   dia = sabado_domingo: h08_h11 (19.0/11.0)
+|   nro_heridos = 0h: h12_h15 (3.0/1.0)
+|   nro_heridos = 3h: h16_h19 (0.0)
+|   nro_heridos = 2h: h16_h19 (1.0)
+|   nro_heridos = 4h: h16_h19 (0.0)
+|   nro_heridos = 5h: h16_h19 (0.0)
+|   nro_heridos = 6h: h20_h23 (1.0)
+causas = negligencia del conductor
+|   tipologia = atropello: h20_h23 (2.0/1.0)
+|   tipologia = choque: h12_h15 (6.0/3.0)
+|   tipologia = estrellamiento: h08_h11 (2.0)
+|   tipologia = roce: h12_h15 (3.0)
+|   tipologia = colision: h16_h19 (2.0)
+|   tipologia = perdida de carril_pista: h04_h07 (1.0)
+|   tipologia = caida de pasajero: h12_h15 (0.0)
+|   tipologia = atipico: h12_h15 (0.0)
+|   tipologia = encunetamiento: h12_h15 (0.0)
+|   tipologia = arrollamiento: h20_h23 (1.0)
+|   tipologia = volcamiento: h12_h15 (0.0)
+causas = condiciones climaticas desfavorables
+|   dia = lunes_martes_miercoles: h20_h23 (4.0/1.0)
+|   dia = jueves_viernes: h16_h19 (2.0/1.0)
+|   dia = sabado_domingo: h12_h15 (2.0/1.0)
+causas = fallas mecanicas no previsibles
+|   dia = lunes_martes_miercoles
+|   |   nro_heridos = 1h: h20_h23 (2.0)
+|   |   nro_heridos = 0h: h16_h19 (3.0/1.0)
+|   |   nro_heridos = 3h: h20_h23 (0.0)
+|   |   nro_heridos = 2h: h20_h23 (0.0)
+|   |   nro_heridos = 4h: h20_h23 (0.0)
+|   |   nro_heridos = 5h: h20_h23 (0.0)
+|   |   nro_heridos = 6h: h20_h23 (0.0)
+|   dia = jueves_viernes: h20_h23 (2.0/1.0)
+|   dia = sabado_domingo: h12_h15 (6.0/3.0)
+causas = imprudencia del conductor
+|   nro_heridos = 1h
+|   |   dia = lunes_martes_miercoles: h16_h19 (22.0/14.0)
+|   |   dia = jueves_viernes: h08_h11 (16.0/9.0)
+|   |   dia = sabado_domingo: h16_h19 (33.0/25.0)
+|   nro_heridos = 0h
+|   |   dia = lunes_martes_miercoles: h16_h19 (55.0/35.0)
+|   |   dia = jueves_viernes: h12_h15 (33.0/24.0)
+|   |   dia = sabado_domingo: h20_h23 (44.0/31.0)
+|   nro_heridos = 3h: h12_h15 (3.0/1.0)
+|   nro_heridos = 2h: h12_h15 (20.0/9.0)
+|   nro_heridos = 4h: h16_h19 (2.0/1.0)
+|   nro_heridos = 5h: h12_h15 (0.0)
+|   nro_heridos = 6h: h12_h15 (0.0)
+causas = conducir en estado de embriaguez
+|   tipologia = atropello: h16_h19 (8.0/4.0)
+|   tipologia = choque: h20_h23 (119.0/85.0)
+|   tipologia = estrellamiento
+|   |   dia = lunes_martes_miercoles: h00_h03 (18.0/12.0)
+|   |   dia = jueves_viernes: h20_h23 (20.0/12.0)
+|   |   dia = sabado_domingo
+|   |   |   nro_heridos = 1h: h04_h07 (7.0/4.0)
+|   |   |   nro_heridos = 0h: h00_h03 (31.0/18.0)
+|   |   |   nro_heridos = 3h: h00_h03 (0.0)
+|   |   |   nro_heridos = 2h: h00_h03 (0.0)
+|   |   |   nro_heridos = 4h: h04_h07 (1.0)
+|   |   |   nro_heridos = 5h: h00_h03 (0.0)
+|   |   |   nro_heridos = 6h: h00_h03 (0.0)
+|   tipologia = roce
+|   |   dia = lunes_martes_miercoles: h20_h23 (0.0)
+|   |   dia = jueves_viernes: h16_h19 (3.0/2.0)
+|   |   dia = sabado_domingo: h20_h23 (5.0/3.0)
+|   tipologia = colision: h16_h19 (5.0/3.0)
+|   tipologia = perdida de carril_pista
+|   |   nro_heridos = 1h: h20_h23 (8.0/4.0)
+|   |   nro_heridos = 0h: h20_h23 (4.0/3.0)
+|   |   nro_heridos = 3h: h00_h03 (1.0)
+|   |   nro_heridos = 2h: h16_h19 (3.0/2.0)
+|   |   nro_heridos = 4h: h20_h23 (0.0)
+|   |   nro_heridos = 5h: h16_h19 (1.0)
+|   |   nro_heridos = 6h: h20_h23 (0.0)
+|   tipologia = caida de pasajero: h00_h03 (0.0)
+|   tipologia = atipico: h00_h03 (0.0)
+|   tipologia = encunetamiento: h00_h03 (0.0)
+|   tipologia = arrollamiento: h00_h03 (0.0)
+|   tipologia = volcamiento: h04_h07 (1.0)
+causas = no ceder el derecho de via: h12_h15 (114.0/86.0)
+causas = cambio brusco e indebido de carril: h12_h15 (11.0/7.0)
+causas = no mantener la distancia reglamentaria: h16_h19 (43.0/27.0)
+causas = inobservancia de leyes de transito
+|   tipologia = atropello: h12_h15 (0.0)
+|   tipologia = choque: h12_h15 (3.0/2.0)
+|   tipologia = estrellamiento: h20_h23 (3.0/1.0)
+|   tipologia = roce: h16_h19 (1.0)
+|   tipologia = colision: h12_h15 (0.0)
+|   tipologia = perdida de carril_pista: h12_h15 (0.0)
+|   tipologia = caida de pasajero: h12_h15 (1.0)
+|   tipologia = atipico: h12_h15 (0.0)
+|   tipologia = encunetamiento: h12_h15 (0.0)
+|   tipologia = arrollamiento: h12_h15 (0.0)
+|   tipologia = volcamiento: h00_h03 (1.0)
+causas = no respetar las senales de transito
+|   dia = lunes_martes_miercoles
+|   |   nro_heridos = 1h
+|   |   |   tipologia = atropello: h08_h11 (2.0)
+|   |   |   tipologia = choque: h12_h15 (8.0/5.0)
+|   |   |   tipologia = estrellamiento: h08_h11 (0.0)
+|   |   |   tipologia = roce: h08_h11 (0.0)
+|   |   |   tipologia = colision: h08_h11 (0.0)
+|   |   |   tipologia = perdida de carril_pista: h08_h11 (0.0)
+|   |   |   tipologia = caida de pasajero: h08_h11 (0.0)
+|   |   |   tipologia = atipico: h08_h11 (0.0)
+|   |   |   tipologia = encunetamiento: h08_h11 (0.0)
+|   |   |   tipologia = arrollamiento: h08_h11 (0.0)
+|   |   |   tipologia = volcamiento: h08_h11 (0.0)
+|   |   nro_heridos = 0h: h20_h23 (16.0/9.0)
+|   |   nro_heridos = 3h: h08_h11 (2.0/1.0)
+|   |   nro_heridos = 2h: h12_h15 (3.0)
+|   |   nro_heridos = 4h: h08_h11 (1.0)
+|   |   nro_heridos = 5h: h12_h15 (0.0)
+|   |   nro_heridos = 6h: h12_h15 (0.0)
+|   dia = jueves_viernes: h08_h11 (19.0/12.0)
+|   dia = sabado_domingo: h12_h15 (16.0/10.0)
+causas = conducir en exceso de velocidad
+|   tipologia = atropello: h16_h19 (6.0/4.0)
+|   tipologia = choque: h12_h15 (36.0/25.0)
+|   tipologia = estrellamiento: h00_h03 (106.0/76.0)
+|   tipologia = roce: h20_h23 (1.0)
+|   tipologia = colision: h00_h03 (0.0)
+|   tipologia = perdida de carril_pista
+|   |   nro_heridos = 1h: h20_h23 (10.0/6.0)
+|   |   nro_heridos = 0h: h00_h03 (50.0/35.0)
+|   |   nro_heridos = 3h: h00_h03 (0.0)
+|   |   nro_heridos = 2h: h00_h03 (4.0/2.0)
+|   |   nro_heridos = 4h: h12_h15 (1.0)
+|   |   nro_heridos = 5h: h00_h03 (0.0)
+|   |   nro_heridos = 6h: h00_h03 (0.0)
+|   tipologia = caida de pasajero: h00_h03 (0.0)
+|   tipologia = atipico: h00_h03 (0.0)
+|   tipologia = encunetamiento: h04_h07 (1.0)
+|   tipologia = arrollamiento: h08_h11 (1.0)
+|   tipologia = volcamiento: h20_h23 (4.0/3.0)
+causas = invadir carril de circulacion: h20_h23 (5.0/3.0)
+causas = razones desconocidas: h20_h23 (5.0/3.0)
+causas = no respetar las ordenes del agente de transito: h16_h19 (1.0)
+causas = impericia del conductor: h00_h03 (1.0)
+
+Number of Leaves  : 	124
+
+Size of the tree : 	145
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          39               18.932  %
+Incorrectly Classified Instances       167               81.068  %
+Kappa statistic                          0.0234
+Mean absolute error                      0.2702
+Root mean squared error                  0.3894
+Relative absolute error                 97.3283 %
+Root relative squared error            104.4015 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,222    0,229    0,170      0,222    0,193      -0,007   0,531     0,184     h12_h15
+                 0,179    0,293    0,125      0,179    0,147      -0,100   0,525     0,200     h20_h23
+                 0,424    0,220    0,269      0,424    0,329      0,173    0,609     0,264     h16_h19
+                 0,313    0,172    0,250      0,313    0,278      0,128    0,637     0,244     h00_h03
+                 0,000    0,045    0,000      0,000    0,000      -0,080   0,560     0,162     h08_h11
+                 0,000    0,018    0,000      0,000    0,000      -0,058   0,554     0,207     h04_h07
+Weighted Avg.    0,189    0,167    0,135      0,189    0,158      0,006    0,567     0,211     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  8 11 11  3  1  2 |  a = h12_h15
+ 12  7  6 10  4  0 |  b = h20_h23
+  3  9 14  6  1  0 |  c = h16_h19
+  6  9  6 10  0  1 |  d = h00_h03
+  8  8  9  3  0  0 |  e = h08_h11
+ 10 12  6  8  2  0 |  f = h04_h07
+

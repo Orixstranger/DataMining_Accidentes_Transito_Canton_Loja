@@ -1,0 +1,152 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2-weka.filters.unsupervised.attribute.Remove-R2
+Instances:    1028
+Attributes:   6
+              dia
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: imprudencia del peaton (81.0/34.0)
+tipologia = choque
+|   nro_heridos = 1h
+|   |   parroquia_urbana = punzara: imprudencia del conductor (32.0/22.0)
+|   |   parroquia_urbana = sucre: no ceder el derecho de via (43.0/31.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   dia = lunes_martes_miercoles: no ceder el derecho de via (9.0/4.0)
+|   |   |   dia = jueves_viernes: imprudencia del conductor (7.0/3.0)
+|   |   |   dia = sabado_domingo: imprudencia del conductor (17.0/11.0)
+|   |   parroquia_urbana = carigan: conducir en estado de embriaguez (11.0/6.0)
+|   |   parroquia_urbana = el sagrario: no ceder el derecho de via (32.0/23.0)
+|   |   parroquia_urbana = el valle: imprudencia del conductor (14.0/10.0)
+|   nro_heridos = 0h
+|   |   parroquia_urbana = punzara
+|   |   |   dia = lunes_martes_miercoles: imprudencia del conductor (17.0/12.0)
+|   |   |   dia = jueves_viernes: no mantener la distancia reglamentaria (10.0/6.0)
+|   |   |   dia = sabado_domingo: no ceder el derecho de via (11.0/7.0)
+|   |   parroquia_urbana = sucre: imprudencia del conductor (71.0/49.0)
+|   |   parroquia_urbana = san sebastian: imprudencia del conductor (50.0/36.0)
+|   |   parroquia_urbana = carigan: conducir en estado de embriaguez (19.0/13.0)
+|   |   parroquia_urbana = el sagrario: no ceder el derecho de via (73.0/53.0)
+|   |   parroquia_urbana = el valle
+|   |   |   dia = lunes_martes_miercoles: no ceder el derecho de via (10.0/6.0)
+|   |   |   dia = jueves_viernes: no ceder el derecho de via (9.0/6.0)
+|   |   |   dia = sabado_domingo: conducir en estado de embriaguez (14.0/8.0)
+|   nro_heridos = 3h
+|   |   parroquia_urbana = punzara: imprudencia del conductor (3.0/2.0)
+|   |   parroquia_urbana = sucre: no respetar las senales de transito (5.0/3.0)
+|   |   parroquia_urbana = san sebastian: no ceder el derecho de via (3.0/2.0)
+|   |   parroquia_urbana = carigan: conducir en estado de embriaguez (2.0/1.0)
+|   |   parroquia_urbana = el sagrario: no respetar las senales de transito (4.0/2.0)
+|   |   parroquia_urbana = el valle: conducir en estado de embriaguez (1.0)
+|   nro_heridos = 2h
+|   |   parroquia_urbana = punzara: conducir en estado de embriaguez (9.0/5.0)
+|   |   parroquia_urbana = sucre
+|   |   |   dia = lunes_martes_miercoles: imprudencia del conductor (4.0/2.0)
+|   |   |   dia = jueves_viernes: imprudencia del conductor (2.0/1.0)
+|   |   |   dia = sabado_domingo: conducir en estado de embriaguez (5.0/2.0)
+|   |   parroquia_urbana = san sebastian: no ceder el derecho de via (7.0/3.0)
+|   |   parroquia_urbana = carigan: imprudencia del conductor (4.0/3.0)
+|   |   parroquia_urbana = el sagrario
+|   |   |   dia = lunes_martes_miercoles: no ceder el derecho de via (7.0/4.0)
+|   |   |   dia = jueves_viernes: conducir en estado de embriaguez (6.0/3.0)
+|   |   |   dia = sabado_domingo: conducir en estado de embriaguez (2.0/1.0)
+|   |   parroquia_urbana = el valle: imprudencia del conductor (6.0/2.0)
+|   nro_heridos = 4h: conducir en estado de embriaguez (3.0/2.0)
+|   nro_heridos = 5h: conducir en estado de embriaguez (2.0/1.0)
+|   nro_heridos = 6h: imprudencia del peaton (1.0)
+tipologia = estrellamiento: conducir en exceso de velocidad (236.0/130.0)
+tipologia = roce: imprudencia del conductor (38.0/20.0)
+tipologia = colision: imprudencia del conductor (18.0/9.0)
+tipologia = perdida de carril_pista: conducir en exceso de velocidad (94.0/29.0)
+tipologia = caida de pasajero: imprudencia del conductor (3.0/1.0)
+tipologia = atipico: imprudencia del conductor (15.0/2.0)
+tipologia = encunetamiento: imprudencia del conductor (2.0/1.0)
+tipologia = arrollamiento
+|   parroquia_urbana = punzara: imprudencia del conductor (0.0)
+|   parroquia_urbana = sucre: imprudencia del conductor (0.0)
+|   parroquia_urbana = san sebastian: imprudencia del conductor (0.0)
+|   parroquia_urbana = carigan: imprudencia del conductor (4.0/2.0)
+|   parroquia_urbana = el sagrario: negligencia del conductor (2.0/1.0)
+|   parroquia_urbana = el valle: imprudencia del conductor (0.0)
+tipologia = volcamiento
+|   parroquia_urbana = punzara: conducir en estado de embriaguez (1.0)
+|   parroquia_urbana = sucre: imprudencia del conductor (3.0/1.0)
+|   parroquia_urbana = san sebastian: conducir en exceso de velocidad (0.0)
+|   parroquia_urbana = carigan: conducir en exceso de velocidad (5.0/1.0)
+|   parroquia_urbana = el sagrario: imprudencia del conductor (1.0)
+|   parroquia_urbana = el valle: conducir en exceso de velocidad (0.0)
+
+Number of Leaves  : 	57
+
+Size of the tree : 	70
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          69               33.4951 %
+Incorrectly Classified Instances       137               66.5049 %
+Kappa statistic                          0.1825
+Mean absolute error                      0.0895
+Root mean squared error                  0.2168
+Relative absolute error                 85.8615 %
+Root relative squared error             95.0263 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,833    0,021    0,714      0,833    0,769      0,756    0,922     0,613     imprudencia del peaton
+                 0,000    0,000    ?          0,000    ?          ?        0,691     0,050     negligencia del conductor
+                 ?        0,000    ?          ?        ?          ?        ?         ?         condiciones climaticas desfavorables
+                 0,000    0,000    ?          0,000    ?          ?        0,636     0,030     fallas mecanicas no previsibles
+                 0,341    0,222    0,294      0,341    0,316      0,113    0,603     0,304     imprudencia del conductor
+                 0,224    0,204    0,256      0,224    0,239      0,022    0,661     0,325     conducir en estado de embriaguez
+                 0,222    0,134    0,200      0,222    0,211      0,084    0,772     0,250     no ceder el derecho de via
+                 0,000    0,000    ?          0,000    ?          ?        0,927     0,043     cambio brusco e indebido de carril
+                 0,000    0,000    ?          0,000    ?          ?        0,743     0,141     no mantener la distancia reglamentaria
+                 0,000    0,000    ?          0,000    ?          ?        0,739     0,013     inobservancia de leyes de transito
+                 0,000    0,040    0,000      0,000    0,000      -0,040   0,779     0,093     no respetar las senales de transito
+                 0,643    0,201    0,450      0,643    0,529      0,392    0,762     0,496     conducir en exceso de velocidad
+                 0,000    0,000    ?          0,000    ?          ?        0,459     0,005     invadir carril de circulacion
+                 0,000    0,000    ?          0,000    ?          ?        0,346     0,005     razones desconocidas
+                 ?        0,000    ?          ?        ?          ?        ?         ?         no respetar las ordenes del agente de transito
+                 ?        0,000    ?          ?        ?          ?        ?         ?         impericia del conductor
+Weighted Avg.    0,335    0,157    ?          0,335    ?          ?        0,708     0,326     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p   <-- classified as
+ 10  0  0  0  1  0  0  0  0  0  0  1  0  0  0  0 |  a = imprudencia del peaton
+  1  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0 |  b = negligencia del conductor
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = condiciones climaticas desfavorables
+  0  0  0  0  1  0  0  0  0  0  0  3  0  0  0  0 |  d = fallas mecanicas no previsibles
+  2  0  0  0 15 10  9  0  0  0  0  8  0  0  0  0 |  e = imprudencia del conductor
+  1  0  0  0 10 11  6  0  0  0  1 20  0  0  0  0 |  f = conducir en estado de embriaguez
+  0  0  0  0 10  6  6  0  0  0  5  0  0  0  0  0 |  g = no ceder el derecho de via
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  h = cambio brusco e indebido de carril
+  0  0  0  0  6  4  1  0  0  0  1  0  0  0  0  0 |  i = no mantener la distancia reglamentaria
+  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0 |  j = inobservancia de leyes de transito
+  0  0  0  0  2  4  2  0  0  0  0  0  0  0  0  0 |  k = no respetar las senales de transito
+  0  0  0  0  2  8  4  0  0  0  1 27  0  0  0  0 |  l = conducir en exceso de velocidad
+  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 |  m = invadir carril de circulacion
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  n = razones desconocidas
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = no respetar las ordenes del agente de transito
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = impericia del conductor
+

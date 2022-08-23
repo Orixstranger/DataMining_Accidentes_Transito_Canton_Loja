@@ -1,0 +1,216 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso3-weka.filters.unsupervised.attribute.Remove-R6
+Instances:    1028
+Attributes:   6
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton
+|   parroquia_urbana = punzara
+|   |   nro_fallecidos = 0fa: h18_h23 (12.0/6.0)
+|   |   nro_fallecidos = 1fa: h12_h17 (2.0/1.0)
+|   parroquia_urbana = sucre
+|   |   dia = lunes_martes_miercoles: h12_h17 (2.0/1.0)
+|   |   dia = jueves_viernes: h12_h17 (2.0)
+|   |   dia = sabado_domingo: h06_h11 (6.0/3.0)
+|   parroquia_urbana = san sebastian: h12_h17 (5.0/1.0)
+|   parroquia_urbana = carigan: h18_h23 (6.0/1.0)
+|   parroquia_urbana = el sagrario
+|   |   dia = lunes_martes_miercoles: h18_h23 (6.0/2.0)
+|   |   dia = jueves_viernes: h12_h17 (2.0/1.0)
+|   |   dia = sabado_domingo: h06_h11 (3.0/1.0)
+|   parroquia_urbana = el valle: h12_h17 (5.0/2.0)
+causas = negligencia del conductor
+|   tipologia = atropello: h18_h23 (2.0)
+|   tipologia = choque: h12_h17 (6.0/2.0)
+|   tipologia = estrellamiento: h06_h11 (2.0)
+|   tipologia = roce: h12_h17 (3.0)
+|   tipologia = colision: h12_h17 (2.0/1.0)
+|   tipologia = perdida de carril_pista: h00_h05 (1.0)
+|   tipologia = caida de pasajero: h12_h17 (0.0)
+|   tipologia = atipico: h12_h17 (0.0)
+|   tipologia = encunetamiento: h12_h17 (0.0)
+|   tipologia = arrollamiento: h18_h23 (1.0)
+|   tipologia = volcamiento: h12_h17 (0.0)
+causas = condiciones climaticas desfavorables: h18_h23 (8.0/3.0)
+causas = fallas mecanicas no previsibles
+|   dia = lunes_martes_miercoles: h18_h23 (5.0/1.0)
+|   dia = jueves_viernes: h18_h23 (2.0)
+|   dia = sabado_domingo: h12_h17 (6.0/2.0)
+causas = imprudencia del conductor
+|   tipologia = atropello
+|   |   parroquia_urbana = punzara: h06_h11 (0.0)
+|   |   parroquia_urbana = sucre: h06_h11 (8.0/2.0)
+|   |   parroquia_urbana = san sebastian: h12_h17 (2.0/1.0)
+|   |   parroquia_urbana = carigan: h12_h17 (3.0/1.0)
+|   |   parroquia_urbana = el sagrario: h06_h11 (1.0)
+|   |   parroquia_urbana = el valle: h06_h11 (0.0)
+|   tipologia = choque
+|   |   parroquia_urbana = punzara: h18_h23 (21.0/12.0)
+|   |   parroquia_urbana = sucre: h12_h17 (35.0/23.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   dia = lunes_martes_miercoles: h06_h11 (6.0/3.0)
+|   |   |   dia = jueves_viernes: h12_h17 (8.0/4.0)
+|   |   |   dia = sabado_domingo: h18_h23 (13.0/5.0)
+|   |   parroquia_urbana = carigan: h18_h23 (7.0/3.0)
+|   |   parroquia_urbana = el sagrario
+|   |   |   dia = lunes_martes_miercoles: h12_h17 (5.0)
+|   |   |   dia = jueves_viernes: h00_h05 (6.0/3.0)
+|   |   |   dia = sabado_domingo: h18_h23 (13.0/8.0)
+|   |   parroquia_urbana = el valle: h12_h17 (12.0/4.0)
+|   tipologia = estrellamiento: h06_h11 (34.0/23.0)
+|   tipologia = roce: h12_h17 (18.0/11.0)
+|   tipologia = colision
+|   |   dia = lunes_martes_miercoles: h06_h11 (4.0/2.0)
+|   |   dia = jueves_viernes: h12_h17 (3.0)
+|   |   dia = sabado_domingo: h12_h17 (2.0)
+|   tipologia = perdida de carril_pista
+|   |   dia = lunes_martes_miercoles: h12_h17 (2.0)
+|   |   dia = jueves_viernes: h00_h05 (2.0)
+|   |   dia = sabado_domingo: h18_h23 (2.0/1.0)
+|   tipologia = caida de pasajero: h12_h17 (2.0/1.0)
+|   tipologia = atipico
+|   |   parroquia_urbana = punzara: h12_h17 (4.0/2.0)
+|   |   parroquia_urbana = sucre: h18_h23 (3.0/1.0)
+|   |   parroquia_urbana = san sebastian: h12_h17 (3.0/1.0)
+|   |   parroquia_urbana = carigan: h00_h05 (2.0/1.0)
+|   |   parroquia_urbana = el sagrario: h12_h17 (0.0)
+|   |   parroquia_urbana = el valle: h00_h05 (1.0)
+|   tipologia = encunetamiento: h18_h23 (1.0)
+|   tipologia = arrollamiento: h18_h23 (2.0/1.0)
+|   tipologia = volcamiento: h12_h17 (3.0/1.0)
+causas = conducir en estado de embriaguez
+|   tipologia = atropello: h12_h17 (8.0/4.0)
+|   tipologia = choque
+|   |   parroquia_urbana = punzara: h18_h23 (16.0/5.0)
+|   |   parroquia_urbana = sucre: h18_h23 (29.0/17.0)
+|   |   parroquia_urbana = san sebastian: h18_h23 (18.0/11.0)
+|   |   parroquia_urbana = carigan: h00_h05 (13.0/8.0)
+|   |   parroquia_urbana = el sagrario: h00_h05 (28.0/11.0)
+|   |   parroquia_urbana = el valle
+|   |   |   dia = lunes_martes_miercoles: h00_h05 (3.0/1.0)
+|   |   |   dia = jueves_viernes: h18_h23 (3.0/1.0)
+|   |   |   dia = sabado_domingo: h12_h17 (9.0/4.0)
+|   tipologia = estrellamiento: h00_h05 (77.0/38.0)
+|   tipologia = roce
+|   |   parroquia_urbana = punzara: h18_h23 (2.0/1.0)
+|   |   parroquia_urbana = sucre: h18_h23 (1.0)
+|   |   parroquia_urbana = san sebastian: h00_h05 (2.0/1.0)
+|   |   parroquia_urbana = carigan: h00_h05 (1.0)
+|   |   parroquia_urbana = el sagrario: h12_h17 (1.0)
+|   |   parroquia_urbana = el valle: h12_h17 (1.0)
+|   tipologia = colision: h12_h17 (5.0/3.0)
+|   tipologia = perdida de carril_pista: h18_h23 (17.0/9.0)
+|   tipologia = caida de pasajero: h00_h05 (0.0)
+|   tipologia = atipico: h00_h05 (0.0)
+|   tipologia = encunetamiento: h00_h05 (0.0)
+|   tipologia = arrollamiento: h00_h05 (0.0)
+|   tipologia = volcamiento: h00_h05 (1.0)
+causas = no ceder el derecho de via: h06_h11 (114.0/76.0)
+causas = cambio brusco e indebido de carril: h12_h17 (11.0/7.0)
+causas = no mantener la distancia reglamentaria: h12_h17 (43.0/23.0)
+causas = inobservancia de leyes de transito
+|   parroquia_urbana = punzara: h12_h17 (0.0)
+|   parroquia_urbana = sucre: h18_h23 (3.0/1.0)
+|   parroquia_urbana = san sebastian: h06_h11 (3.0/1.0)
+|   parroquia_urbana = carigan: h12_h17 (0.0)
+|   parroquia_urbana = el sagrario: h12_h17 (3.0)
+|   parroquia_urbana = el valle: h12_h17 (0.0)
+causas = no respetar las senales de transito
+|   parroquia_urbana = punzara: h06_h11 (9.0/2.0)
+|   parroquia_urbana = sucre
+|   |   dia = lunes_martes_miercoles: h06_h11 (5.0/2.0)
+|   |   dia = jueves_viernes: h12_h17 (2.0)
+|   |   dia = sabado_domingo: h12_h17 (6.0/4.0)
+|   parroquia_urbana = san sebastian: h12_h17 (13.0/8.0)
+|   parroquia_urbana = carigan: h12_h17 (4.0/3.0)
+|   parroquia_urbana = el sagrario
+|   |   dia = lunes_martes_miercoles: h12_h17 (12.0/6.0)
+|   |   dia = jueves_viernes: h18_h23 (6.0/1.0)
+|   |   dia = sabado_domingo: h06_h11 (3.0)
+|   parroquia_urbana = el valle
+|   |   dia = lunes_martes_miercoles: h18_h23 (2.0)
+|   |   dia = jueves_viernes: h18_h23 (3.0)
+|   |   dia = sabado_domingo: h12_h17 (2.0)
+causas = conducir en exceso de velocidad
+|   tipologia = atropello: h12_h17 (6.0/3.0)
+|   tipologia = choque
+|   |   dia = lunes_martes_miercoles: h06_h11 (10.0/5.0)
+|   |   dia = jueves_viernes: h06_h11 (13.0/6.0)
+|   |   dia = sabado_domingo: h12_h17 (13.0/5.0)
+|   tipologia = estrellamiento
+|   |   nro_fallecidos = 0fa: h00_h05 (103.0/61.0)
+|   |   nro_fallecidos = 1fa: h12_h17 (3.0)
+|   tipologia = roce: h18_h23 (1.0)
+|   tipologia = colision: h00_h05 (0.0)
+|   tipologia = perdida de carril_pista
+|   |   parroquia_urbana = punzara: h00_h05 (11.0/6.0)
+|   |   parroquia_urbana = sucre: h00_h05 (24.0/11.0)
+|   |   parroquia_urbana = san sebastian
+|   |   |   dia = lunes_martes_miercoles: h12_h17 (2.0)
+|   |   |   dia = jueves_viernes: h00_h05 (4.0/2.0)
+|   |   |   dia = sabado_domingo: h18_h23 (3.0/2.0)
+|   |   parroquia_urbana = carigan: h06_h11 (7.0/3.0)
+|   |   parroquia_urbana = el sagrario: h12_h17 (2.0/1.0)
+|   |   parroquia_urbana = el valle: h18_h23 (12.0/7.0)
+|   tipologia = caida de pasajero: h00_h05 (0.0)
+|   tipologia = atipico: h00_h05 (0.0)
+|   tipologia = encunetamiento: h00_h05 (1.0)
+|   tipologia = arrollamiento: h06_h11 (1.0)
+|   tipologia = volcamiento: h12_h17 (4.0/3.0)
+causas = invadir carril de circulacion: h18_h23 (5.0/2.0)
+causas = razones desconocidas: h18_h23 (5.0/2.0)
+causas = no respetar las ordenes del agente de transito: h12_h17 (1.0)
+causas = impericia del conductor: h00_h05 (1.0)
+
+Number of Leaves  : 	129
+
+Size of the tree : 	158
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          77               37.3786 %
+Incorrectly Classified Instances       129               62.6214 %
+Kappa statistic                          0.1651
+Mean absolute error                      0.3496
+Root mean squared error                  0.4458
+Relative absolute error                 93.4005 %
+Root relative squared error            102.9276 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,377    0,176    0,426      0,377    0,400      0,209    0,616     0,325     h12_h17
+                 0,327    0,245    0,327      0,327    0,327      0,082    0,529     0,328     h18_h23
+                 0,438    0,209    0,389      0,438    0,412      0,220    0,654     0,350     h00_h05
+                 0,360    0,205    0,360      0,360    0,360      0,155    0,607     0,327     h06_h11
+Weighted Avg.    0,374    0,209    0,375      0,374    0,374      0,165    0,600     0,332     
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 20 13 10 10 |  a = h12_h17
+  8 18 13 16 |  b = h18_h23
+  7 14 21  6 |  c = h00_h05
+ 12 10 10 18 |  d = h06_h11
+
