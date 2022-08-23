@@ -1,0 +1,118 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2
+Instances:    1028
+Attributes:   7
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton: atropello (51.0/4.0)
+causas = negligencia del conductor
+|   dia = lunes_martes_miercoles: roce (4.0/2.0)
+|   dia = jueves_viernes: atropello (8.0/6.0)
+|   dia = sabado_domingo: choque (5.0/1.0)
+causas = condiciones climaticas desfavorables: choque (8.0/3.0)
+causas = fallas mecanicas no previsibles: estrellamiento (13.0/6.0)
+causas = imprudencia del conductor: choque (228.0/102.0)
+causas = conducir en estado de embriaguez: choque (235.0/116.0)
+causas = no ceder el derecho de via: choque (114.0)
+causas = cambio brusco e indebido de carril: choque (11.0/1.0)
+causas = no mantener la distancia reglamentaria: choque (43.0/8.0)
+causas = inobservancia de leyes de transito
+|   hora = h12_h15: choque (2.0/1.0)
+|   hora = h20_h23: estrellamiento (2.0)
+|   hora = h16_h19: roce (1.0)
+|   hora = h00_h03: choque (2.0/1.0)
+|   hora = h08_h11: choque (2.0/1.0)
+|   hora = h04_h07: choque (0.0)
+causas = no respetar las senales de transito: choque (67.0/4.0)
+causas = conducir en exceso de velocidad
+|   nro_heridos = 1h
+|   |   hora = h12_h15: choque (9.0/5.0)
+|   |   hora = h20_h23: perdida de carril_pista (5.0/1.0)
+|   |   hora = h16_h19
+|   |   |   dia = lunes_martes_miercoles: atropello (2.0/1.0)
+|   |   |   dia = jueves_viernes: estrellamiento (5.0/2.0)
+|   |   |   dia = sabado_domingo: choque (2.0/1.0)
+|   |   hora = h00_h03: estrellamiento (7.0/1.0)
+|   |   hora = h08_h11: choque (9.0/4.0)
+|   |   hora = h04_h07: estrellamiento (7.0/4.0)
+|   nro_heridos = 0h: estrellamiento (157.0/71.0)
+|   nro_heridos = 3h: choque (6.0/3.0)
+|   nro_heridos = 2h
+|   |   dia = lunes_martes_miercoles: perdida de carril_pista (3.0)
+|   |   dia = jueves_viernes: perdida de carril_pista (1.0)
+|   |   dia = sabado_domingo: choque (6.0/3.0)
+|   nro_heridos = 4h: perdida de carril_pista (1.0)
+|   nro_heridos = 5h: estrellamiento (0.0)
+|   nro_heridos = 6h: estrellamiento (0.0)
+causas = invadir carril de circulacion: choque (5.0)
+causas = razones desconocidas: atropello (5.0/3.0)
+causas = no respetar las ordenes del agente de transito: arrollamiento (1.0)
+causas = impericia del conductor: estrellamiento (1.0)
+
+Number of Leaves  : 	38
+
+Size of the tree : 	45
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         125               60.6796 %
+Incorrectly Classified Instances        81               39.3204 %
+Kappa statistic                          0.3151
+Mean absolute error                      0.0895
+Root mean squared error                  0.2213
+Relative absolute error                 73.22   %
+Root relative squared error             89.8656 %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,647    0,026    0,688      0,647    0,667      0,638    0,904     0,599     atropello
+                 0,925    0,525    0,656      0,925    0,767      0,452    0,798     0,787     choque
+                 0,318    0,136    0,389      0,318    0,350      0,197    0,733     0,364     estrellamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,860     0,153     roce
+                 0,000    0,000    ?          0,000    ?          ?        0,633     0,123     colision
+                 0,050    0,011    0,333      0,050    0,087      0,097    0,732     0,266     perdida de carril_pista
+                 ?        0,000    ?          ?        ?          ?        ?         ?         caida de pasajero
+                 0,000    0,000    ?          0,000    ?          ?        0,769     0,055     atipico
+                 0,000    0,000    ?          0,000    ?          ?        0,393     0,005     encunetamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,390     0,005     arrollamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,464     0,012     volcamiento
+Weighted Avg.    0,607    0,305    ?          0,607    ?          ?        0,778     0,570     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k   <-- classified as
+ 11  6  0  0  0  0  0  0  0  0  0 |  a = atropello
+  1 99  6  0  0  1  0  0  0  0  0 |  b = choque
+  1 28 14  0  0  1  0  0  0  0  0 |  c = estrellamiento
+  1  6  0  0  0  0  0  0  0  0  0 |  d = roce
+  1  2  0  0  0  0  0  0  0  0  0 |  e = colision
+  0  7 12  0  0  1  0  0  0  0  0 |  f = perdida de carril_pista
+  0  0  0  0  0  0  0  0  0  0  0 |  g = caida de pasajero
+  0  3  1  0  0  0  0  0  0  0  0 |  h = atipico
+  0  0  1  0  0  0  0  0  0  0  0 |  i = encunetamiento
+  1  0  0  0  0  0  0  0  0  0  0 |  j = arrollamiento
+  0  0  2  0  0  0  0  0  0  0  0 |  k = volcamiento
+

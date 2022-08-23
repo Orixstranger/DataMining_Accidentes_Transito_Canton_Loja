@@ -1,0 +1,309 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     caso2
+Instances:    1028
+Attributes:   7
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: sucre (81.0/51.0)
+tipologia = choque
+|   causas = imprudencia del peaton: carigan (1.0)
+|   causas = negligencia del conductor
+|   |   dia = lunes_martes_miercoles: el sagrario (0.0)
+|   |   dia = jueves_viernes: punzara (2.0/1.0)
+|   |   dia = sabado_domingo: el sagrario (4.0/1.0)
+|   causas = condiciones climaticas desfavorables
+|   |   hora = h12_h15: san sebastian (0.0)
+|   |   hora = h20_h23: sucre (3.0/2.0)
+|   |   hora = h16_h19: san sebastian (2.0)
+|   |   hora = h00_h03: san sebastian (0.0)
+|   |   hora = h08_h11: san sebastian (0.0)
+|   |   hora = h04_h07: san sebastian (0.0)
+|   causas = fallas mecanicas no previsibles: sucre (1.0)
+|   causas = imprudencia del conductor
+|   |   dia = lunes_martes_miercoles: sucre (42.0/27.0)
+|   |   dia = jueves_viernes: san sebastian (27.0/19.0)
+|   |   dia = sabado_domingo
+|   |   |   hora = h12_h15
+|   |   |   |   nro_heridos = 1h: punzara (5.0/2.0)
+|   |   |   |   nro_heridos = 0h: sucre (7.0/3.0)
+|   |   |   |   nro_heridos = 3h: sucre (0.0)
+|   |   |   |   nro_heridos = 2h: el valle (2.0)
+|   |   |   |   nro_heridos = 4h: sucre (0.0)
+|   |   |   |   nro_heridos = 5h: sucre (0.0)
+|   |   |   |   nro_heridos = 6h: sucre (0.0)
+|   |   |   hora = h20_h23: san sebastian (12.0/8.0)
+|   |   |   hora = h16_h19: san sebastian (13.0/8.0)
+|   |   |   hora = h00_h03: el sagrario (7.0/4.0)
+|   |   |   hora = h08_h11
+|   |   |   |   nro_heridos = 1h: sucre (5.0/3.0)
+|   |   |   |   nro_heridos = 0h: san sebastian (3.0/2.0)
+|   |   |   |   nro_heridos = 3h: sucre (0.0)
+|   |   |   |   nro_heridos = 2h: sucre (0.0)
+|   |   |   |   nro_heridos = 4h: sucre (0.0)
+|   |   |   |   nro_heridos = 5h: sucre (0.0)
+|   |   |   |   nro_heridos = 6h: sucre (0.0)
+|   |   |   hora = h04_h07: sucre (3.0)
+|   causas = conducir en estado de embriaguez
+|   |   nro_heridos = 1h
+|   |   |   hora = h12_h15: sucre (1.0)
+|   |   |   hora = h20_h23: punzara (10.0/7.0)
+|   |   |   hora = h16_h19: san sebastian (4.0/2.0)
+|   |   |   hora = h00_h03
+|   |   |   |   dia = lunes_martes_miercoles: carigan (2.0/1.0)
+|   |   |   |   dia = jueves_viernes: sucre (0.0)
+|   |   |   |   dia = sabado_domingo: sucre (6.0/3.0)
+|   |   |   hora = h08_h11: san sebastian (2.0)
+|   |   |   hora = h04_h07: el sagrario (6.0/3.0)
+|   |   nro_heridos = 0h
+|   |   |   hora = h12_h15: san sebastian (6.0/4.0)
+|   |   |   hora = h20_h23: sucre (16.0/11.0)
+|   |   |   hora = h16_h19: sucre (14.0/7.0)
+|   |   |   hora = h00_h03: el sagrario (17.0/9.0)
+|   |   |   hora = h08_h11: sucre (4.0/3.0)
+|   |   |   hora = h04_h07
+|   |   |   |   dia = lunes_martes_miercoles: carigan (2.0/1.0)
+|   |   |   |   dia = jueves_viernes: san sebastian (2.0/1.0)
+|   |   |   |   dia = sabado_domingo: el sagrario (7.0/3.0)
+|   |   nro_heridos = 3h: punzara (4.0/3.0)
+|   |   nro_heridos = 2h
+|   |   |   hora = h12_h15: punzara (1.0)
+|   |   |   hora = h20_h23
+|   |   |   |   dia = lunes_martes_miercoles: el sagrario (0.0)
+|   |   |   |   dia = jueves_viernes: el sagrario (2.0)
+|   |   |   |   dia = sabado_domingo: sucre (4.0/2.0)
+|   |   |   hora = h16_h19: punzara (3.0/1.0)
+|   |   |   hora = h00_h03: el sagrario (1.0)
+|   |   |   hora = h08_h11: sucre (1.0)
+|   |   |   hora = h04_h07: punzara (2.0/1.0)
+|   |   nro_heridos = 4h: carigan (1.0)
+|   |   nro_heridos = 5h: el sagrario (1.0)
+|   |   nro_heridos = 6h: sucre (0.0)
+|   causas = no ceder el derecho de via
+|   |   nro_heridos = 1h
+|   |   |   hora = h12_h15
+|   |   |   |   dia = lunes_martes_miercoles: sucre (5.0/3.0)
+|   |   |   |   dia = jueves_viernes: el sagrario (4.0/2.0)
+|   |   |   |   dia = sabado_domingo: san sebastian (3.0/1.0)
+|   |   |   hora = h20_h23: san sebastian (3.0/1.0)
+|   |   |   hora = h16_h19: punzara (5.0/2.0)
+|   |   |   hora = h00_h03: sucre (5.0/2.0)
+|   |   |   hora = h08_h11
+|   |   |   |   dia = lunes_martes_miercoles: san sebastian (4.0/2.0)
+|   |   |   |   dia = jueves_viernes: sucre (3.0/1.0)
+|   |   |   |   dia = sabado_domingo: punzara (2.0/1.0)
+|   |   |   hora = h04_h07: punzara (8.0/5.0)
+|   |   nro_heridos = 0h: el sagrario (56.0/36.0)
+|   |   nro_heridos = 3h: san sebastian (1.0)
+|   |   nro_heridos = 2h
+|   |   |   dia = lunes_martes_miercoles: el sagrario (6.0/3.0)
+|   |   |   dia = jueves_viernes: san sebastian (5.0/2.0)
+|   |   |   dia = sabado_domingo: punzara (3.0/2.0)
+|   |   nro_heridos = 4h: el sagrario (0.0)
+|   |   nro_heridos = 5h: el sagrario (1.0)
+|   |   nro_heridos = 6h: el sagrario (0.0)
+|   causas = cambio brusco e indebido de carril: sucre (10.0/6.0)
+|   causas = no mantener la distancia reglamentaria
+|   |   hora = h12_h15: sucre (7.0/4.0)
+|   |   hora = h20_h23: sucre (3.0/2.0)
+|   |   hora = h16_h19
+|   |   |   nro_heridos = 1h: carigan (2.0/1.0)
+|   |   |   nro_heridos = 0h: sucre (10.0/5.0)
+|   |   |   nro_heridos = 3h: sucre (0.0)
+|   |   |   nro_heridos = 2h: carigan (1.0)
+|   |   |   nro_heridos = 4h: sucre (0.0)
+|   |   |   nro_heridos = 5h: sucre (0.0)
+|   |   |   nro_heridos = 6h: sucre (0.0)
+|   |   hora = h00_h03: sucre (0.0)
+|   |   hora = h08_h11
+|   |   |   dia = lunes_martes_miercoles: punzara (0.0)
+|   |   |   dia = jueves_viernes: punzara (2.0)
+|   |   |   dia = sabado_domingo: sucre (3.0/1.0)
+|   |   hora = h04_h07
+|   |   |   dia = lunes_martes_miercoles: carigan (2.0/1.0)
+|   |   |   dia = jueves_viernes: punzara (3.0/1.0)
+|   |   |   dia = sabado_domingo: san sebastian (2.0/1.0)
+|   causas = inobservancia de leyes de transito: san sebastian (3.0/1.0)
+|   causas = no respetar las senales de transito
+|   |   hora = h12_h15
+|   |   |   dia = lunes_martes_miercoles: el sagrario (9.0/4.0)
+|   |   |   dia = jueves_viernes: sucre (2.0)
+|   |   |   dia = sabado_domingo: sucre (6.0/4.0)
+|   |   hora = h20_h23: el sagrario (14.0/8.0)
+|   |   hora = h16_h19
+|   |   |   dia = lunes_martes_miercoles: el sagrario (2.0)
+|   |   |   dia = jueves_viernes: el valle (4.0/2.0)
+|   |   |   dia = sabado_domingo: el sagrario (0.0)
+|   |   hora = h00_h03: sucre (3.0/1.0)
+|   |   hora = h08_h11: punzara (17.0/12.0)
+|   |   hora = h04_h07
+|   |   |   nro_heridos = 1h: punzara (2.0/1.0)
+|   |   |   nro_heridos = 0h: punzara (2.0/1.0)
+|   |   |   nro_heridos = 3h: sucre (2.0)
+|   |   |   nro_heridos = 2h: punzara (0.0)
+|   |   |   nro_heridos = 4h: punzara (0.0)
+|   |   |   nro_heridos = 5h: punzara (0.0)
+|   |   |   nro_heridos = 6h: punzara (0.0)
+|   causas = conducir en exceso de velocidad
+|   |   hora = h12_h15
+|   |   |   nro_heridos = 1h: punzara (4.0/2.0)
+|   |   |   nro_heridos = 0h: sucre (6.0/3.0)
+|   |   |   nro_heridos = 3h: sucre (0.0)
+|   |   |   nro_heridos = 2h: carigan (1.0)
+|   |   |   nro_heridos = 4h: sucre (0.0)
+|   |   |   nro_heridos = 5h: sucre (0.0)
+|   |   |   nro_heridos = 6h: sucre (0.0)
+|   |   hora = h20_h23: sucre (5.0/3.0)
+|   |   hora = h16_h19
+|   |   |   dia = lunes_martes_miercoles: sucre (3.0/2.0)
+|   |   |   dia = jueves_viernes: punzara (1.0)
+|   |   |   dia = sabado_domingo: el sagrario (3.0)
+|   |   hora = h00_h03: el sagrario (1.0)
+|   |   hora = h08_h11: sucre (8.0/3.0)
+|   |   hora = h04_h07: punzara (4.0/2.0)
+|   causas = invadir carril de circulacion: sucre (5.0/2.0)
+|   causas = razones desconocidas: sucre (1.0)
+|   causas = no respetar las ordenes del agente de transito: sucre (0.0)
+|   causas = impericia del conductor: sucre (0.0)
+tipologia = estrellamiento
+|   nro_heridos = 1h
+|   |   hora = h12_h15: sucre (4.0/1.0)
+|   |   hora = h20_h23: punzara (5.0/2.0)
+|   |   hora = h16_h19: sucre (5.0/3.0)
+|   |   hora = h00_h03: punzara (10.0/6.0)
+|   |   hora = h08_h11: punzara (0.0)
+|   |   hora = h04_h07: punzara (9.0/5.0)
+|   nro_heridos = 0h: sucre (189.0/132.0)
+|   nro_heridos = 3h: punzara (4.0/2.0)
+|   nro_heridos = 2h: san sebastian (8.0/6.0)
+|   nro_heridos = 4h: punzara (2.0/1.0)
+|   nro_heridos = 5h: sucre (0.0)
+|   nro_heridos = 6h: sucre (0.0)
+tipologia = roce
+|   hora = h12_h15
+|   |   causas = imprudencia del peaton: punzara (0.0)
+|   |   causas = negligencia del conductor: sucre (3.0/1.0)
+|   |   causas = condiciones climaticas desfavorables: punzara (0.0)
+|   |   causas = fallas mecanicas no previsibles: punzara (0.0)
+|   |   causas = imprudencia del conductor: punzara (4.0/2.0)
+|   |   causas = conducir en estado de embriaguez: el valle (1.0)
+|   |   causas = no ceder el derecho de via: punzara (0.0)
+|   |   causas = cambio brusco e indebido de carril: punzara (1.0)
+|   |   causas = no mantener la distancia reglamentaria: el sagrario (1.0)
+|   |   causas = inobservancia de leyes de transito: punzara (0.0)
+|   |   causas = no respetar las senales de transito: san sebastian (1.0)
+|   |   causas = conducir en exceso de velocidad: punzara (0.0)
+|   |   causas = invadir carril de circulacion: punzara (0.0)
+|   |   causas = razones desconocidas: punzara (0.0)
+|   |   causas = no respetar las ordenes del agente de transito: punzara (0.0)
+|   |   causas = impericia del conductor: punzara (0.0)
+|   hora = h20_h23: punzara (4.0/2.0)
+|   hora = h16_h19: el sagrario (7.0/4.0)
+|   hora = h00_h03
+|   |   dia = lunes_martes_miercoles: punzara (2.0/1.0)
+|   |   dia = jueves_viernes: san sebastian (1.0)
+|   |   dia = sabado_domingo: carigan (2.0)
+|   hora = h08_h11: sucre (7.0/4.0)
+|   hora = h04_h07: sucre (4.0/2.0)
+tipologia = colision: sucre (18.0/10.0)
+tipologia = perdida de carril_pista
+|   causas = imprudencia del peaton: sucre (0.0)
+|   causas = negligencia del conductor: san sebastian (1.0)
+|   causas = condiciones climaticas desfavorables: sucre (1.0)
+|   causas = fallas mecanicas no previsibles: san sebastian (4.0/2.0)
+|   causas = imprudencia del conductor
+|   |   dia = lunes_martes_miercoles: sucre (2.0)
+|   |   dia = jueves_viernes: san sebastian (2.0/1.0)
+|   |   dia = sabado_domingo: punzara (2.0)
+|   causas = conducir en estado de embriaguez
+|   |   dia = lunes_martes_miercoles: punzara (6.0/3.0)
+|   |   dia = jueves_viernes: punzara (5.0/3.0)
+|   |   dia = sabado_domingo: sucre (6.0/3.0)
+|   causas = no ceder el derecho de via: sucre (0.0)
+|   causas = cambio brusco e indebido de carril: sucre (0.0)
+|   causas = no mantener la distancia reglamentaria: sucre (0.0)
+|   causas = inobservancia de leyes de transito: sucre (0.0)
+|   causas = no respetar las senales de transito: sucre (0.0)
+|   causas = conducir en exceso de velocidad: sucre (65.0/41.0)
+|   causas = invadir carril de circulacion: sucre (0.0)
+|   causas = razones desconocidas: sucre (0.0)
+|   causas = no respetar las ordenes del agente de transito: sucre (0.0)
+|   causas = impericia del conductor: sucre (0.0)
+tipologia = caida de pasajero: el sagrario (3.0/1.0)
+tipologia = atipico: punzara (15.0/10.0)
+tipologia = encunetamiento: sucre (2.0/1.0)
+tipologia = arrollamiento: carigan (6.0/2.0)
+tipologia = volcamiento
+|   causas = imprudencia del peaton: carigan (0.0)
+|   causas = negligencia del conductor: carigan (0.0)
+|   causas = condiciones climaticas desfavorables: carigan (1.0)
+|   causas = fallas mecanicas no previsibles: carigan (0.0)
+|   causas = imprudencia del conductor: sucre (3.0/1.0)
+|   causas = conducir en estado de embriaguez: punzara (1.0)
+|   causas = no ceder el derecho de via: carigan (0.0)
+|   causas = cambio brusco e indebido de carril: carigan (0.0)
+|   causas = no mantener la distancia reglamentaria: carigan (0.0)
+|   causas = inobservancia de leyes de transito: sucre (1.0)
+|   causas = no respetar las senales de transito: carigan (0.0)
+|   causas = conducir en exceso de velocidad: carigan (4.0)
+|   causas = invadir carril de circulacion: carigan (0.0)
+|   causas = razones desconocidas: carigan (0.0)
+|   causas = no respetar las ordenes del agente de transito: carigan (0.0)
+|   causas = impericia del conductor: carigan (0.0)
+
+Number of Leaves  : 	206
+
+Size of the tree : 	246
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          45               21.8447 %
+Incorrectly Classified Instances       161               78.1553 %
+Kappa statistic                         -0.0097
+Mean absolute error                      0.2693
+Root mean squared error                  0.3964
+Relative absolute error                 99.1523 %
+Root relative squared error            107.286  %
+Total Number of Instances              206     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,108    0,136    0,148      0,108    0,125      -0,032   0,463     0,164     punzara
+                 0,519    0,658    0,219      0,519    0,308      -0,126   0,437     0,232     sucre
+                 0,115    0,106    0,136      0,115    0,125      0,011    0,530     0,176     san sebastian
+                 0,130    0,016    0,500      0,130    0,207      0,214    0,607     0,246     carigan
+                 0,167    0,098    0,304      0,167    0,215      0,088    0,552     0,261     el sagrario
+                 0,000    0,000    ?          0,000    ?          ?        0,528     0,130     el valle
+Weighted Avg.    0,218    0,232    ?          0,218    ?          ?        0,506     0,208     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+  4 25  5  1  2  0 |  a = punzara
+ 10 28  8  1  7  0 |  b = sucre
+  3 15  3  1  4  0 |  c = san sebastian
+  2 17  0  3  1  0 |  d = carigan
+  5 27  3  0  7  0 |  e = el sagrario
+  3 16  3  0  2  0 |  f = el valle
+
