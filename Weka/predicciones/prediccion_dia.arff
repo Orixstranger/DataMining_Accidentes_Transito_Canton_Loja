@@ -1,379 +1,383 @@
-@relation MarginCurve
+@relation AT2018_2019_2020_NBD_caso2_predicted
 
-@attribute Instance_number numeric
-@attribute Margin numeric
-@attribute Current numeric
-@attribute Cumulative numeric
+@attribute 'prediction margin' numeric
+@attribute 'predicted dia' {lunes_martes_miercoles,jueves_viernes,sabado_domingo}
+@attribute dia {lunes_martes_miercoles,jueves_viernes,sabado_domingo}
+@attribute hora {h12_h15,h20_h23,h16_h19,h00_h03,h08_h11,h04_h07}
+@attribute tipologia {atropello,choque,estrellamiento,roce,colision,'perdida de carril_pista','caida de pasajero',atipico,encunetamiento,arrollamiento,volcamiento}
+@attribute parroquia_urbana {punzara,sucre,'san sebastian',carigan,'el sagrario','el valle'}
+@attribute causas {'imprudencia del peaton','negligencia del conductor','condiciones climaticas desfavorables','fallas mecanicas no previsibles','imprudencia del conductor','conducir en estado de embriaguez','no ceder el derecho de via','cambio brusco e indebido de carril','no mantener la distancia reglamentaria','inobservancia de leyes de transito','no respetar las senales de transito','conducir en exceso de velocidad','invadir carril de circulacion','razones desconocidas','no respetar las ordenes del agente de transito','impericia del conductor'}
+@attribute nro_heridos {1h,0h,3h,2h,4h,5h,6h}
+@attribute nro_fallecidos {0fa,1fa}
 
 @data
-0,-1,0,0
-1,-1,1,1
-2,-1,1,2
-3,-1,1,3
-4,-1,1,4
-5,-1,1,5
-6,-1,1,6
-7,-1,1,7
-8,-1,1,8
-9,-1,1,9
-10,-0.857143,1,10
-11,-0.75,1,11
-12,-0.75,1,12
-13,-0.75,1,13
-14,-0.75,1,14
-15,-0.75,1,15
-16,-0.714286,1,16
-17,-0.6,1,17
-18,-0.6,1,18
-19,-0.6,1,19
-20,-0.555556,1,20
-21,-0.5,1,21
-22,-0.5,1,22
-23,-0.5,1,23
-24,-0.5,1,24
-25,-0.5,1,25
-26,-0.5,1,26
-27,-0.5,1,27
-28,-0.5,1,28
-29,-0.5,1,29
-30,-0.5,1,30
-31,-0.454545,1,31
-32,-0.444444,1,32
-33,-0.444444,1,33
-34,-0.428571,1,34
-35,-0.428571,1,35
-36,-0.428571,1,36
-37,-0.4,1,37
-38,-0.4,1,38
-39,-0.4,1,39
-40,-0.4,1,40
-41,-0.388889,1,41
-42,-0.384615,1,42
-43,-0.384615,1,43
-44,-0.384615,1,44
-45,-0.384615,1,45
-46,-0.363636,1,46
-47,-0.363636,1,47
-48,-0.363636,1,48
-49,-0.333333,1,49
-50,-0.333333,1,50
-51,-0.333333,1,51
-52,-0.311111,1,52
-53,-0.311111,1,53
-54,-0.311111,1,54
-55,-0.311111,1,55
-56,-0.311111,1,56
-57,-0.311111,1,57
-58,-0.311111,1,58
-59,-0.311111,1,59
-60,-0.311111,1,60
-61,-0.298507,1,61
-62,-0.298507,1,62
-63,-0.298507,1,63
-64,-0.298507,1,64
-65,-0.298507,1,65
-66,-0.298507,1,66
-67,-0.298507,1,67
-68,-0.298507,1,68
-69,-0.298507,1,69
-70,-0.298507,1,70
-71,-0.298507,1,71
-72,-0.298507,1,72
-73,-0.298507,1,73
-74,-0.298507,1,74
-75,-0.298507,1,75
-76,-0.298507,1,76
-77,-0.298507,1,77
-78,-0.298507,1,78
-79,-0.288889,1,79
-80,-0.288889,1,80
-81,-0.288889,1,81
-82,-0.288889,1,82
-83,-0.288889,1,83
-84,-0.288889,1,84
-85,-0.288889,1,85
-86,-0.288889,1,86
-87,-0.288889,1,87
-88,-0.288889,1,88
-89,-0.288889,1,89
-90,-0.285714,1,90
-91,-0.28125,1,91
-92,-0.280851,1,92
-93,-0.280851,1,93
-94,-0.280851,1,94
-95,-0.280851,1,95
-96,-0.280851,1,96
-97,-0.280851,1,97
-98,-0.280851,1,98
-99,-0.280851,1,99
-100,-0.280851,1,100
-101,-0.280851,1,101
-102,-0.280851,1,102
-103,-0.280851,1,103
-104,-0.280851,1,104
-105,-0.280851,1,105
-106,-0.280851,1,106
-107,-0.280851,1,107
-108,-0.280851,1,108
-109,-0.280851,1,109
-110,-0.280851,1,110
-111,-0.280851,1,111
-112,-0.28,1,112
-113,-0.28,1,113
-114,-0.28,1,114
-115,-0.28,1,115
-116,-0.28,1,116
-117,-0.28,1,117
-118,-0.28,1,118
-119,-0.28,1,119
-120,-0.277778,1,120
-121,-0.277778,1,121
-122,-0.277778,1,122
-123,-0.277778,1,123
-124,-0.26383,1,124
-125,-0.26383,1,125
-126,-0.26383,1,126
-127,-0.26383,1,127
-128,-0.26383,1,128
-129,-0.26383,1,129
-130,-0.26383,1,130
-131,-0.26383,1,131
-132,-0.26383,1,132
-133,-0.26383,1,133
-134,-0.26383,1,134
-135,-0.26383,1,135
-136,-0.26383,1,136
-137,-0.26383,1,137
-138,-0.26383,1,138
-139,-0.26383,1,139
-140,-0.26383,1,140
-141,-0.26383,1,141
-142,-0.26383,1,142
-143,-0.26383,1,143
-144,-0.26383,1,144
-145,-0.26383,1,145
-146,-0.26383,1,146
-147,-0.26383,1,147
-148,-0.26383,1,148
-149,-0.26383,1,149
-150,-0.25641,1,150
-151,-0.25,1,151
-152,-0.25,1,152
-153,-0.25,1,153
-154,-0.238806,1,154
-155,-0.238806,1,155
-156,-0.238806,1,156
-157,-0.238806,1,157
-158,-0.230769,1,158
-159,-0.230769,1,159
-160,-0.222222,1,160
-161,-0.21307,1,161
-162,-0.205128,1,162
-163,-0.205128,1,163
-164,-0.205128,1,164
-165,-0.205128,1,165
-166,-0.205128,1,166
-167,-0.205128,1,167
-168,-0.205128,1,168
-169,-0.2,1,169
-170,-0.2,1,170
-171,-0.2,1,171
-172,-0.2,1,172
-173,-0.2,1,173
-174,-0.2,1,174
-175,-0.2,1,175
-176,-0.19403,1,176
-177,-0.19403,1,177
-178,-0.19403,1,178
-179,-0.19403,1,179
-180,-0.19403,1,180
-181,-0.1875,1,181
-182,-0.1875,1,182
-183,-0.1875,1,183
-184,-0.1875,1,184
-185,-0.142327,1,185
-186,-0.136364,1,186
-187,-0.118182,1,187
-188,-0.118182,1,188
-189,-0.1,1,189
-190,-0.1,1,190
-191,-0.1,1,191
-192,-0.1,1,192
-193,-0.1,1,193
-194,-0.1,1,194
-195,-0.090909,1,195
-196,-0.089552,1,196
-197,-0.089552,1,197
-198,-0.089552,1,198
-199,-0.089552,1,199
-200,-0.089552,1,200
-201,-0.089552,1,201
-202,-0.089552,1,202
-203,-0.089552,1,203
-204,-0.089552,1,204
-205,-0.089552,1,205
-206,-0.089552,1,206
-207,-0.089552,1,207
-208,-0.089552,1,208
-209,-0.089552,1,209
-210,-0.089552,1,210
-211,-0.089552,1,211
-212,-0.089552,1,212
-213,-0.089552,1,213
-214,-0.089552,1,214
-215,-0.089552,1,215
-216,-0.089552,1,216
-217,-0.089552,1,217
-218,-0.089552,1,218
-219,-0.089552,1,219
-220,-0.089552,1,220
-221,-0.089552,1,221
-222,-0.076923,1,222
-223,-0.04,1,223
-224,-0.04,1,224
-225,-0.04,1,225
-226,-0.04,1,226
-227,-0.04,1,227
-228,-0.04,1,228
-229,-0.04,1,229
-230,0,1,230
-231,0,1,231
-232,0,1,232
-233,0,1,233
-234,0,1,234
-235,0,1,235
-236,0,1,236
-237,0,1,237
-238,0,1,238
-239,0,1,239
-240,0,1,240
-241,0,1,241
-242,0,1,242
-243,0,1,243
-244,0,1,244
-245,0,1,245
-246,0,1,246
-247,0,1,247
-248,0.04,1,248
-249,0.04,1,249
-250,0.04,1,250
-251,0.04,1,251
-252,0.04,1,252
-253,0.04,1,253
-254,0.089552,1,254
-255,0.089552,1,255
-256,0.089552,1,256
-257,0.089552,1,257
-258,0.089552,1,258
-259,0.089552,1,259
-260,0.089552,1,260
-261,0.089552,1,261
-262,0.089552,1,262
-263,0.089552,1,263
-264,0.090909,1,264
-265,0.1,1,265
-266,0.1,1,266
-267,0.1,1,267
-268,0.1,1,268
-269,0.1,1,269
-270,0.1,1,270
-271,0.1,1,271
-272,0.111111,1,272
-273,0.119048,1,273
-274,0.1875,1,274
-275,0.1875,1,275
-276,0.1875,1,276
-277,0.1875,1,277
-278,0.1875,1,278
-279,0.1875,1,279
-280,0.19403,1,280
-281,0.19403,1,281
-282,0.19403,1,282
-283,0.19403,1,283
-284,0.19403,1,284
-285,0.19403,1,285
-286,0.2,1,286
-287,0.205128,1,287
-288,0.205128,1,288
-289,0.205128,1,289
-290,0.205128,1,290
-291,0.205128,1,291
-292,0.21875,1,292
-293,0.222222,1,293
-294,0.230769,1,294
-295,0.230769,1,295
-296,0.26383,1,296
-297,0.26383,1,297
-298,0.26383,1,298
-299,0.26383,1,299
-300,0.26383,1,300
-301,0.26383,1,301
-302,0.26383,1,302
-303,0.26383,1,303
-304,0.26383,1,304
-305,0.26383,1,305
-306,0.26383,1,306
-307,0.26383,1,307
-308,0.26383,1,308
-309,0.26383,1,309
-310,0.26383,1,310
-311,0.26383,1,311
-312,0.26383,1,312
-313,0.26383,1,313
-314,0.26383,1,314
-315,0.26383,1,315
-316,0.26383,1,316
-317,0.26383,1,317
-318,0.26383,1,318
-319,0.26383,1,319
-320,0.26383,1,320
-321,0.26383,1,321
-322,0.26383,1,322
-323,0.26383,1,323
-324,0.26383,1,324
-325,0.26383,1,325
-326,0.26383,1,326
-327,0.26383,1,327
-328,0.26383,1,328
-329,0.26383,1,329
-330,0.26383,1,330
-331,0.26383,1,331
-332,0.26383,1,332
-333,0.26383,1,333
-334,0.26383,1,334
-335,0.26383,1,335
-336,0.26383,1,336
-337,0.26383,1,337
-338,0.272727,1,338
-339,0.272727,1,339
-340,0.277778,1,340
-341,0.277778,1,341
-342,0.277778,1,342
-343,0.277778,1,343
-344,0.288889,1,344
-345,0.288889,1,345
-346,0.288889,1,346
-347,0.288889,1,347
-348,0.288889,1,348
-349,0.288889,1,349
-350,0.288889,1,350
-351,0.288889,1,351
-352,0.288889,1,352
-353,0.288889,1,353
-354,0.288889,1,354
-355,0.4,1,355
-356,0.4,1,356
-357,0.428571,1,357
-358,0.428571,1,358
-359,0.444444,1,359
-360,0.454545,1,360
-361,0.5,1,361
-362,0.5,1,362
-363,0.5,1,363
-364,0.5,1,364
-365,0.5,1,365
-366,0.5,1,366
-367,0.5,1,367
-368,1,1,368
-369,1,1,369
-370,1,1,370
+-0.26383,sabado_domingo,jueves_viernes,h08_h11,estrellamiento,'el valle','conducir en estado de embriaguez',1h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,punzara,'conducir en estado de embriaguez',1h,0fa
+0.21875,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,choque,sucre,'no mantener la distancia reglamentaria',0h,0fa
+-0.4,sabado_domingo,jueves_viernes,h08_h11,atropello,sucre,'imprudencia del peaton',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h04_h07,choque,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.28125,lunes_martes_miercoles,sabado_domingo,h08_h11,choque,sucre,'no mantener la distancia reglamentaria',0h,0fa
+0,lunes_martes_miercoles,sabado_domingo,h12_h15,estrellamiento,'san sebastian','conducir en exceso de velocidad',1h,0fa
+-0.2,jueves_viernes,sabado_domingo,h20_h23,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+-0.714286,sabado_domingo,lunes_martes_miercoles,h00_h03,estrellamiento,'san sebastian','conducir en exceso de velocidad',1h,0fa
+0.19403,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,choque,'san sebastian','no respetar las senales de transito',0h,0fa
+-0.2,sabado_domingo,jueves_viernes,h20_h23,estrellamiento,sucre,'conducir en exceso de velocidad',1h,0fa
+0,jueves_viernes,jueves_viernes,h16_h19,choque,sucre,'condiciones climaticas desfavorables',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,choque,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.238806,lunes_martes_miercoles,sabado_domingo,h04_h07,choque,carigan,'no respetar las senales de transito',0h,0fa
+-0.118182,sabado_domingo,lunes_martes_miercoles,h16_h19,encunetamiento,sucre,'conducir en exceso de velocidad',5h,0fa
+-1,sabado_domingo,jueves_viernes,h16_h19,choque,sucre,'no ceder el derecho de via',0h,0fa
+-0.444444,sabado_domingo,jueves_viernes,h16_h19,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+-1,lunes_martes_miercoles,sabado_domingo,h00_h03,choque,'el sagrario','impericia del conductor',0h,0fa
+0.5,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,carigan,'imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h04_h07,choque,punzara,'conducir en estado de embriaguez',2h,0fa
+-0.4,lunes_martes_miercoles,sabado_domingo,h04_h07,choque,'el valle','no ceder el derecho de via',0h,0fa
+-1,lunes_martes_miercoles,sabado_domingo,h20_h23,choque,punzara,'impericia del conductor',1h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h00_h03,'perdida de carril_pista',punzara,'conducir en estado de embriaguez',3h,0fa
+-0.2,jueves_viernes,sabado_domingo,h20_h23,estrellamiento,'el valle','conducir en exceso de velocidad',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h04_h07,choque,'san sebastian','imprudencia del conductor',1h,0fa
+-0.1875,sabado_domingo,lunes_martes_miercoles,h04_h07,choque,'el sagrario','conducir en exceso de velocidad',0h,0fa
+-0.6,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,'el sagrario','conducir en exceso de velocidad',1h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,'el sagrario','imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h04_h07,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+-0.25,lunes_martes_miercoles,jueves_viernes,h16_h19,'perdida de carril_pista',sucre,'fallas mecanicas no previsibles',2h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,choque,'san sebastian','imprudencia del conductor',2h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,'san sebastian','conducir en estado de embriaguez',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h04_h07,choque,'san sebastian','imprudencia del conductor',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h20_h23,estrellamiento,punzara,'conducir en estado de embriaguez',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h16_h19,estrellamiento,punzara,'conducir en estado de embriaguez',2h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h00_h03,choque,carigan,'imprudencia del conductor',0h,1fa
+0.1,jueves_viernes,jueves_viernes,h20_h23,estrellamiento,'el valle','conducir en exceso de velocidad',0h,0fa
+0.1875,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0.5,sabado_domingo,sabado_domingo,h16_h19,estrellamiento,carigan,'imprudencia del conductor',1h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h04_h07,choque,sucre,'imprudencia del conductor',1h,0fa
+1,lunes_martes_miercoles,lunes_martes_miercoles,h08_h11,'perdida de carril_pista','el valle','condiciones climaticas desfavorables',1h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h16_h19,'perdida de carril_pista',sucre,'conducir en estado de embriaguez',0h,0fa
+0.04,jueves_viernes,jueves_viernes,h00_h03,estrellamiento,'el valle','imprudencia del conductor',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,sucre,'conducir en estado de embriaguez',1h,0fa
+0.205128,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,'el sagrario','conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,choque,'san sebastian','conducir en estado de embriaguez',1h,0fa
+-0.19403,lunes_martes_miercoles,jueves_viernes,h08_h11,choque,'san sebastian','no respetar las senales de transito',0h,0fa
+0.444444,sabado_domingo,sabado_domingo,h16_h19,'perdida de carril_pista',sucre,'conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,roce,punzara,'conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,carigan,'imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,carigan,'conducir en estado de embriaguez',0h,0fa
+-0.04,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+-0.75,lunes_martes_miercoles,sabado_domingo,h20_h23,'perdida de carril_pista',sucre,'fallas mecanicas no previsibles',6h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h04_h07,choque,carigan,'imprudencia del conductor',0h,0fa
+-0.1,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,carigan,'conducir en exceso de velocidad',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h04_h07,choque,'san sebastian','imprudencia del conductor',0h,0fa
+-0.238806,lunes_martes_miercoles,sabado_domingo,h08_h11,choque,sucre,'no respetar las senales de transito',0h,0fa
+0,lunes_martes_miercoles,sabado_domingo,h12_h15,choque,sucre,'conducir en exceso de velocidad',1h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h12_h15,choque,'el sagrario','imprudencia del conductor',0h,0fa
+0.428571,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,atropello,'el sagrario','imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h16_h19,choque,'el sagrario','conducir en estado de embriaguez',1h,0fa
+0.288889,sabado_domingo,sabado_domingo,h12_h15,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,estrellamiento,sucre,'conducir en estado de embriaguez',1h,0fa
+1,sabado_domingo,sabado_domingo,h16_h19,choque,'san sebastian','conducir en exceso de velocidad',2h,0fa
+0.1,jueves_viernes,jueves_viernes,h20_h23,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h04_h07,choque,'san sebastian','imprudencia del conductor',2h,0fa
+-0.076923,sabado_domingo,lunes_martes_miercoles,h08_h11,colision,sucre,'fallas mecanicas no previsibles',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,carigan,'imprudencia del conductor',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,choque,sucre,'conducir en estado de embriaguez',1h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h12_h15,choque,punzara,'imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h16_h19,colision,punzara,'conducir en estado de embriaguez',0h,0fa
+-0.5,sabado_domingo,lunes_martes_miercoles,h20_h23,estrellamiento,carigan,'imprudencia del conductor',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h12_h15,colision,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,'san sebastian','imprudencia del conductor',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,'perdida de carril_pista','san sebastian','conducir en estado de embriaguez',0h,0fa
+0,lunes_martes_miercoles,jueves_viernes,h12_h15,choque,'el sagrario','imprudencia del conductor',2h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h12_h15,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.5,sabado_domingo,lunes_martes_miercoles,h04_h07,choque,'el valle','conducir en exceso de velocidad',3h,0fa
+0.090909,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,choque,'el sagrario','conducir en exceso de velocidad',0h,0fa
+-0.1,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,carigan,'conducir en exceso de velocidad',0h,0fa
+0.5,sabado_domingo,sabado_domingo,h16_h19,estrellamiento,carigan,'imprudencia del conductor',1h,0fa
+-0.5,lunes_martes_miercoles,jueves_viernes,h20_h23,'perdida de carril_pista',sucre,'conducir en exceso de velocidad',2h,0fa
+-0.19403,lunes_martes_miercoles,jueves_viernes,h20_h23,choque,'san sebastian','no respetar las senales de transito',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h20_h23,choque,'san sebastian','imprudencia del conductor',0h,0fa
+-0.384615,lunes_martes_miercoles,jueves_viernes,h20_h23,atipico,'el sagrario','imprudencia del conductor',0h,0fa
+-0.5,lunes_martes_miercoles,jueves_viernes,h16_h19,choque,punzara,'conducir en exceso de velocidad',0h,0fa
+-1,sabado_domingo,lunes_martes_miercoles,h04_h07,estrellamiento,carigan,'conducir en exceso de velocidad',2h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h20_h23,estrellamiento,'el valle','conducir en estado de embriaguez',0h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,choque,punzara,'conducir en exceso de velocidad',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,'perdida de carril_pista',sucre,'conducir en estado de embriaguez',2h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h04_h07,choque,carigan,'imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h20_h23,estrellamiento,punzara,'conducir en estado de embriaguez',0h,0fa
+-0.142327,sabado_domingo,jueves_viernes,h08_h11,estrellamiento,'san sebastian',?,0h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h12_h15,choque,'el valle','imprudencia del conductor',1h,0fa
+-0.205128,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,'el valle','conducir en exceso de velocidad',0h,0fa
+0.089552,sabado_domingo,sabado_domingo,h08_h11,choque,'el sagrario','imprudencia del conductor',0h,0fa
+0.04,jueves_viernes,jueves_viernes,h12_h15,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h08_h11,choque,'el sagrario','imprudencia del conductor',2h,0fa
+-1,sabado_domingo,lunes_martes_miercoles,h12_h15,'perdida de carril_pista','san sebastian','fallas mecanicas no previsibles',1h,0fa
+-0.6,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,'el sagrario','conducir en exceso de velocidad',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,estrellamiento,carigan,'conducir en estado de embriaguez',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h12_h15,choque,'el valle','imprudencia del conductor',1h,0fa
+-0.230769,lunes_martes_miercoles,sabado_domingo,h12_h15,atipico,carigan,'imprudencia del conductor',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h12_h15,choque,sucre,'imprudencia del conductor',1h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'el sagrario','imprudencia del conductor',0h,0fa
+-0.1875,sabado_domingo,lunes_martes_miercoles,h04_h07,choque,sucre,'conducir en exceso de velocidad',0h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,sucre,'imprudencia del conductor',1h,0fa
+-0.1,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h08_h11,choque,punzara,'imprudencia del conductor',1h,0fa
+-0.388889,lunes_martes_miercoles,sabado_domingo,h16_h19,roce,'san sebastian','imprudencia del conductor',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,atropello,sucre,'conducir en estado de embriaguez',1h,0fa
+-0.75,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,punzara,'imprudencia del conductor',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h08_h11,colision,punzara,'conducir en estado de embriaguez',0h,0fa
+0.222222,jueves_viernes,jueves_viernes,h08_h11,'perdida de carril_pista',sucre,'conducir en exceso de velocidad',1h,0fa
+-0.19403,lunes_martes_miercoles,jueves_viernes,h16_h19,choque,'san sebastian','no respetar las senales de transito',3h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h16_h19,choque,sucre,'imprudencia del conductor',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h12_h15,choque,sucre,'conducir en estado de embriaguez',0h,0fa
+0.205128,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+-0.4,sabado_domingo,lunes_martes_miercoles,h12_h15,atropello,sucre,'imprudencia del peaton',1h,0fa
+-0.04,jueves_viernes,lunes_martes_miercoles,h16_h19,estrellamiento,carigan,'imprudencia del conductor',0h,0fa
+-0.222222,jueves_viernes,lunes_martes_miercoles,h08_h11,'perdida de carril_pista',carigan,'conducir en exceso de velocidad',1h,0fa
+-0.1,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,carigan,'conducir en exceso de velocidad',0h,0fa
+-0.25641,sabado_domingo,lunes_martes_miercoles,h00_h03,estrellamiento,carigan,'conducir en exceso de velocidad',0h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,choque,'el valle','imprudencia del conductor',2h,0fa
+-0.333333,jueves_viernes,lunes_martes_miercoles,h16_h19,estrellamiento,carigan,'conducir en exceso de velocidad',1h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h12_h15,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-0.363636,lunes_martes_miercoles,jueves_viernes,h16_h19,atropello,'el sagrario','imprudencia del peaton',1h,0fa
+0.04,jueves_viernes,jueves_viernes,h04_h07,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+-0.444444,sabado_domingo,jueves_viernes,h16_h19,'perdida de carril_pista',sucre,'conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h16_h19,choque,punzara,'conducir en estado de embriaguez',0h,0fa
+0.1,jueves_viernes,jueves_viernes,h20_h23,'perdida de carril_pista','el valle','conducir en exceso de velocidad',0h,0fa
+0,lunes_martes_miercoles,sabado_domingo,h12_h15,estrellamiento,punzara,'conducir en exceso de velocidad',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,choque,sucre,'conducir en estado de embriaguez',1h,0fa
+0.19403,lunes_martes_miercoles,lunes_martes_miercoles,h08_h11,choque,'san sebastian','no respetar las senales de transito',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,'el valle','imprudencia del conductor',0h,0fa
+-0.333333,jueves_viernes,lunes_martes_miercoles,h16_h19,roce,sucre,'conducir en exceso de velocidad',1h,0fa
+-0.28,jueves_viernes,sabado_domingo,h12_h15,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+-0.285714,sabado_domingo,lunes_martes_miercoles,h04_h07,atropello,punzara,'imprudencia del peaton',2h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h16_h19,estrellamiento,carigan,'conducir en estado de embriaguez',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,choque,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.428571,lunes_martes_miercoles,sabado_domingo,h12_h15,atropello,sucre,'imprudencia del conductor',1h,0fa
+-0.2,jueves_viernes,sabado_domingo,h20_h23,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0.205128,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,punzara,'conducir en exceso de velocidad',0h,1fa
+0.5,sabado_domingo,sabado_domingo,h16_h19,estrellamiento,'el sagrario','imprudencia del conductor',1h,0fa
+0.4,lunes_martes_miercoles,lunes_martes_miercoles,h16_h19,atropello,'el valle','imprudencia del peaton',1h,0fa
+0.288889,sabado_domingo,sabado_domingo,h12_h15,choque,'san sebastian','imprudencia del conductor',1h,0fa
+-0.277778,lunes_martes_miercoles,jueves_viernes,h08_h11,roce,'san sebastian','imprudencia del conductor',0h,0fa
+0.230769,lunes_martes_miercoles,lunes_martes_miercoles,h04_h07,atipico,carigan,'imprudencia del conductor',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'el valle','imprudencia del conductor',0h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h20_h23,choque,'san sebastian','imprudencia del conductor',2h,0fa
+0,lunes_martes_miercoles,jueves_viernes,h04_h07,choque,'el valle','conducir en exceso de velocidad',1h,0fa
+-0.384615,lunes_martes_miercoles,jueves_viernes,h08_h11,atipico,sucre,'imprudencia del conductor',0h,0fa
+-0.75,sabado_domingo,jueves_viernes,h08_h11,estrellamiento,'san sebastian','imprudencia del conductor',1h,0fa
+-0.363636,lunes_martes_miercoles,jueves_viernes,h16_h19,atropello,'el sagrario','imprudencia del peaton',1h,0fa
+0.1875,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,punzara,'conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,punzara,'conducir en estado de embriaguez',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h12_h15,choque,punzara,'conducir en estado de embriaguez',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'san sebastian','imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,punzara,'imprudencia del conductor',0h,0fa
+-0.277778,lunes_martes_miercoles,jueves_viernes,h12_h15,roce,sucre,'imprudencia del conductor',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h08_h11,choque,sucre,'conducir en estado de embriaguez',0h,0fa
+0,lunes_martes_miercoles,jueves_viernes,h16_h19,choque,'el sagrario','imprudencia del conductor',2h,0fa
+0.2,sabado_domingo,sabado_domingo,h16_h19,atropello,'san sebastian','imprudencia del peaton',1h,0fa
+0.1,jueves_viernes,jueves_viernes,h20_h23,estrellamiento,punzara,'conducir en exceso de velocidad',0h,0fa
+0.5,sabado_domingo,sabado_domingo,h08_h11,estrellamiento,carigan,'imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h16_h19,choque,punzara,'conducir en estado de embriaguez',1h,0fa
+0.089552,sabado_domingo,sabado_domingo,h20_h23,choque,'san sebastian','imprudencia del conductor',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,colision,'el valle','conducir en estado de embriaguez',2h,0fa
+-0.4,sabado_domingo,lunes_martes_miercoles,h16_h19,atropello,sucre,'imprudencia del peaton',1h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h16_h19,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.21307,sabado_domingo,jueves_viernes,h20_h23,atropello,sucre,?,1h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h12_h15,choque,punzara,'imprudencia del conductor',1h,0fa
+-0.277778,lunes_martes_miercoles,jueves_viernes,h08_h11,roce,sucre,'imprudencia del conductor',0h,0fa
+-0.75,sabado_domingo,jueves_viernes,h20_h23,estrellamiento,punzara,'imprudencia del conductor',1h,0fa
+-0.28,jueves_viernes,sabado_domingo,h00_h03,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+-0.25,lunes_martes_miercoles,sabado_domingo,h12_h15,choque,'san sebastian','imprudencia del conductor',2h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,sucre,'imprudencia del conductor',0h,0fa
+0.277778,lunes_martes_miercoles,lunes_martes_miercoles,h16_h19,roce,'san sebastian','imprudencia del conductor',1h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+-0.1,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,carigan,'conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h08_h11,estrellamiento,carigan,'conducir en estado de embriaguez',0h,0fa
+0.1,jueves_viernes,jueves_viernes,h20_h23,'perdida de carril_pista','san sebastian','conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,estrellamiento,'el sagrario','conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,punzara,'conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h12_h15,colision,carigan,'conducir en estado de embriaguez',0h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h20_h23,choque,sucre,'imprudencia del conductor',1h,0fa
+-0.205128,sabado_domingo,jueves_viernes,h00_h03,'perdida de carril_pista',punzara,'conducir en exceso de velocidad',0h,0fa
+-0.04,jueves_viernes,lunes_martes_miercoles,h16_h19,estrellamiento,'el sagrario','imprudencia del conductor',0h,0fa
+0.089552,sabado_domingo,sabado_domingo,h12_h15,choque,'el sagrario','imprudencia del conductor',0h,0fa
+0.089552,sabado_domingo,sabado_domingo,h12_h15,choque,'san sebastian','imprudencia del conductor',0h,0fa
+0.089552,sabado_domingo,sabado_domingo,h12_h15,choque,punzara,'imprudencia del conductor',0h,0fa
+0.1,jueves_viernes,jueves_viernes,h20_h23,'perdida de carril_pista',punzara,'conducir en exceso de velocidad',0h,0fa
+-0.857143,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,sucre,'conducir en exceso de velocidad',1h,0fa
+0.1875,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h04_h07,choque,'el valle','imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h16_h19,estrellamiento,punzara,'conducir en estado de embriaguez',0h,0fa
+-0.136364,lunes_martes_miercoles,sabado_domingo,h12_h15,estrellamiento,punzara,'conducir en exceso de velocidad',0h,0fa
+0.4,sabado_domingo,sabado_domingo,h04_h07,atropello,sucre,'imprudencia del peaton',1h,0fa
+-0.428571,lunes_martes_miercoles,sabado_domingo,h04_h07,atropello,sucre,'imprudencia del conductor',1h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h20_h23,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h12_h15,choque,punzara,'imprudencia del conductor',1h,0fa
+-0.277778,lunes_martes_miercoles,jueves_viernes,h12_h15,roce,'el sagrario','imprudencia del conductor',0h,0fa
+-0.205128,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,carigan,'conducir en exceso de velocidad',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h16_h19,choque,'el valle','imprudencia del conductor',0h,0fa
+-0.5,sabado_domingo,lunes_martes_miercoles,h20_h23,estrellamiento,'el sagrario','imprudencia del conductor',1h,0fa
+-0.428571,sabado_domingo,jueves_viernes,h08_h11,atropello,punzara,'imprudencia del peaton',1h,0fa
+0,lunes_martes_miercoles,jueves_viernes,h12_h15,choque,sucre,'conducir en exceso de velocidad',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,'perdida de carril_pista',carigan,'conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,choque,'el sagrario','conducir en estado de embriaguez',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h16_h19,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,'el valle','conducir en estado de embriaguez',0h,0fa
+-0.2,sabado_domingo,lunes_martes_miercoles,h16_h19,atropello,'san sebastian','imprudencia del peaton',1h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h20_h23,choque,'el sagrario','imprudencia del conductor',2h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,carigan,'imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h04_h07,'perdida de carril_pista',sucre,'conducir en estado de embriaguez',1h,0fa
+-0.04,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,'el valle','imprudencia del conductor',0h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h04_h07,choque,sucre,'imprudencia del conductor',1h,0fa
+-0.19403,lunes_martes_miercoles,jueves_viernes,h08_h11,choque,'el sagrario','no respetar las senales de transito',2h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,estrellamiento,sucre,'conducir en estado de embriaguez',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h08_h11,choque,sucre,'imprudencia del conductor',1h,0fa
+-0.090909,lunes_martes_miercoles,jueves_viernes,h12_h15,estrellamiento,punzara,'conducir en exceso de velocidad',0h,0fa
+0.089552,sabado_domingo,sabado_domingo,h16_h19,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-0.205128,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,'san sebastian','conducir en exceso de velocidad',0h,0fa
+0.1875,sabado_domingo,sabado_domingo,h04_h07,'perdida de carril_pista',punzara,'conducir en exceso de velocidad',0h,0fa
+-0.205128,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h12_h15,estrellamiento,punzara,'conducir en estado de embriaguez',1h,0fa
+-0.238806,lunes_martes_miercoles,sabado_domingo,h08_h11,choque,sucre,'no respetar las senales de transito',1h,0fa
+-0.205128,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0.277778,lunes_martes_miercoles,lunes_martes_miercoles,h08_h11,roce,punzara,'imprudencia del conductor',1h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h12_h15,roce,sucre,'conducir en estado de embriaguez',0h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,atropello,sucre,'conducir en exceso de velocidad',1h,0fa
+-0.1875,sabado_domingo,lunes_martes_miercoles,h04_h07,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0.19403,lunes_martes_miercoles,lunes_martes_miercoles,h08_h11,choque,'el sagrario','no respetar las senales de transito',1h,0fa
+-0.19403,lunes_martes_miercoles,jueves_viernes,h04_h07,choque,'el sagrario','no respetar las senales de transito',0h,0fa
+-0.25,lunes_martes_miercoles,sabado_domingo,h12_h15,choque,'san sebastian','imprudencia del conductor',2h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h16_h19,estrellamiento,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h12_h15,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,'el sagrario','imprudencia del conductor',0h,0fa
+0.272727,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,atropello,'el sagrario','imprudencia del peaton',1h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,sucre,'imprudencia del conductor',1h,0fa
+0.277778,lunes_martes_miercoles,lunes_martes_miercoles,h20_h23,roce,sucre,'imprudencia del conductor',1h,0fa
+0.19403,lunes_martes_miercoles,lunes_martes_miercoles,h20_h23,choque,punzara,'no respetar las senales de transito',1h,0fa
+-0.205128,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+-0.384615,lunes_martes_miercoles,jueves_viernes,h04_h07,atipico,carigan,'imprudencia del conductor',0h,0fa
+-1,sabado_domingo,jueves_viernes,h12_h15,atipico,sucre,'fallas mecanicas no previsibles',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h20_h23,choque,sucre,'imprudencia del conductor',0h,0fa
+0.5,sabado_domingo,sabado_domingo,h12_h15,estrellamiento,'el sagrario','imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,'perdida de carril_pista',punzara,'conducir en estado de embriaguez',0h,0fa
+0.119048,sabado_domingo,sabado_domingo,h00_h03,choque,'san sebastian','imprudencia del conductor',5h,0fa
+-0.6,sabado_domingo,lunes_martes_miercoles,h20_h23,'perdida de carril_pista','el valle','conducir en exceso de velocidad',1h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,punzara,'imprudencia del conductor',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,choque,'el sagrario','conducir en estado de embriaguez',2h,0fa
+-0.230769,lunes_martes_miercoles,sabado_domingo,h00_h03,atipico,sucre,'imprudencia del conductor',0h,0fa
+0.1,jueves_viernes,jueves_viernes,h20_h23,'perdida de carril_pista',punzara,'conducir en exceso de velocidad',0h,0fa
+-0.5,lunes_martes_miercoles,jueves_viernes,h12_h15,atropello,sucre,'imprudencia del conductor',2h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h08_h11,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,'el sagrario','imprudencia del conductor',0h,0fa
+-0.454545,sabado_domingo,lunes_martes_miercoles,h08_h11,roce,sucre,'conducir en exceso de velocidad',0h,0fa
+-0.555556,sabado_domingo,lunes_martes_miercoles,h16_h19,'perdida de carril_pista',sucre,'conducir en exceso de velocidad',0h,0fa
+0.272727,lunes_martes_miercoles,lunes_martes_miercoles,h16_h19,atropello,'el sagrario','imprudencia del peaton',1h,0fa
+-0.04,jueves_viernes,lunes_martes_miercoles,h12_h15,estrellamiento,'el valle','imprudencia del conductor',0h,0fa
+-0.238806,lunes_martes_miercoles,sabado_domingo,h08_h11,choque,'san sebastian','no respetar las senales de transito',0h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h12_h15,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h16_h19,colision,'el sagrario','conducir en estado de embriaguez',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h12_h15,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.384615,lunes_martes_miercoles,jueves_viernes,h08_h11,atipico,carigan,'imprudencia del conductor',0h,0fa
+0.1875,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,'el sagrario','conducir en exceso de velocidad',0h,0fa
+-0.5,lunes_martes_miercoles,jueves_viernes,h16_h19,'perdida de carril_pista',sucre,'conducir en exceso de velocidad',2h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h20_h23,choque,'san sebastian','imprudencia del conductor',2h,0fa
+-0.2,jueves_viernes,sabado_domingo,h20_h23,estrellamiento,'el valle','conducir en exceso de velocidad',0h,0fa
+-0.333333,jueves_viernes,lunes_martes_miercoles,h16_h19,choque,'el valle','conducir en exceso de velocidad',1h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,sucre,'imprudencia del conductor',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h04_h07,choque,punzara,'imprudencia del conductor',1h,0fa
+-1,sabado_domingo,lunes_martes_miercoles,h04_h07,atipico,punzara,'fallas mecanicas no previsibles',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h20_h23,choque,'el sagrario','imprudencia del conductor',1h,0fa
+0.1875,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,sucre,'conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,punzara,'conducir en estado de embriaguez',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,choque,sucre,'conducir en estado de embriaguez',1h,0fa
+0.205128,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,'el sagrario','conducir en exceso de velocidad',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h08_h11,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h04_h07,choque,carigan,'conducir en estado de embriaguez',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,estrellamiento,carigan,'conducir en estado de embriaguez',0h,0fa
+0.5,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,punzara,'imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,choque,punzara,'conducir en estado de embriaguez',0h,0fa
+-0.5,lunes_martes_miercoles,jueves_viernes,h12_h15,atropello,'san sebastian','imprudencia del conductor',1h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h16_h19,choque,punzara,'imprudencia del conductor',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h00_h03,estrellamiento,carigan,'conducir en estado de embriaguez',0h,0fa
+-0.118182,sabado_domingo,lunes_martes_miercoles,h12_h15,estrellamiento,sucre,'conducir en exceso de velocidad',6h,0fa
+-0.1875,sabado_domingo,lunes_martes_miercoles,h04_h07,estrellamiento,punzara,'conducir en exceso de velocidad',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h12_h15,estrellamiento,carigan,'conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h04_h07,estrellamiento,punzara,'conducir en estado de embriaguez',0h,0fa
+0.111111,lunes_martes_miercoles,lunes_martes_miercoles,h20_h23,colision,carigan,'imprudencia del conductor',2h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h00_h03,estrellamiento,'el sagrario','conducir en estado de embriaguez',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,'perdida de carril_pista',punzara,'conducir en estado de embriaguez',1h,0fa
+-0.04,jueves_viernes,lunes_martes_miercoles,h16_h19,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h16_h19,estrellamiento,punzara,'conducir en estado de embriaguez',0h,0fa
+0.205128,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,punzara,'conducir en exceso de velocidad',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h00_h03,estrellamiento,'san sebastian','conducir en estado de embriaguez',1h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h12_h15,choque,'el valle','imprudencia del conductor',1h,0fa
+0.04,jueves_viernes,jueves_viernes,h04_h07,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+-1,lunes_martes_miercoles,jueves_viernes,h04_h07,choque,punzara,'imprudencia del conductor',3h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h00_h03,choque,'san sebastian','conducir en estado de embriaguez',0h,0fa
+0.089552,sabado_domingo,sabado_domingo,h04_h07,choque,sucre,'imprudencia del conductor',0h,1fa
+0.26383,sabado_domingo,sabado_domingo,h08_h11,choque,'el sagrario','conducir en estado de embriaguez',1h,0fa
+-0.2,sabado_domingo,lunes_martes_miercoles,h12_h15,atropello,'san sebastian','imprudencia del peaton',1h,0fa
+0.089552,sabado_domingo,sabado_domingo,h08_h11,choque,'el sagrario','imprudencia del conductor',0h,1fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,'san sebastian','conducir en estado de embriaguez',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,estrellamiento,'san sebastian','conducir en estado de embriaguez',0h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-1,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,carigan,'imprudencia del conductor',3h,0fa
+0.19403,lunes_martes_miercoles,lunes_martes_miercoles,h08_h11,choque,'san sebastian','no respetar las senales de transito',1h,0fa
+-0.75,sabado_domingo,jueves_viernes,h08_h11,estrellamiento,carigan,'imprudencia del conductor',1h,0fa
+0.26383,sabado_domingo,sabado_domingo,h00_h03,estrellamiento,'san sebastian','conducir en estado de embriaguez',0h,0fa
+-0.28,jueves_viernes,sabado_domingo,h00_h03,estrellamiento,carigan,'imprudencia del conductor',0h,0fa
+0.04,jueves_viernes,jueves_viernes,h20_h23,estrellamiento,'el sagrario','imprudencia del conductor',0h,0fa
+-0.28,jueves_viernes,sabado_domingo,h04_h07,estrellamiento,punzara,'imprudencia del conductor',0h,0fa
+-0.28,jueves_viernes,sabado_domingo,h04_h07,estrellamiento,'san sebastian','imprudencia del conductor',0h,0fa
+-0.28,jueves_viernes,sabado_domingo,h12_h15,estrellamiento,punzara,'imprudencia del conductor',0h,0fa
+-0.28,jueves_viernes,sabado_domingo,h04_h07,estrellamiento,'el sagrario','imprudencia del conductor',0h,0fa
+-0.28,jueves_viernes,sabado_domingo,h20_h23,estrellamiento,sucre,'imprudencia del conductor',0h,1fa
+0.089552,sabado_domingo,sabado_domingo,h04_h07,choque,punzara,'imprudencia del conductor',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'el valle','imprudencia del conductor',0h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h16_h19,estrellamiento,carigan,'conducir en estado de embriaguez',0h,0fa
+0.19403,lunes_martes_miercoles,lunes_martes_miercoles,h08_h11,choque,punzara,'no respetar las senales de transito',1h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h16_h19,choque,'san sebastian','imprudencia del conductor',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h16_h19,estrellamiento,punzara,'conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h16_h19,estrellamiento,punzara,'conducir en estado de embriaguez',0h,0fa
+0.089552,sabado_domingo,sabado_domingo,h12_h15,choque,sucre,'imprudencia del conductor',0h,0fa
+0.04,jueves_viernes,jueves_viernes,h00_h03,estrellamiento,'el valle','imprudencia del conductor',0h,0fa
+-0.288889,sabado_domingo,jueves_viernes,h04_h07,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-0.04,jueves_viernes,lunes_martes_miercoles,h12_h15,estrellamiento,sucre,'imprudencia del conductor',0h,0fa
+0.288889,sabado_domingo,sabado_domingo,h12_h15,choque,sucre,'imprudencia del conductor',1h,0fa
+0.288889,sabado_domingo,sabado_domingo,h20_h23,choque,sucre,'imprudencia del conductor',1h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h00_h03,choque,'san sebastian','imprudencia del conductor',0h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'el sagrario','imprudencia del conductor',1h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,'san sebastian','imprudencia del conductor',0h,0fa
+0.428571,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,atropello,sucre,'imprudencia del conductor',1h,0fa
+0.454545,sabado_domingo,sabado_domingo,h08_h11,'perdida de carril_pista','el valle','conducir en exceso de velocidad',0h,0fa
+0,lunes_martes_miercoles,lunes_martes_miercoles,h04_h07,choque,'el sagrario','imprudencia del conductor',2h,0fa
+-0.1,jueves_viernes,lunes_martes_miercoles,h20_h23,estrellamiento,punzara,'conducir en exceso de velocidad',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h08_h11,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.363636,lunes_martes_miercoles,jueves_viernes,h12_h15,atropello,'el sagrario','imprudencia del peaton',1h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.5,lunes_martes_miercoles,sabado_domingo,h16_h19,colision,'el valle','imprudencia del conductor',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h08_h11,choque,sucre,'imprudencia del conductor',0h,0fa
+1,lunes_martes_miercoles,lunes_martes_miercoles,h16_h19,choque,sucre,'imprudencia del conductor',3h,0fa
+-0.280851,sabado_domingo,lunes_martes_miercoles,h20_h23,choque,'el valle','conducir en estado de embriaguez',1h,0fa
+-0.5,jueves_viernes,lunes_martes_miercoles,h12_h15,colision,'el valle','imprudencia del conductor',0h,0fa
+0.230769,lunes_martes_miercoles,lunes_martes_miercoles,h12_h15,atipico,'san sebastian','imprudencia del conductor',0h,0fa
+0.277778,lunes_martes_miercoles,lunes_martes_miercoles,h16_h19,roce,'el sagrario','imprudencia del conductor',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h20_h23,choque,'el sagrario','conducir en estado de embriaguez',0h,0fa
+0.26383,sabado_domingo,sabado_domingo,h12_h15,choque,sucre,'conducir en estado de embriaguez',0h,0fa
+-0.298507,sabado_domingo,jueves_viernes,h12_h15,choque,sucre,'imprudencia del conductor',0h,0fa
+-0.311111,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'san sebastian','imprudencia del conductor',1h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'san sebastian','imprudencia del conductor',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h12_h15,choque,carigan,'imprudencia del conductor',0h,0fa
+-0.089552,sabado_domingo,lunes_martes_miercoles,h08_h11,choque,'san sebastian','imprudencia del conductor',0h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,choque,'san sebastian','conducir en estado de embriaguez',1h,0fa
+-0.26383,sabado_domingo,jueves_viernes,h20_h23,choque,sucre,'conducir en estado de embriaguez',0h,0fa
