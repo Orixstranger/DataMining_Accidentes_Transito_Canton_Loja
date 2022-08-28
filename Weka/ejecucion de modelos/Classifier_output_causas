@@ -1,0 +1,1029 @@
+=== Model information ===
+
+Filename:     causas_2018_2019_2020.model
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     AT2018_2019_2020_NBD_caso1
+Attributes:   7
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+
+=== Classifier model ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: imprudencia del peaton (81.0/34.0)
+tipologia = choque lateral perpendicular
+|   hora = h13
+|   |   nro_heridos = 1h: no ceder el derecho de via (3.0)
+|   |   nro_heridos = 0h: imprudencia del conductor (4.0/1.0)
+|   |   nro_heridos = 3h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 2h: imprudencia del conductor (1.0)
+|   |   nro_heridos = 4h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 5h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 6h: imprudencia del conductor (0.0)
+|   hora = h20: imprudencia del conductor (7.0/3.0)
+|   hora = h18
+|   |   parroquia_urbana = punzara: no ceder el derecho de via (1.0)
+|   |   parroquia_urbana = sucre: no ceder el derecho de via (0.0)
+|   |   parroquia_urbana = san sebastian: condiciones climaticas desfavorables (1.0)
+|   |   parroquia_urbana = carigan: no ceder el derecho de via (0.0)
+|   |   parroquia_urbana = el sagrario: no respetar las senales de transito (3.0/1.0)
+|   |   parroquia_urbana = el valle: conducir en estado de embriaguez (3.0/2.0)
+|   hora = h21: no ceder el derecho de via (9.0/4.0)
+|   hora = h19: imprudencia del conductor (11.0/5.0)
+|   hora = h02: conducir en estado de embriaguez (9.0/5.0)
+|   hora = h17: imprudencia del conductor (6.0/3.0)
+|   hora = h12
+|   |   parroquia_urbana = punzara: negligencia del conductor (1.0)
+|   |   parroquia_urbana = sucre: imprudencia del conductor (2.0)
+|   |   parroquia_urbana = san sebastian: no respetar las senales de transito (1.0)
+|   |   parroquia_urbana = carigan: imprudencia del conductor (0.0)
+|   |   parroquia_urbana = el sagrario: imprudencia del conductor (2.0)
+|   |   parroquia_urbana = el valle: conducir en exceso de velocidad (1.0)
+|   hora = h03: imprudencia del conductor (3.0)
+|   hora = h16: imprudencia del conductor (10.0/6.0)
+|   hora = h01: conducir en estado de embriaguez (9.0/5.0)
+|   hora = h08: no ceder el derecho de via (9.0/5.0)
+|   hora = h05: no ceder el derecho de via (8.0/3.0)
+|   hora = h14: no ceder el derecho de via (15.0/8.0)
+|   hora = h23: no ceder el derecho de via (9.0/5.0)
+|   hora = h07: no ceder el derecho de via (12.0/7.0)
+|   hora = h10: imprudencia del conductor (14.0/9.0)
+|   hora = h15
+|   |   dia = miercoles: no ceder el derecho de via (0.0)
+|   |   dia = jueves: no respetar las senales de transito (1.0)
+|   |   dia = viernes: no ceder el derecho de via (0.0)
+|   |   dia = sabado: no ceder el derecho de via (3.0/1.0)
+|   |   dia = domingo: negligencia del conductor (3.0/2.0)
+|   |   dia = lunes: no respetar las senales de transito (1.0)
+|   |   dia = martes: no ceder el derecho de via (1.0)
+|   hora = h00: no ceder el derecho de via (6.0/3.0)
+|   hora = h11: no respetar las senales de transito (10.0/6.0)
+|   hora = h09
+|   |   dia = miercoles: conducir en exceso de velocidad (1.0)
+|   |   dia = jueves: cambio brusco e indebido de carril (1.0)
+|   |   dia = viernes: no ceder el derecho de via (1.0)
+|   |   dia = sabado: conducir en estado de embriaguez (2.0)
+|   |   dia = domingo: no ceder el derecho de via (6.0/4.0)
+|   |   dia = lunes: no ceder el derecho de via (2.0)
+|   |   dia = martes: no ceder el derecho de via (0.0)
+|   hora = h22
+|   |   dia = miercoles: no respetar las senales de transito (1.0)
+|   |   dia = jueves: no ceder el derecho de via (5.0/2.0)
+|   |   dia = viernes: no respetar las senales de transito (4.0/2.0)
+|   |   dia = sabado: conducir en estado de embriaguez (6.0/3.0)
+|   |   dia = domingo: conducir en exceso de velocidad (1.0)
+|   |   dia = lunes: conducir en estado de embriaguez (1.0)
+|   |   dia = martes: conducir en estado de embriaguez (1.0)
+|   hora = h06: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h04: conducir en estado de embriaguez (5.0/1.0)
+tipologia = estrellamiento: conducir en exceso de velocidad (236.0/130.0)
+tipologia = choque frontal longitudinal: conducir en estado de embriaguez (7.0/3.0)
+tipologia = choque lateral angular
+|   hora = h13: imprudencia del conductor (13.0/8.0)
+|   hora = h20
+|   |   dia = miercoles: imprudencia del conductor (1.0)
+|   |   dia = jueves: no ceder el derecho de via (1.0)
+|   |   dia = viernes: imprudencia del peaton (1.0)
+|   |   dia = sabado: imprudencia del conductor (3.0/2.0)
+|   |   dia = domingo: conducir en estado de embriaguez (1.0)
+|   |   dia = lunes: no respetar las senales de transito (3.0/1.0)
+|   |   dia = martes: imprudencia del conductor (3.0/2.0)
+|   hora = h18
+|   |   dia = miercoles: imprudencia del conductor (1.0)
+|   |   dia = jueves: imprudencia del conductor (0.0)
+|   |   dia = viernes: conducir en estado de embriaguez (2.0)
+|   |   dia = sabado: condiciones climaticas desfavorables (2.0/1.0)
+|   |   dia = domingo: imprudencia del conductor (2.0)
+|   |   dia = lunes: conducir en estado de embriaguez (2.0/1.0)
+|   |   dia = martes: imprudencia del conductor (3.0)
+|   hora = h21: imprudencia del conductor (10.0/5.0)
+|   hora = h19: imprudencia del conductor (7.0/3.0)
+|   hora = h02: conducir en estado de embriaguez (3.0/1.0)
+|   hora = h17: imprudencia del conductor (6.0/3.0)
+|   hora = h12: no ceder el derecho de via (17.0/12.0)
+|   hora = h03: imprudencia del conductor (3.0/2.0)
+|   hora = h16: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h01
+|   |   parroquia_urbana = punzara: conducir en estado de embriaguez (2.0)
+|   |   parroquia_urbana = sucre: conducir en estado de embriaguez (0.0)
+|   |   parroquia_urbana = san sebastian: no ceder el derecho de via (3.0/1.0)
+|   |   parroquia_urbana = carigan: conducir en estado de embriaguez (3.0)
+|   |   parroquia_urbana = el sagrario: imprudencia del conductor (2.0/1.0)
+|   |   parroquia_urbana = el valle: conducir en estado de embriaguez (0.0)
+|   hora = h08: imprudencia del conductor (7.0/5.0)
+|   hora = h05: conducir en estado de embriaguez (3.0/2.0)
+|   hora = h14
+|   |   dia = miercoles: no respetar las senales de transito (0.0)
+|   |   dia = jueves: no respetar las senales de transito (0.0)
+|   |   dia = viernes: conducir en estado de embriaguez (1.0)
+|   |   dia = sabado: imprudencia del conductor (4.0/2.0)
+|   |   dia = domingo: no respetar las senales de transito (7.0/4.0)
+|   |   dia = lunes: no ceder el derecho de via (1.0)
+|   |   dia = martes: no respetar las senales de transito (0.0)
+|   hora = h23: conducir en estado de embriaguez (9.0/3.0)
+|   hora = h07: no ceder el derecho de via (12.0/6.0)
+|   hora = h10
+|   |   dia = miercoles: imprudencia del conductor (0.0)
+|   |   dia = jueves: imprudencia del conductor (1.0)
+|   |   dia = viernes: no respetar las senales de transito (3.0/1.0)
+|   |   dia = sabado: imprudencia del conductor (2.0/1.0)
+|   |   dia = domingo: conducir en estado de embriaguez (1.0)
+|   |   dia = lunes: conducir en exceso de velocidad (1.0)
+|   |   dia = martes: imprudencia del conductor (0.0)
+|   hora = h15
+|   |   dia = miercoles: conducir en estado de embriaguez (3.0/2.0)
+|   |   dia = jueves: cambio brusco e indebido de carril (2.0/1.0)
+|   |   dia = viernes: imprudencia del conductor (1.0)
+|   |   dia = sabado: no ceder el derecho de via (0.0)
+|   |   dia = domingo: cambio brusco e indebido de carril (1.0)
+|   |   dia = lunes: no ceder el derecho de via (3.0/1.0)
+|   |   dia = martes: no ceder el derecho de via (0.0)
+|   hora = h00: no ceder el derecho de via (4.0/2.0)
+|   hora = h11: no ceder el derecho de via (9.0/5.0)
+|   hora = h09: no ceder el derecho de via (5.0/3.0)
+|   hora = h22: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h06
+|   |   nro_heridos = 1h: conducir en estado de embriaguez (2.0/1.0)
+|   |   nro_heridos = 0h: imprudencia del conductor (4.0/2.0)
+|   |   nro_heridos = 3h: no respetar las senales de transito (1.0)
+|   |   nro_heridos = 2h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 4h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 5h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 6h: imprudencia del conductor (0.0)
+|   hora = h04: conducir en estado de embriaguez (4.0/1.0)
+tipologia = roce negativo: imprudencia del conductor (29.0/16.0)
+tipologia = colision: imprudencia del conductor (18.0/9.0)
+tipologia = choque por alcance: no mantener la distancia reglamentaria (67.0/33.0)
+tipologia = roce positivo: negligencia del conductor (3.0/2.0)
+tipologia = perdida de carril: conducir en exceso de velocidad (89.0/26.0)
+tipologia = choque frontal excentrico: conducir en estado de embriaguez (31.0/17.0)
+tipologia = caida de pasajero: imprudencia del conductor (3.0/1.0)
+tipologia = perdida de pista
+|   nro_heridos = 1h: conducir en estado de embriaguez (2.0)
+|   nro_heridos = 0h: conducir en exceso de velocidad (3.0/1.0)
+|   nro_heridos = 3h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 2h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 4h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 5h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 6h: conducir en estado de embriaguez (0.0)
+tipologia = atipico: imprudencia del conductor (15.0/2.0)
+tipologia = encunetamiento: imprudencia del conductor (2.0/1.0)
+tipologia = arrollamiento
+|   parroquia_urbana = punzara: imprudencia del conductor (0.0)
+|   parroquia_urbana = sucre: imprudencia del conductor (0.0)
+|   parroquia_urbana = san sebastian: imprudencia del conductor (0.0)
+|   parroquia_urbana = carigan: imprudencia del conductor (4.0/2.0)
+|   parroquia_urbana = el sagrario: negligencia del conductor (2.0/1.0)
+|   parroquia_urbana = el valle: imprudencia del conductor (0.0)
+tipologia = rozamiento: imprudencia del conductor (6.0/2.0)
+tipologia = volcamiento lateral: imprudencia del conductor (5.0/2.0)
+tipologia = volcamiento longitudinal
+|   nro_heridos = 1h: condiciones climaticas desfavorables (2.0/1.0)
+|   nro_heridos = 0h: conducir en exceso de velocidad (2.0)
+|   nro_heridos = 3h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 2h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 4h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 5h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 6h: conducir en exceso de velocidad (0.0)
+tipologia = volcamiento: conducir en exceso de velocidad (1.0)
+tipologia = choque frontal: imprudencia del conductor (1.0)
+
+Number of Leaves  : 	159
+
+Size of the tree : 	178
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     AT2018_2019_2020_NBD_caso1
+Instances:     unknown (yet). Reading incrementally
+Attributes:   7
+
+=== Predictions on user test set ===
+
+    inst#     actual  predicted error prediction
+        1 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+        2 2:'negligencia del conductor' 1:imprudencia del peaton   +   0.58 
+        3 3:'condiciones climaticas desfavorables' 3:condiciones climaticas desfavorables       1 
+        4 4:'fallas mecanicas no previsibles' 12:conducir en exceso de velocidad   +   0.449 
+        5 5:'imprudencia del conductor' 5:imprudencia del conductor       0.545 
+        6 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+        7 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+        8 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.571 
+        9 6:'conducir en estado de embriaguez' 1:imprudencia del peaton   +   0.58 
+       10 3:'condiciones climaticas desfavorables' 5:imprudencia del conductor   +   0.571 
+       11 7:'no ceder el derecho de via' 7:no ceder el derecho de via       0.294 
+       12 8:'cambio brusco e indebido de carril' 5:imprudencia del conductor   +   0.448 
+       13 9:'no mantener la distancia reglamentaria' 12:conducir en exceso de velocidad   +   0.449 
+       14 2:'negligencia del conductor' 5:imprudencia del conductor   +   0.5 
+       15 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+       16 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       17 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.286 
+       18 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       19 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       1 
+       20 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+       21 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.667 
+       22 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+       23 8:'cambio brusco e indebido de carril' 7:no ceder el derecho de via   +   0.467 
+       24 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       25 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+       26 2:'negligencia del conductor' 7:no ceder el derecho de via   +   0.444 
+       27 2:'negligencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       28 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+       29 2:'negligencia del conductor' 2:negligencia del conductor       0.333 
+       30 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.333 
+       31 2:'negligencia del conductor' 2:negligencia del conductor       0.333 
+       32 4:'fallas mecanicas no previsibles' 12:conducir en exceso de velocidad   +   0.449 
+       33 2:'negligencia del conductor' 12:conducir en exceso de velocidad   +   0.708 
+       34 2:'negligencia del conductor' 5:imprudencia del conductor   +   0.448 
+       35 9:'no mantener la distancia reglamentaria' 9:no mantener la distancia reglamentaria       0.507 
+       36 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       37 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+       38 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+       39 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       40 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+       41 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+       42 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       43 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       44 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.417 
+       45 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       46 6:'conducir en estado de embriaguez' 2:negligencia del conductor   +   0.333 
+       47 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   0.667 
+       48 10:'inobservancia de leyes de transito' 7:no ceder el derecho de via   +   0.294 
+       49 11:'no respetar las senales de transito' 11:no respetar las senales de transito       0.4 
+       50 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       51 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.444 
+       52 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.708 
+       53 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.448 
+       54 10:'inobservancia de leyes de transito' 5:imprudencia del conductor   +   0.667 
+       55 11:'no respetar las senales de transito' 7:no ceder el derecho de via   +   0.5 
+       56 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.452 
+       57 10:'inobservancia de leyes de transito' 5:imprudencia del conductor   +   0.448 
+       58 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       59 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.448 
+       60 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.452 
+       61 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       62 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.467 
+       63 5:'imprudencia del conductor' 5:imprudencia del conductor       0.4 
+       64 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       65 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.5 
+       66 4:'fallas mecanicas no previsibles' 12:conducir en exceso de velocidad   +   0.449 
+       67 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.8 
+       68 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       69 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       70 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+       71 5:'imprudencia del conductor' 5:imprudencia del conductor       0.571 
+       72 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       73 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   0.4 
+       74 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       75 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.333 
+       76 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       77 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+       78 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.75 
+       79 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+       80 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.708 
+       81 5:'imprudencia del conductor' 5:imprudencia del conductor       0.4 
+       82 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+       83 5:'imprudencia del conductor' 5:imprudencia del conductor       0.545 
+       84 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.5 
+       85 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       86 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       87 5:'imprudencia del conductor' 5:imprudencia del conductor       0.75 
+       88 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       89 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+       90 8:'cambio brusco e indebido de carril' 9:no mantener la distancia reglamentaria   +   0.507 
+       91 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+       92 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       93 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       94 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+       95 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       96 4:'fallas mecanicas no previsibles' 6:conducir en estado de embriaguez   +   0.571 
+       97 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+       98 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       99 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      100 2:'negligencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      101 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      102 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       1 
+      103 9:'no mantener la distancia reglamentaria' 9:no mantener la distancia reglamentaria       0.507 
+      104 10:'inobservancia de leyes de transito' 12:conducir en exceso de velocidad   +   0.449 
+      105 5:'imprudencia del conductor' 5:imprudencia del conductor       0.333 
+      106 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+      107 7:'no ceder el derecho de via' 7:no ceder el derecho de via       0.467 
+      108 6:'conducir en estado de embriaguez' 7:no ceder el derecho de via   +   0.294 
+      109 10:'inobservancia de leyes de transito' 6:conducir en estado de embriaguez   +   0.444 
+      110 10:'inobservancia de leyes de transito' 7:no ceder el derecho de via   +   0.333 
+      111 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      112 4:'fallas mecanicas no previsibles' 12:conducir en exceso de velocidad   +   0.708 
+      113 8:'cambio brusco e indebido de carril' 6:conducir en estado de embriaguez   +   0.333 
+      114 10:'inobservancia de leyes de transito' 12:conducir en exceso de velocidad   +   0.449 
+      115 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      116 11:'no respetar las senales de transito' 11:no respetar las senales de transito       0.667 
+      117 9:'no mantener la distancia reglamentaria' 9:no mantener la distancia reglamentaria       0.507 
+      118 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      119 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      120 7:'no ceder el derecho de via' 7:no ceder el derecho de via       0.444 
+      121 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       1 
+      122 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+      123 7:'no ceder el derecho de via' 7:no ceder el derecho de via       0.667 
+      124 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.75 
+      125 7:'no ceder el derecho de via' 7:no ceder el derecho de via       1 
+      126 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.545 
+      127 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.444 
+      128 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      129 10:'inobservancia de leyes de transito' 12:conducir en exceso de velocidad   +   0.449 
+      130 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       1 
+      131 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+      132 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      133 6:'conducir en estado de embriaguez' 7:no ceder el derecho de via   +   0.417 
+
+=== Summary ===
+
+Correctly Classified Instances          52               39.0977 %
+Incorrectly Classified Instances        81               60.9023 %
+Kappa statistic                          0.2876
+Mean absolute error                      0.0808
+Root mean squared error                  0.2105
+Total Number of Instances              133     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,024    0,700      1,000    0,824      0,827    0,988     0,700     imprudencia del peaton
+                 0,222    0,008    0,667      0,222    0,333      0,362    0,849     0,341     negligencia del conductor
+                 0,500    0,000    1,000      0,500    0,667      0,704    1,000     1,000     condiciones climaticas desfavorables
+                 0,000    0,000    ?          0,000    ?          ?        0,909     0,246     fallas mecanicas no previsibles
+                 0,412    0,134    0,656      0,412    0,506      0,316    0,680     0,617     imprudencia del conductor
+                 0,314    0,092    0,550      0,314    0,400      0,274    0,771     0,551     conducir en estado de embriaguez
+                 1,000    0,086    0,313      1,000    0,476      0,534    0,966     0,625     no ceder el derecho de via
+                 0,000    0,000    ?          0,000    ?          ?        0,932     0,401     cambio brusco e indebido de carril
+                 0,750    0,062    0,273      0,750    0,400      0,427    0,908     0,223     no mantener la distancia reglamentaria
+                 0,000    0,000    ?          0,000    ?          ?        0,908     0,444     inobservancia de leyes de transito
+                 0,667    0,015    0,500      0,667    0,571      0,566    0,988     0,500     no respetar las senales de transito
+                 ?        0,271    0,000      ?        ?          ?        ?         ?         conducir en exceso de velocidad
+                 ?        0,000    ?          ?        ?          ?        ?         ?         invadir carril de circulacion
+                 ?        0,000    ?          ?        ?          ?        ?         ?         razones desconocidas
+                 ?        0,000    ?          ?        ?          ?        ?         ?         no respetar las ordenes del agente de transito
+                 ?        0,000    ?          ?        ?          ?        ?         ?         impericia del conductor
+Weighted Avg.    0,391    0,083    ?          0,391    ?          ?        0,791     0,546     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p   <-- classified as
+  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = imprudencia del peaton
+  1  2  0  0  2  0  1  0  0  0  0  3  0  0  0  0 |  b = negligencia del conductor
+  0  0  1  0  1  0  0  0  0  0  0  0  0  0  0  0 |  c = condiciones climaticas desfavorables
+  0  0  0  0  0  1  0  0  0  0  0  4  0  0  0  0 |  d = fallas mecanicas no previsibles
+  1  0  0  0 21  6  4  0  4  0  2 13  0  0  0  0 |  e = imprudencia del conductor
+  1  1  0  0  5 11  2  0  3  0  0 12  0  0  0  0 |  f = conducir en estado de embriaguez
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0 |  g = no ceder el derecho de via
+  0  0  0  0  1  1  1  0  1  0  0  0  0  0  0  0 |  h = cambio brusco e indebido de carril
+  0  0  0  0  0  0  0  0  3  0  0  1  0  0  0  0 |  i = no mantener la distancia reglamentaria
+  0  0  0  0  2  1  2  0  0  0  0  3  0  0  0  0 |  j = inobservancia de leyes de transito
+  0  0  0  0  0  0  1  0  0  0  2  0  0  0  0  0 |  k = no respetar las senales de transito
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = conducir en exceso de velocidad
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = invadir carril de circulacion
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  n = razones desconocidas
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = no respetar las ordenes del agente de transito
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  p = impericia del conductor
+
+=== Model information ===
+
+Filename:     causas_2018_2019_2020.model
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     AT2018_2019_2020_NBD_caso1
+Attributes:   7
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+
+=== Classifier model ===
+
+J48 pruned tree
+------------------
+
+tipologia = atropello: imprudencia del peaton (81.0/34.0)
+tipologia = choque lateral perpendicular
+|   hora = h13
+|   |   nro_heridos = 1h: no ceder el derecho de via (3.0)
+|   |   nro_heridos = 0h: imprudencia del conductor (4.0/1.0)
+|   |   nro_heridos = 3h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 2h: imprudencia del conductor (1.0)
+|   |   nro_heridos = 4h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 5h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 6h: imprudencia del conductor (0.0)
+|   hora = h20: imprudencia del conductor (7.0/3.0)
+|   hora = h18
+|   |   parroquia_urbana = punzara: no ceder el derecho de via (1.0)
+|   |   parroquia_urbana = sucre: no ceder el derecho de via (0.0)
+|   |   parroquia_urbana = san sebastian: condiciones climaticas desfavorables (1.0)
+|   |   parroquia_urbana = carigan: no ceder el derecho de via (0.0)
+|   |   parroquia_urbana = el sagrario: no respetar las senales de transito (3.0/1.0)
+|   |   parroquia_urbana = el valle: conducir en estado de embriaguez (3.0/2.0)
+|   hora = h21: no ceder el derecho de via (9.0/4.0)
+|   hora = h19: imprudencia del conductor (11.0/5.0)
+|   hora = h02: conducir en estado de embriaguez (9.0/5.0)
+|   hora = h17: imprudencia del conductor (6.0/3.0)
+|   hora = h12
+|   |   parroquia_urbana = punzara: negligencia del conductor (1.0)
+|   |   parroquia_urbana = sucre: imprudencia del conductor (2.0)
+|   |   parroquia_urbana = san sebastian: no respetar las senales de transito (1.0)
+|   |   parroquia_urbana = carigan: imprudencia del conductor (0.0)
+|   |   parroquia_urbana = el sagrario: imprudencia del conductor (2.0)
+|   |   parroquia_urbana = el valle: conducir en exceso de velocidad (1.0)
+|   hora = h03: imprudencia del conductor (3.0)
+|   hora = h16: imprudencia del conductor (10.0/6.0)
+|   hora = h01: conducir en estado de embriaguez (9.0/5.0)
+|   hora = h08: no ceder el derecho de via (9.0/5.0)
+|   hora = h05: no ceder el derecho de via (8.0/3.0)
+|   hora = h14: no ceder el derecho de via (15.0/8.0)
+|   hora = h23: no ceder el derecho de via (9.0/5.0)
+|   hora = h07: no ceder el derecho de via (12.0/7.0)
+|   hora = h10: imprudencia del conductor (14.0/9.0)
+|   hora = h15
+|   |   dia = miercoles: no ceder el derecho de via (0.0)
+|   |   dia = jueves: no respetar las senales de transito (1.0)
+|   |   dia = viernes: no ceder el derecho de via (0.0)
+|   |   dia = sabado: no ceder el derecho de via (3.0/1.0)
+|   |   dia = domingo: negligencia del conductor (3.0/2.0)
+|   |   dia = lunes: no respetar las senales de transito (1.0)
+|   |   dia = martes: no ceder el derecho de via (1.0)
+|   hora = h00: no ceder el derecho de via (6.0/3.0)
+|   hora = h11: no respetar las senales de transito (10.0/6.0)
+|   hora = h09
+|   |   dia = miercoles: conducir en exceso de velocidad (1.0)
+|   |   dia = jueves: cambio brusco e indebido de carril (1.0)
+|   |   dia = viernes: no ceder el derecho de via (1.0)
+|   |   dia = sabado: conducir en estado de embriaguez (2.0)
+|   |   dia = domingo: no ceder el derecho de via (6.0/4.0)
+|   |   dia = lunes: no ceder el derecho de via (2.0)
+|   |   dia = martes: no ceder el derecho de via (0.0)
+|   hora = h22
+|   |   dia = miercoles: no respetar las senales de transito (1.0)
+|   |   dia = jueves: no ceder el derecho de via (5.0/2.0)
+|   |   dia = viernes: no respetar las senales de transito (4.0/2.0)
+|   |   dia = sabado: conducir en estado de embriaguez (6.0/3.0)
+|   |   dia = domingo: conducir en exceso de velocidad (1.0)
+|   |   dia = lunes: conducir en estado de embriaguez (1.0)
+|   |   dia = martes: conducir en estado de embriaguez (1.0)
+|   hora = h06: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h04: conducir en estado de embriaguez (5.0/1.0)
+tipologia = estrellamiento: conducir en exceso de velocidad (236.0/130.0)
+tipologia = choque frontal longitudinal: conducir en estado de embriaguez (7.0/3.0)
+tipologia = choque lateral angular
+|   hora = h13: imprudencia del conductor (13.0/8.0)
+|   hora = h20
+|   |   dia = miercoles: imprudencia del conductor (1.0)
+|   |   dia = jueves: no ceder el derecho de via (1.0)
+|   |   dia = viernes: imprudencia del peaton (1.0)
+|   |   dia = sabado: imprudencia del conductor (3.0/2.0)
+|   |   dia = domingo: conducir en estado de embriaguez (1.0)
+|   |   dia = lunes: no respetar las senales de transito (3.0/1.0)
+|   |   dia = martes: imprudencia del conductor (3.0/2.0)
+|   hora = h18
+|   |   dia = miercoles: imprudencia del conductor (1.0)
+|   |   dia = jueves: imprudencia del conductor (0.0)
+|   |   dia = viernes: conducir en estado de embriaguez (2.0)
+|   |   dia = sabado: condiciones climaticas desfavorables (2.0/1.0)
+|   |   dia = domingo: imprudencia del conductor (2.0)
+|   |   dia = lunes: conducir en estado de embriaguez (2.0/1.0)
+|   |   dia = martes: imprudencia del conductor (3.0)
+|   hora = h21: imprudencia del conductor (10.0/5.0)
+|   hora = h19: imprudencia del conductor (7.0/3.0)
+|   hora = h02: conducir en estado de embriaguez (3.0/1.0)
+|   hora = h17: imprudencia del conductor (6.0/3.0)
+|   hora = h12: no ceder el derecho de via (17.0/12.0)
+|   hora = h03: imprudencia del conductor (3.0/2.0)
+|   hora = h16: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h01
+|   |   parroquia_urbana = punzara: conducir en estado de embriaguez (2.0)
+|   |   parroquia_urbana = sucre: conducir en estado de embriaguez (0.0)
+|   |   parroquia_urbana = san sebastian: no ceder el derecho de via (3.0/1.0)
+|   |   parroquia_urbana = carigan: conducir en estado de embriaguez (3.0)
+|   |   parroquia_urbana = el sagrario: imprudencia del conductor (2.0/1.0)
+|   |   parroquia_urbana = el valle: conducir en estado de embriaguez (0.0)
+|   hora = h08: imprudencia del conductor (7.0/5.0)
+|   hora = h05: conducir en estado de embriaguez (3.0/2.0)
+|   hora = h14
+|   |   dia = miercoles: no respetar las senales de transito (0.0)
+|   |   dia = jueves: no respetar las senales de transito (0.0)
+|   |   dia = viernes: conducir en estado de embriaguez (1.0)
+|   |   dia = sabado: imprudencia del conductor (4.0/2.0)
+|   |   dia = domingo: no respetar las senales de transito (7.0/4.0)
+|   |   dia = lunes: no ceder el derecho de via (1.0)
+|   |   dia = martes: no respetar las senales de transito (0.0)
+|   hora = h23: conducir en estado de embriaguez (9.0/3.0)
+|   hora = h07: no ceder el derecho de via (12.0/6.0)
+|   hora = h10
+|   |   dia = miercoles: imprudencia del conductor (0.0)
+|   |   dia = jueves: imprudencia del conductor (1.0)
+|   |   dia = viernes: no respetar las senales de transito (3.0/1.0)
+|   |   dia = sabado: imprudencia del conductor (2.0/1.0)
+|   |   dia = domingo: conducir en estado de embriaguez (1.0)
+|   |   dia = lunes: conducir en exceso de velocidad (1.0)
+|   |   dia = martes: imprudencia del conductor (0.0)
+|   hora = h15
+|   |   dia = miercoles: conducir en estado de embriaguez (3.0/2.0)
+|   |   dia = jueves: cambio brusco e indebido de carril (2.0/1.0)
+|   |   dia = viernes: imprudencia del conductor (1.0)
+|   |   dia = sabado: no ceder el derecho de via (0.0)
+|   |   dia = domingo: cambio brusco e indebido de carril (1.0)
+|   |   dia = lunes: no ceder el derecho de via (3.0/1.0)
+|   |   dia = martes: no ceder el derecho de via (0.0)
+|   hora = h00: no ceder el derecho de via (4.0/2.0)
+|   hora = h11: no ceder el derecho de via (9.0/5.0)
+|   hora = h09: no ceder el derecho de via (5.0/3.0)
+|   hora = h22: conducir en estado de embriaguez (6.0/3.0)
+|   hora = h06
+|   |   nro_heridos = 1h: conducir en estado de embriaguez (2.0/1.0)
+|   |   nro_heridos = 0h: imprudencia del conductor (4.0/2.0)
+|   |   nro_heridos = 3h: no respetar las senales de transito (1.0)
+|   |   nro_heridos = 2h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 4h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 5h: imprudencia del conductor (0.0)
+|   |   nro_heridos = 6h: imprudencia del conductor (0.0)
+|   hora = h04: conducir en estado de embriaguez (4.0/1.0)
+tipologia = roce negativo: imprudencia del conductor (29.0/16.0)
+tipologia = colision: imprudencia del conductor (18.0/9.0)
+tipologia = choque por alcance: no mantener la distancia reglamentaria (67.0/33.0)
+tipologia = roce positivo: negligencia del conductor (3.0/2.0)
+tipologia = perdida de carril: conducir en exceso de velocidad (89.0/26.0)
+tipologia = choque frontal excentrico: conducir en estado de embriaguez (31.0/17.0)
+tipologia = caida de pasajero: imprudencia del conductor (3.0/1.0)
+tipologia = perdida de pista
+|   nro_heridos = 1h: conducir en estado de embriaguez (2.0)
+|   nro_heridos = 0h: conducir en exceso de velocidad (3.0/1.0)
+|   nro_heridos = 3h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 2h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 4h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 5h: conducir en estado de embriaguez (0.0)
+|   nro_heridos = 6h: conducir en estado de embriaguez (0.0)
+tipologia = atipico: imprudencia del conductor (15.0/2.0)
+tipologia = encunetamiento: imprudencia del conductor (2.0/1.0)
+tipologia = arrollamiento
+|   parroquia_urbana = punzara: imprudencia del conductor (0.0)
+|   parroquia_urbana = sucre: imprudencia del conductor (0.0)
+|   parroquia_urbana = san sebastian: imprudencia del conductor (0.0)
+|   parroquia_urbana = carigan: imprudencia del conductor (4.0/2.0)
+|   parroquia_urbana = el sagrario: negligencia del conductor (2.0/1.0)
+|   parroquia_urbana = el valle: imprudencia del conductor (0.0)
+tipologia = rozamiento: imprudencia del conductor (6.0/2.0)
+tipologia = volcamiento lateral: imprudencia del conductor (5.0/2.0)
+tipologia = volcamiento longitudinal
+|   nro_heridos = 1h: condiciones climaticas desfavorables (2.0/1.0)
+|   nro_heridos = 0h: conducir en exceso de velocidad (2.0)
+|   nro_heridos = 3h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 2h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 4h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 5h: conducir en exceso de velocidad (0.0)
+|   nro_heridos = 6h: conducir en exceso de velocidad (0.0)
+tipologia = volcamiento: conducir en exceso de velocidad (1.0)
+tipologia = choque frontal: imprudencia del conductor (1.0)
+
+Number of Leaves  : 	159
+
+Size of the tree : 	178
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     AT2021_pruebas_c1
+Instances:     unknown (yet). Reading incrementally
+Attributes:   7
+
+=== Predictions on user test set ===
+
+    inst#     actual  predicted error prediction
+        1 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+        2 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+        3 9:'no mantener la distancia reglamentaria' 9:no mantener la distancia reglamentaria       0.507 
+        4 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+        5 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+        6 9:'no mantener la distancia reglamentaria' 9:no mantener la distancia reglamentaria       0.507 
+        7 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+        8 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+        9 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       10 11:'no respetar las senales de transito' 7:no ceder el derecho de via   +   0.467 
+       11 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       12 3:'condiciones climaticas desfavorables' 5:imprudencia del conductor   +   0.5 
+       13 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.333 
+       14 11:'no respetar las senales de transito' 6:conducir en estado de embriaguez   +   0.75 
+       15 12:'conducir en exceso de velocidad' 5:imprudencia del conductor   +   0.448 
+       16 7:'no ceder el derecho de via' 6:conducir en estado de embriaguez   +   1 
+       17 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       18 16:'impericia del conductor' 7:no ceder el derecho de via   +   0.5 
+       19 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       20 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.5 
+       21 7:'no ceder el derecho de via' 6:conducir en estado de embriaguez   +   0.8 
+       22 16:'impericia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+       23 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.708 
+       24 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       25 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.5 
+       26 12:'conducir en exceso de velocidad' 6:conducir en estado de embriaguez   +   0.5 
+       27 12:'conducir en exceso de velocidad' 7:no ceder el derecho de via   +   0.556 
+       28 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.333 
+       29 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.8 
+       30 4:'fallas mecanicas no previsibles' 6:conducir en estado de embriaguez   +   0.6 
+       31 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       32 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       1 
+       33 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.625 
+       34 5:'imprudencia del conductor' 5:imprudencia del conductor       0.571 
+       35 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       36 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       37 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+       38 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       39 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       40 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       41 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+       42 3:'condiciones climaticas desfavorables' 12:conducir en exceso de velocidad   +   0.708 
+       43 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.667 
+       44 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       45 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       46 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       47 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       1 
+       48 11:'no respetar las senales de transito' 11:no respetar las senales de transito       0.4 
+       49 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.667 
+       50 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.448 
+       51 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       52 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.467 
+       53 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+       54 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       55 4:'fallas mecanicas no previsibles' 12:conducir en exceso de velocidad   +   0.708 
+       56 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+       57 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       58 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.417 
+       59 11:'no respetar las senales de transito' 5:imprudencia del conductor   +   0.357 
+       60 12:'conducir en exceso de velocidad' 7:no ceder el derecho de via   +   0.467 
+       61 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.333 
+       62 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+       63 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.545 
+       64 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       65 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       66 12:'conducir en exceso de velocidad' 3:condiciones climaticas desfavorables   +   0.5 
+       67 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       68 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.625 
+       69 4:'fallas mecanicas no previsibles' 5:imprudencia del conductor   +   0.5 
+       70 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+       71 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.5 
+       72 5:'imprudencia del conductor' 2:negligencia del conductor   +   1 
+       73 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+       74 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       75 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+       76 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+       77 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.708 
+       78 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+       79 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+       80 12:'conducir en exceso de velocidad' 11:no respetar las senales de transito   +   1 
+       81 12:'conducir en exceso de velocidad' 5:imprudencia del conductor   +   0.75 
+       82 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       83 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       84 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+       85 11:'no respetar las senales de transito' 11:no respetar las senales de transito       0.5 
+       86 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+       87 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+       88 12:'conducir en exceso de velocidad' 5:imprudencia del conductor   +   0.4 
+       89 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       90 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       91 12:'conducir en exceso de velocidad' 7:no ceder el derecho de via   +   0.294 
+       92 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.708 
+       93 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+       94 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+       95 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+       96 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   1 
+       97 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+       98 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   0.4 
+       99 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      100 5:'imprudencia del conductor' 5:imprudencia del conductor       0.286 
+      101 4:'fallas mecanicas no previsibles' 6:conducir en estado de embriaguez   +   1 
+      102 12:'conducir en exceso de velocidad' 5:imprudencia del conductor   +   0.5 
+      103 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      104 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      105 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.294 
+      106 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+      107 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      108 5:'imprudencia del conductor' 5:imprudencia del conductor       0.357 
+      109 12:'conducir en exceso de velocidad' 7:no ceder el derecho de via   +   0.417 
+      110 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      111 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      112 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.444 
+      113 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      114 6:'conducir en estado de embriaguez' 1:imprudencia del peaton   +   0.58 
+      115 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      116 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+      117 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      118 11:'no respetar las senales de transito' 5:imprudencia del conductor   +   0.545 
+      119 5:'imprudencia del conductor' 5:imprudencia del conductor       0.545 
+      120 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.385 
+      121 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      122 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      123 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      124 12:'conducir en exceso de velocidad' 6:conducir en estado de embriaguez   +   1 
+      125 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      126 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      127 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   0.308 
+      128 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      129 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.333 
+      130 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      131 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      132 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      133 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      134 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      135 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      136 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      137 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      138 11:'no respetar las senales de transito' 11:no respetar las senales de transito       0.4 
+      139 5:'imprudencia del conductor' 5:imprudencia del conductor       0.385 
+      140 12:'conducir en exceso de velocidad' 5:imprudencia del conductor   +   0.448 
+      141 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      142 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      143 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      144 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      145 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+      146 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      147 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      148 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      149 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      150 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+      151 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      152 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+      153 5:'imprudencia del conductor' 5:imprudencia del conductor       0.357 
+      154 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   1 
+      155 12:'conducir en exceso de velocidad' 7:no ceder el derecho de via   +   0.5 
+      156 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+      157 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      158 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      159 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      160 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      161 6:'conducir en estado de embriaguez' 7:no ceder el derecho de via   +   0.294 
+      162 5:'imprudencia del conductor' 5:imprudencia del conductor       0.545 
+      163 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+      164 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+      165 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      166 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.357 
+      167 5:'imprudencia del conductor' 5:imprudencia del conductor       0.4 
+      168 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      169 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      170 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      171 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.452 
+      172 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   1 
+      173 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+      174 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      175 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+      176 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+      177 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   1 
+      178 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      179 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      180 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      181 5:'imprudencia del conductor' 5:imprudencia del conductor       0.385 
+      182 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+      183 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      184 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      185 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      186 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      187 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      188 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      189 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      190 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+      191 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+      192 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      193 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      194 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.667 
+      195 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   1 
+      196 5:'imprudencia del conductor' 5:imprudencia del conductor       0.75 
+      197 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      198 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      199 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      200 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+      201 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      202 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      203 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      204 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+      205 5:'imprudencia del conductor' 1:imprudencia del peaton   +   1 
+      206 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   1 
+      207 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      208 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      209 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      210 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      211 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      212 12:'conducir en exceso de velocidad' 7:no ceder el derecho de via   +   0.294 
+      213 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.708 
+      214 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      215 6:'conducir en estado de embriaguez' 7:no ceder el derecho de via   +   0.5 
+      216 6:'conducir en estado de embriaguez' 7:no ceder el derecho de via   +   0.444 
+      217 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.545 
+      218 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      219 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      220 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.556 
+      221 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.556 
+      222 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.708 
+      223 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      224 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.625 
+      225 11:'no respetar las senales de transito' 5:imprudencia del conductor   +   0.545 
+      226 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      227 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.444 
+      228 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      229 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      230 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   1 
+      231 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      232 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      233 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      234 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      235 11:'no respetar las senales de transito' 7:no ceder el derecho de via   +   0.444 
+      236 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      237 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      238 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.448 
+      239 12:'conducir en exceso de velocidad' 1:imprudencia del peaton   +   0.58 
+      240 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      241 11:'no respetar las senales de transito' 11:no respetar las senales de transito       0.4 
+      242 11:'no respetar las senales de transito' 7:no ceder el derecho de via   +   0.417 
+      243 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   0.429 
+      244 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      245 5:'imprudencia del conductor' 5:imprudencia del conductor       0.75 
+      246 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      247 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      248 5:'imprudencia del conductor' 5:imprudencia del conductor       0.286 
+      249 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      250 11:'no respetar las senales de transito' 11:no respetar las senales de transito       1 
+      251 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      252 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+      253 4:'fallas mecanicas no previsibles' 5:imprudencia del conductor   +   0.867 
+      254 5:'imprudencia del conductor' 1:imprudencia del peaton   +   1 
+      255 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      256 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.708 
+      257 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.444 
+      258 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      259 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      260 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       1 
+      261 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+      262 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      263 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+      264 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+      265 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      266 12:'conducir en exceso de velocidad' 5:imprudencia del conductor   +   0.448 
+      267 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      268 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      269 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      270 11:'no respetar las senales de transito' 11:no respetar las senales de transito       0.4 
+      271 5:'imprudencia del conductor' 8:cambio brusco e indebido de carril   +   0.5 
+      272 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.5 
+      273 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+      274 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+      275 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      276 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.708 
+      277 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.5 
+      278 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      279 12:'conducir en exceso de velocidad' 5:imprudencia del conductor   +   0.4 
+      280 5:'imprudencia del conductor' 5:imprudencia del conductor       0.286 
+      281 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      282 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+      283 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.417 
+      284 4:'fallas mecanicas no previsibles' 5:imprudencia del conductor   +   0.867 
+      285 5:'imprudencia del conductor' 5:imprudencia del conductor       0.571 
+      286 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      287 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      288 6:'conducir en estado de embriaguez' 1:imprudencia del peaton   +   1 
+      289 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      290 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   0.667 
+      291 6:'conducir en estado de embriaguez' 6:conducir en estado de embriaguez       0.333 
+      292 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      293 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      294 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      295 6:'conducir en estado de embriaguez' 7:no ceder el derecho de via   +   0.444 
+      296 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+      297 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   1 
+      298 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      299 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      300 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      301 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      302 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      303 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+      304 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      305 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.708 
+      306 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      307 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      308 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      309 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      310 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.467 
+      311 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      312 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.417 
+      313 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      314 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.452 
+      315 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      316 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      317 5:'imprudencia del conductor' 5:imprudencia del conductor       0.357 
+      318 6:'conducir en estado de embriaguez' 7:no ceder el derecho de via   +   0.467 
+      319 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      320 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.467 
+      321 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      322 11:'no respetar las senales de transito' 7:no ceder el derecho de via   +   0.444 
+      323 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      324 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      325 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      326 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      327 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      328 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      329 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      330 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      331 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      332 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+      333 5:'imprudencia del conductor' 5:imprudencia del conductor       0.357 
+      334 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      335 11:'no respetar las senales de transito' 7:no ceder el derecho de via   +   0.444 
+      336 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      337 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      338 6:'conducir en estado de embriaguez' 12:conducir en exceso de velocidad   +   0.449 
+      339 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+      340 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      341 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   0.333 
+      342 5:'imprudencia del conductor' 12:conducir en exceso de velocidad   +   0.449 
+      343 5:'imprudencia del conductor' 11:no respetar las senales de transito   +   0.429 
+      344 5:'imprudencia del conductor' 6:conducir en estado de embriaguez   +   1 
+      345 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.5 
+      346 5:'imprudencia del conductor' 5:imprudencia del conductor       0.357 
+      347 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+      348 5:'imprudencia del conductor' 1:imprudencia del peaton   +   0.58 
+      349 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.667 
+      350 5:'imprudencia del conductor' 7:no ceder el derecho de via   +   0.417 
+      351 12:'conducir en exceso de velocidad' 12:conducir en exceso de velocidad       0.449 
+      352 5:'imprudencia del conductor' 5:imprudencia del conductor       0.286 
+      353 1:'imprudencia del peaton' 1:imprudencia del peaton       0.58 
+      354 5:'imprudencia del conductor' 5:imprudencia del conductor       0.75 
+      355 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+      356 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      357 5:'imprudencia del conductor' 5:imprudencia del conductor       0.545 
+      358 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      359 5:'imprudencia del conductor' 5:imprudencia del conductor       0.5 
+      360 5:'imprudencia del conductor' 5:imprudencia del conductor       0.867 
+      361 5:'imprudencia del conductor' 5:imprudencia del conductor       0.448 
+      362 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+      363 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.385 
+      364 5:'imprudencia del conductor' 5:imprudencia del conductor       1 
+      365 5:'imprudencia del conductor' 5:imprudencia del conductor       0.357 
+      366 5:'imprudencia del conductor' 5:imprudencia del conductor       0.25 
+      367 5:'imprudencia del conductor' 9:no mantener la distancia reglamentaria   +   0.507 
+      368 5:'imprudencia del conductor' 5:imprudencia del conductor       0.286 
+      369 6:'conducir en estado de embriaguez' 5:imprudencia del conductor   +   0.571 
+      370 6:'conducir en estado de embriaguez' 9:no mantener la distancia reglamentaria   +   0.507 
+
+=== Summary ===
+
+Correctly Classified Instances         141               38.1081 %
+Incorrectly Classified Instances       229               61.8919 %
+Kappa statistic                          0.2213
+Mean absolute error                      0.0856
+Root mean squared error                  0.2215
+Total Number of Instances              370     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,034    0,556      1,000    0,714      0,733    0,979     0,556     imprudencia del peaton
+                 ?        0,003    0,000      ?        ?          ?        ?         ?         negligencia del conductor
+                 0,000    0,003    0,000      0,000    0,000      -0,004   0,623     0,018     condiciones climaticas desfavorables
+                 0,000    0,000    ?          0,000    ?          ?        0,641     0,091     fallas mecanicas no previsibles
+                 0,325    0,159    0,616      0,325    0,426      0,195    0,588     0,561     imprudencia del conductor
+                 0,091    0,089    0,242      0,091    0,132      0,003    0,629     0,302     conducir en estado de embriaguez
+                 0,000    0,117    0,000      0,000    0,000      -0,027   0,554     0,009     no ceder el derecho de via
+                 ?        0,003    0,000      ?        ?          ?        ?         ?         cambio brusco e indebido de carril
+                 1,000    0,065    0,077      1,000    0,143      0,268    0,967     0,077     no mantener la distancia reglamentaria
+                 ?        0,000    ?          ?        ?          ?        ?         ?         inobservancia de leyes de transito
+                 0,400    0,020    0,462      0,400    0,429      0,407    0,894     0,326     no respetar las senales de transito
+                 0,760    0,278    0,410      0,760    0,533      0,400    0,774     0,407     conducir en exceso de velocidad
+                 ?        0,000    ?          ?        ?          ?        ?         ?         invadir carril de circulacion
+                 ?        0,000    ?          ?        ?          ?        ?         ?         razones desconocidas
+                 ?        0,000    ?          ?        ?          ?        ?         ?         no respetar las ordenes del agente de transito
+                 0,000    0,000    ?          0,000    ?          ?        0,345     0,005     impericia del conductor
+Weighted Avg.    0,381    0,151    ?          0,381    ?          ?        0,665     0,439     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p   <-- classified as
+ 15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = imprudencia del peaton
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = negligencia del conductor
+  0  0  0  0  1  0  0  0  0  0  0  1  0  0  0  0 |  c = condiciones climaticas desfavorables
+  0  0  0  0  3  2  0  0  0  0  0  1  0  0  0  0 |  d = fallas mecanicas no previsibles
+  9  1  0  0 53 18 26  1 12  0  6 37  0  0  0  0 |  e = imprudencia del conductor
+  2  0  0  0 19  8  5  0 11  0  0 43  0  0  0  0 |  f = conducir en estado de embriaguez
+  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0 |  g = no ceder el derecho de via
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  h = cambio brusco e indebido de carril
+  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0 |  i = no mantener la distancia reglamentaria
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  j = inobservancia de leyes de transito
+  0  0  0  0  3  1  5  0  0  0  6  0  0  0  0  0 |  k = no respetar las senales de transito
+  1  0  1  0  7  2  6  0  0  0  1 57  0  0  0  0 |  l = conducir en exceso de velocidad
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = invadir carril de circulacion
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  n = razones desconocidas
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  o = no respetar las ordenes del agente de transito
+  0  0  0  0  0  0  1  0  1  0  0  0  0  0  0  0 |  p = impericia del conductor
+
