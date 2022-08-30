@@ -1,0 +1,514 @@
+=== Model information ===
+
+Filename:     tipologia_2018_2019_2020.model
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     AT2018_2019_2020_NBD_caso3
+Attributes:   7
+              dia
+              hora
+              tipologia
+              parroquia_urbana
+              causas
+              nro_heridos
+              nro_fallecidos
+
+=== Classifier model ===
+
+J48 pruned tree
+------------------
+
+causas = imprudencia del peaton: atropello (51.0/4.0)
+causas = negligencia del conductor
+|   hora = h12_h17: choque (8.0/4.0)
+|   hora = h18_h23
+|   |   nro_heridos = 1h: atropello (2.0)
+|   |   nro_heridos = 0h: colision (2.0/1.0)
+|   |   nro_heridos = 3h: choque (1.0)
+|   |   nro_heridos = 2h: atropello (0.0)
+|   |   nro_heridos = 4h: atropello (0.0)
+|   |   nro_heridos = 5h: atropello (0.0)
+|   |   nro_heridos = 6h: atropello (0.0)
+|   hora = h00_h05: perdida de carril_pista (1.0)
+|   hora = h06_h11: estrellamiento (3.0/1.0)
+causas = condiciones climaticas desfavorables: choque (8.0/3.0)
+causas = fallas mecanicas no previsibles
+|   nro_heridos = 1h: choque (2.0/1.0)
+|   nro_heridos = 0h: estrellamiento (10.0/3.0)
+|   nro_heridos = 3h: estrellamiento (0.0)
+|   nro_heridos = 2h: perdida de carril_pista (1.0)
+|   nro_heridos = 4h: estrellamiento (0.0)
+|   nro_heridos = 5h: estrellamiento (0.0)
+|   nro_heridos = 6h: estrellamiento (0.0)
+causas = imprudencia del conductor
+|   nro_fallecidos = 0fa: choque (220.0/94.0)
+|   nro_fallecidos = 1fa
+|   |   dia = lunes_martes_miercoles: atropello (3.0)
+|   |   dia = jueves_viernes: estrellamiento (2.0/1.0)
+|   |   dia = sabado_domingo: perdida de carril_pista (3.0/2.0)
+causas = conducir en estado de embriaguez: choque (235.0/116.0)
+causas = no ceder el derecho de via: choque (114.0)
+causas = cambio brusco e indebido de carril: choque (11.0/1.0)
+causas = no mantener la distancia reglamentaria: choque (43.0/8.0)
+causas = inobservancia de leyes de transito
+|   parroquia_urbana = punzara: choque (0.0)
+|   parroquia_urbana = sucre: estrellamiento (3.0/1.0)
+|   parroquia_urbana = san sebastian: choque (3.0/1.0)
+|   parroquia_urbana = carigan: choque (0.0)
+|   parroquia_urbana = el sagrario: choque (3.0/2.0)
+|   parroquia_urbana = el valle: choque (0.0)
+causas = no respetar las senales de transito: choque (67.0/4.0)
+causas = conducir en exceso de velocidad
+|   nro_heridos = 1h
+|   |   hora = h12_h17
+|   |   |   parroquia_urbana = punzara: choque (2.0)
+|   |   |   parroquia_urbana = sucre
+|   |   |   |   dia = lunes_martes_miercoles: atropello (2.0)
+|   |   |   |   dia = jueves_viernes: estrellamiento (1.0)
+|   |   |   |   dia = sabado_domingo: estrellamiento (2.0/1.0)
+|   |   |   parroquia_urbana = san sebastian: atropello (2.0/1.0)
+|   |   |   parroquia_urbana = carigan: estrellamiento (2.0/1.0)
+|   |   |   parroquia_urbana = el sagrario: choque (2.0)
+|   |   |   parroquia_urbana = el valle: perdida de carril_pista (1.0)
+|   |   hora = h18_h23: perdida de carril_pista (9.0/5.0)
+|   |   hora = h00_h05: estrellamiento (10.0/2.0)
+|   |   hora = h06_h11: choque (13.0/6.0)
+|   nro_heridos = 0h: estrellamiento (157.0/71.0)
+|   nro_heridos = 3h: choque (6.0/3.0)
+|   nro_heridos = 2h
+|   |   dia = lunes_martes_miercoles: perdida de carril_pista (3.0)
+|   |   dia = jueves_viernes: perdida de carril_pista (1.0)
+|   |   dia = sabado_domingo: choque (6.0/3.0)
+|   nro_heridos = 4h: perdida de carril_pista (1.0)
+|   nro_heridos = 5h: estrellamiento (0.0)
+|   nro_heridos = 6h: estrellamiento (0.0)
+causas = invadir carril de circulacion: choque (5.0)
+causas = razones desconocidas: atropello (5.0/3.0)
+causas = no respetar las ordenes del agente de transito: arrollamiento (1.0)
+causas = impericia del conductor: estrellamiento (1.0)
+
+Number of Leaves  : 	57
+
+Size of the tree : 	69
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     AT2021_pruebas_c3
+Instances:     unknown (yet). Reading incrementally
+Attributes:   7
+
+=== Predictions on user test set ===
+
+    inst#     actual  predicted error prediction
+        1 3:estrellamiento   2:choque   +   0.506 
+        2   2:choque   2:choque       0.506 
+        3   2:choque   2:choque       0.814 
+        4 1:atropello 1:atropello       0.922 
+        5   2:choque   2:choque       0.506 
+        6   2:choque   2:choque       0.814 
+        7 3:estrellamiento 1:atropello   +   0.5 
+        8 3:estrellamiento 3:estrellamiento       0.548 
+        9 3:estrellamiento 3:estrellamiento       0.8 
+       10   2:choque   2:choque       0.94 
+       11 3:estrellamiento 6:perdida de carril_pista   +   0.444 
+       12   2:choque   2:choque       0.625 
+       13   2:choque   2:choque       0.506 
+       14   2:choque   2:choque       0.94 
+       15     4:roce 3:estrellamiento   +   0.482 
+       16   2:choque   2:choque       1 
+       17 3:estrellamiento 3:estrellamiento       0.548 
+       18   2:choque 3:estrellamiento   +   1 
+       19 3:estrellamiento   2:choque   +   0.573 
+       20   2:choque   2:choque       0.506 
+       21   2:choque   2:choque       1 
+       22   2:choque 3:estrellamiento   +   1 
+       23 6:'perdida de carril_pista'   2:choque   +   0.506 
+       24 3:estrellamiento 3:estrellamiento       0.548 
+       25   2:choque   2:choque       0.573 
+       26   2:choque 3:estrellamiento   +   0.548 
+       27   2:choque 6:perdida de carril_pista   +   0.444 
+       28   2:choque   2:choque       0.573 
+       29   2:choque   2:choque       0.506 
+       30 6:'perdida de carril_pista' 6:perdida de carril_pista       1 
+       31   2:choque   2:choque       0.573 
+       32   2:choque   2:choque       0.506 
+       33   2:choque   2:choque       0.573 
+       34   2:choque   2:choque       0.573 
+       35 3:estrellamiento   2:choque   +   0.506 
+       36 3:estrellamiento   2:choque   +   0.506 
+       37   2:choque 3:estrellamiento   +   0.5 
+       38 3:estrellamiento 3:estrellamiento       0.548 
+       39 3:estrellamiento 3:estrellamiento       0.548 
+       40 3:estrellamiento   2:choque   +   0.573 
+       41   2:choque   2:choque       0.573 
+       42 6:'perdida de carril_pista'   2:choque   +   0.625 
+       43 6:'perdida de carril_pista'   2:choque   +   0.506 
+       44 3:estrellamiento   2:choque   +   0.573 
+       45 3:estrellamiento   2:choque   +   0.506 
+       46 3:estrellamiento 3:estrellamiento       0.548 
+       47   2:choque   2:choque       0.506 
+       48   2:choque   2:choque       0.94 
+       49 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+       50     4:roce   2:choque   +   0.506 
+       51 3:estrellamiento   2:choque   +   0.506 
+       52   2:choque   2:choque       0.573 
+       53   2:choque   2:choque       0.506 
+       54 3:estrellamiento   2:choque   +   0.573 
+       55 6:'perdida de carril_pista' 3:estrellamiento   +   0.538 
+       56   2:choque   2:choque       0.573 
+       57 3:estrellamiento 3:estrellamiento       0.548 
+       58   2:choque   2:choque       0.573 
+       59   2:choque   2:choque       0.94 
+       60   2:choque 3:estrellamiento   +   0.5 
+       61   2:choque   2:choque       0.573 
+       62 1:atropello   2:choque   +   0.573 
+       63   2:choque   2:choque       0.506 
+       64   2:choque   2:choque       0.573 
+       65 3:estrellamiento   2:choque   +   0.506 
+       66   2:choque   2:choque       0.5 
+       67 3:estrellamiento 3:estrellamiento       0.548 
+       68   2:choque   2:choque       0.573 
+       69 5:colision 3:estrellamiento   +   0.7 
+       70   2:choque   2:choque       0.573 
+       71   2:choque   2:choque       0.506 
+       72   2:choque   2:choque       0.573 
+       73 5:colision   2:choque   +   0.506 
+       74 3:estrellamiento   2:choque   +   0.573 
+       75 5:colision   2:choque   +   0.506 
+       76   2:choque   2:choque       0.573 
+       77 6:'perdida de carril_pista'   2:choque   +   0.506 
+       78   2:choque   2:choque       0.573 
+       79   2:choque   2:choque       0.573 
+       80   2:choque   2:choque       0.5 
+       81   2:choque 3:estrellamiento   +   0.548 
+       82 3:estrellamiento 3:estrellamiento       0.548 
+       83 3:estrellamiento   2:choque   +   0.573 
+       84 6:'perdida de carril_pista' 6:perdida de carril_pista       1 
+       85   2:choque   2:choque       0.94 
+       86   2:choque   2:choque       0.573 
+       87  8:atipico   2:choque   +   0.573 
+       88   2:choque 3:estrellamiento   +   0.548 
+       89 3:estrellamiento 6:perdida de carril_pista   +   1 
+       90 3:estrellamiento   2:choque   +   0.506 
+       91   2:choque   2:choque       1 
+       92 6:'perdida de carril_pista'   2:choque   +   0.506 
+       93   2:choque   2:choque       0.573 
+       94 3:estrellamiento   2:choque   +   0.506 
+       95 3:estrellamiento   2:choque   +   0.504 
+       96   2:choque   2:choque       0.573 
+       97 3:estrellamiento 3:estrellamiento       0.548 
+       98   2:choque   2:choque       0.573 
+       99 3:estrellamiento   2:choque   +   0.573 
+      100   2:choque   2:choque       0.573 
+      101 6:'perdida de carril_pista'   2:choque   +   0.5 
+      102   2:choque 6:perdida de carril_pista   +   0.444 
+      103 3:estrellamiento   2:choque   +   0.506 
+      104 3:estrellamiento   2:choque   +   0.506 
+      105   2:choque   2:choque       0.573 
+      106  8:atipico   2:choque   +   0.573 
+      107   2:choque   2:choque       0.573 
+      108   2:choque   2:choque       0.573 
+      109   2:choque 3:estrellamiento   +   0.548 
+      110   2:choque   2:choque       0.573 
+      111 3:estrellamiento 3:estrellamiento       0.548 
+      112   2:choque   2:choque       0.573 
+      113     4:roce   2:choque   +   0.573 
+      114 1:atropello   2:choque   +   0.506 
+      115 3:estrellamiento   2:choque   +   0.573 
+      116 5:colision   2:choque   +   0.506 
+      117 6:'perdida de carril_pista'   2:choque   +   0.538 
+      118   2:choque   2:choque       0.94 
+      119   2:choque   2:choque       0.573 
+      120   2:choque   2:choque       0.506 
+      121 3:estrellamiento 3:estrellamiento       0.548 
+      122 1:atropello 1:atropello       0.922 
+      123 3:estrellamiento   2:choque   +   0.573 
+      124 6:'perdida de carril_pista'   2:choque   +   0.538 
+      125 3:estrellamiento 3:estrellamiento       0.548 
+      126 3:estrellamiento 3:estrellamiento       0.548 
+      127   2:choque   2:choque       0.573 
+      128 3:estrellamiento 3:estrellamiento       0.5 
+      129   2:choque   2:choque       0.573 
+      130 1:atropello 1:atropello       0.922 
+      131 3:estrellamiento   2:choque   +   0.573 
+      132   2:choque   2:choque       0.506 
+      133 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      134   2:choque   2:choque       0.506 
+      135 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      136 3:estrellamiento   2:choque   +   1 
+      137   2:choque   2:choque       0.506 
+      138   2:choque   2:choque       0.94 
+      139   2:choque   2:choque       0.573 
+      140     4:roce 1:atropello   +   1 
+      141 3:estrellamiento   2:choque   +   0.573 
+      142 1:atropello 1:atropello       0.922 
+      143 3:estrellamiento   2:choque   +   0.506 
+      144   2:choque   2:choque       0.506 
+      145 1:atropello   2:choque   +   0.573 
+      146 3:estrellamiento 3:estrellamiento       0.548 
+      147 3:estrellamiento 3:estrellamiento       0.548 
+      148 3:estrellamiento   2:choque   +   0.573 
+      149 1:atropello 1:atropello       0.922 
+      150   2:choque   2:choque       0.573 
+      151     4:roce   2:choque   +   0.573 
+      152  8:atipico   2:choque   +   0.573 
+      153   2:choque   2:choque       0.573 
+      154   2:choque   2:choque       0.573 
+      155   2:choque   2:choque       0.538 
+      156  8:atipico   2:choque   +   0.573 
+      157 3:estrellamiento   2:choque   +   0.573 
+      158 1:atropello 1:atropello       0.922 
+      159 3:estrellamiento 3:estrellamiento       0.548 
+      160 3:estrellamiento   2:choque   +   0.506 
+      161   2:choque   2:choque       0.506 
+      162   2:choque   2:choque       0.573 
+      163   2:choque   2:choque       0.506 
+      164   2:choque   2:choque       0.573 
+      165     4:roce   2:choque   +   0.573 
+      166   2:choque   2:choque       0.506 
+      167   2:choque   2:choque       0.573 
+      168 1:atropello 1:atropello       0.922 
+      169 3:estrellamiento 3:estrellamiento       0.548 
+      170 3:estrellamiento   2:choque   +   0.573 
+      171   2:choque   2:choque       0.506 
+      172   2:choque   2:choque       0.573 
+      173 5:colision   2:choque   +   0.506 
+      174 1:atropello 1:atropello       0.922 
+      175   2:choque   2:choque       0.573 
+      176 1:atropello   2:choque   +   0.524 
+      177   2:choque   2:choque       0.573 
+      178     4:roce   2:choque   +   0.573 
+      179 3:estrellamiento   2:choque   +   0.573 
+      180 3:estrellamiento   2:choque   +   0.573 
+      181   2:choque   2:choque       0.573 
+      182   2:choque   2:choque       0.573 
+      183     4:roce   2:choque   +   0.573 
+      184   2:choque   2:choque       0.506 
+      185 3:estrellamiento 3:estrellamiento       0.548 
+      186 3:estrellamiento   2:choque   +   0.506 
+      187 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      188 3:estrellamiento   2:choque   +   0.506 
+      189 3:estrellamiento   2:choque   +   0.506 
+      190 5:colision   2:choque   +   0.506 
+      191   2:choque   2:choque       0.573 
+      192 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      193 3:estrellamiento   2:choque   +   0.573 
+      194   2:choque   2:choque       0.573 
+      195   2:choque   2:choque       0.573 
+      196   2:choque   2:choque       0.573 
+      197 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      198 3:estrellamiento 3:estrellamiento       0.8 
+      199 3:estrellamiento 3:estrellamiento       0.548 
+      200   2:choque   2:choque       0.573 
+      201 3:estrellamiento   2:choque   +   0.506 
+      202 3:estrellamiento 3:estrellamiento       0.548 
+      203 1:atropello 1:atropello       0.922 
+      204 1:atropello   2:choque   +   0.573 
+      205   2:choque   2:choque       0.573 
+      206   2:choque   2:choque       0.573 
+      207     4:roce   2:choque   +   0.573 
+      208 3:estrellamiento 3:estrellamiento       0.548 
+      209   2:choque   2:choque       0.573 
+      210 3:estrellamiento   2:choque   +   0.573 
+      211 1:atropello 1:atropello       0.922 
+      212   2:choque 3:estrellamiento   +   1 
+      213 6:'perdida de carril_pista'   2:choque   +   0.506 
+      214   2:choque   2:choque       0.506 
+      215   2:choque   2:choque       0.506 
+      216   2:choque   2:choque       0.506 
+      217   2:choque   2:choque       0.506 
+      218 3:estrellamiento   2:choque   +   0.506 
+      219 1:atropello 1:atropello       0.922 
+      220   2:choque   2:choque       0.573 
+      221   2:choque   2:choque       0.573 
+      222 6:'perdida de carril_pista'   2:choque   +   0.506 
+      223 3:estrellamiento   2:choque   +   0.573 
+      224   2:choque   2:choque       0.573 
+      225   2:choque   2:choque       0.94 
+      226 3:estrellamiento   2:choque   +   0.506 
+      227   2:choque   2:choque       0.573 
+      228 3:estrellamiento 3:estrellamiento       0.548 
+      229   2:choque   2:choque       0.573 
+      230   2:choque   2:choque       0.573 
+      231 3:estrellamiento 3:estrellamiento       0.548 
+      232 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      233 3:estrellamiento 3:estrellamiento       0.548 
+      234 3:estrellamiento   2:choque   +   0.506 
+      235   2:choque   2:choque       0.94 
+      236 3:estrellamiento 3:estrellamiento       0.548 
+      237     4:roce   2:choque   +   0.573 
+      238     4:roce   2:choque   +   0.506 
+      239 1:atropello 1:atropello       1 
+      240 3:estrellamiento 3:estrellamiento       0.548 
+      241   2:choque   2:choque       0.94 
+      242   2:choque   2:choque       0.94 
+      243   2:choque   2:choque       0.573 
+      244 3:estrellamiento   2:choque   +   0.506 
+      245   2:choque   2:choque       0.573 
+      246   2:choque   2:choque       0.573 
+      247 1:atropello 1:atropello       0.922 
+      248   2:choque   2:choque       0.573 
+      249     4:roce   2:choque   +   0.573 
+      250   2:choque   2:choque       0.94 
+      251 3:estrellamiento 3:estrellamiento       0.548 
+      252  8:atipico   2:choque   +   0.573 
+      253  8:atipico 3:estrellamiento   +   0.7 
+      254   2:choque   2:choque       0.573 
+      255 3:estrellamiento   2:choque   +   0.573 
+      256 6:'perdida de carril_pista'   2:choque   +   0.506 
+      257   2:choque   2:choque       0.573 
+      258 6:'perdida de carril_pista' 6:perdida de carril_pista       0.444 
+      259   2:choque   2:choque       0.573 
+      260   2:choque   2:choque       0.506 
+      261  8:atipico   2:choque   +   0.573 
+      262 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      263 1:atropello   2:choque   +   0.573 
+      264   2:choque   2:choque       0.573 
+      265   2:choque   2:choque       0.573 
+      266     4:roce 3:estrellamiento   +   0.548 
+      267 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      268 1:atropello 1:atropello       0.922 
+      269 3:estrellamiento   2:choque   +   0.573 
+      270   2:choque   2:choque       0.94 
+      271   2:choque   2:choque       0.573 
+      272 5:colision   2:choque   +   0.506 
+      273   2:choque   2:choque       0.573 
+      274  8:atipico   2:choque   +   0.573 
+      275 3:estrellamiento 3:estrellamiento       0.548 
+      276 6:'perdida de carril_pista' 6:perdida de carril_pista       1 
+      277   2:choque   2:choque       0.573 
+      278 3:estrellamiento 3:estrellamiento       0.548 
+      279   2:choque 6:perdida de carril_pista   +   1 
+      280   2:choque   2:choque       0.573 
+      281 3:estrellamiento   2:choque   +   0.506 
+      282   2:choque   2:choque       0.573 
+      283   2:choque   2:choque       0.573 
+      284  8:atipico 3:estrellamiento   +   0.7 
+      285   2:choque   2:choque       0.573 
+      286 3:estrellamiento 3:estrellamiento       0.548 
+      287 3:estrellamiento   2:choque   +   0.506 
+      288   2:choque   2:choque       0.506 
+      289 3:estrellamiento 3:estrellamiento       0.548 
+      290   2:choque   2:choque       0.573 
+      291   2:choque   2:choque       0.506 
+      292 3:estrellamiento   2:choque   +   0.506 
+      293 3:estrellamiento   2:choque   +   0.506 
+      294 3:estrellamiento   2:choque   +   0.573 
+      295   2:choque   2:choque       0.506 
+      296 1:atropello   2:choque   +   0.573 
+      297   2:choque   2:choque       0.573 
+      298 3:estrellamiento   2:choque   +   0.506 
+      299 3:estrellamiento 3:estrellamiento       0.482 
+      300 3:estrellamiento 3:estrellamiento       0.548 
+      301 3:estrellamiento   2:choque   +   0.506 
+      302 3:estrellamiento   2:choque   +   0.506 
+      303 5:colision   2:choque   +   0.573 
+      304 3:estrellamiento   2:choque   +   0.506 
+      305 6:'perdida de carril_pista'   2:choque   +   0.506 
+      306 3:estrellamiento   2:choque   +   0.573 
+      307 3:estrellamiento   2:choque   +   0.506 
+      308 3:estrellamiento 3:estrellamiento       0.548 
+      309 3:estrellamiento   2:choque   +   0.506 
+      310   2:choque   2:choque       0.573 
+      311 3:estrellamiento   2:choque   +   0.573 
+      312   2:choque   2:choque       0.573 
+      313   2:choque   2:choque       0.506 
+      314   2:choque 6:perdida de carril_pista   +   0.333 
+      315   2:choque   2:choque       0.506 
+      316 1:atropello 1:atropello       0.922 
+      317   2:choque 6:perdida de carril_pista   +   0.333 
+      318   2:choque   2:choque       0.506 
+      319 3:estrellamiento   2:choque   +   0.506 
+      320   2:choque   2:choque       0.573 
+      321 3:estrellamiento   2:choque   +   0.573 
+      322   2:choque   2:choque       0.94 
+      323 3:estrellamiento   2:choque   +   0.573 
+      324 3:estrellamiento   2:choque   +   0.506 
+      325 3:estrellamiento   2:choque   +   0.573 
+      326 3:estrellamiento   2:choque   +   0.573 
+      327 3:estrellamiento   2:choque   +   0.573 
+      328 3:estrellamiento   2:choque   +   0.573 
+      329 3:estrellamiento   2:choque   +   0.573 
+      330 3:estrellamiento   2:choque   +   0.573 
+      331 3:estrellamiento 6:perdida de carril_pista   +   0.333 
+      332   2:choque   2:choque       0.573 
+      333   2:choque   2:choque       0.573 
+      334 3:estrellamiento   2:choque   +   0.506 
+      335   2:choque   2:choque       0.94 
+      336   2:choque   2:choque       0.573 
+      337 3:estrellamiento   2:choque   +   0.506 
+      338 3:estrellamiento   2:choque   +   0.506 
+      339   2:choque   2:choque       0.573 
+      340 3:estrellamiento   2:choque   +   0.573 
+      341   2:choque   2:choque       0.573 
+      342 3:estrellamiento   2:choque   +   0.573 
+      343   2:choque   2:choque       0.573 
+      344   2:choque   2:choque       0.573 
+      345   2:choque   2:choque       0.573 
+      346   2:choque   2:choque       0.573 
+      347   2:choque   2:choque       0.573 
+      348 1:atropello   2:choque   +   0.573 
+      349 6:'perdida de carril_pista' 3:estrellamiento   +   0.548 
+      350   2:choque   2:choque       0.573 
+      351 3:estrellamiento 3:estrellamiento       0.548 
+      352   2:choque   2:choque       0.573 
+      353 1:atropello 1:atropello       0.922 
+      354   2:choque   2:choque       0.573 
+      355 5:colision   2:choque   +   0.573 
+      356   2:choque   2:choque       0.573 
+      357   2:choque   2:choque       0.573 
+      358   2:choque   2:choque       0.506 
+      359 5:colision   2:choque   +   0.573 
+      360  8:atipico   2:choque   +   0.573 
+      361     4:roce   2:choque   +   0.573 
+      362   2:choque   2:choque       0.506 
+      363   2:choque   2:choque       0.506 
+      364   2:choque   2:choque       0.573 
+      365   2:choque   2:choque       0.573 
+      366   2:choque   2:choque       0.573 
+      367   2:choque   2:choque       0.573 
+      368   2:choque   2:choque       0.573 
+      369   2:choque   2:choque       0.506 
+      370   2:choque   2:choque       0.506 
+
+=== Summary ===
+
+Correctly Classified Instances         216               58.3784 %
+Incorrectly Classified Instances       154               41.6216 %
+Kappa statistic                          0.3022
+Mean absolute error                      0.1033
+Root mean squared error                  0.2297
+Total Number of Instances              370     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,667    0,006    0,889      0,667    0,762      0,757    0,913     0,674     atropello
+                 0,918    0,598    0,569      0,918    0,702      0,367    0,733     0,655     choque
+                 0,342    0,098    0,609      0,342    0,438      0,298    0,708     0,483     estrellamiento
+                 0,000    0,000    ?          0,000    ?          ?        0,602     0,051     roce
+                 0,000    0,000    ?          0,000    ?          ?        0,522     0,030     colision
+                 0,148    0,023    0,333      0,148    0,205      0,183    0,853     0,265     perdida de carril_pista
+                 ?        0,000    ?          ?        ?          ?        ?         ?         caida de pasajero
+                 0,000    0,000    ?          0,000    ?          ?        0,830     0,183     atipico
+                 ?        0,000    ?          ?        ?          ?        ?         ?         encunetamiento
+                 ?        0,000    ?          ?        ?          ?        ?         ?         arrollamiento
+                 ?        0,000    ?          ?        ?          ?        ?         ?         volcamiento
+Weighted Avg.    0,584    0,309    ?          0,584    ?          ?        0,738     0,522     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+  16   8   0   0   0   0   0   0   0   0   0 |   a = atropello
+   0 157   9   0   0   5   0   0   0   0   0 |   b = choque
+   1  71  39   0   0   3   0   0   0   0   0 |   c = estrellamiento
+   1  11   2   0   0   0   0   0   0   0   0 |   d = roce
+   0   9   1   0   0   0   0   0   0   0   0 |   e = colision
+   0  12  11   0   0   4   0   0   0   0   0 |   f = perdida de carril_pista
+   0   0   0   0   0   0   0   0   0   0   0 |   g = caida de pasajero
+   0   8   2   0   0   0   0   0   0   0   0 |   h = atipico
+   0   0   0   0   0   0   0   0   0   0   0 |   i = encunetamiento
+   0   0   0   0   0   0   0   0   0   0   0 |   j = arrollamiento
+   0   0   0   0   0   0   0   0   0   0   0 |   k = volcamiento
+
